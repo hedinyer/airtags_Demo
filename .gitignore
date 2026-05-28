@@ -1,0 +1,5 @@
+account.json
+ani_libs.bin
+accesorios/
+*.pyc
+__pycache__/
