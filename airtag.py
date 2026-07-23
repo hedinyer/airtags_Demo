@@ -15,7 +15,7 @@ import sys
 from pathlib import Path
 
 from _login import get_account_sync
-from findmy import FindMyAccessory, FixedRollingKeyPairAccessory
+from findmy import FindMyAccessory
 
 DEFAULT_STORE_PATH = "account.json"
 ANISETTE_SERVER = None
@@ -32,7 +32,7 @@ def get_battery_level(status: int) -> str:
 
 
 def get_airtag_name(airtag, path: Path) -> str:
-    if isinstance(airtag, (FindMyAccessory, FixedRollingKeyPairAccessory)):
+    if isinstance(airtag, FindMyAccessory):
         if airtag.name:
             return airtag.name
         if airtag.identifier:
@@ -44,7 +44,11 @@ def load_accessories_from_paths(paths: list[Path]) -> list[tuple[object, Path]]:
     accessories: list[tuple[object, Path]] = []
     for path in paths:
         if path.suffix.lower() == ".json" and path.is_file():
-            data = json.loads(path.read_text(encoding="utf-8"))
+            raw = path.read_text(encoding="utf-8").strip()
+            if not raw:
+                print(f"Aviso: se ignora JSON vacio: {path}", file=sys.stderr)
+                continue
+            data = json.loads(raw)
             if isinstance(data, list):
                 for i, item in enumerate(data):
                     acc = FindMyAccessory.from_json(item)
@@ -83,7 +87,7 @@ def main(airtag_paths: list[Path], store_path: str) -> int:
 
     acc.to_json(store_path)
     for airtag, path in pairs:
-        if isinstance(airtag, (FindMyAccessory, FixedRollingKeyPairAccessory)):
+        if isinstance(airtag, FindMyAccessory):
             airtag.to_json(path)
 
     return 0
