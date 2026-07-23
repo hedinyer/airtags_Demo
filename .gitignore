@@ -9,6 +9,11 @@ env/
 # Sesión iCloud / Anisette (no subir)
 account.json
 ani_libs.bin
+.pyicloud/
+
+# Ubicaciones privadas generadas
+locations.json
+mapa.html
 
 # Python
 __pycache__/

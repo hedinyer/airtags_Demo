@@ -7,6 +7,8 @@
     "name": "Heylen\u2019s MacBook Air",
     "model": "MacBookAir10,1",
     "identifier": "D31E11CA-C071-4550-8250-570F12F31D16",
-    "alignment_date": "2026-07-23T18:05:47.260736+00:00",
-    "alignment_index": 0
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-07-23T15:40:40-05:00",
+    "alignment_index": 12
 }
