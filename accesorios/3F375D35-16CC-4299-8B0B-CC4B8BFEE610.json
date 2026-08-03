@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "4ba0457af0de9774ef899f326ca319ad2f87f2b03925a56bfba7807d",
+  "skn": "7ec7c07551c2f00c16d6dc70be25fdc3b8a2c2d3f191f26ba2bbd197cee1c0cc",
+  "sks": "939496828a9d6742c983ecce53124a5ba8f01c3bb85b640a9a3d7556c213ceeb",
+  "paired_at": "2026-03-12T20:51:01.492741+00:00",
+  "name": "DUM04I",
+  "model": "",
+  "identifier": "3F375D35-16CC-4299-8B0B-CC4B8BFEE610",
+  "alignment_date": "2026-07-28T20:40:30+00:00",
+  "alignment_index": 13226,
+  "icloud_account": "pinillasoluciones990@gmail.com",
+  "imported_at": "2026-08-03T17:01:25.383066+00:00",
+  "first_imported_at": "2026-08-03T17:01:25.383066+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "93ef244d6cca5aafac512dc1373125b6fcc3aa0910bc792804c689c0",
+  "skn": "5a7f0fb3a98f5d7de9950d427ffb355a93053ab2adcb4bf55ecdd1b4c64fc86e",
+  "sks": "0d0c57913363fc71af5a053c9a2e2cc24b98115b79a23c8da1a699707ef9e1f1",
+  "paired_at": "2026-03-02T17:36:17.328442+00:00",
+  "name": "ZPL70H",
+  "model": "",
+  "identifier": "FF82E9C0-313D-47D1-99FF-F9BC3E346A9F",
+  "alignment_date": "2026-07-28T20:42:10+00:00",
+  "alignment_index": 14221,
+  "icloud_account": "pinillasoluciones990@gmail.com",
+  "imported_at": "2026-08-03T17:01:25.383066+00:00",
+  "first_imported_at": "2026-08-03T17:01:25.383066+00:00"
+}
