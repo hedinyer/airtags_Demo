@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b53a9459e35573f5b4b4b03b79e857d75f3f5fb4423ec3fe694359d8",
+  "skn": "6c0dd71ab8eed41ce0a5e5879632c357c6cd86ef5c14c829d5a81f5aebd2db6d",
+  "sks": "10cf13b3048e73794498264583d7c205a36335aebd15946f19b09c20ff093d74",
+  "paired_at": "2026-03-04T16:11:03.479287+00:00",
+  "name": "ZQC02H",
+  "model": "",
+  "identifier": "776D7681-3F63-4F04-AF25-A91381FBFF2E",
+  "alignment_date": "2026-07-28T20:41:30+00:00",
+  "alignment_index": 14036,
+  "icloud_account": "pinillasoluciones990@gmail.com",
+  "imported_at": "2026-08-03T17:01:25.383066+00:00",
+  "first_imported_at": "2026-08-03T17:01:25.383066+00:00"
+}
