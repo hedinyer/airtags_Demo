@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "dbc6a0cbc245974bfdc805c760db012c3c0dba02562e2d32039d6865",
+  "skn": "108c7d159421cf428333234d222f69b9c4cb19da81061a6f9ab8983a72374889",
+  "sks": "72aaab1035ed4b18d24021af368613c7008cd4fec187377f805be5409b8b4a03",
+  "paired_at": "2026-04-14T20:08:04.229625+00:00",
+  "name": "DVF10I",
+  "model": "",
+  "identifier": "648ED09B-F510-4553-8A88-DC55F03365FF",
+  "alignment_date": "2026-04-17T20:47:20+00:00",
+  "alignment_index": 292,
+  "icloud_account": "camiloopere00@icloud.com",
+  "imported_at": "2026-08-05T16:29:11.441788+00:00",
+  "first_imported_at": "2026-08-05T16:29:11.441788+00:00"
+}

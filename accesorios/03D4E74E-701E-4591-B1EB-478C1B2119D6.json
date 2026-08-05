@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "4cc2adae9212bdcdaefbb5f639ceab578bb2c39f1bec27c9d077a269",
+  "skn": "84c1fe98f5b5ea9ad2e393da2a3102432ef187443347dd04002aa974b2dab254",
+  "sks": "530fe66998d8747ff46fd94162f9fb8687a4798c2b3d87112afb6c0bd012bfde",
+  "paired_at": "2026-04-14T20:08:37.954031+00:00",
+  "name": "DVF11I",
+  "model": "",
+  "identifier": "03D4E74E-701E-4591-B1EB-478C1B2119D6",
+  "alignment_date": "2026-04-17T20:41:50+00:00",
+  "alignment_index": 290,
+  "icloud_account": "camiloopere00@icloud.com",
+  "imported_at": "2026-08-05T16:29:11.441788+00:00",
+  "first_imported_at": "2026-08-05T16:29:11.441788+00:00"
+}

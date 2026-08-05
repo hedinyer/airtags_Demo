@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "164ea09c5ccc91523ee56989d7e6daf8b63b9504b761b7968983cc4b",
+  "skn": "3c09353ef67925346dd1e188be8ed8671f7705de0cd552f2c4c4e9d93262165f",
+  "sks": "f4bdca45034c00a6c1324d28bc0fa5e2422279c33ed1c4c2255ff116cb2e638b",
+  "paired_at": "2026-04-14T20:13:17.928613+00:00",
+  "name": "DVF19I",
+  "model": "",
+  "identifier": "A0822464-52D5-4D07-A9AF-59E5BF0DE532",
+  "alignment_date": "2026-04-17T21:01:20+00:00",
+  "alignment_index": 292,
+  "icloud_account": "camiloopere00@icloud.com",
+  "imported_at": "2026-08-05T16:29:11.441788+00:00",
+  "first_imported_at": "2026-08-05T16:29:11.441788+00:00"
+}

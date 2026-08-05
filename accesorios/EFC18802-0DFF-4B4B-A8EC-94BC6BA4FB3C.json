@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "64488ec2c25372237073d6f8ac0bcefb90b3bcf0ade742730c066b70",
+  "skn": "d9c0abf66b9d5ca8db0faf6d0d6e10b15d28ddcadc6ef9c2e00f0a0925c18bf2",
+  "sks": "c87ff8a1d037e7183391947369451f2bbe6a8b569f760f7f223655a243f3aca1",
+  "paired_at": "2026-03-31T13:39:32.453541+00:00",
+  "name": "DVF04I",
+  "model": "",
+  "identifier": "EFC18802-0DFF-4B4B-A8EC-94BC6BA4FB3C",
+  "alignment_date": "2026-04-17T20:39:00+00:00",
+  "alignment_index": 1660,
+  "icloud_account": "camiloopere00@icloud.com",
+  "imported_at": "2026-08-05T16:29:11.441788+00:00",
+  "first_imported_at": "2026-08-05T16:29:11.441788+00:00"
+}

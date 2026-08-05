@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "2def2ccdc5324b1fd77656c37993efa2eafcd0038ee498df79a1f505",
+  "skn": "596eb6fc25f0ca52b7722cfc81df50637ff3c70fc7b868ed947b648a5d2a0fa9",
+  "sks": "1a62c1a8051f0fbbe3e1cd2c251efd6b20ed289d0ef22f953396f56603206f2c",
+  "paired_at": "2026-04-14T20:11:24.311947+00:00",
+  "name": "DVF15I",
+  "model": "",
+  "identifier": "E65B5E3E-61F7-448F-AA41-54CAC572A30A",
+  "alignment_date": "2026-04-17T21:01:30+00:00",
+  "alignment_index": 292,
+  "icloud_account": "camiloopere00@icloud.com",
+  "imported_at": "2026-08-05T16:29:11.441788+00:00",
+  "first_imported_at": "2026-08-05T16:29:11.441788+00:00"
+}

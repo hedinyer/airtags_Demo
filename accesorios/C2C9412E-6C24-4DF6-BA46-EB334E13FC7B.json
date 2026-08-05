@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d32043083f628ce346cccf5029bc0b607f97c0232d93623505aa10ad",
+  "skn": "b4d9f4987a7c9913bb88117dcc4eb666299e4f1dee415bfcc928d139f2fa1038",
+  "sks": "2aa5c75ebbaddc591e5d1b521b2dadfb59e9f8f0649d544e74ff12e63f00b1c2",
+  "paired_at": "2026-04-14T20:12:35.224346+00:00",
+  "name": "DVF18I",
+  "model": "",
+  "identifier": "C2C9412E-6C24-4DF6-BA46-EB334E13FC7B",
+  "alignment_date": "2026-04-17T20:41:30+00:00",
+  "alignment_index": 290,
+  "icloud_account": "camiloopere00@icloud.com",
+  "imported_at": "2026-08-05T16:29:11.441788+00:00",
+  "first_imported_at": "2026-08-05T16:29:11.441788+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "3c0904d975a82682fad26fd7ba828e957a9619dc3e2b72e4b2e3d9aa",
+  "skn": "3d43ba17d251c300b80887694724022022649ce8a85ec878b3eb9c10d556c737",
+  "sks": "15a9f12ac87eb030462a804931676ffbdac3bb77b564eda146958f544ae28298",
+  "paired_at": "2026-04-14T20:20:32.027513+00:00",
+  "name": "DVF23I",
+  "model": "",
+  "identifier": "E95B8A66-535F-46CB-83F4-83C56C441D7C",
+  "alignment_date": "2026-04-17T21:01:30+00:00",
+  "alignment_index": 292,
+  "icloud_account": "camiloopere00@icloud.com",
+  "imported_at": "2026-08-05T16:29:11.441788+00:00",
+  "first_imported_at": "2026-08-05T16:29:11.441788+00:00"
+}

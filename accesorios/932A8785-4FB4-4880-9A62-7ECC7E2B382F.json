@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "a5b343dc629236912730c00045ebe0b5991be4337f47768cf0e04d3d",
+  "skn": "50e7397910915653c5ab1d26ca62e948b4d52848002fc39e0102ff97658c8ff6",
+  "sks": "becfe20957c28d91e451a625f86ccc8398d97c37e5ea113fb17b942c14309041",
+  "paired_at": "2026-03-20T18:42:49.157035+00:00",
+  "name": "DUP86I",
+  "model": "",
+  "identifier": "932A8785-4FB4-4880-9A62-7ECC7E2B382F",
+  "alignment_date": "2026-04-17T19:29:20+00:00",
+  "alignment_index": 2692,
+  "icloud_account": "camiloopere00@icloud.com",
+  "imported_at": "2026-08-05T16:29:11.441788+00:00",
+  "first_imported_at": "2026-08-05T16:29:11.441788+00:00"
+}
