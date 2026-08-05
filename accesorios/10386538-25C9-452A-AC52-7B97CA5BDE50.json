@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "3c52088f5aa021d0f30bd2698f622f438e28edf86cb4cb3c845deef9",
+  "skn": "05203f6b268dfccf6ff47d3d14d1d4cd4389e23688cd4ba70aef1be34b2e9350",
+  "sks": "796dec01d42a3f7a5687d60d3baa59e1717ebdaad39bc0ab73ec1378090b3ba2",
+  "paired_at": "2026-04-14T20:09:35.408014+00:00",
+  "name": "DVF12I",
+  "model": "",
+  "identifier": "10386538-25C9-452A-AC52-7B97CA5BDE50",
+  "alignment_date": "2026-04-17T20:41:50+00:00",
+  "alignment_index": 291,
+  "icloud_account": "camiloopere00@icloud.com",
+  "imported_at": "2026-08-05T16:29:11.441788+00:00",
+  "first_imported_at": "2026-08-05T16:29:11.441788+00:00"
+}

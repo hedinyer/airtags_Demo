@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "ab979209c6c0fbdc5e74208437364a47bcf720ae0eba5662f4a25cf8",
+  "skn": "75bda51083c1abaac3ace9a625878aeac8ff81a7337f51fca906d76bf8d5fc1c",
+  "sks": "7e801cf57fa6981ca628ce40059e20314b183e05dc95a0b4f1a7eb92d6c9d88d",
+  "paired_at": "2026-04-14T20:10:08.558801+00:00",
+  "name": "DVF13I",
+  "model": "",
+  "identifier": "B45932C1-93AC-4D93-B8D5-08D29799FE9C",
+  "alignment_date": "2026-04-17T20:39:10+00:00",
+  "alignment_index": 290,
+  "icloud_account": "camiloopere00@icloud.com",
+  "imported_at": "2026-08-05T16:29:11.441788+00:00",
+  "first_imported_at": "2026-08-05T16:29:11.441788+00:00"
+}

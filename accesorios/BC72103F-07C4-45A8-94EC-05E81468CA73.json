@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "90297f38e96809277f0576cdf5ed5b8b024ca7db16884e3ef576bd7e",
+  "skn": "07ae6caba40ae419e88d7d51715edd24f5f085f600eb08733bdf92e7a6d3c9c5",
+  "sks": "faebdbb4a26aac1a8c56ffe5b939df5cbc10f9d0a08bf03ce251b00f8d6536c4",
+  "paired_at": "2026-04-14T20:21:14.202004+00:00",
+  "name": "DVF20I",
+  "model": "",
+  "identifier": "BC72103F-07C4-45A8-94EC-05E81468CA73",
+  "alignment_date": "2026-04-17T20:57:00+00:00",
+  "alignment_index": 291,
+  "icloud_account": "camiloopere00@icloud.com",
+  "imported_at": "2026-08-05T16:29:11.441788+00:00",
+  "first_imported_at": "2026-08-05T16:29:11.441788+00:00"
+}

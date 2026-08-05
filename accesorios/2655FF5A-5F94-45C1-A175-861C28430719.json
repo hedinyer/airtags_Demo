@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "e9e5bcf8684153f3b7e554552a335264b661ae981db1d231ec65e4c7",
+  "skn": "229fd342359624736011d64f956a5b4f442b78932b4046a8ad13de3b29e6b75d",
+  "sks": "77dc7e87f5ea2b31f1530a6c73efcc6b08dec937b9504ec1d3a6cb383b610c3e",
+  "paired_at": "2026-04-14T20:23:04.937162+00:00",
+  "name": "DVF24I",
+  "model": "",
+  "identifier": "2655FF5A-5F94-45C1-A175-861C28430719",
+  "alignment_date": "2026-04-17T21:01:10+00:00",
+  "alignment_index": 291,
+  "icloud_account": "camiloopere00@icloud.com",
+  "imported_at": "2026-08-05T16:29:11.441788+00:00",
+  "first_imported_at": "2026-08-05T16:29:11.441788+00:00"
+}
