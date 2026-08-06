@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "6e2a33793360cc884628d159160b0e4627befb1e6a87623a697b241c",
+  "skn": "e5206e6b2394f8e663b7a38164a10833696eb4830cd2ddb6c7a7fa9d92276ae2",
+  "sks": "9756f94710cd4ee613cabb335335ba22c96f78c6a44d6020f8f579d4cd7d31c8",
+  "paired_at": "2026-02-09T21:05:29.868364+00:00",
+  "name": "CHE13I",
+  "model": "",
+  "identifier": "3C1EA680-00C4-4CC8-9416-56E55ACFFCCE",
+  "alignment_date": "2026-08-01T15:25:20+00:00",
+  "alignment_index": 16586,
+  "icloud_account": "beraspmotos@icloud.com",
+  "imported_at": "2026-08-06T20:16:17.503936+00:00",
+  "first_imported_at": "2026-08-06T20:16:17.503936+00:00"
+}

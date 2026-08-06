@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d6585578d7aa86af8a2022eb90c141b1d9b2bba7f13c1fad7bb993f2",
+  "skn": "607dae2dc277adfaf034023db0cb227f7436bf1e82fa99819549a347dd56913d",
+  "sks": "a5fcb495bebb3641bc49cc164ee5c701a343feb99457ac1ab8a9fa72caf0bae0",
+  "paired_at": "2026-01-26T19:05:40.595542+00:00",
+  "name": null,
+  "model": "iPhone11,8",
+  "identifier": "7DDD6395-FDD2-47BE-8241-BC618C8B91F3",
+  "alignment_date": "2026-01-26T19:05:57.728870+00:00",
+  "alignment_index": 1,
+  "icloud_account": "beraspmotos@icloud.com",
+  "imported_at": "2026-08-06T20:16:17.503936+00:00",
+  "first_imported_at": "2026-08-06T20:16:17.503936+00:00"
+}

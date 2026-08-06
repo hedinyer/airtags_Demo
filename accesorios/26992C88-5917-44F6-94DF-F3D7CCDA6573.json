@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "176dba6b97e24b7badf690759bd328e1fcf2504a32f52aefd54c3fcd",
+  "skn": "2de0e5001c01c2d310cb18fc26ac7110a42c3f244a3a0d0e273691432ebcaa05",
+  "sks": "7882022e8fa1681373bcf60b4a98609fdef3819d5db9881e4ba5ab67ebcc7fa2",
+  "paired_at": "2026-02-03T19:06:32.480823+00:00",
+  "name": "ZPV94H",
+  "model": "",
+  "identifier": "26992C88-5917-44F6-94DF-F3D7CCDA6573",
+  "alignment_date": "2026-08-01T15:25:40+00:00",
+  "alignment_index": 17171,
+  "icloud_account": "beraspmotos@icloud.com",
+  "imported_at": "2026-08-06T20:16:17.503936+00:00",
+  "first_imported_at": "2026-08-06T20:16:17.503936+00:00"
+}

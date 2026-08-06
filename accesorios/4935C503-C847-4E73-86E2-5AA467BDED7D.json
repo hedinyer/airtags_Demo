@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "f7f5197a0de727658e194293a5e9623cbf2b084f6a521987b746f277",
+  "skn": "b3abdf0d579bab2e5b1816f179a67cd0cfa8b83c061fff18c08fa8f129bb3ed9",
+  "sks": "5782e90f8abab83fc5a8291edb126046f79d02f67efb149f75ebc55105e72972",
+  "paired_at": "2026-01-09T17:08:28.809689+00:00",
+  "name": "ZPE18H",
+  "model": "",
+  "identifier": "4935C503-C847-4E73-86E2-5AA467BDED7D",
+  "alignment_date": "2026-08-01T12:57:30+00:00",
+  "alignment_index": 19569,
+  "icloud_account": "beraspmotos@icloud.com",
+  "imported_at": "2026-08-06T20:16:17.503936+00:00",
+  "first_imported_at": "2026-08-06T20:16:17.503936+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "20b45fed45675847366544dfa0e58e49c33ad015f256f4c102fddabe",
+  "skn": "981efbe2f86c06e783fdcaeb428afef6d7659c2c7cd950764a91347e21230d07",
+  "sks": "5df16fb8b013081df293638136ce7e74a748ec41f0d3365e3bf0e55fee0b21cf",
+  "paired_at": "2026-01-26T19:07:41.315053+00:00",
+  "name": "ZPI49H",
+  "model": "",
+  "identifier": "3C30465E-DD14-4EB0-8DAF-EC267A28D85B",
+  "alignment_date": "2026-08-01T15:21:00+00:00",
+  "alignment_index": 17939,
+  "icloud_account": "beraspmotos@icloud.com",
+  "imported_at": "2026-08-06T20:16:17.503936+00:00",
+  "first_imported_at": "2026-08-06T20:16:17.503936+00:00"
+}
