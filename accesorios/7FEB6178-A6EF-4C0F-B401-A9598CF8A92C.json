@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "0d1db48644daa11abfbb3adfa9c4de2eff67f248bdce3651c2de86f9",
+  "skn": "7ec1feeba48b6b0aee8744b723204935fac5fefb321f3d50f39c193094bf254e",
+  "sks": "dd10c18c85b818e133b4ed262ec6f6daee7fd158ff750a0266fe9eb4a2c14748",
+  "paired_at": "2025-11-06T15:43:37.713600+00:00",
+  "name": "TST06H",
+  "model": "",
+  "identifier": "7FEB6178-A6EF-4C0F-B401-A9598CF8A92C",
+  "alignment_date": "2026-07-28T19:55:30+00:00",
+  "alignment_index": 25363,
+  "icloud_account": "bera1997@icloud.com",
+  "imported_at": "2026-08-06T16:50:46.426957+00:00",
+  "first_imported_at": "2026-08-06T16:50:46.426957+00:00"
+}

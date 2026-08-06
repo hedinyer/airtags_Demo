@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "bd97cd4ee266f08e5a57d1e55ff7197b8472a316337ee49f8d803629",
+  "skn": "b170eee440b9e849609f01b50f5e13b24ab658a04f1af6648befa052fbddf8ce",
+  "sks": "75d49ef2afadeafecb4c736d21705124048cec41070415259155c87e22a5e385",
+  "paired_at": "2025-11-07T19:57:01.310097+00:00",
+  "name": "TST21H",
+  "model": "",
+  "identifier": "DC8AA46F-D31E-4F99-9081-FAE518F5F4E8",
+  "alignment_date": "2026-07-28T20:27:00+00:00",
+  "alignment_index": 25252,
+  "icloud_account": "bera1997@icloud.com",
+  "imported_at": "2026-08-06T16:50:46.426957+00:00",
+  "first_imported_at": "2026-08-06T16:50:46.426957+00:00"
+}

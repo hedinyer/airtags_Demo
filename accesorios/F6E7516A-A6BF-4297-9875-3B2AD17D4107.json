@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "fa18d9a871a50ce91596f9791dcec52d33354ae4df388393a7436c8e",
+  "skn": "ed9775722e46c23b3a2bbe38d4eec94d383472a7584571b23ee35b2ff14e0351",
+  "sks": "942e490bc2550b0089dd983dba481140e188a23dfba551dc67a3150f1bf2eaf4",
+  "paired_at": "2025-11-06T15:41:17.327533+00:00",
+  "name": "TST10H",
+  "model": "",
+  "identifier": "F6E7516A-A6BF-4297-9875-3B2AD17D4107",
+  "alignment_date": "2026-07-27T18:19:30+00:00",
+  "alignment_index": 25260,
+  "icloud_account": "bera1997@icloud.com",
+  "imported_at": "2026-08-06T16:50:46.426957+00:00",
+  "first_imported_at": "2026-08-06T16:50:46.426957+00:00"
+}

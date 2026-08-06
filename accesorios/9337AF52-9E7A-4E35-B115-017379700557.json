@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "bafd3e2a9611507aa61cf69e3ab6d1e31ab777563e53cdc41fdfeffd",
+  "skn": "39f424fba8d07c386027b1658c84022570f4ceb56d31e841449e2b391e206f44",
+  "sks": "587dfef577f811fa71654c0c10bcf4ebf2aca80a4b9a96945e61c17d81e05375",
+  "paired_at": "2025-11-06T15:37:09.513906+00:00",
+  "name": "TST04H",
+  "model": "",
+  "identifier": "9337AF52-9E7A-4E35-B115-017379700557",
+  "alignment_date": "2026-07-28T20:04:40+00:00",
+  "alignment_index": 25363,
+  "icloud_account": "bera1997@icloud.com",
+  "imported_at": "2026-08-06T16:50:46.426957+00:00",
+  "first_imported_at": "2026-08-06T16:50:46.426957+00:00"
+}

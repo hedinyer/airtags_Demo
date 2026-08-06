@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "329a890fd2f396e4fef048563350d4457fd932dc7d90becb6bb05b49",
+  "skn": "064294bff642d64f523c466f718af7d3e468fdb6109a225e51bf9bf16dfce20d",
+  "sks": "0ed6fa2778d762833cbcffcb0bb65f556b5a6c847105f514e2d20455d7540d96",
+  "paired_at": "2025-11-06T15:35:49.980592+00:00",
+  "name": "TST03H",
+  "model": "",
+  "identifier": "B7C5022A-6CC1-4861-9588-BB2FA48E59B1",
+  "alignment_date": "2026-04-28T08:30:40+00:00",
+  "alignment_index": 16580,
+  "icloud_account": "bera1997@icloud.com",
+  "imported_at": "2026-08-06T16:50:46.426957+00:00",
+  "first_imported_at": "2026-08-06T16:50:46.426957+00:00"
+}
