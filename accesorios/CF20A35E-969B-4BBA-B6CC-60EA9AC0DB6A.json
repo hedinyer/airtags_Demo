@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "910c0068b7dfa7d4fc995300b27067b3027eb91520edc9988f09a152",
+  "skn": "41a54f5ffe51501f995f786a46fcf1f9320097a1d7f8d9cdba1be67f89882dc1",
+  "sks": "247353e56227e95891c386fa9da2e3736d073eee78f566f6942ce01d0f182d75",
+  "paired_at": "2025-11-07T19:58:23.797423+00:00",
+  "name": "TST16H",
+  "model": "",
+  "identifier": "CF20A35E-969B-4BBA-B6CC-60EA9AC0DB6A",
+  "alignment_date": "2026-07-28T20:07:10+00:00",
+  "alignment_index": 25253,
+  "icloud_account": "bera1997@icloud.com",
+  "imported_at": "2026-08-06T16:50:46.426957+00:00",
+  "first_imported_at": "2026-08-06T16:50:46.426957+00:00"
+}

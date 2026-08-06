@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "31cf1fab1086abf9f09a0b93a8021f240f0ac335da04a8c5a060c442",
+  "skn": "8d6d480b8b5a1fae0ac619d70e6edb9ecfc56dcbc226367a7c1cc7fbc870418f",
+  "sks": "9d29d3c5528f848e55462ac617dd9b23d87a1d57ab52ca52cb6d2a8b63f9b7b1",
+  "paired_at": "2025-11-12T13:46:58.459412+00:00",
+  "name": "TTA06H",
+  "model": "",
+  "identifier": "8BBDEB00-E407-4510-A037-8EEEFE350070",
+  "alignment_date": "2026-07-28T20:40:00+00:00",
+  "alignment_index": 24797,
+  "icloud_account": "bera1997@icloud.com",
+  "imported_at": "2026-08-06T16:50:46.426957+00:00",
+  "first_imported_at": "2026-08-06T16:50:46.426957+00:00"
+}

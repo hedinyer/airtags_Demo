@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d124559cffaaa4708b6b9daaaa701cbd7799c9b47f79ad18213c2941",
+  "skn": "dff039004f69a6518246701a23d88c891d2edc44a314fb5f97e5bf6fc194516a",
+  "sks": "4c58b1bd6de6fe1c769856dc18ee5af761a8bd67cb5f60aaae9869135428ed59",
+  "paired_at": "2025-11-12T13:42:32.069006+00:00",
+  "name": "TST27H",
+  "model": "",
+  "identifier": "50EE8A34-DE12-4A06-A369-E861FCDBBC44",
+  "alignment_date": "2026-07-28T20:32:00+00:00",
+  "alignment_index": 24797,
+  "icloud_account": "bera1997@icloud.com",
+  "imported_at": "2026-08-06T16:50:46.426957+00:00",
+  "first_imported_at": "2026-08-06T16:50:46.426957+00:00"
+}

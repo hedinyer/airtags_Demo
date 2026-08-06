@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "e100e2f95db8507c56d27c91b6e4f31496f09f6c376ae39f7f4d7ca9",
+  "skn": "4bafa60984dec746281bba9739447973786f4b5b230be83bff44f421d16a3401",
+  "sks": "ac8b67fb03541cc371498c1d14214bd50da20a24e564cb359d682a545c04a6f8",
+  "paired_at": "2025-11-12T13:43:24.157513+00:00",
+  "name": "TST29H",
+  "model": "",
+  "identifier": "2CDE5291-B2F5-4F78-9B0D-7F3BA7C1AADC",
+  "alignment_date": "2026-07-28T20:43:10+00:00",
+  "alignment_index": 24798,
+  "icloud_account": "bera1997@icloud.com",
+  "imported_at": "2026-08-06T16:50:46.426957+00:00",
+  "first_imported_at": "2026-08-06T16:50:46.426957+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "28a76b12c05b3419750d8ed8e010a975e902d4c5fefa073ded66c4dc",
+  "skn": "2ed0daeefe581ea34ed0f83f1726d401bb92217a5399e04016583c25031d3b3d",
+  "sks": "d50d393e64ef3e588898b60330b5f838820ea2317992cb75177c37d3544e5aae",
+  "paired_at": "2025-11-07T19:51:55.872408+00:00",
+  "name": "TTA01H",
+  "model": "",
+  "identifier": "BF87F83C-29F4-40BE-90FE-35490F6CD75C",
+  "alignment_date": "2026-07-28T20:25:40+00:00",
+  "alignment_index": 25252,
+  "icloud_account": "bera1997@icloud.com",
+  "imported_at": "2026-08-06T16:50:46.426957+00:00",
+  "first_imported_at": "2026-08-06T16:50:46.426957+00:00"
+}

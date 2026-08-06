@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "15a6e57c9726d3cc5e798451f0def675be25cc94c36f130171bd6524",
+  "skn": "fa3c56be0310aaaff5eb253e18ac98a8daa319591a54786ea769cef532b94012",
+  "sks": "fbff2f0f21165fb6b2df26959cbfd402f9b3554e31e0d46278ea516ebf7827df",
+  "paired_at": "2025-11-12T13:39:46.368140+00:00",
+  "name": "TSQ58H",
+  "model": "",
+  "identifier": "2000F81F-F2EC-4886-B371-32F1B0A89B2D",
+  "alignment_date": "2026-07-28T20:27:10+00:00",
+  "alignment_index": 24798,
+  "icloud_account": "bera1997@icloud.com",
+  "imported_at": "2026-08-06T16:50:46.426957+00:00",
+  "first_imported_at": "2026-08-06T16:50:46.426957+00:00"
+}

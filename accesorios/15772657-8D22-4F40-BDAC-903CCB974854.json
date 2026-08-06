@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "7a7e5bd6a5328a0dab12fe0486472e556d5b3f5d46e50beed22ea859",
+  "skn": "fa0fde29d42a2ec058a5b03ab88f21f8c54fe562bd269b0e1670e02e25e66435",
+  "sks": "6b55cd7e37cfef9693f15af7e252932fe6342d15d032681e52d1e0c592e19530",
+  "paired_at": "2025-11-07T19:52:44.313227+00:00",
+  "name": "TST12H",
+  "model": "",
+  "identifier": "15772657-8D22-4F40-BDAC-903CCB974854",
+  "alignment_date": "2026-07-28T20:54:40+00:00",
+  "alignment_index": 25256,
+  "icloud_account": "bera1997@icloud.com",
+  "imported_at": "2026-08-06T16:50:46.426957+00:00",
+  "first_imported_at": "2026-08-06T16:50:46.426957+00:00"
+}
