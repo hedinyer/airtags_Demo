@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "eb79a3cf15235fe4e0d4316dd3231d889f232d1213324a7f4d918c2e",
+  "skn": "b791cdaecc834f067a04b36137c9f9f33422621009dcfb76c25a0bc918f5bca7",
+  "sks": "b6e1fc8e2382c6473b22ad0f2af9f9331b5477cce796f62796b71273c2e8360e",
+  "paired_at": "2025-09-11T14:04:27.968397+00:00",
+  "name": "TIT99H",
+  "model": "",
+  "identifier": "400B53CE-9175-4045-AB61-0B1100C5ED8C",
+  "alignment_date": "2026-07-29T17:53:10+00:00",
+  "alignment_index": 30833,
+  "icloud_account": "nicolasbera67@gmail.com",
+  "imported_at": "2026-08-06T18:33:17.026769+00:00",
+  "first_imported_at": "2026-08-06T18:33:17.026769+00:00"
+}

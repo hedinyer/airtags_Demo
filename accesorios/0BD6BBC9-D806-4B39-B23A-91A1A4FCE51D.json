@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "fdc6df8d75ab80d1b57e0ca9825de771b50da2c19006f0c788e4ab07",
+  "skn": "f618269efdcfdd4e8e28001dd434a9b875e586a32568a6cae12cd56499e89aaa",
+  "sks": "e3e42daf4ad160462c85ef5029e79bafd26716715de4210bead1048c5359ecf9",
+  "paired_at": "2025-08-24T18:53:44.875116+00:00",
+  "name": "TIJ70H",
+  "model": "",
+  "identifier": "0BD6BBC9-D806-4B39-B23A-91A1A4FCE51D",
+  "alignment_date": "2026-07-29T18:19:00+00:00",
+  "alignment_index": 32542,
+  "icloud_account": "nicolasbera67@gmail.com",
+  "imported_at": "2026-08-06T18:33:17.026769+00:00",
+  "first_imported_at": "2026-08-06T18:33:17.026769+00:00"
+}

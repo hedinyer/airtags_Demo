@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "61c0ecab9d17ded082cdfff36085b5cac57b4b5b286eee998171ad93",
+  "skn": "cd849be4b4e05211ca4ae66c67c3f5bca8326f887ee330ffd05950833a90cac2",
+  "sks": "f12e02b2e55f896883802386d476ccc7de3855b677bd619a3c9b97b361828184",
+  "paired_at": "2025-08-24T22:24:50.405772+00:00",
+  "name": "TIJ79H",
+  "model": "",
+  "identifier": "35A94C25-DA1D-4203-B454-C7033D9EA46E",
+  "alignment_date": "2026-07-29T17:39:40+00:00",
+  "alignment_index": 32527,
+  "icloud_account": "nicolasbera67@gmail.com",
+  "imported_at": "2026-08-06T18:33:17.026769+00:00",
+  "first_imported_at": "2026-08-06T18:33:17.026769+00:00"
+}

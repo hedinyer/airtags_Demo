@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "187fa3a52450dbafc551aada8b52dac11d69bbde613b491993f55271",
+  "skn": "4ff182c8334fe3892905d0891d5c071188a0c609c4e29c8d5095043b79dd3cf9",
+  "sks": "4f9f81c8590c5da58b68876bdd82363390460f0905dbf714d6767ee97cb7fd3d",
+  "paired_at": "2025-09-06T14:24:10.306503+00:00",
+  "name": "TIQ85H",
+  "model": "Loshall Tag",
+  "identifier": "E1996B0A-10C4-4562-94F9-E9ABEF6664FD",
+  "alignment_date": "2026-03-03T14:26:11+00:00",
+  "alignment_index": 17042,
+  "icloud_account": "nicolasbera67@gmail.com",
+  "imported_at": "2026-08-06T18:33:17.026769+00:00",
+  "first_imported_at": "2026-08-06T18:33:17.026769+00:00"
+}

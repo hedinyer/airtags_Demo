@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "c28519fcdfbe972c5ca2c508d1e90adf4789473a6d17dda6fdd2f845",
+  "skn": "f03cbe56b030318a7fb2697ab8cbbfa987b63b759b815ff9ddb113a1fc58c644",
+  "sks": "cda10ce4b2155cd2f310450551eddcea106237c85ce821c916c006b937f43732",
+  "paired_at": "2025-09-03T14:52:04.241630+00:00",
+  "name": "TIL46H",
+  "model": "",
+  "identifier": "90D7D944-370F-40BE-88D1-415E77146F27",
+  "alignment_date": "2026-02-05T03:56:32+00:00",
+  "alignment_index": 13103,
+  "icloud_account": "nicolasbera67@gmail.com",
+  "imported_at": "2026-08-06T18:33:17.026769+00:00",
+  "first_imported_at": "2026-08-06T18:33:17.026769+00:00"
+}
