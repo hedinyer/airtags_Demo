@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "357134b04d897c367d52de5faa838b41a89c7439a7f7b9b060c087cf",
+  "skn": "ec2a914a7971db8f5cea47c579f7db34760697dff65d3b6e2b9f9ae88f16e731",
+  "sks": "f10e1db56271ee7162222f03514d29ff5784b8e04920d980eb4b2696be813245",
+  "paired_at": "2025-09-05T18:42:52.922409+00:00",
+  "name": "TIN96H",
+  "model": "Loshall Tag",
+  "identifier": "B52A716C-F6FD-49C3-B751-98D6776A9962",
+  "alignment_date": "2025-11-11T03:12:04+00:00",
+  "alignment_index": 4758,
+  "icloud_account": "nicolasbera67@gmail.com",
+  "imported_at": "2026-08-06T18:33:17.026769+00:00",
+  "first_imported_at": "2026-08-06T18:33:17.026769+00:00"
+}

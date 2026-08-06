@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "94ec0724086881b475b36d655336ab167fadbe0b9ead8ed9750f9945",
+  "skn": "cc3719f03ac6c8f4211bec62cd99911a2f8df793c23a002b0168cd4cec44118a",
+  "sks": "781531cffcdd13c7c57364eb1e4c972be2c05f3158ecae1186e4d6dca18af06f",
+  "paired_at": "2025-09-04T12:48:58.726150+00:00",
+  "name": "TIR70H",
+  "model": "",
+  "identifier": "B26A63C8-8CF9-4CF8-B28A-E6D949AD754B",
+  "alignment_date": "2026-07-29T18:20:40+00:00",
+  "alignment_index": 31512,
+  "icloud_account": "nicolasbera67@gmail.com",
+  "imported_at": "2026-08-06T18:33:17.026769+00:00",
+  "first_imported_at": "2026-08-06T18:33:17.026769+00:00"
+}

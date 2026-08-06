@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "a0b03097b4e68a4b4e98d62769081ce25ce96ab97f971323a58eccfb",
+  "skn": "09e2aaf128f101693099bee629d57a544363f265c9c78fa8a0e0f62f3fa08513",
+  "sks": "4a00880ad84c38ed69618b9bbe0efd4128a60820599c9bd7b38d824ec6e3223f",
+  "paired_at": "2025-09-04T20:22:49.093904+00:00",
+  "name": "TIR75H",
+  "model": "",
+  "identifier": "B91737E1-9DF6-41AC-A1B6-68A483516469",
+  "alignment_date": "2026-02-06T00:56:12+00:00",
+  "alignment_index": 14803,
+  "icloud_account": "nicolasbera67@gmail.com",
+  "imported_at": "2026-08-06T18:33:17.026769+00:00",
+  "first_imported_at": "2026-08-06T18:33:17.026769+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "c5dd95b7cdd966b12daea12f5a9be1416e2296be991419db49456fe9",
+  "skn": "d7b099b37e4244328226d2ecc108d51ac3ead21a50ba7ddabf8e79dac4a18f5e",
+  "sks": "de4f3335c213b7fe385df377cd78f0b78780a1c5d94d7f4aa60bb45612b7c477",
+  "paired_at": "2025-09-06T15:00:42.492917+00:00",
+  "name": "TIO29H",
+  "model": "Loshall Tag",
+  "identifier": "07513173-412E-438F-88BF-767DEC88ED21",
+  "alignment_date": "2026-01-16T03:37:12+00:00",
+  "alignment_index": 12181,
+  "icloud_account": "nicolasbera67@gmail.com",
+  "imported_at": "2026-08-06T18:33:17.026769+00:00",
+  "first_imported_at": "2026-08-06T18:33:17.026769+00:00"
+}

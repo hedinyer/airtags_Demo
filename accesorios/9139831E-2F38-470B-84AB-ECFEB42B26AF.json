@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "49fc0ab8a5f2b3d821ccdeadb9eae5049292e837d68c76aec63ef8d7",
+  "skn": "526356723c21cbff02847c28ff43a7c494d757570a2a999302b951141cb64763",
+  "sks": "f5fd9c2101c4971009c552a5f1537bf0e493eb43ceb1d82e52fbd934e53a141c",
+  "paired_at": "2025-08-30T17:18:49.140036+00:00",
+  "name": "TIL43H",
+  "model": "",
+  "identifier": "9139831E-2F38-470B-84AB-ECFEB42B26AF",
+  "alignment_date": "2026-07-29T11:33:30+00:00",
+  "alignment_index": 31946,
+  "icloud_account": "nicolasbera67@gmail.com",
+  "imported_at": "2026-08-06T18:33:17.026769+00:00",
+  "first_imported_at": "2026-08-06T18:33:17.026769+00:00"
+}

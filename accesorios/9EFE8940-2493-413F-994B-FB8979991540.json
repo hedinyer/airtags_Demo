@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "e7d340d003249ffd55fe98463f34de972920100d62d81586c4cf21ff",
+  "skn": "b6caa6a3ecb03d1584c98cab45163b756e4add3a34e14542af1ff4c5281cc33a",
+  "sks": "ac2b2e87bf6cee06cdabe1d35dc8197ed3abb7cf0cfb2a98e290d3cb6579d37f",
+  "paired_at": "2025-09-03T18:01:08.104925+00:00",
+  "name": "TIN92H",
+  "model": "",
+  "identifier": "9EFE8940-2493-413F-994B-FB8979991540",
+  "alignment_date": "2026-07-29T17:08:30+00:00",
+  "alignment_index": 31582,
+  "icloud_account": "nicolasbera67@gmail.com",
+  "imported_at": "2026-08-06T18:33:17.026769+00:00",
+  "first_imported_at": "2026-08-06T18:33:17.026769+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "c96c119e28c62f8f20d633b4bf52b77837609cadcef1949e3d7429d9",
+  "skn": "b173c53060debb8fa02bd511b7df063f654ef0e984c9eff9aa011c298e059371",
+  "sks": "2149e2d62c892eec7c4fa53b2a9b08d8059a38526ab34cfecdaff43f0a35de74",
+  "paired_at": "2025-09-11T14:03:48.728093+00:00",
+  "name": "TIU83H",
+  "model": "",
+  "identifier": "796100B5-EEE4-4D71-96C8-23FB034AA55E",
+  "alignment_date": "2025-10-27T05:24:10+00:00",
+  "alignment_index": 4376,
+  "icloud_account": "nicolasbera67@gmail.com",
+  "imported_at": "2026-08-06T18:33:17.026769+00:00",
+  "first_imported_at": "2026-08-06T18:33:17.026769+00:00"
+}
