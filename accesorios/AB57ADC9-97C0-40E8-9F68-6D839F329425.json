@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "f36ea27488df8868bd45cbf8d02a6a0860d764b3029fa14ae0fd0540",
+  "skn": "c36de98a30099771b0771e5c47fda72870ec71d1d233550a1a241055b531ff35",
+  "sks": "c7360c5681e721d2bd7efd4020d98b020498445d4f9c83621e6faa7a467fc02a",
+  "paired_at": "2026-01-14T21:33:43.878743+00:00",
+  "name": "ZPI34H",
+  "model": "",
+  "identifier": "AB57ADC9-97C0-40E8-9F68-6D839F329425",
+  "alignment_date": "2026-03-26T01:56:00+00:00",
+  "alignment_index": 6738,
+  "icloud_account": "beraspmotos@icloud.com",
+  "imported_at": "2026-08-06T20:16:17.503936+00:00",
+  "first_imported_at": "2026-08-06T20:16:17.503936+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "fb1f6c89d742891b24d8db337dfadfbeb8494745ccd6548b780fdab3",
+  "skn": "fb49b208d82382376b6b23527969441c6d09cded817f4adbf03808321fa94817",
+  "sks": "2bf6eaa816003b846f55ec8355af5bd0ce353da0f642832506c7dd29fb47f0cf",
+  "paired_at": "2026-02-09T21:06:41.071833+00:00",
+  "name": "CHE39I",
+  "model": "",
+  "identifier": "F55AA8C1-766D-4151-BBFC-15C53A75E41C",
+  "alignment_date": "2026-08-01T13:57:30+00:00",
+  "alignment_index": 16580,
+  "icloud_account": "beraspmotos@icloud.com",
+  "imported_at": "2026-08-06T20:16:17.503936+00:00",
+  "first_imported_at": "2026-08-06T20:16:17.503936+00:00"
+}

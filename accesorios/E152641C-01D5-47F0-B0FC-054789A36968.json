@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "dc59f4deba958eb1e64fa7b1cb6a5030fc691eaf5baa61aa5a26e9d7",
+  "skn": "33ee653d7bbe66b1df2299a57711e29d8c7ada560bc28f5eb47946fb8b0ab773",
+  "sks": "0ad29416cd74c50e5ed29fc91ec80b79247edb89d5679821f45c7f38cf9d7afc",
+  "paired_at": "2026-02-09T21:13:48.160516+00:00",
+  "name": "CHE37I",
+  "model": "",
+  "identifier": "E152641C-01D5-47F0-B0FC-054789A36968",
+  "alignment_date": "2026-08-01T15:32:00+00:00",
+  "alignment_index": 16587,
+  "icloud_account": "beraspmotos@icloud.com",
+  "imported_at": "2026-08-06T20:16:17.503936+00:00",
+  "first_imported_at": "2026-08-06T20:16:17.503936+00:00"
+}

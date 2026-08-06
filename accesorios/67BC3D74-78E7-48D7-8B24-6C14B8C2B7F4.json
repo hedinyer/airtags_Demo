@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "603317964166aa9b83ca7571ebe5b3ae2d68918f1c13d7f9d43055ca",
+  "skn": "a5bc3754010b184566018df674c02ba58150bbb17af1419c75d1cbb7b8c1de7c",
+  "sks": "14445ed106aa456aab914327ccd2365c3f1efc85069cec3de9fb43893b506edc",
+  "paired_at": "2026-02-14T15:48:43.739480+00:00",
+  "name": "BAM44I",
+  "model": "",
+  "identifier": "67BC3D74-78E7-48D7-8B24-6C14B8C2B7F4",
+  "alignment_date": "2026-08-01T15:27:30+00:00",
+  "alignment_index": 16128,
+  "icloud_account": "beraspmotos@icloud.com",
+  "imported_at": "2026-08-06T20:16:17.503936+00:00",
+  "first_imported_at": "2026-08-06T20:16:17.503936+00:00"
+}

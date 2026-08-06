@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "925cc973c4d20ca9d5573a583d8a47f58e7ce9529c4fa26b4d617572",
+  "skn": "9a65ea159fcb98b869d7d833efd3586f1e30af531dab294b80fde8a0c1f192a8",
+  "sks": "ba283d72b9e82dfaec6f8fad9cbed8ae2160d930606900fb243ed1fbeb3a665c",
+  "paired_at": "2026-02-09T21:08:44.825646+00:00",
+  "name": "CHE36I",
+  "model": "",
+  "identifier": "825138CB-7232-4F58-B8D0-19BF76DA86A4",
+  "alignment_date": "2026-08-01T15:31:40+00:00",
+  "alignment_index": 16587,
+  "icloud_account": "beraspmotos@icloud.com",
+  "imported_at": "2026-08-06T20:16:17.503936+00:00",
+  "first_imported_at": "2026-08-06T20:16:17.503936+00:00"
+}

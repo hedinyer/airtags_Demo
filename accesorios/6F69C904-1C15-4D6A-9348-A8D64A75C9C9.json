@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "12a0c5718ab1523b78b0fa54544a51fd06565def282d43ac579ad13a",
+  "skn": "b8350c6d2b146940b03bf95d7583e4c0428fa5a569059761162a6e1bafcf2af9",
+  "sks": "191784dda92a0f5aa74c0f5c6905ca221ce3a23b2d36d5e31aab89877b3db0bf",
+  "paired_at": "2026-01-14T21:35:54.221115+00:00",
+  "name": "ZPI31H",
+  "model": "",
+  "identifier": "6F69C904-1C15-4D6A-9348-A8D64A75C9C9",
+  "alignment_date": "2026-08-01T15:29:00+00:00",
+  "alignment_index": 19081,
+  "icloud_account": "beraspmotos@icloud.com",
+  "imported_at": "2026-08-06T20:16:17.503936+00:00",
+  "first_imported_at": "2026-08-06T20:16:17.503936+00:00"
+}

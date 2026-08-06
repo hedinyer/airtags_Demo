@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d18baf447f6f0e41b5ccad6650ebc1a540a17264a252481defd9ca8f",
+  "skn": "87acf281612b8330c3803fd731af2776c7c575bd4499094425c50a8d3ca5ff68",
+  "sks": "98a29a1b4146579281b0695bc9b0110f798ecec8cff83c69fe1b051c873e9761",
+  "paired_at": "2026-01-14T21:38:03.235500+00:00",
+  "name": "ZPI35H",
+  "model": "",
+  "identifier": "8D8504E1-B3C7-41C4-927F-B4F219E9A0B0",
+  "alignment_date": "2026-08-01T11:45:40+00:00",
+  "alignment_index": 19066,
+  "icloud_account": "beraspmotos@icloud.com",
+  "imported_at": "2026-08-06T20:16:17.503936+00:00",
+  "first_imported_at": "2026-08-06T20:16:17.503936+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "c6dfb24b1a07916dcc810d0045b7d6fb02a6c78bc3e6b30d7d4fabe9",
+  "skn": "309bfe9a3a5d123f723652b2e75b7a1033b30b6c12f4e159b5587fe7eff0e340",
+  "sks": "c7dc0e9fa8eacdb07f1f05c41a622149a1fd6161fe3dad4fea149b728b8080a7",
+  "paired_at": "2026-02-04T22:10:27.818647+00:00",
+  "name": "ZPX21H",
+  "model": "",
+  "identifier": "54DEDBF5-4AD2-4FED-A5FD-51F033F592C1",
+  "alignment_date": "2026-08-01T15:34:50+00:00",
+  "alignment_index": 17061,
+  "icloud_account": "beraspmotos@icloud.com",
+  "imported_at": "2026-08-06T20:16:17.503936+00:00",
+  "first_imported_at": "2026-08-06T20:16:17.503936+00:00"
+}

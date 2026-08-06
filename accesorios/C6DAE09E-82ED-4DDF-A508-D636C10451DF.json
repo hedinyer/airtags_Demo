@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "c1fe0fde422eba1a53cca74d037ec0d3418b36ec74fd99e74dec7169",
+  "skn": "fa218066b1288dbbd2839864ff62c45fd36d2a7d8d1d71ef0d3441b9d5c78e15",
+  "sks": "a5357d730a71866a88db12a17f268090d71ce9f65f6030ecc4229cffe7ed8bd9",
+  "paired_at": "2026-02-09T21:13:06.607867+00:00",
+  "name": "CHE11I",
+  "model": "",
+  "identifier": "C6DAE09E-82ED-4DDF-A508-D636C10451DF",
+  "alignment_date": "2026-08-01T15:32:20+00:00",
+  "alignment_index": 16586,
+  "icloud_account": "beraspmotos@icloud.com",
+  "imported_at": "2026-08-06T20:16:17.503936+00:00",
+  "first_imported_at": "2026-08-06T20:16:17.503936+00:00"
+}

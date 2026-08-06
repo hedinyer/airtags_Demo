@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "8269621c466d4e59e6e380cb339e3a6bbf0b8c6e67a99a53a7747f18",
+  "skn": "336bf0af17b6283d708bb1fcdf17e9c5c5321d504e2015446873f2b2e48b4979",
+  "sks": "3f56712bbe1eedb0c9281f7d66c520b47d5c5217656fcf03bf543e4b07e24130",
+  "paired_at": "2026-02-12T16:56:28.707321+00:00",
+  "name": "ZQC51H",
+  "model": "",
+  "identifier": "9518B201-3B2D-4A0E-918E-C31DD5F7E5EC",
+  "alignment_date": "2026-08-01T15:36:30+00:00",
+  "alignment_index": 16316,
+  "icloud_account": "beraspmotos@icloud.com",
+  "imported_at": "2026-08-06T20:16:17.503936+00:00",
+  "first_imported_at": "2026-08-06T20:16:17.503936+00:00"
+}

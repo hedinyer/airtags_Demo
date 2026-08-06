@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "97da2ae7bfcad64c330d05db65ee05d0778d57efe87b3628cbd24b52",
+  "skn": "0657a04403080cade81debc9e90976b8bf2d4ce4f165fb3ddfff7f041b20fe60",
+  "sks": "641fee405ee681de75fbbd4b53e3c3ca9f3724093247d05c6643c367d07d11dc",
+  "paired_at": "2026-02-09T20:39:42.698933+00:00",
+  "name": "CHU76I",
+  "model": "",
+  "identifier": "47B580A9-EED2-464E-B80E-E08129C93787",
+  "alignment_date": "2026-08-01T15:33:40+00:00",
+  "alignment_index": 16586,
+  "icloud_account": "beraspmotos@icloud.com",
+  "imported_at": "2026-08-06T20:16:17.503936+00:00",
+  "first_imported_at": "2026-08-06T20:16:17.503936+00:00"
+}

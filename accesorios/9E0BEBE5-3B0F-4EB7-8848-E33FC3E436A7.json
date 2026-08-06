@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "4381981802a58f89064e51d72c3f26062ce3249005d9dfd92b9f81a0",
+  "skn": "950ece54dde6bc923b076a8df004012bd7604d952d95cf0543542a9958d6cf3d",
+  "sks": "8febb7b685ef131e35cc3d50f98aec2036df930fcdecef5145b55344c9946826",
+  "paired_at": "2026-02-03T19:09:34.704518+00:00",
+  "name": "ZPV96H",
+  "model": "",
+  "identifier": "9E0BEBE5-3B0F-4EB7-8848-E33FC3E436A7",
+  "alignment_date": "2026-08-01T14:49:10+00:00",
+  "alignment_index": 17167,
+  "icloud_account": "beraspmotos@icloud.com",
+  "imported_at": "2026-08-06T20:16:17.503936+00:00",
+  "first_imported_at": "2026-08-06T20:16:17.503936+00:00"
+}

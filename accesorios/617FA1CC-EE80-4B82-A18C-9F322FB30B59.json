@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "e76c84a3e23f142b4e0bca408e640cbd056eb86e33cd6e925d77f11b",
+  "skn": "2f38212c33725b246f3130cd3e36902daa1e94ca2a8b9552868168d35412cade",
+  "sks": "d87110cfb687d66504fc57f9cf2fccea6a7126ca7a3b4a83829de0f81cc3a2b7",
+  "paired_at": "2026-02-03T19:08:29.723829+00:00",
+  "name": "ZPV95H",
+  "model": "",
+  "identifier": "617FA1CC-EE80-4B82-A18C-9F322FB30B59",
+  "alignment_date": "2026-04-05T00:39:40+00:00",
+  "alignment_index": 5778,
+  "icloud_account": "beraspmotos@icloud.com",
+  "imported_at": "2026-08-06T20:16:17.503936+00:00",
+  "first_imported_at": "2026-08-06T20:16:17.503936+00:00"
+}
