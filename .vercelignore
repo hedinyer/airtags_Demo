@@ -9,11 +9,7 @@ __pycache__
 venv
 .env
 .env.*
-requirements.txt
+deploy
 README.md
 mapa.html
 .decrypt*
-_login.py
-_fmip.py
-airtag.py
-decrypt_accesorios.py

@@ -13,7 +13,6 @@ $files = @(
   "airtag.py",
   "_login.py",
   "_fmip.py",
-  "requirements.txt",
   "index.html",
   "account.json",
   "ani_libs.bin",
@@ -30,7 +29,7 @@ scp -r accesorios/accesorios.json "${Target}:$remote/accesorios/"
 # Si el master no basta, sube todos los JSON (puede tardar):
 # scp -r accesorios "${Target}:$remote/"
 
-scp deploy/airtags.service deploy/setup-vps.sh "${Target}:$remote/deploy/"
+scp deploy/airtags.service deploy/setup-vps.sh deploy/requirements.txt "${Target}:$remote/deploy/"
 
 Write-Host "Instalando servicio..."
 ssh $Target @"

@@ -22,7 +22,7 @@ sudo -u "$APP_USER" bash -lc "
   cd '$APP_DIR'
   python3 -m venv .venv
   .venv/bin/pip install -U pip
-  .venv/bin/pip install -r requirements.txt
+  .venv/bin/pip install -r deploy/requirements.txt
 "
 
 install -m 644 "$(dirname "$0")/airtags.service" /etc/systemd/system/airtags.service
