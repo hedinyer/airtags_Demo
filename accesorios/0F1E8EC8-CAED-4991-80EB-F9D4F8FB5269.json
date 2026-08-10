@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "bc54f5ab893df889912e1fbfc08e3508923ebbc285fc79a192a1f171",
+  "skn": "02ef42b70a57bf3595c7f8b8eac7108d7850a9381a422015b45058d41c153ecd",
+  "sks": "caf5bfb993c13eb2d047e45af4d78489195b7f1172cc62726f864545a5b325cc",
+  "paired_at": "2025-10-04T14:48:39.095867+00:00",
+  "name": "TSC27H",
+  "model": "",
+  "identifier": "0F1E8EC8-CAED-4991-80EB-F9D4F8FB5269",
+  "alignment_date": "2026-08-06T19:18:20.946000+00:00",
+  "alignment_index": 29395,
+  "icloud_account": "pedrinchy49@gmail.com",
+  "imported_at": "2026-08-10T16:49:31.378267+00:00",
+  "first_imported_at": "2026-08-10T16:49:31.378267+00:00"
+}

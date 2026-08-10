@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "25d85fa40545dc2a3c7f5bfb6b78ea87a93eb7747132a82245daa8c4",
+  "skn": "da9225d5113815d067d5da4a5b70e97906547601d3669a807a297a816fd45464",
+  "sks": "897604e7bef83743fc39ec3aeb92ba7a49749d4ecd25f0d923057c53a00baa43",
+  "paired_at": "2025-10-03T20:49:46.675388+00:00",
+  "name": "TRW50H",
+  "model": "",
+  "identifier": "B9B66C67-D82B-4988-8D6C-8B121D1F1F62",
+  "alignment_date": "2026-07-29T01:43:20+00:00",
+  "alignment_index": 28629,
+  "icloud_account": "pedrinchy49@gmail.com",
+  "imported_at": "2026-08-10T16:49:31.378267+00:00",
+  "first_imported_at": "2026-08-10T16:49:31.378267+00:00"
+}

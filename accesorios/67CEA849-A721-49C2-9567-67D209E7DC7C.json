@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d4748636b1c6468db64c532ccc52ac40a94ebc759042b3e1f6f487c2",
+  "skn": "463552ef9d0e8e45a3ba2b735fbb68b048506f98f18362f339a7b1012fca8318",
+  "sks": "f2a1f1148ead935e47042e525b48ddaab2f62669271f984da2cd4da008a76037",
+  "paired_at": "2025-10-03T20:50:44.484881+00:00",
+  "name": "TSC33H",
+  "model": "",
+  "identifier": "67CEA849-A721-49C2-9567-67D209E7DC7C",
+  "alignment_date": "2026-07-29T01:56:00+00:00",
+  "alignment_index": 28628,
+  "icloud_account": "pedrinchy49@gmail.com",
+  "imported_at": "2026-08-10T16:49:31.378267+00:00",
+  "first_imported_at": "2026-08-10T16:49:31.378267+00:00"
+}

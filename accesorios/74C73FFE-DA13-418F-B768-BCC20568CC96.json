@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "6135063cf13d255ec33b75cc36bfbcacf9c7249cf81319162dd6b790",
+  "skn": "62e078d75fc7d16b33767abbdbcae11699d363d8da949e52bc86d9e75521c3e0",
+  "sks": "0c644618d5c695f625f942b682924dd9d219f84d5379c0c3561b9d799fe2fe45",
+  "paired_at": "2025-10-08T18:31:23.890393+00:00",
+  "name": "TSC69H",
+  "model": "",
+  "identifier": "74C73FFE-DA13-418F-B768-BCC20568CC96",
+  "alignment_date": "2026-07-29T01:53:50+00:00",
+  "alignment_index": 28160,
+  "icloud_account": "pedrinchy49@gmail.com",
+  "imported_at": "2026-08-10T16:49:31.378267+00:00",
+  "first_imported_at": "2026-08-10T16:49:31.378267+00:00"
+}

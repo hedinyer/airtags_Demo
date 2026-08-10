@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "6b97bb6374020926265cd560c3089dd67506e90a054ca35a3744a9f8",
+  "skn": "5e9f78d894b87bf3f20ed2fc3f615ebcf8cf8b869c87000cfecf8e1cb7d9ccaa",
+  "sks": "abfb78b1b9bd9aaf1b5405358c1aa9e3af8ad37c77fe104890a50b7c1e12e3b1",
+  "paired_at": "2025-10-08T22:37:33.110960+00:00",
+  "name": "TSF10H",
+  "model": "",
+  "identifier": "E5EA08C5-6EFC-4726-AF2E-22ABAD9941FC",
+  "alignment_date": "2026-07-29T01:20:30+00:00",
+  "alignment_index": 28140,
+  "icloud_account": "pedrinchy49@gmail.com",
+  "imported_at": "2026-08-10T16:49:31.378267+00:00",
+  "first_imported_at": "2026-08-10T16:49:31.378267+00:00"
+}

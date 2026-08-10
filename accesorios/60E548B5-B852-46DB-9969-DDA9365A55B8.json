@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "e9e67d293a43cd180850ae26187d2734760657b8271728bc2d1fe034",
+  "skn": "53c3654e526024d14531bacf4f85217908ad327fc3ebbb6429063bd829078e61",
+  "sks": "cbdddc0b07e18cd44e328391fdd7284972c595105c54e9aad517a439f86cd0c8",
+  "paired_at": "2025-10-03T20:49:32.453883+00:00",
+  "name": "iPhone de Pedrog",
+  "model": "iPhone18,2",
+  "identifier": "60E548B5-B852-46DB-9969-DDA9365A55B8",
+  "alignment_date": "2025-10-03T20:49:32.453883+00:00",
+  "alignment_index": 0,
+  "icloud_account": "pedrinchy49@gmail.com",
+  "imported_at": "2026-08-10T16:49:31.378267+00:00",
+  "first_imported_at": "2026-08-10T16:49:31.378267+00:00"
+}
