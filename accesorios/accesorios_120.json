@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "d50c54df86bf17c58fcb4de3f27fb01ceef17d27220abbad00df0e06",
+    "skn": "be3b07baa43f0f0fc21fcfcca73a7aa41a0a5fcadea7d79cfee171c44c066ee2",
+    "sks": "05268334b881ce0e9ddcc8152c9bab836f050d48a2ebe421b506efbc5331451b",
+    "paired_at": "2025-09-08T19:59:58.461522+00:00",
+    "name": "TIL53H",
+    "model": "",
+    "identifier": "D5F17734-D5FB-447A-A3CA-7926581149CC",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T03:53:28.039061-05:00",
+    "alignment_index": 31828
+}

@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "164ea09c5ccc91523ee56989d7e6daf8b63b9504b761b7968983cc4b",
+    "skn": "3c09353ef67925346dd1e188be8ed8671f7705de0cd552f2c4c4e9d93262165f",
+    "sks": "f4bdca45034c00a6c1324d28bc0fa5e2422279c33ed1c4c2255ff116cb2e638b",
+    "paired_at": "2026-04-14T20:13:17.928613+00:00",
+    "name": "DVF19I",
+    "model": "",
+    "identifier": "A0822464-52D5-4D07-A9AF-59E5BF0DE532",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T15:42:00-05:00",
+    "alignment_index": 10970
+}

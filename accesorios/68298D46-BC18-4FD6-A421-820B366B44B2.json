@@ -1,15 +1,14 @@
 {
-  "type": "accessory",
-  "master_key": "4abe6b4c30b2826fe57994f3a9f47a5cd99d122af568df4a691017c8",
-  "skn": "7e614a46c3875ba7bfc4dc7bd45f6a78d8185182fd3b62cdf080aaffbfb9a0c6",
-  "sks": "932d8fc4619ddb12fb21544c65a39b151f6cce948655ca5ffd5fe328e383a9c8",
-  "paired_at": "2026-03-02T22:05:40.420209+00:00",
-  "name": "MCY90H",
-  "model": "",
-  "identifier": "68298D46-BC18-4FD6-A421-820B366B44B2",
-  "alignment_date": "2026-07-28T20:57:10+00:00",
-  "alignment_index": 14205,
-  "icloud_account": "pinillasoluciones990@gmail.com",
-  "imported_at": "2026-08-03T17:01:25.383066+00:00",
-  "first_imported_at": "2026-08-03T17:01:25.383066+00:00"
+    "type": "accessory",
+    "master_key": "4abe6b4c30b2826fe57994f3a9f47a5cd99d122af568df4a691017c8",
+    "skn": "7e614a46c3875ba7bfc4dc7bd45f6a78d8185182fd3b62cdf080aaffbfb9a0c6",
+    "sks": "932d8fc4619ddb12fb21544c65a39b151f6cce948655ca5ffd5fe328e383a9c8",
+    "paired_at": "2026-03-02T22:05:40.420209+00:00",
+    "name": "MCY90H",
+    "model": "",
+    "identifier": "68298D46-BC18-4FD6-A421-820B366B44B2",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-03T12:01:30-05:00",
+    "alignment_index": 14765
 }

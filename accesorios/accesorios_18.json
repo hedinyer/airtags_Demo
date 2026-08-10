@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "e402fa3e59e337802a0b8eaeab51c54a215ac96979e84a5787bbfad3",
+    "skn": "34f9cb353eaacc49d4fce68351c7116f89f841737355221f8350d11f4ce6d6ef",
+    "sks": "4ac53eefae57d4214c5e0c485cc6060898a8edce2ff19f30442888e75f515c19",
+    "paired_at": "2025-11-07T19:55:23.372453+00:00",
+    "name": "TST18H",
+    "model": "",
+    "identifier": "EC54DC81-BE4D-4950-9FAE-3C461C66919C",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T15:58:50-05:00",
+    "alignment_index": 26207
+}

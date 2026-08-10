@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "97e0aa9a51a4d91227e965496afaf7b143b01cc2c0ab07fa9dd3d5df",
+    "skn": "0e77028136b770ac17af30e51c7fbdef7efa09e8654e721a6db4ea04a078d5da",
+    "sks": "087137365acc497fce0e02254109371c5c0ea530e14d806d28177427a337e1f4",
+    "paired_at": "2026-01-09T17:06:02.752768+00:00",
+    "name": "ZPE16H",
+    "model": "",
+    "identifier": "3C7D58F7-60F0-457D-8277-D879843798D0",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T16:01:00-05:00",
+    "alignment_index": 20091
+}

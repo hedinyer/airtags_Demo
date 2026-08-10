@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "1d9a0834b95c3ea32347867301380d51367d9bf361e2c334bde2cfb8",
+    "skn": "55720f36652d1fe502b97681b449188bb7aa149422ba4d3f1e612ffe8fff3d9a",
+    "sks": "e182e42e510a878752cd6b99d9ac1d0cc6102f9f355a5441b198ef09a47aa5b3",
+    "paired_at": "2025-08-24T18:49:35.669317+00:00",
+    "name": "TIJ67H",
+    "model": "",
+    "identifier": "AD958CE8-61F7-45CF-97C0-BDD1168730EE",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T15:27:00-05:00",
+    "alignment_index": 33369
+}

@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "cc170479919982c38a2718558599b038a98336ae8e7ca3d51f41fa38",
+    "skn": "e99c11009eb32f05e58616285677860dbb99741a676bdcb81c6f6a717b89bc53",
+    "sks": "1178d8a08ee6f1da6420c30ea250c22e655004852f19fcdf26fe8f1ff6d63b78",
+    "paired_at": "2025-11-07T19:46:42.393019+00:00",
+    "name": "TST14H",
+    "model": "",
+    "identifier": "7425F132-F03D-4D93-ABAB-06CAA910BF49",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T15:40:30-05:00",
+    "alignment_index": 26141
+}

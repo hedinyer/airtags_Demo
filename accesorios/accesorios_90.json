@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "e13ae4a8499e78efaf05dd494f72f1267a1ce3ba71aea2994a5a59e9",
+    "skn": "a98d07770339bb38f21ca10bf6fbecc12130d96d56108f31e8cc28a8d42db1df",
+    "sks": "6152665859e7aeac79d180541a3fe647701530f7a1379fd02deccc1885da38af",
+    "paired_at": "2026-04-14T20:10:49.985607+00:00",
+    "name": "DVF14I",
+    "model": "",
+    "identifier": "DA2AA627-9D90-4B0D-8684-E7B422296D42",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T03:53:28.011134-05:00",
+    "alignment_index": 10898
+}

@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "7cdeb1ebfb76b7f5814550571d447adeff55e282f4482dc0f4475691",
+    "skn": "403322b0e953ce70c5bf7b67fe68f2f56095bfd79126b555e82d04a822052e0e",
+    "sks": "eb7d202eb9ea69a3081147d089a7b3a455ec14dd57381e025354bb13fa907480",
+    "paired_at": "2026-02-09T21:12:12.643174+00:00",
+    "name": "CHU71I",
+    "model": "",
+    "identifier": "7230D41A-B623-43D1-A381-0A19532C38D7",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T03:53:28.006625-05:00",
+    "alignment_index": 17039
+}

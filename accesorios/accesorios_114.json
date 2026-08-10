@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "a3c749b61ccae969cdbc31354b65f642a5073189164afb3f4847d750",
+    "skn": "72a8fad02e3e67c172dee32510b77ca6efceafe248e8edf45243c09b7e285cd8",
+    "sks": "ed91d372c8479ac3ee117e488df16d0ab7f596610a5a79755d00d29a0d11779b",
+    "paired_at": "2025-08-30T17:10:00.337545+00:00",
+    "name": "TIJ42H",
+    "model": "",
+    "identifier": "5F6D54B8-4164-420B-A0FA-684C95258333",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T15:33:20-05:00",
+    "alignment_index": 32787
+}

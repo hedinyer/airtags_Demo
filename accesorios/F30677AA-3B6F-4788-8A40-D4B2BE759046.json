@@ -1,15 +1,14 @@
 {
-  "type": "accessory",
-  "master_key": "3e6d5213798748f5619ad136005badfed12445b86248de3d0d65f85c",
-  "skn": "4b7291be78c53994ad7b1cdbdceb84d4a23405955dfe8f54730a8d91e27d0c56",
-  "sks": "c4232104bdb0f9638e364b35fa592714926d13c9a8bb1d6fc32dd57e8436d5db",
-  "paired_at": "2026-02-18T13:34:43.793569+00:00",
-  "name": "ZPL75H",
-  "model": "",
-  "identifier": "F30677AA-3B6F-4788-8A40-D4B2BE759046",
-  "alignment_date": "2026-07-28T21:00:40+00:00",
-  "alignment_index": 15390,
-  "icloud_account": "pinillasoluciones990@gmail.com",
-  "imported_at": "2026-08-03T17:01:25.383066+00:00",
-  "first_imported_at": "2026-08-03T17:01:25.383066+00:00"
+    "type": "accessory",
+    "master_key": "3e6d5213798748f5619ad136005badfed12445b86248de3d0d65f85c",
+    "skn": "4b7291be78c53994ad7b1cdbdceb84d4a23405955dfe8f54730a8d91e27d0c56",
+    "sks": "c4232104bdb0f9638e364b35fa592714926d13c9a8bb1d6fc32dd57e8436d5db",
+    "paired_at": "2026-02-18T13:34:43.793569+00:00",
+    "name": "ZPL75H",
+    "model": "",
+    "identifier": "F30677AA-3B6F-4788-8A40-D4B2BE759046",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-03T12:06:40-05:00",
+    "alignment_index": 15950
 }

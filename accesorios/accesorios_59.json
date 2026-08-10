@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "00b55da22a3ab06be3fceda93ab349ab1097853bcd3bc275c8255229",
+    "skn": "5fd5734deb18827ffb5d423aad59cdced265e60774a0964fdcf20aac08b96d4d",
+    "sks": "57f1a700d88a8791e99789af039d6c3b3ae14bdfb4519eed469b29a4dcfa804a",
+    "paired_at": "2026-02-03T19:11:12.508624+00:00",
+    "name": "ZPV71H",
+    "model": "",
+    "identifier": "9D5D42D5-462A-41C6-9F39-41119F7C0A7A",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T16:02:30-05:00",
+    "alignment_index": 17699
+}

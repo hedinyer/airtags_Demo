@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "1920c069196c6bc604e17934103820240396f5acd53edf2aa41c9e64",
+    "skn": "0ac7e7516beed35b3786ea70979242004b992bd954a7a0e1487bd92bc1f8f0df",
+    "sks": "cc239f2a75455d9d1014d179c917309eed4dd9d6d5a2ca6c74e032b660973bdb",
+    "paired_at": "2025-09-03T15:16:44.669806+00:00",
+    "name": "TIN95H",
+    "model": "",
+    "identifier": "3ED353DC-3230-4D8B-B005-277D0A7C6109",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T13:54:30-05:00",
+    "alignment_index": 32447
+}

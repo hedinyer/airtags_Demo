@@ -1,15 +1,14 @@
 {
-  "type": "accessory",
-  "master_key": "aefdaafc6abfd73c17531795cc934fe7872ac0dd9de3370b9fed8e60",
-  "skn": "f2b865cb3132b8c072f85f747bbef5aa4074b29f01bbc354c0a7e228fa755bc0",
-  "sks": "e0aecdf6650d2936f92ebd84548081f32bb91d24a5e8a8675e9a0b2d358726ba",
-  "paired_at": "2026-03-06T14:29:39.776146+00:00",
-  "name": "ZQC09H",
-  "model": "",
-  "identifier": "9A561402-02A8-4771-8F44-B041F9ED8FD7",
-  "alignment_date": "2026-07-28T20:30:10+00:00",
-  "alignment_index": 13849,
-  "icloud_account": "pinillasoluciones990@gmail.com",
-  "imported_at": "2026-08-03T17:01:25.383066+00:00",
-  "first_imported_at": "2026-08-03T17:01:25.383066+00:00"
+    "type": "accessory",
+    "master_key": "aefdaafc6abfd73c17531795cc934fe7872ac0dd9de3370b9fed8e60",
+    "skn": "f2b865cb3132b8c072f85f747bbef5aa4074b29f01bbc354c0a7e228fa755bc0",
+    "sks": "e0aecdf6650d2936f92ebd84548081f32bb91d24a5e8a8675e9a0b2d358726ba",
+    "paired_at": "2026-03-06T14:29:39.776146+00:00",
+    "name": "ZQC09H",
+    "model": "",
+    "identifier": "9A561402-02A8-4771-8F44-B041F9ED8FD7",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-03T11:54:50-05:00",
+    "alignment_index": 14411
 }

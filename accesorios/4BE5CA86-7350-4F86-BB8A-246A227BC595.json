@@ -1,15 +1,14 @@
 {
-  "type": "accessory",
-  "master_key": "c5f8f188e5996c252500e288de888368931b9e4a99ed922ab2fb663d",
-  "skn": "1d630d5e833efd990a9413e50c5d06d8c6d1d79b54250ef162eab3fc0a82282e",
-  "sks": "00d4492c2e5bf4b28f6a5a3be310ac4943ec3832c96a9b70febb4e33f2d8f2d3",
-  "paired_at": "2026-03-02T22:47:27.665223+00:00",
-  "name": "RBJ53H",
-  "model": "",
-  "identifier": "4BE5CA86-7350-4F86-BB8A-246A227BC595",
-  "alignment_date": "2026-07-18T15:48:00+00:00",
-  "alignment_index": 12750,
-  "icloud_account": "pinillasoluciones990@gmail.com",
-  "imported_at": "2026-08-03T17:01:25.383066+00:00",
-  "first_imported_at": "2026-08-03T17:01:25.383066+00:00"
+    "type": "accessory",
+    "master_key": "c5f8f188e5996c252500e288de888368931b9e4a99ed922ab2fb663d",
+    "skn": "1d630d5e833efd990a9413e50c5d06d8c6d1d79b54250ef162eab3fc0a82282e",
+    "sks": "00d4492c2e5bf4b28f6a5a3be310ac4943ec3832c96a9b70febb4e33f2d8f2d3",
+    "paired_at": "2026-03-02T22:47:27.665223+00:00",
+    "name": "RBJ53H",
+    "model": "",
+    "identifier": "4BE5CA86-7350-4F86-BB8A-246A227BC595",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-07-27T12:10:48.461836-05:00",
+    "alignment_index": 13619
 }

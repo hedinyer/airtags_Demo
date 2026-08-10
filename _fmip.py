@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import sys
+import time
 from datetime import datetime
 from pathlib import Path
 
@@ -82,16 +83,13 @@ def _battery_label(level) -> str:
     return f"Muy baja ({pct:.0f}%)"
 
 
-def fetch_fmip_locations(api=None, store_path: str = "account.json") -> list[dict]:
-    """Devuelve ubicaciones en vivo de dispositivos vinculados a la cuenta."""
-    if api is None:
-        api = get_fmip_api(store_path)
-    else:
-        api.devices.refresh(locate=True)
-
+def _rows_from_api(api) -> list[dict]:
     rows: list[dict] = []
     for device in api.devices:
-        content = getattr(device, "content", None) or getattr(device, "data", None) or {}
+        # Preferir _content crudo: .data/.content pueden disparar otro refresh.
+        content = getattr(device, "_content", None)
+        if not isinstance(content, dict):
+            content = getattr(device, "content", None) or getattr(device, "data", None) or {}
         if not isinstance(content, dict):
             continue
         name = content.get("name") or content.get("deviceDisplayName") or "Dispositivo"
@@ -129,6 +127,28 @@ def fetch_fmip_locations(api=None, store_path: str = "account.json") -> list[dic
                 "is_old": bool(loc.get("isOld")),
             }
         )
+    return rows
+
+
+def fetch_fmip_locations(
+    api=None,
+    store_path: str = "account.json",
+    force_retries: int = 2,
+    retry_delay_s: float = 0.6,
+) -> list[dict]:
+    """Fuerza ubicacion en vivo (shouldLocate) y reintenta si Apple devuelve datos viejos."""
+    if api is None:
+        api = get_fmip_api(store_path)
+    else:
+        api.devices.refresh(locate=True)
+
+    rows = _rows_from_api(api)
+    for _ in range(max(0, force_retries)):
+        if not any(r.get("found") and r.get("is_old") for r in rows):
+            break
+        time.sleep(retry_delay_s)
+        api.devices.refresh(locate=True)
+        rows = _rows_from_api(api)
     return rows
 
 

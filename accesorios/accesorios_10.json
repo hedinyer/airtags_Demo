@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "50fe7b773164a12ec308decf6a46a693a1d2dc481693bb80917bad09",
+    "skn": "9df184c62499a386281f90ad14aca193371e038d8a5b6cecf035c4bc28439574",
+    "sks": "2ba23a725e34724f5d4bd224135bddd2b01533194be75f0c25ce5805b7775fb7",
+    "paired_at": "2025-11-06T15:42:28.564937+00:00",
+    "name": "TST08H",
+    "model": "",
+    "identifier": "B9ECEFCA-1869-4E2B-8346-31553F085212",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T16:04:50-05:00",
+    "alignment_index": 26227
+}

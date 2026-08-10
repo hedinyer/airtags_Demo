@@ -11,8 +11,7 @@ account.json
 ani_libs.bin
 .pyicloud/
 
-# Ubicaciones privadas generadas
-locations.json
+# Mapa local regenerado (la UI pública es index.html)
 mapa.html
 
 # Python
@@ -33,3 +32,4 @@ build/
 *.swp
 .DS_Store
 Thumbs.db
+.vercel

@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "584eb056268a4fb57f75dabe9440bab34b7ce4e2839e19f1dded360f",
+    "skn": "e5bd87274f89ff87f9c7549e0e3438fd9c2bd6f569fa34c790a26457e3429355",
+    "sks": "235e24fa503634c8a995defd23318b0b2d7f571e0bec8272f9d9d69a74de0f0b",
+    "paired_at": "2025-09-03T15:44:27.747540+00:00",
+    "name": "TIN91H",
+    "model": "",
+    "identifier": "BD9E37F2-AB76-4BC0-9E90-29D84C4AAAA4",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T16:03:00-05:00",
+    "alignment_index": 32374
+}

@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "f20df610fa5e354564f95032d6a6fefd1b91c8992058f32923fc5d1a",
+    "skn": "e7a86fc690ec7572ae8c9c9bcfc9c16a125985a83b6d55b9aee0290b767cb856",
+    "sks": "762647b0c346d73dbea1530ffc4f22c05fafba27a1fd367165ca0de86e59237b",
+    "paired_at": "2025-08-30T16:50:29.601030+00:00",
+    "name": "TIL55H",
+    "model": "",
+    "identifier": "E01E8EA3-9167-4173-8FE3-ED0B67498A01",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T16:06:10-05:00",
+    "alignment_index": 32751
+}

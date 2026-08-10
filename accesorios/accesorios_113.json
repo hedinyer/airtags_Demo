@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "c2c3236408048f10a5e78aac1ddf709d6deacf2f966da6f4314d54ca",
+    "skn": "0a7b32e57469fc9fbddc5910b228ab8d2dacbc282ce44a69a84b429e06c14e75",
+    "sks": "56f1ab1eafa681e03473e08721ff8db2e905f5915e70d7b740b414ecec0f1ec4",
+    "paired_at": "2025-08-24T18:35:06.813516+00:00",
+    "name": "MOTO MORADA SIN MATICULA SP",
+    "model": "",
+    "identifier": "5FF687E1-AC2C-4C60-9845-846C45CD567C",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T16:06:00-05:00",
+    "alignment_index": 33337
+}

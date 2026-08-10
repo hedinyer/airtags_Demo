@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "872ca2d80cbcb62f7dbe2f3360c59bd3c5d7347567e9f6cf71e1c646",
+    "skn": "067765e2f070ecf708bd34e26016e3df7c862409248f1720b7a085cfdf49dcdb",
+    "sks": "68fb6773a4eda62a178dc9c1ca1ae891e9dad4d0e79ab0e608978b6c48641202",
+    "paired_at": "2026-03-21T15:51:11.731814+00:00",
+    "name": "DUP78I",
+    "model": "",
+    "identifier": "B17F040B-9838-4484-9592-F22B386695F0",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T16:03:10-05:00",
+    "alignment_index": 13274
+}

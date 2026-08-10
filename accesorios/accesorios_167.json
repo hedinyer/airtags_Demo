@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "930a5d265570e832b760b5e79d56c52f14110867e7329ba105946c6b",
+    "skn": "204c60d5c9826a80a045c537ff0bef95349bd2d1f48973628d6aeb58d4a17d24",
+    "sks": "8ee1f230d70ef3945d3c465c61b3a8efbba370285e4fc68a6afe40b3140cb3bf",
+    "paired_at": "2026-03-09T16:06:49.176667+00:00",
+    "name": "ZPZ85H",
+    "model": "",
+    "identifier": "571613DA-408F-4924-8206-39CB0B97A82B",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T15:43:10-05:00",
+    "alignment_index": 14441
+}

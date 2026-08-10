@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "94e3e7452a3f6a1f15ce6b86ba88db26beb242234445aa03d2743d5e",
+    "skn": "663a72e50ad0878864b4b25801d319e0e0e26898b3a12a5b533c8ea4f254ded8",
+    "sks": "f297cbfebd93a476879a41c718eb3cd7fc8235cd7d306bbc781e7bf1b5dfaeb8",
+    "paired_at": "2025-09-04T13:20:30.258901+00:00",
+    "name": "TIR74h",
+    "model": "",
+    "identifier": "0F3F9F7B-24EC-4FBF-94C5-0804176FD8E3",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T15:49:30-05:00",
+    "alignment_index": 32297
+}

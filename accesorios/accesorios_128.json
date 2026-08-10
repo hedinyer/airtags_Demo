@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "938c0ea17434096e436fd2d836b9d291ca260118950b43cab9ec3632",
+    "skn": "8c33382751e138c608462ccf5af0adc5c582132829aee24f147549674d49a9f9",
+    "sks": "2779a058e616f59be5860579cfe878c94dacf5e07a752afecc4e267c0b1e36a0",
+    "paired_at": "2025-09-09T15:08:26.276494+00:00",
+    "name": "TIO25H",
+    "model": "",
+    "identifier": "490BD30E-8C3F-48D7-B05D-3BBB6D0EC7E7",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T15:53:40-05:00",
+    "alignment_index": 31800
+}

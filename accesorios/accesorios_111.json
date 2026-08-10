@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "2fff9091a9e392c64945772fb644ac0d81bd4d336d66caa101ca3685",
+    "skn": "72dba32602b8ec2dc8f325675a6818b0356c2d144e510dc7d65d2fceebaa7342",
+    "sks": "b5958f921f91c896543e930a9e920f811a4d82b088aa457b9ebffb2dbeb9241c",
+    "paired_at": "2025-09-04T20:51:42.771776+00:00",
+    "name": "JQX32H",
+    "model": "",
+    "identifier": "6FB2C407-BF75-41B7-B37F-1CF99764915E",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T03:53:28.038420-05:00",
+    "alignment_index": 32208
+}

@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "717899ab086680e486ef9a066a7e998276567e2251883fa7e07945d6",
+    "skn": "931b9dcb8fe4dec89123bd5656cef0999a5f4167c879a6653aaf675bed1b3a0f",
+    "sks": "5acb5435ac77f7e43322eb3277638569024388fb6b1744387ea9b6fb8450c623",
+    "paired_at": "2026-03-20T18:44:27.282122+00:00",
+    "name": "DUP89I",
+    "model": "",
+    "identifier": "86E6965E-335B-47C6-B1D0-9843F70D41A8",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T15:57:00-05:00",
+    "alignment_index": 13352
+}

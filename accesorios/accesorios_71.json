@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "795488f62dbf31b56b56b9cf197ed317313529bc3d2f28cb2342bcd2",
+    "skn": "3f5aade08ead2bccd5874610081a77f33ebcdf3642e4bac6f33b2d06272e8789",
+    "sks": "73639eaa7fa6b51cbf05672bb33f028d57bdae21f26a3797023dbd0a07ca0606",
+    "paired_at": "2026-03-21T15:47:13.963180+00:00",
+    "name": "DUP77I",
+    "model": "",
+    "identifier": "BE6ADA68-ABBF-4A48-ABA7-A572B1CFE9BB",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T14:56:50-05:00",
+    "alignment_index": 13343
+}

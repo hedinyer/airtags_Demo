@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "13a3762cb0e12d9a8222d8412865a2e80c1f6daa49da3ca1357f6049",
+    "skn": "599311bbfda9ab5f8f93f485f42c22d9c0ea2359c1c574f7775d10a9b76d39a7",
+    "sks": "cd9e6a8423c03a9033c3402e87dd8b1951538dc276c279541bc2d91d84fd16e4",
+    "paired_at": "2026-02-09T20:40:41.932090+00:00",
+    "name": "CHE38I",
+    "model": "",
+    "identifier": "D5F42484-5C96-4821-9444-B1BE2C4E4B18",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T16:06:50-05:00",
+    "alignment_index": 17090
+}

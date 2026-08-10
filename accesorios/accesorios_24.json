@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "8f652bbd30b98bc8b3c12b6c07d5fe6e47b6c32eadc781cb1fad6dca",
+    "skn": "0d44a33cdad47c79fee86b11dcf2e4278e718b3c01e5f784c521363d06b4660a",
+    "sks": "547e94a2bc1985c82b1b199a16b0802b63711eb8fb5d89df0440ece7d5340fcc",
+    "paired_at": "2025-11-12T13:41:35.281102+00:00",
+    "name": "TST26H",
+    "model": "",
+    "identifier": "D2ED2C2A-28C9-4C78-BB33-98234C348A99",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T16:01:10-05:00",
+    "alignment_index": 25663
+}

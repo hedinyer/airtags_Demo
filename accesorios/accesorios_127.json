@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "3096373f5c185835069d80a1aa4192fe03c39bf5147211757eeecda4",
+    "skn": "d27bba57c501ba0303433092c4194489c7a5d4164f69abfc6ce831f8389d531b",
+    "sks": "467724ca552aab3056cd536649d23f89756ce3cdd7be94b69d0f07a7f27854fe",
+    "paired_at": "2025-09-05T18:40:39.119735+00:00",
+    "name": "TIN98H",
+    "model": "Loshall Tag",
+    "identifier": "46192675-D750-41CA-AF31-957DF2432003",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T03:53:28.039589-05:00",
+    "alignment_index": 32235
+}

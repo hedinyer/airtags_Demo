@@ -1,0 +1,1673 @@
+{
+  "updated_at": "2026-08-06T16:10:12.303815-05:00",
+  "devices": [
+    {
+      "name": "Airpods",
+      "found": true,
+      "source": "fmip",
+      "model": "AirPods 4",
+      "latitude": 7.097345972049034,
+      "longitude": -73.10492304849197,
+      "battery": "Muy baja (0%)",
+      "timestamp": "2026-08-03T07:48:16.001000-05:00",
+      "accuracy_m": 6,
+      "confidence": 3,
+      "position_type": "Wifi",
+      "is_old": true
+    },
+    {
+      "name": "BAM44I",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1225804,
+      "longitude": -73.1195037,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T14:37:20-05:00",
+      "accuracy_m": 112,
+      "confidence": 0
+    },
+    {
+      "name": "CHE11I",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.625069,
+      "longitude": -74.1990737,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:08:30-05:00",
+      "accuracy_m": 112,
+      "confidence": 0
+    },
+    {
+      "name": "CHE13I",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.7092434,
+      "longitude": -74.0939008,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:02:10-05:00",
+      "accuracy_m": 82,
+      "confidence": 0
+    },
+    {
+      "name": "CHE33I",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.7043692,
+      "longitude": -74.1138061,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:07:50-05:00",
+      "accuracy_m": 52,
+      "confidence": 0
+    },
+    {
+      "name": "CHE35I",
+      "found": true,
+      "source": "offline",
+      "latitude": 3.6596647,
+      "longitude": -76.5751466,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T12:49:30-05:00",
+      "accuracy_m": 48,
+      "confidence": 7
+    },
+    {
+      "name": "CHE36I",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.5966389,
+      "longitude": -74.1830139,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:06:10-05:00",
+      "accuracy_m": 117,
+      "confidence": 0
+    },
+    {
+      "name": "CHE37I",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.1330479,
+      "longitude": -73.634834,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:53:50-05:00",
+      "accuracy_m": 63,
+      "confidence": 0
+    },
+    {
+      "name": "CHE38I",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.6681583,
+      "longitude": -74.0630116,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:06:50-05:00",
+      "accuracy_m": 157,
+      "confidence": 0
+    },
+    {
+      "name": "CHE39I",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.7999139,
+      "longitude": -74.1099568,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:09:20-05:00",
+      "accuracy_m": 157,
+      "confidence": 0
+    },
+    {
+      "name": "CHU71I",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.5866282,
+      "longitude": -74.1806797,
+      "battery": "Completa",
+      "timestamp": "2026-08-05T20:32:20-05:00",
+      "accuracy_m": 133,
+      "confidence": 0
+    },
+    {
+      "name": "CHU76I",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.5898063,
+      "longitude": -74.1664146,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:45:50-05:00",
+      "accuracy_m": 77,
+      "confidence": 0
+    },
+    {
+      "name": "DTW17I",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0349768,
+      "longitude": -73.1225665,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:55:00-05:00",
+      "accuracy_m": 73,
+      "confidence": 0
+    },
+    {
+      "name": "DTW86I",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1025778,
+      "longitude": -73.1018073,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:06:10-05:00",
+      "accuracy_m": 94,
+      "confidence": 0
+    },
+    {
+      "name": "DTX70H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1227434,
+      "longitude": -73.1264811,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:05:40-05:00",
+      "accuracy_m": 76,
+      "confidence": 0
+    },
+    {
+      "name": "DUJ46I",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1211896,
+      "longitude": -73.1307511,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:08:30-05:00",
+      "accuracy_m": 122,
+      "confidence": 0
+    },
+    {
+      "name": "DUJ50I",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0612411,
+      "longitude": -73.0913984,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:09:20-05:00",
+      "accuracy_m": 111,
+      "confidence": 0
+    },
+    {
+      "name": "DUJ53H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0790947,
+      "longitude": -73.1717354,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:06:30-05:00",
+      "accuracy_m": 96,
+      "confidence": 0
+    },
+    {
+      "name": "DUM04I",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0867767,
+      "longitude": -73.0924451,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T06:59:00-05:00",
+      "accuracy_m": 85,
+      "confidence": 0
+    },
+    {
+      "name": "DUM05I",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0805309,
+      "longitude": -73.1253421,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:00:00-05:00",
+      "accuracy_m": 70,
+      "confidence": 0
+    },
+    {
+      "name": "DUP74I",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1017304,
+      "longitude": -73.1105796,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:47:40-05:00",
+      "accuracy_m": 30,
+      "confidence": 0
+    },
+    {
+      "name": "DUP77I",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1216422,
+      "longitude": -73.1205867,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T14:56:50-05:00",
+      "accuracy_m": 108,
+      "confidence": 0
+    },
+    {
+      "name": "DUP78I",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.6213005,
+      "longitude": -74.1100154,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:03:10-05:00",
+      "accuracy_m": 56,
+      "confidence": 0
+    },
+    {
+      "name": "DUP80I",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.6616906,
+      "longitude": -74.1305832,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:53:50-05:00",
+      "accuracy_m": 138,
+      "confidence": 0
+    },
+    {
+      "name": "DUP84I",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0800549,
+      "longitude": -73.1282522,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T13:53:40-05:00",
+      "accuracy_m": 82,
+      "confidence": 0
+    },
+    {
+      "name": "DUP85I",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.5891154,
+      "longitude": -74.174632,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T14:39:20-05:00",
+      "accuracy_m": 234,
+      "confidence": 0
+    },
+    {
+      "name": "DUP86I",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.5473254,
+      "longitude": -74.144155,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T14:07:10-05:00",
+      "accuracy_m": 96,
+      "confidence": 0
+    },
+    {
+      "name": "DUP87I",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.6501387,
+      "longitude": -74.1450482,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:00:20-05:00",
+      "accuracy_m": 141,
+      "confidence": 0
+    },
+    {
+      "name": "DUP89I",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.158068,
+      "longitude": -73.1320252,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:57:00-05:00",
+      "accuracy_m": 119,
+      "confidence": 0
+    },
+    {
+      "name": "DUP90I",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.5845251,
+      "longitude": -74.1029167,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:06:20-05:00",
+      "accuracy_m": 82,
+      "confidence": 0
+    },
+    {
+      "name": "DVF01I",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.6669511,
+      "longitude": -74.0623823,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T13:00:10-05:00",
+      "accuracy_m": 84,
+      "confidence": 0
+    },
+    {
+      "name": "DVF02I",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.7467027,
+      "longitude": -74.1134004,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:50:30-05:00",
+      "accuracy_m": 75,
+      "confidence": 0
+    },
+    {
+      "name": "DVF03I",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0926831,
+      "longitude": -73.1335566,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:36:50-05:00",
+      "accuracy_m": 110,
+      "confidence": 0
+    },
+    {
+      "name": "DVF04I",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.5882046,
+      "longitude": -74.1420644,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:52:40-05:00",
+      "accuracy_m": 87,
+      "confidence": 0
+    },
+    {
+      "name": "DVF05I",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1067658,
+      "longitude": -73.1166079,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:00:40-05:00",
+      "accuracy_m": 57,
+      "confidence": 0
+    },
+    {
+      "name": "DVF10I",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0184661,
+      "longitude": -73.1322278,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T12:41:00-05:00",
+      "accuracy_m": 157,
+      "confidence": 0
+    },
+    {
+      "name": "DVF11I",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0368093,
+      "longitude": -73.1187837,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:56:00-05:00",
+      "accuracy_m": 70,
+      "confidence": 0
+    },
+    {
+      "name": "DVF12I",
+      "found": true,
+      "source": "offline",
+      "latitude": 6.9730553,
+      "longitude": -73.0597429,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T13:39:20-05:00",
+      "accuracy_m": 158,
+      "confidence": 0
+    },
+    {
+      "name": "DVF13I",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1635428,
+      "longitude": -73.1419902,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:13:00-05:00",
+      "accuracy_m": 90,
+      "confidence": 0
+    },
+    {
+      "name": "DVF17I",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.5770003,
+      "longitude": -74.090789,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:47:30-05:00",
+      "accuracy_m": 89,
+      "confidence": 0
+    },
+    {
+      "name": "DVF18I",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.6571701,
+      "longitude": -74.0571372,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:05:20-05:00",
+      "accuracy_m": 94,
+      "confidence": 0
+    },
+    {
+      "name": "DVF19I",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0602182,
+      "longitude": -73.1651186,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:42:00-05:00",
+      "accuracy_m": 147,
+      "confidence": 0
+    },
+    {
+      "name": "DVF22I",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1322805,
+      "longitude": -73.0992931,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:17:40-05:00",
+      "accuracy_m": 135,
+      "confidence": 0
+    },
+    {
+      "name": "DVF23I",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0836078,
+      "longitude": -73.1204065,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:08:50-05:00",
+      "accuracy_m": 33,
+      "confidence": 0
+    },
+    {
+      "name": "DVF24I",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.6457667,
+      "longitude": -74.1498725,
+      "battery": "Muy baja",
+      "timestamp": "2026-08-06T16:08:10-05:00",
+      "accuracy_m": 155,
+      "confidence": 0
+    },
+    {
+      "name": "DVF25I",
+      "found": true,
+      "source": "offline",
+      "latitude": 6.9866193,
+      "longitude": -73.047295,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:08:20-05:00",
+      "accuracy_m": 222,
+      "confidence": 0
+    },
+    {
+      "name": "DVF28I",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.6036216,
+      "longitude": -74.1104612,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:44:30-05:00",
+      "accuracy_m": 178,
+      "confidence": 0
+    },
+    {
+      "name": "DVF29I",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.5838809,
+      "longitude": -74.0992226,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:01:20-05:00",
+      "accuracy_m": 81,
+      "confidence": 0
+    },
+    {
+      "name": "GBR200Negra sin matrícula",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1299109,
+      "longitude": -73.1051243,
+      "battery": "Completa",
+      "timestamp": "2026-08-05T05:39:20-05:00",
+      "accuracy_m": 88,
+      "confidence": 0
+    },
+    {
+      "name": "GZJ26I",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1264138,
+      "longitude": -73.1357469,
+      "battery": "Media",
+      "timestamp": "2026-08-06T16:04:30-05:00",
+      "accuracy_m": 98,
+      "confidence": 0
+    },
+    {
+      "name": "Heylen’s MacBook Air",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0977159,
+      "longitude": -73.104937,
+      "battery": "Baja",
+      "timestamp": "2026-08-06T16:06:00-05:00",
+      "accuracy_m": 98,
+      "confidence": 3
+    },
+    {
+      "name": "iPhone",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0974721,
+      "longitude": -73.104856,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:12:00-05:00",
+      "accuracy_m": 102,
+      "confidence": 0
+    },
+    {
+      "name": "JQW21H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0768317,
+      "longitude": -73.1177688,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:02:10-05:00",
+      "accuracy_m": 56,
+      "confidence": 0
+    },
+    {
+      "name": "JRH24H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0874151,
+      "longitude": -73.1298725,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:09:30-05:00",
+      "accuracy_m": 37,
+      "confidence": 0
+    },
+    {
+      "name": "Jrm96H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0836078,
+      "longitude": -73.1204065,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:08:50-05:00",
+      "accuracy_m": 33,
+      "confidence": 0
+    },
+    {
+      "name": "MCY90H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1129099,
+      "longitude": -73.1247616,
+      "battery": "Media",
+      "timestamp": "2026-08-06T16:06:10-05:00",
+      "accuracy_m": 67,
+      "confidence": 0
+    },
+    {
+      "name": "MDC22H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0874108,
+      "longitude": -73.129894,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:09:30-05:00",
+      "accuracy_m": 37,
+      "confidence": 0
+    },
+    {
+      "name": "Mdk81",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0800609,
+      "longitude": -73.1281885,
+      "battery": "Media",
+      "timestamp": "2026-08-06T13:54:20-05:00",
+      "accuracy_m": 90,
+      "confidence": 0
+    },
+    {
+      "name": "MOTO MORADA SIN MATICULA SP",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.118957,
+      "longitude": -73.121602,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:06:00-05:00",
+      "accuracy_m": 108,
+      "confidence": 0
+    },
+    {
+      "name": "OSM76H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1287843,
+      "longitude": -73.1297008,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:03:40-05:00",
+      "accuracy_m": 100,
+      "confidence": 0
+    },
+    {
+      "name": "Test",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0977159,
+      "longitude": -73.104937,
+      "battery": "Baja",
+      "timestamp": "2026-08-06T16:06:00-05:00",
+      "accuracy_m": 98,
+      "confidence": 11
+    },
+    {
+      "name": "TIJ42H",
+      "found": true,
+      "source": "offline",
+      "latitude": 6.9955599,
+      "longitude": -73.0864492,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:33:20-05:00",
+      "accuracy_m": 125,
+      "confidence": 0
+    },
+    {
+      "name": "TIJ67H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0834271,
+      "longitude": -73.1203029,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:27:00-05:00",
+      "accuracy_m": 118,
+      "confidence": 0
+    },
+    {
+      "name": "TIJ70H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1557314,
+      "longitude": -73.1403349,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T14:56:20-05:00",
+      "accuracy_m": 93,
+      "confidence": 0
+    },
+    {
+      "name": "TIJ79H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0566512,
+      "longitude": -73.1592017,
+      "battery": "Media",
+      "timestamp": "2026-08-06T13:08:50-05:00",
+      "accuracy_m": 229,
+      "confidence": 5
+    },
+    {
+      "name": "TIL43H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0567636,
+      "longitude": -73.1565072,
+      "battery": "Media",
+      "timestamp": "2026-08-06T16:05:10-05:00",
+      "accuracy_m": 96,
+      "confidence": 0
+    },
+    {
+      "name": "TIL55H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.101499,
+      "longitude": -73.1710675,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:06:10-05:00",
+      "accuracy_m": 68,
+      "confidence": 0
+    },
+    {
+      "name": "TIN91H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0397092,
+      "longitude": -73.0752533,
+      "battery": "Media",
+      "timestamp": "2026-08-06T16:03:00-05:00",
+      "accuracy_m": 19,
+      "confidence": 0
+    },
+    {
+      "name": "TIN92H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0802657,
+      "longitude": -73.127222,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:56:40-05:00",
+      "accuracy_m": 96,
+      "confidence": 0
+    },
+    {
+      "name": "TIN95H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0800014,
+      "longitude": -73.1282427,
+      "battery": "Media",
+      "timestamp": "2026-08-06T13:54:30-05:00",
+      "accuracy_m": 86,
+      "confidence": 0
+    },
+    {
+      "name": "TIO25H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0829205,
+      "longitude": -73.1306634,
+      "battery": "Media",
+      "timestamp": "2026-08-06T15:53:40-05:00",
+      "accuracy_m": 63,
+      "confidence": 0
+    },
+    {
+      "name": "TIQ82H",
+      "found": true,
+      "source": "offline",
+      "latitude": 6.9885415,
+      "longitude": -73.0429411,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:05:20-05:00",
+      "accuracy_m": 132,
+      "confidence": 0
+    },
+    {
+      "name": "TIQ83H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1356408,
+      "longitude": -73.1232697,
+      "battery": "Media",
+      "timestamp": "2026-08-06T15:34:00-05:00",
+      "accuracy_m": 101,
+      "confidence": 0
+    },
+    {
+      "name": "TIQ84H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0802659,
+      "longitude": -73.1272218,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:58:20-05:00",
+      "accuracy_m": 82,
+      "confidence": 0
+    },
+    {
+      "name": "TIR70H",
+      "found": true,
+      "source": "offline",
+      "latitude": 8.8745883,
+      "longitude": -75.621047,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:28:30-05:00",
+      "accuracy_m": 208,
+      "confidence": 0
+    },
+    {
+      "name": "TIR74h",
+      "found": true,
+      "source": "offline",
+      "latitude": 6.9952889,
+      "longitude": -73.081578,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:49:30-05:00",
+      "accuracy_m": 86,
+      "confidence": 0
+    },
+    {
+      "name": "TIT99H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0710309,
+      "longitude": -73.1678803,
+      "battery": "Media",
+      "timestamp": "2026-08-06T15:37:50-05:00",
+      "accuracy_m": 66,
+      "confidence": 0
+    },
+    {
+      "name": "TSQ54H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.113241,
+      "longitude": -73.1205491,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:43:10-05:00",
+      "accuracy_m": 171,
+      "confidence": 0
+    },
+    {
+      "name": "TSQ58H",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.5501425,
+      "longitude": -74.1620283,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T13:00:30-05:00",
+      "accuracy_m": 106,
+      "confidence": 0
+    },
+    {
+      "name": "TST04H",
+      "found": true,
+      "source": "offline",
+      "latitude": 6.9979484,
+      "longitude": -73.062842,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:55:40-05:00",
+      "accuracy_m": 19,
+      "confidence": 0
+    },
+    {
+      "name": "TST05H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.118957,
+      "longitude": -73.121602,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:06:40-05:00",
+      "accuracy_m": 113,
+      "confidence": 0
+    },
+    {
+      "name": "TST06H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0739601,
+      "longitude": -73.1417121,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T13:59:10-05:00",
+      "accuracy_m": 222,
+      "confidence": 0
+    },
+    {
+      "name": "TST08H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0885508,
+      "longitude": -73.1092565,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:04:50-05:00",
+      "accuracy_m": 119,
+      "confidence": 0
+    },
+    {
+      "name": "TST10H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1272127,
+      "longitude": -72.9336772,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:26:00-05:00",
+      "accuracy_m": 86,
+      "confidence": 0
+    },
+    {
+      "name": "TST11H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1132623,
+      "longitude": -73.1604101,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:00:10-05:00",
+      "accuracy_m": 48,
+      "confidence": 0
+    },
+    {
+      "name": "TST12H",
+      "found": true,
+      "source": "offline",
+      "latitude": 6.2492729,
+      "longitude": -75.595433,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:09:00-05:00",
+      "accuracy_m": 52,
+      "confidence": 0
+    },
+    {
+      "name": "TST14H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1778454,
+      "longitude": -73.1354229,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:40:30-05:00",
+      "accuracy_m": 81,
+      "confidence": 0
+    },
+    {
+      "name": "TST15H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1294441,
+      "longitude": -73.1298894,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:03:00-05:00",
+      "accuracy_m": 56,
+      "confidence": 0
+    },
+    {
+      "name": "TST16H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0641013,
+      "longitude": -73.1661095,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T13:05:30-05:00",
+      "accuracy_m": 113,
+      "confidence": 0
+    },
+    {
+      "name": "TST17H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1366005,
+      "longitude": -73.1288108,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:03:00-05:00",
+      "accuracy_m": 82,
+      "confidence": 0
+    },
+    {
+      "name": "TST18H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0737164,
+      "longitude": -73.1498884,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:58:50-05:00",
+      "accuracy_m": 66,
+      "confidence": 0
+    },
+    {
+      "name": "TST19H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1307563,
+      "longitude": -73.133958,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:34:50-05:00",
+      "accuracy_m": 119,
+      "confidence": 0
+    },
+    {
+      "name": "TST20H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0737164,
+      "longitude": -73.1498884,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:21:00-05:00",
+      "accuracy_m": 50,
+      "confidence": 0
+    },
+    {
+      "name": "TST21H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0747929,
+      "longitude": -73.0832695,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:22:00-05:00",
+      "accuracy_m": 161,
+      "confidence": 0
+    },
+    {
+      "name": "TST23H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1568765,
+      "longitude": -73.1419074,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T12:56:00-05:00",
+      "accuracy_m": 89,
+      "confidence": 0
+    },
+    {
+      "name": "TST25H",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.6942903,
+      "longitude": -74.1032518,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:49:00-05:00",
+      "accuracy_m": 80,
+      "confidence": 0
+    },
+    {
+      "name": "TST26H",
+      "found": true,
+      "source": "offline",
+      "latitude": 6.5552961,
+      "longitude": -73.1396463,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:01:10-05:00",
+      "accuracy_m": 96,
+      "confidence": 0
+    },
+    {
+      "name": "TST27H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1213125,
+      "longitude": -73.1337462,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:07:30-05:00",
+      "accuracy_m": 97,
+      "confidence": 0
+    },
+    {
+      "name": "TST29H",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.73691,
+      "longitude": -74.2745736,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:53:20-05:00",
+      "accuracy_m": 88,
+      "confidence": 0
+    },
+    {
+      "name": "TTA01H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1193041,
+      "longitude": -73.111109,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:08:50-05:00",
+      "accuracy_m": 164,
+      "confidence": 0
+    },
+    {
+      "name": "TTA02H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1034441,
+      "longitude": -73.1235154,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:44:30-05:00",
+      "accuracy_m": 86,
+      "confidence": 0
+    },
+    {
+      "name": "TTA03H",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.6311466,
+      "longitude": -74.0650688,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:00:50-05:00",
+      "accuracy_m": 136,
+      "confidence": 0
+    },
+    {
+      "name": "TTA04H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1284297,
+      "longitude": -73.5495406,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T13:47:20-05:00",
+      "accuracy_m": 121,
+      "confidence": 0
+    },
+    {
+      "name": "TTA05H",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.5565942,
+      "longitude": -74.1451835,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T09:49:50-05:00",
+      "accuracy_m": 89,
+      "confidence": 7
+    },
+    {
+      "name": "TTA06H",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.6162923,
+      "longitude": -74.1355893,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:36:40-05:00",
+      "accuracy_m": 140,
+      "confidence": 0
+    },
+    {
+      "name": "TTA07H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1244162,
+      "longitude": -73.1359115,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T06:34:20-05:00",
+      "accuracy_m": 97,
+      "confidence": 0
+    },
+    {
+      "name": "ZPE16H",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.5915111,
+      "longitude": -74.1129624,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:01:00-05:00",
+      "accuracy_m": 174,
+      "confidence": 0
+    },
+    {
+      "name": "ZPE18H",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.8226063,
+      "longitude": -74.1323546,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T12:53:10-05:00",
+      "accuracy_m": 93,
+      "confidence": 0
+    },
+    {
+      "name": "ZPE19H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.9218783,
+      "longitude": -72.4450681,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T12:31:30-05:00",
+      "accuracy_m": 32,
+      "confidence": 0
+    },
+    {
+      "name": "ZPI30H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1372625,
+      "longitude": -73.129826,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:47:20-05:00",
+      "accuracy_m": 98,
+      "confidence": 0
+    },
+    {
+      "name": "ZPI31H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.128623,
+      "longitude": -73.1166445,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:04:50-05:00",
+      "accuracy_m": 59,
+      "confidence": 0
+    },
+    {
+      "name": "ZPI32H",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.6286021,
+      "longitude": -74.1853698,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:03:50-05:00",
+      "accuracy_m": 149,
+      "confidence": 0
+    },
+    {
+      "name": "ZPI33H",
+      "found": true,
+      "source": "offline",
+      "latitude": 6.4442955,
+      "longitude": -73.1421866,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T13:40:20-05:00",
+      "accuracy_m": 66,
+      "confidence": 0
+    },
+    {
+      "name": "ZPI35H",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.5266405,
+      "longitude": -74.3475787,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T14:34:30-05:00",
+      "accuracy_m": 145,
+      "confidence": 0
+    },
+    {
+      "name": "ZPI46H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1153068,
+      "longitude": -73.1193981,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:07:50-05:00",
+      "accuracy_m": 56,
+      "confidence": 0
+    },
+    {
+      "name": "ZPI49H",
+      "found": true,
+      "source": "offline",
+      "latitude": 6.9995008,
+      "longitude": -73.052707,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:00:10-05:00",
+      "accuracy_m": 139,
+      "confidence": 0
+    },
+    {
+      "name": "ZPL70H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.07317,
+      "longitude": -73.0877377,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:01:40-05:00",
+      "accuracy_m": 110,
+      "confidence": 0
+    },
+    {
+      "name": "ZPL73h",
+      "found": true,
+      "source": "offline",
+      "latitude": 6.8727675,
+      "longitude": -73.0106005,
+      "battery": "Media",
+      "timestamp": "2026-08-06T15:21:30-05:00",
+      "accuracy_m": 194,
+      "confidence": 0
+    },
+    {
+      "name": "ZPL75H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0834509,
+      "longitude": -73.1202444,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:04:20-05:00",
+      "accuracy_m": 65,
+      "confidence": 0
+    },
+    {
+      "name": "ZPL76H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0812634,
+      "longitude": -73.1270418,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:57:30-05:00",
+      "accuracy_m": 107,
+      "confidence": 0
+    },
+    {
+      "name": "ZPL78H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1283133,
+      "longitude": -73.1298544,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:54:20-05:00",
+      "accuracy_m": 171,
+      "confidence": 0
+    },
+    {
+      "name": "ZPL79H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0810869,
+      "longitude": -73.1170357,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:08:10-05:00",
+      "accuracy_m": 67,
+      "confidence": 0
+    },
+    {
+      "name": "ZPV71H",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.7523758,
+      "longitude": -74.1149202,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:02:30-05:00",
+      "accuracy_m": 60,
+      "confidence": 0
+    },
+    {
+      "name": "ZPV92H",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.7623839,
+      "longitude": -74.0300209,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:05:50-05:00",
+      "accuracy_m": 28,
+      "confidence": 0
+    },
+    {
+      "name": "ZPV94H",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.7035534,
+      "longitude": -74.1295796,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:09:10-05:00",
+      "accuracy_m": 62,
+      "confidence": 0
+    },
+    {
+      "name": "ZPV96H",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.5526203,
+      "longitude": -74.1170437,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:31:20-05:00",
+      "accuracy_m": 89,
+      "confidence": 0
+    },
+    {
+      "name": "ZPV99H",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.6115678,
+      "longitude": -74.225496,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:13:30-05:00",
+      "accuracy_m": 81,
+      "confidence": 0
+    },
+    {
+      "name": "ZPX19H",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.642696,
+      "longitude": -74.1965471,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:05:00-05:00",
+      "accuracy_m": 97,
+      "confidence": 0
+    },
+    {
+      "name": "ZPX20H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.133011,
+      "longitude": -73.5538757,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:03:20-05:00",
+      "accuracy_m": 94,
+      "confidence": 0
+    },
+    {
+      "name": "ZPX21H",
+      "found": true,
+      "source": "offline",
+      "latitude": 4.5947037,
+      "longitude": -74.1752898,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:07:10-05:00",
+      "accuracy_m": 144,
+      "confidence": 0
+    },
+    {
+      "name": "ZPZ83H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0802659,
+      "longitude": -73.1272218,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:57:20-05:00",
+      "accuracy_m": 90,
+      "confidence": 0
+    },
+    {
+      "name": "ZPZ84H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0911355,
+      "longitude": -73.1688183,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:04:00-05:00",
+      "accuracy_m": 83,
+      "confidence": 0
+    },
+    {
+      "name": "ZPZ85H",
+      "found": true,
+      "source": "offline",
+      "latitude": 6.9790743,
+      "longitude": -73.0543905,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:43:10-05:00",
+      "accuracy_m": 38,
+      "confidence": 0
+    },
+    {
+      "name": "ZQC02H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1418956,
+      "longitude": -73.1336194,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:08:00-05:00",
+      "accuracy_m": 167,
+      "confidence": 0
+    },
+    {
+      "name": "ZQC04H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.133992,
+      "longitude": -73.5566404,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T07:34:50-05:00",
+      "accuracy_m": 90,
+      "confidence": 0
+    },
+    {
+      "name": "ZQC06H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1297849,
+      "longitude": -73.0971833,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:49:50-05:00",
+      "accuracy_m": 124,
+      "confidence": 0
+    },
+    {
+      "name": "ZQC07H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.0802659,
+      "longitude": -73.1272218,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:57:10-05:00",
+      "accuracy_m": 84,
+      "confidence": 0
+    },
+    {
+      "name": "ZQC08H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1649808,
+      "longitude": -73.1435949,
+      "battery": "Media",
+      "timestamp": "2026-08-06T16:08:10-05:00",
+      "accuracy_m": 81,
+      "confidence": 0
+    },
+    {
+      "name": "ZQC09H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1029388,
+      "longitude": -73.1091589,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T15:58:20-05:00",
+      "accuracy_m": 61,
+      "confidence": 0
+    },
+    {
+      "name": "ZQC51H",
+      "found": true,
+      "source": "offline",
+      "latitude": 7.1129799,
+      "longitude": -73.1126245,
+      "battery": "Completa",
+      "timestamp": "2026-08-06T16:07:50-05:00",
+      "accuracy_m": 82,
+      "confidence": 0
+    },
+    {
+      "name": "18F576AD-0F51-47C0-AC73-BF9B8CB8C529",
+      "found": false,
+      "source": "offline"
+    },
+    {
+      "name": "7DDD6395-FDD2-47BE-8241-BC618C8B91F3",
+      "found": false,
+      "source": "offline"
+    },
+    {
+      "name": "AD1C2DF4-2CE6-45F8-99C8-9CBCB9FCCE32",
+      "found": false,
+      "source": "offline"
+    },
+    {
+      "name": "DUP88I",
+      "found": false,
+      "source": "offline"
+    },
+    {
+      "name": "DVF14I",
+      "found": false,
+      "source": "offline"
+    },
+    {
+      "name": "DVF15I",
+      "found": false,
+      "source": "offline"
+    },
+    {
+      "name": "DVF20I",
+      "found": false,
+      "source": "offline"
+    },
+    {
+      "name": "JQX32H",
+      "found": false,
+      "source": "offline"
+    },
+    {
+      "name": "RBJ53H",
+      "found": false,
+      "source": "offline"
+    },
+    {
+      "name": "TIL46H",
+      "found": false,
+      "source": "offline"
+    },
+    {
+      "name": "TIL53H",
+      "found": false,
+      "source": "offline"
+    },
+    {
+      "name": "TIM83H",
+      "found": false,
+      "source": "offline"
+    },
+    {
+      "name": "TIN96H",
+      "found": false,
+      "source": "offline"
+    },
+    {
+      "name": "TIN98H",
+      "found": false,
+      "source": "offline"
+    },
+    {
+      "name": "TIO29H",
+      "found": false,
+      "source": "offline"
+    },
+    {
+      "name": "TIQ81H",
+      "found": false,
+      "source": "offline"
+    },
+    {
+      "name": "TIQ85H",
+      "found": false,
+      "source": "offline"
+    },
+    {
+      "name": "TIR75H",
+      "found": false,
+      "source": "offline"
+    },
+    {
+      "name": "TIU83H",
+      "found": false,
+      "source": "offline"
+    },
+    {
+      "name": "TST02H",
+      "found": false,
+      "source": "offline"
+    },
+    {
+      "name": "TST03H",
+      "found": false,
+      "source": "offline"
+    },
+    {
+      "name": "TST07H",
+      "found": false,
+      "source": "offline"
+    },
+    {
+      "name": "TTE98H",
+      "found": false,
+      "source": "offline"
+    },
+    {
+      "name": "ZPI34H",
+      "found": false,
+      "source": "offline"
+    },
+    {
+      "name": "ZPV95H",
+      "found": false,
+      "source": "offline"
+    }
+  ]
+}

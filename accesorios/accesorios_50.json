@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "a90b5d94a1cbf7adeaf366a28f6c2d2e62fe5f27f9fd47d346ede9e3",
+    "skn": "b9597691f2804b24270479c4857391db472bd822c80f731831d55d81a01e7508",
+    "sks": "8c5a2fa5198877f28d5cc13818d46af69295358feb9388ad7f65d798649b3f73",
+    "paired_at": "2026-01-09T17:10:44.675974+00:00",
+    "name": "ZPE19H",
+    "model": "",
+    "identifier": "1964D358-E5FA-42B8-83C4-30AC296C14BF",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T12:31:30-05:00",
+    "alignment_index": 20159
+}

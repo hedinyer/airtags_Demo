@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "e49bcbb9814bbadd2e328e48a96661e445823a4fbb6494fd27d6d1a7",
+    "skn": "9a1b83076de2033ed44342d56aec04055d884f12045d9506a02fb80182b39cd4",
+    "sks": "da8ae64ec00404b1d394bcf3891452cd0c1fe39c66f0a7bb32bfa6d1e36964ea",
+    "paired_at": "2026-04-14T20:21:50.899120+00:00",
+    "name": "DVF22I",
+    "model": "",
+    "identifier": "2F6CCFC5-5B1A-4B27-B003-BA366496E182",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T15:17:40-05:00",
+    "alignment_index": 11009
+}

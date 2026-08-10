@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "64fe2351efbc16c0c0ae1d685672fdeb02ae341f1cd4d780fbf499ff",
+    "skn": "848b50b7573e13d639eee8ceb6afe8ec061b6838285fe17c0cb5e44f4ba0ba68",
+    "sks": "b7ec1ff2b04ebcb819605d7b31152d4a38edeea136df41e359a2c77881bb7c1d",
+    "paired_at": "2025-11-07T19:38:59.860975+00:00",
+    "name": "TST23H",
+    "model": "",
+    "identifier": "ED900306-EFC0-4FB3-86AA-CB8C4444E959",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T12:56:00-05:00",
+    "alignment_index": 26207
+}

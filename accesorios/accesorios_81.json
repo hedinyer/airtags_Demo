@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "0243921719abf760c301ff35c687bfb08100b4ecf1eec56f59d347a9",
+    "skn": "c044d857f3ac9e90855cbf4d53a68332b4eb5c225e7418ed69eab27df971fdce",
+    "sks": "823969770d14fdbff47233396abf9e8e9fb46800a63d0377c669c95c9dad29ab",
+    "paired_at": "2026-03-31T13:40:56.387902+00:00",
+    "name": "DVF01I",
+    "model": "",
+    "identifier": "894FD19D-51D0-406E-AF50-6BFEC2AD276C",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T13:00:10-05:00",
+    "alignment_index": 12383
+}

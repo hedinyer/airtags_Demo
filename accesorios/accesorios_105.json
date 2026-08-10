@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "74cc98d31eb67f9374128bc1ee60b5b0f1b3fec4a9104226b4c62135",
+    "skn": "15937b43109f9c582a1ae6f267ebddb9019e0211e94e6f1f1b1d08014e03d5e7",
+    "sks": "aabfd439458718716c751ac1584bfcdc06ce380be710a3ac857805ae0738b3e3",
+    "paired_at": "2026-07-23T18:05:47.260736+00:00",
+    "name": "Heylen\u2019s MacBook Air",
+    "model": "MacBookAir10,1",
+    "identifier": "D31E11CA-C071-4550-8250-570F12F31D16",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T03:53:28.037946-05:00",
+    "alignment_index": 1307
+}

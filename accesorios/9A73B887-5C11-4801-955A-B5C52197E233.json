@@ -1,15 +1,14 @@
 {
-  "type": "accessory",
-  "master_key": "1e9d7b043e0586916d546dca94364931a45ace0f1b72a47214ee94fe",
-  "skn": "0ef0bb214fe31e63cf417ad56cec145c0d3cd12aa993c0ffa8f2286a23c39e01",
-  "sks": "4948961fa11aa757cd507f25ea9edd0555f6295c3f03d95e3bd86bea7b4202ec",
-  "paired_at": "2026-03-02T20:11:03.840573+00:00",
-  "name": "DTX70H",
-  "model": "",
-  "identifier": "9A73B887-5C11-4801-955A-B5C52197E233",
-  "alignment_date": "2026-07-28T20:40:00+00:00",
-  "alignment_index": 14210,
-  "icloud_account": "pinillasoluciones990@gmail.com",
-  "imported_at": "2026-08-03T17:01:25.383066+00:00",
-  "first_imported_at": "2026-08-03T17:01:25.383066+00:00"
+    "type": "accessory",
+    "master_key": "1e9d7b043e0586916d546dca94364931a45ace0f1b72a47214ee94fe",
+    "skn": "0ef0bb214fe31e63cf417ad56cec145c0d3cd12aa993c0ffa8f2286a23c39e01",
+    "sks": "4948961fa11aa757cd507f25ea9edd0555f6295c3f03d95e3bd86bea7b4202ec",
+    "paired_at": "2026-03-02T20:11:03.840573+00:00",
+    "name": "DTX70H",
+    "model": "",
+    "identifier": "9A73B887-5C11-4801-955A-B5C52197E233",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-03T11:55:20-05:00",
+    "alignment_index": 14772
 }

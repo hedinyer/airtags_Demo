@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "22d68919cfedfab1a478eac2586a5259aec5325d15f2171b1d4d99b4",
+    "skn": "4db43fc3487072d8c77ba100e78b8c12033ad249db3a459099ab066e023efce9",
+    "sks": "b135e74c9111314987e51da10b04a5439b970f505bf0704b9868183e5995134e",
+    "paired_at": "2026-01-14T21:36:54.729691+00:00",
+    "name": "ZPI32H",
+    "model": "",
+    "identifier": "0C54806D-180F-4268-AC18-92F7180F9B12",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T16:03:50-05:00",
+    "alignment_index": 19584
+}

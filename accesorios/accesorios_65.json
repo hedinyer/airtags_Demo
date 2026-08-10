@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "a54180d03fb5dd7cbf988fc47d0596b4e913f748e4f75ea5f0ab69d4",
+    "skn": "e179267c44809a7d9c11449b866772079ea07c531bcd8a9b706492f90285dbe8",
+    "sks": "80b3317356788dbe15c1a5d8f14a3d01a499d494e808b89068885e956490f57d",
+    "paired_at": "2026-02-04T22:11:28.254027+00:00",
+    "name": "ZPX19H",
+    "model": "",
+    "identifier": "1722BB6C-1274-4BD9-B031-E1FCA63A9E6C",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T16:05:00-05:00",
+    "alignment_index": 17577
+}

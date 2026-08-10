@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "d0414ca56c6d2567fd521427c3e35d8579e810be27330224a85944b6",
+    "skn": "a4049119155da5dcb45e9383815c68336220b21700ff98af875a4e28ca4c047c",
+    "sks": "9203f6314a82df9860e8e29b5417096ae353a040c3717c270936880962be1b51",
+    "paired_at": "2025-11-06T15:44:51.013713+00:00",
+    "name": "TST07H",
+    "model": "",
+    "identifier": "BA8F0D42-25EB-4AE4-A98F-0807A77920BF",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T03:53:28.002213-05:00",
+    "alignment_index": 26180
+}

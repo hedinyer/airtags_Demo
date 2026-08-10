@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "662794c6fb6a5879b8e363695aa398ec6cebcb338c336819ad7276eb",
+    "skn": "513f30ccd6946abcc383aec085337622367c916a81601d4835474a5763b0f56f",
+    "sks": "568e1168f0eb4f9d97d81a499276a53d639e9be96a8f29af15f387a3911c7b51",
+    "paired_at": "2026-03-14T13:00:43.376042+00:00",
+    "name": "DUJ50I",
+    "model": "",
+    "identifier": "9E9B899B-C6FA-4E71-9A09-51B924DDF8E9",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T16:09:20-05:00",
+    "alignment_index": 13951
+}

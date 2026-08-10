@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "349672ca489244c574c3bf93bb08f6fc6af38bf89713db0d4d599a8f",
+    "skn": "5d92014ae897f7055b292203eaf802d6312930ac2af4eb660850aa962b13d3fb",
+    "sks": "17b8695f5590768f4972722c66b59543da40a78ab5035dfed4294eecb14af5c3",
+    "paired_at": "2026-03-20T18:43:57.259471+00:00",
+    "name": "DUP90I",
+    "model": "",
+    "identifier": "22EF3A42-465F-4423-9FEE-7434A91B2150",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T16:06:20-05:00",
+    "alignment_index": 13357
+}

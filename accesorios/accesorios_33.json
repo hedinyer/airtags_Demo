@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "d6528c523561d75fd23398ccee16cd5b29c2655512585f0de935e5d3",
+    "skn": "5a92ac4fb121391adfcc763d02b87d2b849605c2264b55b94afaadacaea2fdc7",
+    "sks": "1a889ee760385beb959e1dfe2ee3f7e5f976b8e02f01b961dc238e726f14840f",
+    "paired_at": "2025-11-12T13:47:57.404669+00:00",
+    "name": "TTA07H",
+    "model": "",
+    "identifier": "3FC0EE82-D94D-4B1A-BCBF-E3EA271DBC9A",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T06:34:20-05:00",
+    "alignment_index": 25727
+}

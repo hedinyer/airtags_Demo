@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "110c6267e7938c4467255db16bc42bc099e17c7ace4e7f5cac02384b",
+    "skn": "da6796452aaa3ce2de49e8af27b7fd04911ecb3eb58afe3ca0b77903216da396",
+    "sks": "d17d831483d631877d2e2e827ac4082b6cdc748b5d66a8c9ebf2d0b9281b0027",
+    "paired_at": "2026-01-26T19:06:40.224437+00:00",
+    "name": "ZPI46H",
+    "model": "",
+    "identifier": "8408DB19-897F-4C01-8696-D133D1014362",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T16:07:50-05:00",
+    "alignment_index": 18440
+}

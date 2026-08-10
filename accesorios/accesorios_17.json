@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "4f87426f72e373ea44b8cc30302073e048df0f01b6accab7769e9974",
+    "skn": "e44e9cc9a6aa0abccb92ccde5febf677d53d8b3d504d71b9aafd0e2a4bdf309b",
+    "sks": "2a2d9c310e1e4ad460d33df077761c40870d8cfc172bdde6f3dda529564f447c",
+    "paired_at": "2025-11-07T20:00:12.090926+00:00",
+    "name": "TST17H",
+    "model": "",
+    "identifier": "AA1A0421-86C4-4B8A-BB21-3711DCD64539",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T16:03:00-05:00",
+    "alignment_index": 26152
+}

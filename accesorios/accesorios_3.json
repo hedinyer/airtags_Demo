@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "15a6e57c9726d3cc5e798451f0def675be25cc94c36f130171bd6524",
+    "skn": "fa3c56be0310aaaff5eb253e18ac98a8daa319591a54786ea769cef532b94012",
+    "sks": "fbff2f0f21165fb6b2df26959cbfd402f9b3554e31e0d46278ea516ebf7827df",
+    "paired_at": "2025-11-12T13:39:46.368140+00:00",
+    "name": "TSQ58H",
+    "model": "",
+    "identifier": "2000F81F-F2EC-4886-B371-32F1B0A89B2D",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T13:00:30-05:00",
+    "alignment_index": 25727
+}

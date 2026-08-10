@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "0da69198756802dd11d5c11cc7aa31ac74862c0ff1c0579b254fda31",
+    "skn": "745c2084a01419bf355d04b46f6b99323d901cbd9eedb9a2c511f566d8f771c5",
+    "sks": "6d2a58426591e54c898892d1cdc21f2213cad83baf498c0a73541c92030dd76d",
+    "paired_at": "2026-02-09T21:07:25.712913+00:00",
+    "name": "CHE35I",
+    "model": "",
+    "identifier": "731BE181-B50D-48E9-BAE8-E71D4BE8BA4D",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T12:49:30-05:00",
+    "alignment_index": 17183
+}

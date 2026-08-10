@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "fb03f0906a89a1aa3100acae95fefc6ab0ff7465d646be35678fef82",
+    "skn": "50e440bd80192e2f6c039ad48790cc6ec826d17bcaa8a27e07e4162b16f177d1",
+    "sks": "daf53314fa57d6e5b5d46522d8366c3f0bb27518f909a66a8cfeef38553513eb",
+    "paired_at": "2026-01-14T19:39:48.969318+00:00",
+    "name": "ZPI30H",
+    "model": "",
+    "identifier": "0F45139F-C199-4887-A517-F3EA90259C78",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T15:47:20-05:00",
+    "alignment_index": 19603
+}

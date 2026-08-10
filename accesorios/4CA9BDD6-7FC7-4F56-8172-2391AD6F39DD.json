@@ -1,15 +1,14 @@
 {
-  "type": "accessory",
-  "master_key": "06e9f7d0b874f2e0b7a0314ca137eb17906c95dd6dfbd433126505f9",
-  "skn": "23b0e64f3228a7cfa91cea9b68e1e02efc00cada448a0a499694bf9f0d687993",
-  "sks": "07d8b43b92a9cd65724074c271ebd52467dba7b7308a0760d4707b26dc379509",
-  "paired_at": "2026-02-14T15:04:13.383663+00:00",
-  "name": "ZPL79H",
-  "model": "",
-  "identifier": "4CA9BDD6-7FC7-4F56-8172-2391AD6F39DD",
-  "alignment_date": "2026-07-28T20:22:00+00:00",
-  "alignment_index": 15765,
-  "icloud_account": "pinillasoluciones990@gmail.com",
-  "imported_at": "2026-08-03T17:01:25.383066+00:00",
-  "first_imported_at": "2026-08-03T17:01:25.383066+00:00"
+    "type": "accessory",
+    "master_key": "06e9f7d0b874f2e0b7a0314ca137eb17906c95dd6dfbd433126505f9",
+    "skn": "23b0e64f3228a7cfa91cea9b68e1e02efc00cada448a0a499694bf9f0d687993",
+    "sks": "07d8b43b92a9cd65724074c271ebd52467dba7b7308a0760d4707b26dc379509",
+    "paired_at": "2026-02-14T15:04:13.383663+00:00",
+    "name": "ZPL79H",
+    "model": "",
+    "identifier": "4CA9BDD6-7FC7-4F56-8172-2391AD6F39DD",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-03T06:58:10-05:00",
+    "alignment_index": 16328
 }

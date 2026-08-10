@@ -1,15 +1,14 @@
 {
-  "type": "accessory",
-  "master_key": "a08ee5322402c4335a8552d69e93ec43652615434fff3d3122b78870",
-  "skn": "c2a030262085b9e2d272b38172c0e51a4a0809b83380b972ae55b24bafc0ea87",
-  "sks": "e0d63eb7f23af07045d5367de0e7ea3709bc407f58147a5adfc2d8e3accb136f",
-  "paired_at": "2026-03-11T20:22:31.404770+00:00",
-  "name": "OSM76H",
-  "model": "",
-  "identifier": "D9F34CB0-7723-4236-988D-3951C9C3D66C",
-  "alignment_date": "2026-07-28T20:59:10+00:00",
-  "alignment_index": 13347,
-  "icloud_account": "pinillasoluciones990@gmail.com",
-  "imported_at": "2026-08-03T17:01:25.383066+00:00",
-  "first_imported_at": "2026-08-03T17:01:25.383066+00:00"
+    "type": "accessory",
+    "master_key": "a08ee5322402c4335a8552d69e93ec43652615434fff3d3122b78870",
+    "skn": "c2a030262085b9e2d272b38172c0e51a4a0809b83380b972ae55b24bafc0ea87",
+    "sks": "e0d63eb7f23af07045d5367de0e7ea3709bc407f58147a5adfc2d8e3accb136f",
+    "paired_at": "2026-03-11T20:22:31.404770+00:00",
+    "name": "OSM76H",
+    "model": "",
+    "identifier": "D9F34CB0-7723-4236-988D-3951C9C3D66C",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-03T12:05:20-05:00",
+    "alignment_index": 13908
 }

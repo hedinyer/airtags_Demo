@@ -1,0 +1,23 @@
+[Unit]
+Description=AirTags Find My watcher (push a Supabase)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=airtags
+Group=airtags
+WorkingDirectory=/opt/airtags
+EnvironmentFile=/opt/airtags/.env
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/opt/airtags/.venv/bin/python -u airtag.py --no-open
+Restart=always
+RestartSec=15
+Nice=10
+
+# Logs: journalctl -u airtags -f
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

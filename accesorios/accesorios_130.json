@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "70b441ed675115c45320bca00511444b16ae4941c6655bdbefbb2bba",
+    "skn": "f9a7f5a79110a617ed0d3be13bc04d13202996f6e054211aef8e2c8853c1ffea",
+    "sks": "c2d1e01c585a4e60c8cf2b3747874fed9ba537d5230ee1cfce2bca8c8fba5170",
+    "paired_at": "2025-09-06T14:22:42.292741+00:00",
+    "name": "TIQ81H",
+    "model": "Loshall Tag",
+    "identifier": "2099A685-88A6-42F6-B107-6200ABBF163D",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T03:53:28.039826-05:00",
+    "alignment_index": 12738
+}

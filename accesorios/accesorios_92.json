@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "913599f4d1ae80bc3b41729538b60010759604831077811cb2f50d10",
+    "skn": "13fa2d761b75775b9f79b5f2e26cf327cc3b8a481d937c2d40da465c9cdc7b93",
+    "sks": "c2b654b2006dc896df34029e401738628a5460730cf8faddf188e81e47a866d7",
+    "paired_at": "2026-04-14T20:12:02.322245+00:00",
+    "name": "DVF17I",
+    "model": "",
+    "identifier": "CE04CB2D-243D-4234-894B-91F5C9C64659",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T15:47:30-05:00",
+    "alignment_index": 10965
+}

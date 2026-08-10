@@ -1,15 +1,14 @@
 {
-  "type": "accessory",
-  "master_key": "ee7e25f5642ff532a2290a96e8872d6e0c2ae391cf7f2dbde5aa5d30",
-  "skn": "51010aed02c667b1dfc5e6bea66ae969299f64610444b3b4c4e96353e8f04257",
-  "sks": "5aaadffa3a88f6cf1b46344a59224438236263a8c03b58a1b32a48f18e488500",
-  "paired_at": "2026-03-02T19:51:56.262334+00:00",
-  "name": "DTW17I",
-  "model": "",
-  "identifier": "0D499B3F-1ACA-42A7-97EA-046E4D5AE240",
-  "alignment_date": "2026-07-28T21:01:10+00:00",
-  "alignment_index": 14213,
-  "icloud_account": "pinillasoluciones990@gmail.com",
-  "imported_at": "2026-08-03T17:01:25.383066+00:00",
-  "first_imported_at": "2026-08-03T17:01:25.383066+00:00"
+    "type": "accessory",
+    "master_key": "ee7e25f5642ff532a2290a96e8872d6e0c2ae391cf7f2dbde5aa5d30",
+    "skn": "51010aed02c667b1dfc5e6bea66ae969299f64610444b3b4c4e96353e8f04257",
+    "sks": "5aaadffa3a88f6cf1b46344a59224438236263a8c03b58a1b32a48f18e488500",
+    "paired_at": "2026-03-02T19:51:56.262334+00:00",
+    "name": "DTW17I",
+    "model": "",
+    "identifier": "0D499B3F-1ACA-42A7-97EA-046E4D5AE240",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-03T10:19:20-05:00",
+    "alignment_index": 14773
 }

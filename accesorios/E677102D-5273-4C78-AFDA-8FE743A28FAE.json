@@ -1,15 +1,14 @@
 {
-  "type": "accessory",
-  "master_key": "7e67242cc78110992271564bda49e846c1640fc7a523503e44364570",
-  "skn": "d3965efdd304588b547433b723fdfcb1e4840821682a62d9f251dfc0ae566380",
-  "sks": "8f79386ba02792d858e5cd2ef745387640706b403d6a7a87719f07e28421ad4f",
-  "paired_at": "2026-03-09T15:40:17.801906+00:00",
-  "name": "TTE98H",
-  "model": "",
-  "identifier": "E677102D-5273-4C78-AFDA-8FE743A28FAE",
-  "alignment_date": "2026-06-15T23:18:52.267000+00:00",
-  "alignment_index": 9440,
-  "icloud_account": "pinillasoluciones990@gmail.com",
-  "imported_at": "2026-08-03T17:01:25.383066+00:00",
-  "first_imported_at": "2026-08-03T17:01:25.383066+00:00"
+    "type": "accessory",
+    "master_key": "7e67242cc78110992271564bda49e846c1640fc7a523503e44364570",
+    "skn": "d3965efdd304588b547433b723fdfcb1e4840821682a62d9f251dfc0ae566380",
+    "sks": "8f79386ba02792d858e5cd2ef745387640706b403d6a7a87719f07e28421ad4f",
+    "paired_at": "2026-03-09T15:40:17.801906+00:00",
+    "name": "TTE98H",
+    "model": "",
+    "identifier": "E677102D-5273-4C78-AFDA-8FE743A28FAE",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-07-27T12:10:48.500630-05:00",
+    "alignment_index": 13447
 }

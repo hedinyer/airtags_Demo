@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "07973818033f71695b55afb55edc1edc6c92c4877bd57c27158924dd",
+    "skn": "1a315dbbd85603428d011fcb4ad24ee35cab70a5c1ea8aa74f2bd5707016fd53",
+    "sks": "eaca14b80349cf049b2579297248129af61ae24b7e803608b37c684d673728a9",
+    "paired_at": "2024-04-21T14:40:23.420168+00:00",
+    "name": null,
+    "model": "iPhone12,1",
+    "identifier": "18F576AD-0F51-47C0-AC73-BF9B8CB8C529",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T03:53:28.037613-05:00",
+    "alignment_index": 80329
+}

@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "a4f5976acca51954ab2964d5fdf6c0643e5e4da52ba086f5c0501cb0",
+    "skn": "55732060b3fdc7e759673424387090b06249da4a7d15b8027b0bc04e57d01ead",
+    "sks": "04adbe032d5f8e195dd56b1eb1512832fa9198d506a4f1abbdadf0c2d9c9322a",
+    "paired_at": "2025-11-12T13:40:41.471678+00:00",
+    "name": "TST25H",
+    "model": "",
+    "identifier": "E2B2E372-C383-4F5D-8FFF-9BCD8385BD69",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T15:49:00-05:00",
+    "alignment_index": 25538
+}

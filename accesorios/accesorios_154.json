@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "59d4c6bdc32428d8bdcd40df2d3c4dd47aa7b9fab8aa5815f1b6d4cd",
+    "skn": "155d9c2b95fcac4ff47ed816c5b42f359cb0e19ce46f685f4437f7436b561929",
+    "sks": "5898f148088eecbeec9e39a2aff67ddbe620132436832e068d563bd2d156a230",
+    "paired_at": "2026-03-11T16:40:01.402798+00:00",
+    "name": "MDC22H",
+    "model": "",
+    "identifier": "A101C96C-EA07-4135-B340-20F7233D57AF",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T16:09:30-05:00",
+    "alignment_index": 14227
+}

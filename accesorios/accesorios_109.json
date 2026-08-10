@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "1fc7dd69b4f9b75f456f14971b82a6611c2d2d3d7a9357a4a6d89229",
+    "skn": "94e1a8fe50edb0c689ba7cc2c19279ec98e16067a17408fac8bb60b8ac0af9ae",
+    "sks": "85b97c598a1ac766e24ea869763cd0acefbc2e9eef40255d08c64ac635341d02",
+    "paired_at": "2025-08-24T22:36:15.298399+00:00",
+    "name": "GZJ26I",
+    "model": "",
+    "identifier": "9433DC53-DBA9-4B54-AEBE-1E8B6F1D07AC",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T16:04:30-05:00",
+    "alignment_index": 33310
+}

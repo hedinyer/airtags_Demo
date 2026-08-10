@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "ae23c8db6fd92e0dee6ca684097f3b60e1215a5a6ef4ca366b29484d",
+    "skn": "20b42f01dc6eec9de7a1348e4215f506718a72dbba0a22172d63f59a6cb25f90",
+    "sks": "8cfdc5d52f7f7aef47731f9ce1d8a31b334d2bedfe7828acb8615c0869ff5c34",
+    "paired_at": "2025-11-12T13:38:34.980981+00:00",
+    "name": "TSQ54H",
+    "model": "",
+    "identifier": "390DF10B-A28F-4335-8178-E55B16EF9AD4",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T15:43:10-05:00",
+    "alignment_index": 25687
+}

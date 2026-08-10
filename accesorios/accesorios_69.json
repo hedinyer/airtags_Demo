@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "c25aceb4b29043de16952062944209b123a7642aba3f2f5123970bea",
+    "skn": "7098ee76b8dbbdcd337536df3d63bcf7e6f38a47ee8fc4d9bb026a1c6d89e80f",
+    "sks": "138c4c84b7439bb299ed7cc94c2b2959c28f5af034e45db27302b3b439a97ce3",
+    "paired_at": "2026-01-09T17:03:55.192565+00:00",
+    "name": "iPhone",
+    "model": "iPhone11,8",
+    "identifier": "93A927D5-9742-48F2-BC4C-ADABDFCA1F72",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T03:53:28.009017-05:00",
+    "alignment_index": 20031
+}

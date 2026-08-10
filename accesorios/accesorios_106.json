@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "822b784e843ae986fcb61624e597acc9e6c0d7b2567180662e67e8b2",
+    "skn": "a01b044c4f5f87da7840b2e8db93d4b1b25d09129fda8c97f8797a92b84ba1fd",
+    "sks": "a8b1a9fade288006fbdc7f69e69fe3a9dd19e80bdbdc0872e89bc18f36d36813",
+    "paired_at": "2026-05-28T14:25:47.765613+00:00",
+    "name": "Test",
+    "model": "Card Pro",
+    "identifier": "A99C9919-B433-42E0-AF9E-2CD0A8EFD0FE",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T16:06:00-05:00",
+    "alignment_index": 6168
+}

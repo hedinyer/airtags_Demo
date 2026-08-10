@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "6cd42f5a00543f72a38256cf8643f9a2c116ffd9f6f94d36320054c9",
+    "skn": "f2ca75cc7ad85aa5f1d435b6076adedbb3aac6e84d3a2c56e5a9c987becc8492",
+    "sks": "36bbcdcbd9bead164c529c44de158a48b14fa12c8744bb766ddd5ed4731b6384",
+    "paired_at": "2026-03-12T21:45:27.942612+00:00",
+    "name": "DUM05I",
+    "model": "",
+    "identifier": "1102F0F4-BFAF-4CE0-8C80-0161DD2B9504",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T16:00:00-05:00",
+    "alignment_index": 14109
+}

@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "a3e68bb6b4ff3cf917fe078cd7e1cba0b0e9fd566be7bb6e661f5bd0",
+    "skn": "cf117d64555c47536e179708d51b0611830c5d1386c4819705a21afd7302a06e",
+    "sks": "ea59321e6e6bf3709f02b394609817f2279ee9593236a5a8f144f77b7daffd48",
+    "paired_at": "2026-04-14T20:24:10.633472+00:00",
+    "name": "DVF28I",
+    "model": "",
+    "identifier": "D9FBE70C-B731-44E5-AF5D-7645BFE2CA4D",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T15:44:30-05:00",
+    "alignment_index": 10978
+}

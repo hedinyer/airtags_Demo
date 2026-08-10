@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "eda6641be03a8409d4d960f3b25098dccc5f3d99973beb291285f716",
+    "skn": "498a267557a84ccaef48bff41a57b1af17ed7f776dbbff6e21ae5ece377d4995",
+    "sks": "7f4036b11a0f8ad2dd5fba9cd3ac87d82aa9df347345658571f42aa54fec34d6",
+    "paired_at": "2025-11-06T15:46:06.378616+00:00",
+    "name": "TST05H",
+    "model": "",
+    "identifier": "BC480A51-6A32-4332-8225-FCF1AFC465B8",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T16:06:40-05:00",
+    "alignment_index": 26228
+}

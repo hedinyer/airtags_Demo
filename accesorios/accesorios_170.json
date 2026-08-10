@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "cfd9aac33a8e89352ae8f6b773949f2a5ce221e878a4c383994a0cc3",
+    "skn": "2d967209ad48b8d13fb48b179c655f7fda2b36f641b8d36ecbc482539fa9b0d1",
+    "sks": "49d5590c8c2f0fe08c0d530fd247a3dacee0fabb47c24c76efe9442203b3c008",
+    "paired_at": "2026-02-23T13:49:22.375498+00:00",
+    "name": "ZQC06H",
+    "model": "",
+    "identifier": "0780841C-B256-47D9-8EA7-52D2B2E7B7C3",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T15:49:50-05:00",
+    "alignment_index": 15780
+}

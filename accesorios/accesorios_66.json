@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "80bea3b978f29c9a3f15359e2505b917fe409b3cf878d7d7c660d087",
+    "skn": "c2b45264e94261028794027cd9573b9974d25831c15d89eeaf67f36ee586c932",
+    "sks": "ec58731d6da3ee51f3e9d4a07cd90ddbd8c93b2dba547dac91bf0a8fb04e8fe0",
+    "paired_at": "2026-02-04T22:09:22.436995+00:00",
+    "name": "ZPX20H",
+    "model": "",
+    "identifier": "C01985CE-C289-4AEF-8539-EFE42DC28DD0",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T16:03:20-05:00",
+    "alignment_index": 17564
+}

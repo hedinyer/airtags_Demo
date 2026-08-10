@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "a3e13256868e1b1e4a94909c1b4b2cbe481b7b35b7e307861ceb53c2",
+    "skn": "49ed082134e00e9c3c3d48e29bc54d24f7e1ebd7b898b0c425dc126c8439e909",
+    "sks": "84496b8168fc8191418b0369a8b9514265563ef696761727199edd22c2d8a092",
+    "paired_at": "2026-03-14T12:58:49.238174+00:00",
+    "name": "DUJ46I",
+    "model": "",
+    "identifier": "18BFC854-4E4B-47B6-A922-DFEE0C65DCD5",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T16:08:30-05:00",
+    "alignment_index": 13952
+}

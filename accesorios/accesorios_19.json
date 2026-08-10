@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "f4dabfeb845268dd563292f8af73619c7f8eb54986bc6e67bcf822eb",
+    "skn": "0431157da0588bad3734a48bd5aa0d3e2ce82d10be2b8af9485627717b038cf7",
+    "sks": "d6223d84f8e7d4e470f25038a6ee09b6e214d691d49b28c5fb203fac45a0de72",
+    "paired_at": "2025-11-07T20:01:13.230754+00:00",
+    "name": "TST19H",
+    "model": "",
+    "identifier": "83F42A9F-38D4-4428-A6BE-9CD458CEF6F8",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T15:34:50-05:00",
+    "alignment_index": 26149
+}

@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "60747c773fc2d527293018376f0b560144ceb77907ae1fc7b41cbb41",
+    "skn": "bbfaf3eca0f178c8f52779688fcecd32ec5625d33d555831c466c5c2597d885c",
+    "sks": "b46877a21a3b03c061db527e58439b0b0175d3946173218e4f1211343a7b2fe4",
+    "paired_at": "2025-09-03T15:39:10.699319+00:00",
+    "name": "TIQ84H",
+    "model": "",
+    "identifier": "8AA3CDE2-B2F6-4657-9C87-DE767140D88A",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-06T15:58:20-05:00",
+    "alignment_index": 32447
+}
