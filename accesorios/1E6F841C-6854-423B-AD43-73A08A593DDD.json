@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "570737b8cd7641ff16051aff7e7e11ce80aa73e5c1e102b69671c31c",
+  "skn": "6e9e8f307c6004ac1559392c64c49e886165814d8ca93638aaa394d0980b66e7",
+  "sks": "fe3af7f75f96228a5ed9139bbd7dc32be7fbc1afb970ecc3462c4c7e22eb549c",
+  "paired_at": "2025-12-04T21:34:48.701776+00:00",
+  "name": "TTO56H",
+  "model": "",
+  "identifier": "1E6F841C-6854-423B-AD43-73A08A593DDD",
+  "alignment_date": "2025-12-06T18:40:56.661591+00:00",
+  "alignment_index": 181,
+  "icloud_account": "sp.bera@icloud.com",
+  "imported_at": "2026-08-10T21:20:24.384832+00:00",
+  "first_imported_at": "2026-08-10T21:20:24.384832+00:00"
+}

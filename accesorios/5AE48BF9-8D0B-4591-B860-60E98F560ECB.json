@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b877e1c613ae6c5e2f1871985e0779336213dfa6ef3829d67a5c3327",
+  "skn": "9306e49485a85be83c3cd13c0742d08fe93cb2fd6854c88faf65711a6f713cac",
+  "sks": "c26d12086794f1618305b677506d58f5f0ba22fa12feeefaed80be70d8124474",
+  "paired_at": "2025-12-04T14:02:32.106733+00:00",
+  "name": "TTL15H",
+  "model": "",
+  "identifier": "5AE48BF9-8D0B-4591-B860-60E98F560ECB",
+  "alignment_date": "2025-12-16T22:13:56+00:00",
+  "alignment_index": 1180,
+  "icloud_account": "sp.bera@icloud.com",
+  "imported_at": "2026-08-10T21:20:24.384832+00:00",
+  "first_imported_at": "2026-08-10T21:20:24.384832+00:00"
+}

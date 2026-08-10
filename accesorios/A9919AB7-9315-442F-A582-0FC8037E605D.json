@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "e29ed9bc490fb2245f442973c97cf2b459a0f45e5452104a426a5f8a",
+  "skn": "baf49827db4c8bb12f2d4454b4f73ff7cb123f88f08911a90c33043294fbc41f",
+  "sks": "08da24865f86f4037d4cb0f9ec4ddc7fb4b0785c07673d1217239aed31dc2ce1",
+  "paired_at": "2025-12-03T19:43:25.187494+00:00",
+  "name": "TTO80H",
+  "model": "",
+  "identifier": "A9919AB7-9315-442F-A582-0FC8037E605D",
+  "alignment_date": "2026-05-14T17:00:59.430503+00:00",
+  "alignment_index": 15543,
+  "icloud_account": "sp.bera@icloud.com",
+  "imported_at": "2026-08-10T21:20:24.384832+00:00",
+  "first_imported_at": "2026-08-10T21:20:24.384832+00:00"
+}

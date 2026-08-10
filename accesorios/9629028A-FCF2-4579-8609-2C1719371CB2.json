@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "c890ae46875db636d92a74f64aba13f1d8d39256b943816558d791c7",
+  "skn": "b0ac1302d44ffadf9ae724ea521e87c5585e27945365ac78ac42d50aaabbf4a5",
+  "sks": "fead9355f8bdf7d7e2989e5342450fa54d3c8cc7922d06222537e9f7c1e6dd96",
+  "paired_at": "2025-12-18T19:54:49.714691+00:00",
+  "name": "ZOT54H",
+  "model": "",
+  "identifier": "9629028A-FCF2-4579-8609-2C1719371CB2",
+  "alignment_date": "2026-03-26T18:52:47.936601+00:00",
+  "alignment_index": 9404,
+  "icloud_account": "sp.bera@icloud.com",
+  "imported_at": "2026-08-10T21:20:24.384832+00:00",
+  "first_imported_at": "2026-08-10T21:20:24.384832+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "bdff76cfd114e315f9425a09493fddb6b02f9cdd3168a73b88f923f7",
+  "skn": "e22d0cb409eeefa3bf369b724c1a2a6f21d23dc438f84ea7de840f09589d80ce",
+  "sks": "b5bda00bf9f6118206c3b775d2a27c25749222345f4ec4a63feeef73a8dfeeab",
+  "paired_at": "2025-12-04T21:39:12.443064+00:00",
+  "name": "TTL22H",
+  "model": "",
+  "identifier": "C808E8E6-E896-4E18-BE99-0B0EA5FC59C5",
+  "alignment_date": "2025-12-13T01:00:42+00:00",
+  "alignment_index": 771,
+  "icloud_account": "sp.bera@icloud.com",
+  "imported_at": "2026-08-10T21:20:24.384832+00:00",
+  "first_imported_at": "2026-08-10T21:20:24.384832+00:00"
+}

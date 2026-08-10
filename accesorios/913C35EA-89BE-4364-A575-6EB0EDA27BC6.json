@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "3fbcfad42cc92caa8c1cb97f06ed12071c3b7420293b60e5caec0ee9",
+  "skn": "4f1692b8b495c0e2b56049fab6f0cb3d3afe34af6aca74693b173163ef4af061",
+  "sks": "307b0377afb49c1a1258f9725b4c4dc5e51f1dbd5202a38f535d310d27ee5ba3",
+  "paired_at": "2025-12-03T20:00:37.902464+00:00",
+  "name": "TTL13H",
+  "model": "",
+  "identifier": "913C35EA-89BE-4364-A575-6EB0EDA27BC6",
+  "alignment_date": "2025-12-04T15:46:48.491132+00:00",
+  "alignment_index": 80,
+  "icloud_account": "sp.bera@icloud.com",
+  "imported_at": "2026-08-10T21:20:24.384832+00:00",
+  "first_imported_at": "2026-08-10T21:20:24.384832+00:00"
+}

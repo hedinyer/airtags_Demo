@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "32b3c01e3d9270354411bbf0fdf05263e270700260125a5aab367bac",
+  "skn": "46cdb4b6ff882427f9a15de08c4d47d65d5ea4cefba704011fe6fda95533c171",
+  "sks": "3e10f462f7ec18ba5cc70e2cdb1479f05f2353cc858f49fc44ada2ddadbd0c17",
+  "paired_at": "2025-12-04T21:46:49.846808+00:00",
+  "name": "TTL17H",
+  "model": "",
+  "identifier": "28032BB5-E5B2-4370-A8AE-3BA22D4BCFA6",
+  "alignment_date": "2025-12-10T14:30:17.164768+00:00",
+  "alignment_index": 548,
+  "icloud_account": "sp.bera@icloud.com",
+  "imported_at": "2026-08-10T21:20:24.384832+00:00",
+  "first_imported_at": "2026-08-10T21:20:24.384832+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "9734859aaf90decc816bdd26fd9df6971c8fb589b892126887a42713",
+  "skn": "323ab9a1a68b53ab1183f77a01c3da79ebf9766f1be03c2a30b56e45ec27033a",
+  "sks": "80463f24791ffce2cc18f6e06a8238c221cccddd6301906b484a9017b15a690a",
+  "paired_at": "2025-12-18T20:10:17.717080+00:00",
+  "name": "ZOK51H",
+  "model": "",
+  "identifier": "7EEFF95E-2195-4991-8572-69935738B94D",
+  "alignment_date": "2025-12-20T18:21:22.931210+00:00",
+  "alignment_index": 186,
+  "icloud_account": "sp.bera@icloud.com",
+  "imported_at": "2026-08-10T21:20:24.384832+00:00",
+  "first_imported_at": "2026-08-10T21:20:24.384832+00:00"
+}

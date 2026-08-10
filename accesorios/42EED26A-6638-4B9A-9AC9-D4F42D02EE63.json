@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "4fe727dd96f6bbf059c09b6a4674eda7c5bc0939f194bacc71d63143",
+  "skn": "c37c62f66d57177719afd314faa8ca639b24a9ef754a0d004f3628c63cc2f612",
+  "sks": "750a02cc0a95f0151ecb62c0279a2219f505ab09627dc2ac8fcaf2ebd2c3fd6f",
+  "paired_at": "2025-12-17T16:01:55.694715+00:00",
+  "name": "Zok36h",
+  "model": "",
+  "identifier": "42EED26A-6638-4B9A-9AC9-D4F42D02EE63",
+  "alignment_date": "2026-05-14T17:00:33.449743+00:00",
+  "alignment_index": 14129,
+  "icloud_account": "sp.bera@icloud.com",
+  "imported_at": "2026-08-10T21:20:24.384832+00:00",
+  "first_imported_at": "2026-08-10T21:20:24.384832+00:00"
+}

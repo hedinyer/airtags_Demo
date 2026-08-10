@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "978629da257a4e862ba6afc706f90d7f7b9e6eb74ce66b227662958a",
+  "skn": "41bea1a67e789e976458ec9001675189e2efe9ab361177f31184401a2fc00cac",
+  "sks": "8301fe5ccd6c0936a7d4db2f527a3e36c6457740abc721fdb04713fcd5b4d25c",
+  "paired_at": "2025-12-04T21:43:46.684123+00:00",
+  "name": "TTL26H",
+  "model": "",
+  "identifier": "6034573E-4480-4D0C-9F5E-697DC8146AF6",
+  "alignment_date": "2025-12-12T22:34:38.071782+00:00",
+  "alignment_index": 773,
+  "icloud_account": "sp.bera@icloud.com",
+  "imported_at": "2026-08-10T21:20:24.384832+00:00",
+  "first_imported_at": "2026-08-10T21:20:24.384832+00:00"
+}

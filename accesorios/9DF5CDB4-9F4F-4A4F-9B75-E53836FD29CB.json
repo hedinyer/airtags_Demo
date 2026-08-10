@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "ff5bc2455eb9ee71521b364ed61bd690e5d1b3581cb84c3e0d457636",
+  "skn": "b0ac4a46a8923c2b4a750027c22fa98c388a7910a282f1e03205422f0dd272a4",
+  "sks": "03549d898474833c627fe6bf4121402f9a77613b771bc2acd994a97c3b875954",
+  "paired_at": "2025-12-04T21:41:49.581310+00:00",
+  "name": "TTL20H",
+  "model": "",
+  "identifier": "9DF5CDB4-9F4F-4A4F-9B75-E53836FD29CB",
+  "alignment_date": "2025-12-09T21:15:06.979643+00:00",
+  "alignment_index": 480,
+  "icloud_account": "sp.bera@icloud.com",
+  "imported_at": "2026-08-10T21:20:24.384832+00:00",
+  "first_imported_at": "2026-08-10T21:20:24.384832+00:00"
+}

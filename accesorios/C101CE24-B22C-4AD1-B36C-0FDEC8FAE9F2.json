@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "a8d5103660ab5db0a7bb896c415d1a1497c43a05c742ae6389319882",
+  "skn": "ba9f038959bce30d13388c4a80d7e68bd72a7cc46e27bb4a5e756f958dfc8946",
+  "sks": "66755a53a901769156dd01d9885687009ee64ac3d9da1af1bbbb16b4d39450ea",
+  "paired_at": "2025-12-04T21:40:30.423560+00:00",
+  "name": "TTL14H",
+  "model": "",
+  "identifier": "C101CE24-B22C-4AD1-B36C-0FDEC8FAE9F2",
+  "alignment_date": "2025-12-10T21:35:21.807395+00:00",
+  "alignment_index": 574,
+  "icloud_account": "sp.bera@icloud.com",
+  "imported_at": "2026-08-10T21:20:24.384832+00:00",
+  "first_imported_at": "2026-08-10T21:20:24.384832+00:00"
+}

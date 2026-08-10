@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "bbdea90e3a7be293e1e0a42acd843a483e71bc479cd2952c2b17f888",
+  "skn": "cf3a1a5001b7916ab6ce1dfc730dbc9cd486aeead989f790fd97b8ac5640d26f",
+  "sks": "37696742ec57b15cb40f0638f799cb8710fdc96542dc33f21b7218993fa379f8",
+  "paired_at": "2025-12-04T21:36:32.559181+00:00",
+  "name": "TTL21H",
+  "model": "",
+  "identifier": "14ABAE1F-C628-4590-AF62-5F6E56FC4293",
+  "alignment_date": "2025-12-10T17:15:10.445892+00:00",
+  "alignment_index": 560,
+  "icloud_account": "sp.bera@icloud.com",
+  "imported_at": "2026-08-10T21:20:24.384832+00:00",
+  "first_imported_at": "2026-08-10T21:20:24.384832+00:00"
+}

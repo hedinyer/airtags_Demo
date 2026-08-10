@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "00112d2641a18df77152704775975ff986cfe5ce7d79dc154005209a",
+  "skn": "dfd8d4e1c25cd7ff9a3f8c24f2a0cf3836bd9f8adb2192628e4757a087d1da41",
+  "sks": "fbf5c72286bedbe58c8a311102c076c1f6c8ff838f98abe5843df5a6c93e339f",
+  "paired_at": "2025-12-12T13:33:37.571263+00:00",
+  "name": null,
+  "model": "iPhone13,1",
+  "identifier": "F9BB294C-51BD-4DC1-A9CF-05D22C8F1A1F",
+  "alignment_date": "2025-12-12T13:33:47.525240+00:00",
+  "alignment_index": 1,
+  "icloud_account": "sp.bera@icloud.com",
+  "imported_at": "2026-08-10T21:20:24.384832+00:00",
+  "first_imported_at": "2026-08-10T21:20:24.384832+00:00"
+}

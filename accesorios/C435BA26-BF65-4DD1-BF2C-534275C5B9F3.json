@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "c1725531a1c717e8aac5ed2023468d749ce0aaf301925f979241cffe",
+  "skn": "27852e15560b8725658c661586a61fc943cec6c6848b412609ce767fa838f6c6",
+  "sks": "0851a9a7113cbb6b53eaaa342f6b9b91257136dd07b961e2e07f34398e5ebc70",
+  "paired_at": "2025-12-18T19:55:35.415857+00:00",
+  "name": "ZOT51H",
+  "model": "",
+  "identifier": "C435BA26-BF65-4DD1-BF2C-534275C5B9F3",
+  "alignment_date": "2025-12-27T07:00:37.907679+00:00",
+  "alignment_index": 814,
+  "icloud_account": "sp.bera@icloud.com",
+  "imported_at": "2026-08-10T21:20:24.384832+00:00",
+  "first_imported_at": "2026-08-10T21:20:24.384832+00:00"
+}

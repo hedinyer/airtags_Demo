@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "55a5e413dbb168f9dafe9b195e1d01fe0d9ab6ff6558a6cff5636fce",
+  "skn": "bb17d7903dea9ef2254472055ac313e9b4d29bdc12ebb2202aa4103a1a032c30",
+  "sks": "a6c8edfff753f9de8fa0a65ef5033c9d82b87483293e10b620d1a83a07b58dbc",
+  "paired_at": "2025-12-13T14:21:51.826041+00:00",
+  "name": "TTN11H",
+  "model": "",
+  "identifier": "2E8D8A8D-5E87-4D91-BD36-485B5C5AEDA8",
+  "alignment_date": "2026-02-13T20:45:06.952065+00:00",
+  "alignment_index": 5979,
+  "icloud_account": "sp.bera@icloud.com",
+  "imported_at": "2026-08-10T21:20:24.384832+00:00",
+  "first_imported_at": "2026-08-10T21:20:24.384832+00:00"
+}

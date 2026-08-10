@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "00504468af851297ac4f8657399cead49c5a3f503d6ce965a5c711d7",
+  "skn": "bf88933b3b48e77fd3d75451bebeca550f75d2558e22e25422e4a354f1390dcf",
+  "sks": "b64f3e21be01a7d4bf76a2cd674b1697ae3a4c47114134309d6c5ea93391e369",
+  "paired_at": "2025-12-18T20:02:04.488524+00:00",
+  "name": "ZOK32H",
+  "model": "",
+  "identifier": "B69D088D-B70E-4D40-9CDD-B5754261A34F",
+  "alignment_date": "2025-12-27T07:00:06.494457+00:00",
+  "alignment_index": 815,
+  "icloud_account": "sp.bera@icloud.com",
+  "imported_at": "2026-08-10T21:20:24.384832+00:00",
+  "first_imported_at": "2026-08-10T21:20:24.384832+00:00"
+}

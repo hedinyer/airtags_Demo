@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "1375d73824c197d0da50d12128511c118f12eab66e601bd509a6031f",
+  "skn": "07dc9e47307b1a2a61aec20583a72b02ecf06d3b53191784341a735686a965fa",
+  "sks": "11314ee8e9ca10e10ae1bcdb4b54df4cdc69bf637cd63edad7a0d6bf1feb73d7",
+  "paired_at": "2025-12-04T21:42:48.441766+00:00",
+  "name": "TTO81H",
+  "model": "",
+  "identifier": "205C9F3E-E456-4F40-A62D-4867575BC1D1",
+  "alignment_date": "2026-03-16T22:30:08.798075+00:00",
+  "alignment_index": 9797,
+  "icloud_account": "sp.bera@icloud.com",
+  "imported_at": "2026-08-10T21:20:24.384832+00:00",
+  "first_imported_at": "2026-08-10T21:20:24.384832+00:00"
+}

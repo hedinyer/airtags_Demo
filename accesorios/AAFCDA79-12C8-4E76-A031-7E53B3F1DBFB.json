@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "0a8a4763fc3fab6f21dfd8cdd2dbdabaeca3adfc82bbae6682a6c4bf",
+  "skn": "ec08fb07fba324682e49b7cf720172dd814eb4b7704b48cda503603453df0bf7",
+  "sks": "2bccfe59cc5a07be9fe663d30771516489167612f048d082dd0267ed66485ad9",
+  "paired_at": "2025-12-03T20:01:45.233776+00:00",
+  "name": "TTL23H",
+  "model": "",
+  "identifier": "AAFCDA79-12C8-4E76-A031-7E53B3F1DBFB",
+  "alignment_date": "2025-12-04T20:10:17+00:00",
+  "alignment_index": 96,
+  "icloud_account": "sp.bera@icloud.com",
+  "imported_at": "2026-08-10T21:20:24.384832+00:00",
+  "first_imported_at": "2026-08-10T21:20:24.384832+00:00"
+}

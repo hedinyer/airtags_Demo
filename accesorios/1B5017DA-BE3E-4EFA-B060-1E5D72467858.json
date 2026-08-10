@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "ef5009e7f456f2a671da30e4e28a2cca83042489cd9ddc64587b7b1a",
+  "skn": "e1e6db448e3cd416c43f202f3d6e4eea54b6f9efeb40aa66807c589aa3c1476f",
+  "sks": "4f4ecd0aa837a40f9ec1463a6c427869cc552cb00df7176eb931b1b71bae8572",
+  "paired_at": "2025-12-18T19:57:45.977262+00:00",
+  "name": "ZOT50H",
+  "model": "",
+  "identifier": "1B5017DA-BE3E-4EFA-B060-1E5D72467858",
+  "alignment_date": "2026-03-26T18:53:01.344727+00:00",
+  "alignment_index": 9405,
+  "icloud_account": "sp.bera@icloud.com",
+  "imported_at": "2026-08-10T21:20:24.384832+00:00",
+  "first_imported_at": "2026-08-10T21:20:24.384832+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d6cd7ff0194af32e11636d41afe3feb751709371c2a1729db850cf71",
+  "skn": "68373611fd28dafcd9c5f8145a7158da7acbf92254a24e2bda6c17501fae3e91",
+  "sks": "fa58c693188351c6fafcf5f7be2195d7358f9f9caa416c5b3082f3f66ff83f67",
+  "paired_at": "2025-12-04T21:45:17.522535+00:00",
+  "name": "TTL18H",
+  "model": "",
+  "identifier": "4536D0CC-3A64-446A-8661-8393E3F6771D",
+  "alignment_date": "2025-12-13T16:15:26.314021+00:00",
+  "alignment_index": 842,
+  "icloud_account": "sp.bera@icloud.com",
+  "imported_at": "2026-08-10T21:20:24.384832+00:00",
+  "first_imported_at": "2026-08-10T21:20:24.384832+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "061a14d3e6141549df1839f6ee1da4e57e2c786179677bcc41cdf6bb",
+  "skn": "182ddba3d23a410684cf4b8f1503388c2f0c55877e5797b0e058f979e0980652",
+  "sks": "60a51005a17222a9d27fcc1f4f76028dc2dde834eeed0c58d5e08f750c7d6b7f",
+  "paired_at": "2025-12-19T21:59:04.365217+00:00",
+  "name": "ZOK34H",
+  "model": "",
+  "identifier": "3FA28E00-BC87-47D1-A370-E50CEC74401E",
+  "alignment_date": "2026-04-07T19:28:40+00:00",
+  "alignment_index": 10432,
+  "icloud_account": "sp.bera@icloud.com",
+  "imported_at": "2026-08-10T21:20:24.384832+00:00",
+  "first_imported_at": "2026-08-10T21:20:24.384832+00:00"
+}
