@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "11e58002cce9fcf1af9b3f75d1c4da7d7dbbc53126d9fffe00321213",
+  "skn": "1f93ea04c7ebd71c0d5938a1cc213d09d64a98302eb85618fee271e4e6dc0641",
+  "sks": "b2320d07b9cc879fdf247251a721e22273b7fdf2bb3d1babe0e0169f49a79527",
+  "paired_at": "2025-11-24T20:41:22.156468+00:00",
+  "name": "DJC45H",
+  "model": "",
+  "identifier": "634D690F-11D1-496F-A774-B99C73C6FF5A",
+  "alignment_date": "2026-03-11T05:16:12+00:00",
+  "alignment_index": 9914,
+  "icloud_account": "spybera@icloud.com",
+  "imported_at": "2026-08-10T19:51:20.024098+00:00",
+  "first_imported_at": "2026-08-10T19:51:20.024098+00:00"
+}

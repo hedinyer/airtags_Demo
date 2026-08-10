@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "76cac4a02955308ebe96e8083d0dc576db20b3053539e023e1463a18",
+  "skn": "7e4e2fd4e85cd6e3c14c7066dac8cc3b5195919eac188656b25680e22848603c",
+  "sks": "705118af374d82d4caf86b15a023912fda5136e30e67ff9aa3d70dba9f4fb118",
+  "paired_at": "2025-12-10T14:14:03.510979+00:00",
+  "name": "TTO92",
+  "model": "",
+  "identifier": "D5FC933E-DEB7-4186-A1F8-C974E112162B",
+  "alignment_date": "2026-08-06T16:08:20+00:00",
+  "alignment_index": 22953,
+  "icloud_account": "spybera@icloud.com",
+  "imported_at": "2026-08-10T19:51:20.024098+00:00",
+  "first_imported_at": "2026-08-10T19:51:20.024098+00:00"
+}

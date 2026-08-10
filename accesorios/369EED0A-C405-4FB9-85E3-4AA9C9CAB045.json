@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "0f44d51514e359d466fd8dd7db6b5ef878e9af7286c187f04f1249e1",
+  "skn": "3fbb3fe4c3fbf315e3465dc2d09d76887f91de325964b315e0dfd3aac8878418",
+  "sks": "fab98b66699f6474c268a80004d547e9c849944cd2ff404cbbd6bec93ab401b3",
+  "paired_at": "2025-11-26T17:59:57.878539+00:00",
+  "name": "MCY93H",
+  "model": "",
+  "identifier": "369EED0A-C405-4FB9-85E3-4AA9C9CAB045",
+  "alignment_date": "2026-08-06T10:56:10+00:00",
+  "alignment_index": 24262,
+  "icloud_account": "spybera@icloud.com",
+  "imported_at": "2026-08-10T19:51:20.024098+00:00",
+  "first_imported_at": "2026-08-10T19:51:20.024098+00:00"
+}

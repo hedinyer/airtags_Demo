@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "c2f7269c442585fe9bcc71900086f9858b77ffaaaec723e7288675fd",
+  "skn": "b8c78433db0485fc9b7f2957781a1a9b15e3adeccca69db0e9e053358f43f06a",
+  "sks": "f368868ea1cb0c8a591df5f2db98d709acf2a4cbebdd2d41420068acd7348108",
+  "paired_at": "2025-12-02T15:47:04.954793+00:00",
+  "name": "TTD69H",
+  "model": "",
+  "identifier": "1BB09FDD-723F-4C81-A3BE-786DE3A94AB6",
+  "alignment_date": "2026-07-16T16:32:50+00:00",
+  "alignment_index": 21700,
+  "icloud_account": "spybera@icloud.com",
+  "imported_at": "2026-08-10T19:51:20.024098+00:00",
+  "first_imported_at": "2026-08-10T19:51:20.024098+00:00"
+}

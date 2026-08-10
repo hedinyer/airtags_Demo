@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b4f8aa8c9df53885230e2ee05c4a6fd476d704801da9856c56c3f7fe",
+  "skn": "76c5638afb3d8f1dbe78355d83f70fd29452fe29d8ee5d9b7e3132c395f50668",
+  "sks": "3651ead2b6b74070e06375d601a7090f9b0dcac2b335dae55080d475f14dcbc5",
+  "paired_at": "2025-12-01T16:50:33.238671+00:00",
+  "name": "TTJ62H",
+  "model": "",
+  "identifier": "4425F686-C6BD-405D-903C-2FD6E2D1E81E",
+  "alignment_date": "2026-08-06T16:03:00+00:00",
+  "alignment_index": 23806,
+  "icloud_account": "spybera@icloud.com",
+  "imported_at": "2026-08-10T19:51:20.024098+00:00",
+  "first_imported_at": "2026-08-10T19:51:20.024098+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b8711873418abe8af9723db840b691151b102cfb7be5f2d6e0078bc4",
+  "skn": "0b0d461bce3e3f348c78eb08d6c4e7fda432dd05a4109900636f6aeb05c001b0",
+  "sks": "e9ba7f6bb7d5ad013bafc79202c9a2d1dc032c367412b6d50c461ae88d1a38ae",
+  "paired_at": "2025-11-25T18:27:09.782620+00:00",
+  "name": "TTG60H",
+  "model": "",
+  "identifier": "80AC7FE7-5BD6-4F3E-BE48-E8F03BD66545",
+  "alignment_date": "2026-08-06T16:45:00+00:00",
+  "alignment_index": 24378,
+  "icloud_account": "spybera@icloud.com",
+  "imported_at": "2026-08-10T19:51:20.024098+00:00",
+  "first_imported_at": "2026-08-10T19:51:20.024098+00:00"
+}

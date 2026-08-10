@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "8f0080314954ef8ace0a3a5af298a42e6ffcc1ef160a5963330c302d",
+  "skn": "eaab82c1910f18c44cc2eb21627664b5d4b26061590371ab759c322e371eb362",
+  "sks": "c7e5ad9f271e12e9bf2dba6a3eb41b1dd6f954dbd9d6d11e6c3b3ef9ae2e39f4",
+  "paired_at": "2025-11-19T21:18:26.057396+00:00",
+  "name": "TSY80H",
+  "model": "",
+  "identifier": "057AFE29-E671-44D2-9E7B-6A9DF93442EB",
+  "alignment_date": "2026-08-06T16:47:10+00:00",
+  "alignment_index": 24943,
+  "icloud_account": "spybera@icloud.com",
+  "imported_at": "2026-08-10T19:51:20.024098+00:00",
+  "first_imported_at": "2026-08-10T19:51:20.024098+00:00"
+}

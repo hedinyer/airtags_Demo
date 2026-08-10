@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d9ae23d57ce4aafa2edb31c8165e601ed27f75cfd997015ef5e00912",
+  "skn": "59f329387bf612ff3dfe0070cc3c65fa60b4454d9791517860d86faece1f26bc",
+  "sks": "5fc6108f5585f196d334e85b1466c7feb9ef65532ac0320a146937beb3f44ba0",
+  "paired_at": "2025-12-04T15:17:04.672133+00:00",
+  "name": "TSY93H",
+  "model": "",
+  "identifier": "EBAB21B1-83F9-4432-A082-DB7CEABDF117",
+  "alignment_date": "2026-07-03T23:06:40+00:00",
+  "alignment_index": 20287,
+  "icloud_account": "spybera@icloud.com",
+  "imported_at": "2026-08-10T19:51:20.024098+00:00",
+  "first_imported_at": "2026-08-10T19:51:20.024098+00:00"
+}

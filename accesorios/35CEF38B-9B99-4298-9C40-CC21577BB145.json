@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "af5245c89e20eec84c435370f9476399475a6f7ae732d643934ca555",
+  "skn": "bff34fbb86d5d9ebb02c7198739f828de38ed037b93a387e04cd83f0e21ea387",
+  "sks": "0482cad2ddba9eb50d9ab301cb2de71ed2e2969efcce6a2356d9503f0067447f",
+  "paired_at": "2025-12-05T16:23:17.723831+00:00",
+  "name": "TIR90H Real",
+  "model": "",
+  "identifier": "35CEF38B-9B99-4298-9C40-CC21577BB145",
+  "alignment_date": "2026-08-05T19:23:40+00:00",
+  "alignment_index": 23341,
+  "icloud_account": "spybera@icloud.com",
+  "imported_at": "2026-08-10T19:51:20.024098+00:00",
+  "first_imported_at": "2026-08-10T19:51:20.024098+00:00"
+}
