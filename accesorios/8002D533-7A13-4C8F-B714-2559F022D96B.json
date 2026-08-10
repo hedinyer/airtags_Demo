@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "896c538167579eaa89abbc06d78bd1aa8db77917ef5cebef9355b2df",
+  "skn": "879491c692b207ecefe321f7dbb613ecb46f3746ac662518794067ce8ae1fd9e",
+  "sks": "83b41080bdeeeec70af3fd4b1a6987dafb7e442beda3184db6880b5e37fe4d1d",
+  "paired_at": "2025-10-07T17:11:00.428211+00:00",
+  "name": "TSC21H",
+  "model": "",
+  "identifier": "8002D533-7A13-4C8F-B714-2559F022D96B",
+  "alignment_date": "2026-04-04T19:15:20+00:00",
+  "alignment_index": 17194,
+  "icloud_account": "pedrinchy49@gmail.com",
+  "imported_at": "2026-08-10T16:49:31.378267+00:00",
+  "first_imported_at": "2026-08-10T16:49:31.378267+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "a6b8b33ea60eabdbaeddca1be4250033854a3e14ec4e1521c656a08f",
+  "skn": "47979a2caf2f144310d7e352a0151d9e4bb5cf885af309aa32f715599e0a5c14",
+  "sks": "90378ac81fe5860be625ef183af8ab42af5fa3181a881b52211c6873506b710d",
+  "paired_at": "2025-10-07T17:10:17.225276+00:00",
+  "name": "TSC64H",
+  "model": "",
+  "identifier": "3E92F7A3-903B-4CFC-94E0-750F12E591D7",
+  "alignment_date": "2026-07-29T00:47:20+00:00",
+  "alignment_index": 28256,
+  "icloud_account": "pedrinchy49@gmail.com",
+  "imported_at": "2026-08-10T16:49:31.378267+00:00",
+  "first_imported_at": "2026-08-10T16:49:31.378267+00:00"
+}

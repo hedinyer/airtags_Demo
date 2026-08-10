@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "12e587ae3cb5eb6cc8221451ccc7474d148e4ab86ba182cfd7acdd43",
+  "skn": "bc839ffcd3b5be4cc051b47f1ebcf60512d40bb52ca7fb59aa1502da909ce8ec",
+  "sks": "a5e59cd792a1249a505e5d90e5d95f86f2dfdc010417e9d7f47e0151a0406fc7",
+  "paired_at": "2025-10-21T22:37:04.125114+00:00",
+  "name": "TSK49H",
+  "model": "",
+  "identifier": "A96FDB1C-E000-40F6-BDCF-6794208B3C25",
+  "alignment_date": "2026-08-06T16:50:07.291000+00:00",
+  "alignment_index": 27722,
+  "icloud_account": "pedrinchy49@gmail.com",
+  "imported_at": "2026-08-10T16:49:31.378267+00:00",
+  "first_imported_at": "2026-08-10T16:49:31.378267+00:00"
+}

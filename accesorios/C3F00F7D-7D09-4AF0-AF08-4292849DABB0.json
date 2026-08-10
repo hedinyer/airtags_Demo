@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "32e2f66d622505fafd5b46a8452e487240618a3cc4b34211372a7d1c",
+  "skn": "bac83d7028a3d00d78d93b5b81824daea7db1b28183efeddcc88eccbc61d984a",
+  "sks": "a1e4c59e485dddd2e87c01136ce2dedd0218334e3d6123dd0e4bf32f9f12328c",
+  "paired_at": "2025-10-08T18:30:10.154374+00:00",
+  "name": "TSC67H",
+  "model": "",
+  "identifier": "C3F00F7D-7D09-4AF0-AF08-4292849DABB0",
+  "alignment_date": "2026-07-29T02:00:30+00:00",
+  "alignment_index": 28159,
+  "icloud_account": "pedrinchy49@gmail.com",
+  "imported_at": "2026-08-10T16:49:31.378267+00:00",
+  "first_imported_at": "2026-08-10T16:49:31.378267+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "03f331a31babfae1bc9108bc670043b95a0998ffbc9d149ffa8bfecc",
+  "skn": "c82cac0896d6c70d320b0cb475616d197fb3bb67ef923437a3ea3bda58fab044",
+  "sks": "1938f2c394ba2213e8e9c0ab911fba78540661b5162095a6dbf74a5ea527ce08",
+  "paired_at": "2025-10-17T22:28:52.836867+00:00",
+  "name": "Tsd09h",
+  "model": "",
+  "identifier": "E45140AF-4A34-4556-9D75-E0EC97BBDFF7",
+  "alignment_date": "2026-07-29T01:42:30+00:00",
+  "alignment_index": 27279,
+  "icloud_account": "pedrinchy49@gmail.com",
+  "imported_at": "2026-08-10T16:49:31.378267+00:00",
+  "first_imported_at": "2026-08-10T16:49:31.378267+00:00"
+}

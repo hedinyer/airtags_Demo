@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "acd6c6a5db8be242d0f5ff2d9610f6541469edefa2d55d262cc6c2fb",
+  "skn": "c08b2d9fa230646b696752fb7b5efdc30ea152523d0f5fbb9d4751d013cd7276",
+  "sks": "dcf53cb681e43965216b302d97c56185f38a95a6c09f7636e2e7c9aa3a49532b",
+  "paired_at": "2025-10-07T17:11:53.436417+00:00",
+  "name": "TSC63H",
+  "model": "",
+  "identifier": "09ABA6E2-B2D4-41E6-9132-9FE6CAE8B0DC",
+  "alignment_date": "2026-07-29T01:55:50+00:00",
+  "alignment_index": 28261,
+  "icloud_account": "pedrinchy49@gmail.com",
+  "imported_at": "2026-08-10T16:49:31.378267+00:00",
+  "first_imported_at": "2026-08-10T16:49:31.378267+00:00"
+}

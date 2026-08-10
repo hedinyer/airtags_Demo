@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "a960ee77ac12f4a772530138a590993e4a7fe73f8877acfd5d2aff58",
+  "skn": "f5be641c1ff491e2839fbdb41ae5072f1c357e9a443a67d4f05624db57842b29",
+  "sks": "d488478c514bae0bdb7c536e91911d7fa6c1a2e1daebc3bd7efada39fd14167d",
+  "paired_at": "2025-10-08T23:04:56.112417+00:00",
+  "name": "TSC62H",
+  "model": "",
+  "identifier": "7F4CDC1D-5276-4D25-8D8C-6621DA91C474",
+  "alignment_date": "2026-03-26T16:18:20+00:00",
+  "alignment_index": 16198,
+  "icloud_account": "pedrinchy49@gmail.com",
+  "imported_at": "2026-08-10T16:49:31.378267+00:00",
+  "first_imported_at": "2026-08-10T16:49:31.378267+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "f1c0e397814caf90a3b773e6e1acc94f8acd3184b1e144ee4e43a976",
+  "skn": "b81f3ef0201786948d6ca66cf0009fc95d65ecf84ceab5ceff177f01fd54752f",
+  "sks": "f5b942ea54fc280ad0f230ee4640ba39fce9251da9daac33a89577c594075944",
+  "paired_at": "2025-10-07T17:08:32.530942+00:00",
+  "name": "TSC22H",
+  "model": "",
+  "identifier": "36E5D659-B112-4FAE-80CB-BF735325497B",
+  "alignment_date": "2026-07-29T00:25:20+00:00",
+  "alignment_index": 28252,
+  "icloud_account": "pedrinchy49@gmail.com",
+  "imported_at": "2026-08-10T16:49:31.378267+00:00",
+  "first_imported_at": "2026-08-10T16:49:31.378267+00:00"
+}

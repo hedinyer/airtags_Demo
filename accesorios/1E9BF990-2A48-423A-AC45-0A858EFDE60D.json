@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "f7bc1edaaf526027b814b177e43d7a095b603546abd63ebb277b890a",
+  "skn": "3f1eac79a09d0ade058082c9a62e2fa516f5dc7481c146ac76c191d0b78fe60a",
+  "sks": "e9954e309d13d56869ca7f0119db4b388d00dcaffa2e1685812cc189f8bd046d",
+  "paired_at": "2025-10-08T23:06:45.849828+00:00",
+  "name": "TSF63H",
+  "model": "",
+  "identifier": "1E9BF990-2A48-423A-AC45-0A858EFDE60D",
+  "alignment_date": "2026-07-29T01:56:20+00:00",
+  "alignment_index": 28140,
+  "icloud_account": "pedrinchy49@gmail.com",
+  "imported_at": "2026-08-10T16:49:31.378267+00:00",
+  "first_imported_at": "2026-08-10T16:49:31.378267+00:00"
+}

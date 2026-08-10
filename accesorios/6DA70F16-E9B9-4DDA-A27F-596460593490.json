@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "bef4c78b8b359aaa2eb36c9f525b7a11e49be73a17f0e3a3fcdb6508",
+  "skn": "51d78224580a9223cdf29885f8d8333bedb434b2b043d4501a0c5949f5202678",
+  "sks": "91fc135595914f0f38e4a563d6da69e06f72249d6389488437edd2dd602898bb",
+  "paired_at": "2025-10-08T22:16:48.150042+00:00",
+  "name": "TSF48H",
+  "model": "",
+  "identifier": "6DA70F16-E9B9-4DDA-A27F-596460593490",
+  "alignment_date": "2026-07-29T01:15:10+00:00",
+  "alignment_index": 28142,
+  "icloud_account": "pedrinchy49@gmail.com",
+  "imported_at": "2026-08-10T16:49:31.378267+00:00",
+  "first_imported_at": "2026-08-10T16:49:31.378267+00:00"
+}

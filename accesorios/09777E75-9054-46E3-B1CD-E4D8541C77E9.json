@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "960922a89f354ed458769cd0735548440bfacc1d351f2548301906f1",
+  "skn": "3671b2178094ecbaac7a663480764a62e6b9e86e18b1c09df44ecc31e848185f",
+  "sks": "51f9972607da1599c05596b6951818b4ba2c6caae7fa08169e602bca1270150f",
+  "paired_at": "2025-10-07T17:09:27.935514+00:00",
+  "name": "TSC23H",
+  "model": "",
+  "identifier": "09777E75-9054-46E3-B1CD-E4D8541C77E9",
+  "alignment_date": "2026-08-04T21:15:58.242000+00:00",
+  "alignment_index": 28914,
+  "icloud_account": "pedrinchy49@gmail.com",
+  "imported_at": "2026-08-10T16:49:31.378267+00:00",
+  "first_imported_at": "2026-08-10T16:49:31.378267+00:00"
+}

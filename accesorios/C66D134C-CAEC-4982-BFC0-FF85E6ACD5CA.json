@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "0a4c06a80ba1a1679e53ee0c4bd38f7ea5cb8ea865a39521a5302420",
+  "skn": "929d00905b840972247fe95a949c0f123914592ce6d844827852df8d85aaaa38",
+  "sks": "d04d593b1d70fd10edbdf9c3b6f5adec819752d4972ca0c76df2a7bb47c92bd2",
+  "paired_at": "2025-10-21T22:11:29.050417+00:00",
+  "name": "TSO03H",
+  "model": "",
+  "identifier": "C66D134C-CAEC-4982-BFC0-FF85E6ACD5CA",
+  "alignment_date": "2026-08-05T17:15:00.010000+00:00",
+  "alignment_index": 27631,
+  "icloud_account": "pedrinchy49@gmail.com",
+  "imported_at": "2026-08-10T16:49:31.378267+00:00",
+  "first_imported_at": "2026-08-10T16:49:31.378267+00:00"
+}

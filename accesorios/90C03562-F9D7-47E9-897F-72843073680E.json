@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b24d09879ad14ce73faf19d46a20cdb1fcfb4a31805d1bd95f645e21",
+  "skn": "e8a08bcbb5a2e24defad4c48d3ef399283f7ac44ff49560f1a2dc47c1421061c",
+  "sks": "a74d150b6af5f88e278d0b28df0f03bd748fb7da55f73e6c881efe9ee9dbfd93",
+  "paired_at": "2025-10-08T23:08:07.660312+00:00",
+  "name": "Tsc71H",
+  "model": "",
+  "identifier": "90C03562-F9D7-47E9-897F-72843073680E",
+  "alignment_date": "2026-07-29T00:28:00+00:00",
+  "alignment_index": 28135,
+  "icloud_account": "pedrinchy49@gmail.com",
+  "imported_at": "2026-08-10T16:49:31.378267+00:00",
+  "first_imported_at": "2026-08-10T16:49:31.378267+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "93ddab4f9825cc8c3fa12e32a00926d88bbd7d8c7ea8c5ec6891590f",
+  "skn": "aec15e75952b81fc90403381d5c56e086d1405d183ab98490202654fd7d174e5",
+  "sks": "34b012474adb761cbafbf5eda3cb81bc8fe33381043914b387490ee5316c401b",
+  "paired_at": "2025-10-08T18:29:07.481384+00:00",
+  "name": "TSC65H",
+  "model": "",
+  "identifier": "854377BA-3479-43DB-8405-9822F5950FED",
+  "alignment_date": "2026-03-26T06:57:10+00:00",
+  "alignment_index": 16179,
+  "icloud_account": "pedrinchy49@gmail.com",
+  "imported_at": "2026-08-10T16:49:31.378267+00:00",
+  "first_imported_at": "2026-08-10T16:49:31.378267+00:00"
+}

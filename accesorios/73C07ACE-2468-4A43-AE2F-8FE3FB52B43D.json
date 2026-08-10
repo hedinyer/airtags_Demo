@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "5273b21abfadf0464c779aaa72be46b0dc3bcb1933b8fd8e4150b5e0",
+  "skn": "ed9739ad943e15a8f02c50810c32bdc29782d74df95caa426e40431bdf8f9f13",
+  "sks": "dd5a040486fa67bc46b56c7f7b43a7b1fd7ad047000b5fe7f58ed5228346042a",
+  "paired_at": "2025-10-07T18:04:59.535673+00:00",
+  "name": "TSC66H",
+  "model": "",
+  "identifier": "73C07ACE-2468-4A43-AE2F-8FE3FB52B43D",
+  "alignment_date": "2026-08-03T18:22:43.516000+00:00",
+  "alignment_index": 28802,
+  "icloud_account": "pedrinchy49@gmail.com",
+  "imported_at": "2026-08-10T16:49:31.378267+00:00",
+  "first_imported_at": "2026-08-10T16:49:31.378267+00:00"
+}

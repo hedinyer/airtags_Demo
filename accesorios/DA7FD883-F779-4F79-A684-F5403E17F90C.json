@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b72c0ffd24a6f0ab0baf552c36e1290918dbc0050d45bcf657c05499",
+  "skn": "6e4a8742ae95f15cfa99e6d52a77cfacf20065b34e0250857675dd93a4d6a974",
+  "sks": "d57d5d681213b86e7297d8b50e4618b2628c34a350b2f545773955195912ae6b",
+  "paired_at": "2025-10-08T23:05:52.147460+00:00",
+  "name": "TSC38H",
+  "model": "",
+  "identifier": "DA7FD883-F779-4F79-A684-F5403E17F90C",
+  "alignment_date": "2026-03-02T06:01:52+00:00",
+  "alignment_index": 13368,
+  "icloud_account": "pedrinchy49@gmail.com",
+  "imported_at": "2026-08-10T16:49:31.378267+00:00",
+  "first_imported_at": "2026-08-10T16:49:31.378267+00:00"
+}
