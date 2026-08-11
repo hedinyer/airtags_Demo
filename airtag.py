@@ -142,14 +142,17 @@ def collect_locations(pairs: list[tuple[object, Path]], locations: dict) -> list
     for airtag, path in pairs:
         location = locations.get(airtag)
         name = get_airtag_name(airtag, path)
+        device_id = ""
+        if isinstance(airtag, FindMyAccessory) and airtag.identifier:
+            device_id = str(airtag.identifier)
+        base = {"name": name, "id": device_id, "found": False, "source": "offline"}
         if not location:
-            rows.append({"name": name, "found": False, "source": "offline"})
+            rows.append(base)
             continue
         rows.append(
             {
-                "name": name,
+                **base,
                 "found": True,
-                "source": "offline",
                 "latitude": location.latitude,
                 "longitude": location.longitude,
                 "battery": get_battery_level(location.status),
@@ -176,13 +179,16 @@ def _norm_name(name: str | None) -> str:
 
 
 def _device_key(row: dict) -> str:
-    """Clave estable para unificar el mismo dispositivo."""
+    """Clave estable por UUID; el nombre puede repetirse entre monedas."""
+    device_id = str(row.get("id") or "").strip()
+    if device_id:
+        return f"id:{device_id.lower()}"
     name = _norm_name(row.get("name"))
-    model = _norm_name(row.get("model"))
     if name:
         if len(name) >= 32 and name.count("-") >= 4:
             return f"uuid:{name}"
         return f"name:{name}"
+    model = _norm_name(row.get("model"))
     if model:
         return f"model:{model}"
     return f"anon:{id(row)}"
@@ -223,6 +229,20 @@ def keep_best_locations(previous: list[dict], fresh: list[dict]) -> list[dict]:
         consider(row)
     for row in fresh:
         consider(row)
+
+    # Si ya hay filas con UUID, descarta legado colapsado solo por nombre.
+    names_with_id = {
+        _norm_name(row.get("name"))
+        for row in best.values()
+        if str(row.get("id") or "").strip() and _norm_name(row.get("name"))
+    }
+    if names_with_id:
+        best = {
+            key: row
+            for key, row in best.items()
+            if str(row.get("id") or "").strip()
+            or _norm_name(row.get("name")) not in names_with_id
+        }
 
     rows = list(best.values())
     rows.sort(key=lambda r: (not r.get("found"), _norm_name(r.get("name"))))
@@ -589,7 +609,15 @@ def run_watch(
                     missing_pairs = [
                         (a, p)
                         for a, p in pairs
-                        if _device_key({"name": get_airtag_name(a, p)}) not in known_ok
+                        if _device_key(
+                            {
+                                "name": get_airtag_name(a, p),
+                                "id": str(a.identifier)
+                                if isinstance(a, FindMyAccessory) and a.identifier
+                                else "",
+                            }
+                        )
+                        not in known_ok
                     ]
                     if missing_pairs:
                         extra = fetch_offline(

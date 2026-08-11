@@ -387,16 +387,25 @@
       color: var(--ink-secondary);
     }
     .route-actions { display: flex; gap: 8px; flex-shrink: 0; }
-    .route-actions button {
+    .route-actions button,
+    .route-actions .maps {
       border: 0; border-radius: 12px;
       padding: 10px 14px; min-height: 40px;
       font: inherit; font-size: 0.85rem; font-weight: 600;
       cursor: pointer;
+      box-sizing: border-box;
     }
     .route-actions .share {
       background: var(--accent); color: white;
     }
+    .route-actions .maps {
+      display: none;
+      background: #1a73e8; color: white;
+      text-decoration: none;
+      align-items: center;
+    }
     .route-actions .share:focus-visible,
+    .route-actions .maps:focus-visible,
     .route-actions .close-route:focus-visible {
       outline: 2px solid var(--focus);
       outline-offset: 2px;
@@ -424,6 +433,7 @@
     }
     body.shared .route-actions .close-route { display: none; }
     body.shared #shareRouteBtn { display: none; }
+    body.shared .route-actions .maps { display: inline-flex; }
     @media (max-width: 719px) {
       :root {
         --sheet-width: min(300px, calc(100vw - 20px));
@@ -474,6 +484,7 @@
       <span class="muted" id="routeSeen" hidden></span>
     </p>
     <div class="route-actions">
+      <a class="maps" id="mapsRouteBtn" href="#" target="_blank" rel="noopener noreferrer">Google Maps</a>
       <button type="button" class="share" id="shareRouteBtn">Compartir</button>
       <button type="button" class="close-route" id="closeRouteBtn" aria-label="Cerrar ruta">Cerrar</button>
     </div>
@@ -520,6 +531,10 @@
 
     function placaFromUrl() {
       return SHARED_PLACA || (new URLSearchParams(location.search).get('placa') || '').trim();
+    }
+
+    function deviceKey(d) {
+      return (d && (d.id || d.name)) || '';
     }
 
     function updateSharedTimes(d) {
@@ -570,6 +585,19 @@
       return `${h} h ${m % 60} min`;
     }
 
+    function setMapsLink(d) {
+      const a = document.getElementById('mapsRouteBtn');
+      if (!d || d.latitude == null || d.longitude == null) {
+        a.removeAttribute('href');
+        a.setAttribute('aria-disabled', 'true');
+        return;
+      }
+      // ponytail: Maps dir URL abre la app en móvil
+      a.href =
+        `https://www.google.com/maps/dir/?api=1&destination=${d.latitude},${d.longitude}&travelmode=driving`;
+      a.removeAttribute('aria-disabled');
+    }
+
     function clearRoute() {
       routeLayer.clearLayers();
       if (userMarker) {
@@ -577,6 +605,7 @@
         userMarker = null;
       }
       routeTarget = null;
+      setMapsLink(null);
       document.getElementById('routeBar').hidden = true;
     }
 
@@ -626,6 +655,7 @@
       bar.hidden = false;
       document.getElementById('routeTitle').textContent = d.name;
       document.getElementById('routeMeta').textContent = 'Obteniendo tu ubicación…';
+      setMapsLink(d);
       routeLayer.clearLayers();
 
       let from;
@@ -642,7 +672,7 @@
         }
         return;
       }
-      if (!routeTarget || routeTarget.name !== d.name) return;
+      if (!routeTarget || deviceKey(routeTarget) !== deviceKey(d)) return;
 
       if (userMarker) map.removeLayer(userMarker);
       userMarker = L.marker(from, {
@@ -663,7 +693,7 @@
       } catch {
         route = straightRoute(from, [d.latitude, d.longitude]);
       }
-      if (!routeTarget || routeTarget.name !== d.name) return;
+      if (!routeTarget || deviceKey(routeTarget) !== deviceKey(d)) return;
 
       routeLayer.clearLayers();
       L.polyline(route.coords, {
@@ -737,11 +767,12 @@
     }
 
     function selectDevice(d, { fly = true, route = false, syncUrl = true } = {}) {
-      selectedKey = d && d.found ? d.name : null;
-      if (syncUrl) setPlacaUrl(selectedKey);
+      selectedKey = d && d.found ? deviceKey(d) : null;
+      if (syncUrl) setPlacaUrl(d && d.found ? d.name : null);
       accuracyLayer.clearLayers();
       for (const [key, marker] of markers) {
-        marker.setIcon(pinIcon(key, key === selectedKey));
+        const name = (marker.__device && marker.__device.name) || key;
+        marker.setIcon(pinIcon(name, key === selectedKey));
       }
       document.querySelectorAll('.device-row').forEach((el) => {
         el.setAttribute('aria-selected', el.dataset.key === selectedKey ? 'true' : 'false');
@@ -786,10 +817,11 @@
       }
 
       filtered.forEach((d) => {
+        const key = deviceKey(d);
         const row = document.createElement('div');
         row.className = 'device-row';
-        row.dataset.key = d.name;
-        row.setAttribute('aria-selected', d.name === selectedKey ? 'true' : 'false');
+        row.dataset.key = key;
+        row.setAttribute('aria-selected', key === selectedKey ? 'true' : 'false');
 
         const btn = document.createElement('button');
         btn.type = 'button';
@@ -814,7 +846,7 @@
         btn.addEventListener('click', () => {
           if (!d.found) return;
           selectDevice(d, { route: true });
-          const marker = markers.get(d.name);
+          const marker = markers.get(key);
           if (marker) marker.openPopup();
         });
         row.appendChild(btn);
@@ -861,7 +893,7 @@
       const seen = new Set();
 
       devices.forEach((d) => {
-        const key = d.name;
+        const key = deviceKey(d);
         seen.add(key);
         if (!d.found) {
           if (markers.has(key)) {
@@ -884,7 +916,7 @@
         let marker = markers.get(key);
         if (!marker) {
           marker = L.marker([d.latitude, d.longitude], {
-            icon: pinIcon(key, key === selectedKey || !!placa),
+            icon: pinIcon(d.name, key === selectedKey || !!placa),
             title: d.name,
           }).addTo(map);
           if (!placa) {
@@ -893,22 +925,24 @@
               const el = marker.getPopup().getElement();
               if (!el) return;
               el.querySelector('[data-act="route"]')?.addEventListener('click', () => {
-                selectDevice(d, { route: true, fly: false });
+                selectDevice(marker.__device || d, { route: true, fly: false });
               });
               el.querySelector('[data-act="share"]')?.addEventListener('click', () => {
-                copyShare(d.name);
+                copyShare((marker.__device || d).name);
               });
             });
           }
           markers.set(key, marker);
         } else {
           marker.setLatLng([d.latitude, d.longitude]);
-          marker.setIcon(pinIcon(key, key === selectedKey || !!placa));
+          marker.setIcon(pinIcon(d.name, key === selectedKey || !!placa));
         }
         marker.bindPopup(popup);
         marker.__device = d;
         bounds.push([d.latitude, d.longitude]);
-        if (placa && routeTarget && routeTarget.name === d.name) {
+        if (placa && routeTarget && deviceKey(routeTarget) === key) {
+          routeTarget = d;
+          setMapsLink(d);
           if (lastRouteSummary) document.getElementById('routeMeta').textContent = lastRouteSummary;
           updateSharedTimes(d);
         }
@@ -924,7 +958,7 @@
       if (!placa) {
         renderList(devices, document.getElementById('search').value);
         if (selectedKey) {
-          const sel = devices.find((d) => d.name === selectedKey && d.found);
+          const sel = devices.find((d) => deviceKey(d) === selectedKey && d.found);
           if (sel) selectDevice(sel, { fly: false, syncUrl: false });
           else {
             selectedKey = null;
@@ -988,7 +1022,10 @@
         setPlacaUrl(null);
         clearRoute();
         accuracyLayer.clearLayers();
-        for (const [key, marker] of markers) marker.setIcon(pinIcon(key, false));
+        for (const [, marker] of markers) {
+          const name = (marker.__device && marker.__device.name) || '';
+          marker.setIcon(pinIcon(name, false));
+        }
         document.querySelectorAll('.device-row').forEach((el) => el.setAttribute('aria-selected', 'false'));
         map.closePopup();
       }
