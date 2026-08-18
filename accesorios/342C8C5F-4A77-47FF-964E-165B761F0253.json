@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "4c73cd4893c48e0be4fb02b31e50d9efce7f4103dc8ae783b9f0da81",
+  "skn": "1511642e76a18cdb67939d1143377bc1144c1dd1db032fdc7ad0800c55dd1491",
+  "sks": "a3b0b157a28d19fd4cc68ac4cb4024c4619d82749bca3af7265e2802fde2e5ef",
+  "paired_at": "2025-06-09T21:58:52.951698+00:00",
+  "name": "OSP37H",
+  "model": "",
+  "identifier": "342C8C5F-4A77-47FF-964E-165B761F0253",
+  "alignment_date": "2026-08-15T22:50:00+00:00",
+  "alignment_index": 41475,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

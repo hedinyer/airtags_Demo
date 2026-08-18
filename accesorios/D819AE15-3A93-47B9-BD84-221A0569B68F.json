@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "1e5bbb0c6ae6de8a5e54753ff2e7f19e0d496ca9d78278172982c8e6",
+  "skn": "d31f82df511f855b0399cde05f3de700d1f46bf8cc47c36f65ccbf026e125d92",
+  "sks": "39c568b857060a46107b7865ed8e57e7304e8718c7c6465532b305e441ca52d9",
+  "paired_at": "2025-06-25T20:08:59.941728+00:00",
+  "name": "OSQ61H",
+  "model": "",
+  "identifier": "D819AE15-3A93-47B9-BD84-221A0569B68F",
+  "alignment_date": "2026-08-17T01:20:00+00:00",
+  "alignment_index": 40054,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

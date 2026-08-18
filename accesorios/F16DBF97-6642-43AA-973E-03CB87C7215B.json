@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "2e4fd20566045ed06a2e248986e4d4197a6bd8eb9c23ff050e2f60b0",
+  "skn": "7887e2a9c0f7de0d1c98b429f50d20d4a8130b4a7b4fe3b51e876cdab6332730",
+  "sks": "ba887a6106b2e74f64c2ac13f2066f3c1b03bdf1212aa1c06090406467c90c6c",
+  "paired_at": "2025-06-25T20:05:46.339217+00:00",
+  "name": "DTW21I",
+  "model": "",
+  "identifier": "F16DBF97-6642-43AA-973E-03CB87C7215B",
+  "alignment_date": "2026-05-20T07:41:10+00:00",
+  "alignment_index": 18859,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

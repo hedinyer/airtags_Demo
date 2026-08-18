@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "5aa39f984686102c2ccaaa4a2e196a58e834501b20d887fd46599b5a",
+  "skn": "803f66015fefb042e16350bfd68c9b1c1fe02af07d0e7dcea143246dd9cd20a8",
+  "sks": "13c1f8a8fabac1bcccba05db2012ebc116d83f115f05e3c343d67d82770081ec",
+  "paired_at": "2025-06-04T19:17:02.443537+00:00",
+  "name": "OSM72H",
+  "model": "",
+  "identifier": "B3C86FB1-4484-413E-9594-7982FEA68782",
+  "alignment_date": "2026-08-16T20:55:00+00:00",
+  "alignment_index": 42057,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

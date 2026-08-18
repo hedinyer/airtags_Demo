@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "ef9cbbccd9dfef7135c8be86c46b3aee1243766ff8c105bcc8c4dfe9",
+  "skn": "28e4f21696bf22a8c97291e35ad3087f657fa54808490ac2cf3ece62a2bc9f1b",
+  "sks": "15145486a9ed06664fefeff2ad736b3204ea8db811b06c64cb84c7a7151d300b",
+  "paired_at": "2025-06-04T19:46:50.822735+00:00",
+  "name": "OSP23H",
+  "model": "",
+  "identifier": "FAFF4971-AC30-4399-A4F8-4BB33CE131F7",
+  "alignment_date": "2026-08-17T01:18:00+00:00",
+  "alignment_index": 42071,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

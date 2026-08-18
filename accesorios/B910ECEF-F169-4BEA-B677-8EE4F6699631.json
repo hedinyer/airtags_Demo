@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "4deb82f46cd2169991a32b6b4498847ebd0ed35938c3d46f1b50f980",
+  "skn": "48949e008eefe66b018636e16aeb36885a53622e37a7e69dcf9d1de61cd336b4",
+  "sks": "cd84288d4074fbbd022827b4f31e141c4f61500e3980ad594286590282149564",
+  "paired_at": "2025-06-20T14:22:05.921546+00:00",
+  "name": "OSF06H",
+  "model": "",
+  "identifier": "B910ECEF-F169-4BEA-B677-8EE4F6699631",
+  "alignment_date": "2026-08-17T01:17:20+00:00",
+  "alignment_index": 40557,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

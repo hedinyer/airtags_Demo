@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "5bfa5d2a1989f58c601f750e5a74eb4f8719670ae1ac3a22376b8b17",
+  "skn": "aa6fd2a45c80c571797fc6a05b48233283f8ee63bb4586d28f68a1ff91bef006",
+  "sks": "5d97680348c0ce56bcd3c38ca5f30a9a88454127d29bcfc83a68c46569919125",
+  "paired_at": "2025-06-20T14:20:37.898738+00:00",
+  "name": "JRH26H",
+  "model": "",
+  "identifier": "E94C4113-3027-4D88-AA99-34278018A25C",
+  "alignment_date": "2026-08-17T01:18:20+00:00",
+  "alignment_index": 39472,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

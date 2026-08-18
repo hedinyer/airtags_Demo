@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "bbc18ceaa5775f57451e451f787801b89bdcbd9c41c6371b40164b6c",
+  "skn": "b65cecf454264106afedba4f0f4fecc23a19be588cace88baf274f61d1a1fe1e",
+  "sks": "bc8dcc583e19a455fdf09363da00864cbe9807cf57f8bb1a5b1a062758399069",
+  "paired_at": "2025-06-24T15:35:07.755852+00:00",
+  "name": "JRI11H",
+  "model": "",
+  "identifier": "624D3814-FAC7-4336-AF7A-B3F3940AD1D6",
+  "alignment_date": "2026-08-17T01:18:40+00:00",
+  "alignment_index": 40150,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

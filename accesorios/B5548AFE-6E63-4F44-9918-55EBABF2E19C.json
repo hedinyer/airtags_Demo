@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "8c49712fb7db1ed8e5f841997ef481f6d5810c997fbc2bc19b1e82f6",
+  "skn": "fef23c222360daaa659789de6d488e728235265a8f4fe5ed5930610872722f98",
+  "sks": "b4bbcf1c57987ccf7ac8d83ee4a0c89642ffa8f6c0ccf296c21a29eb77a4d89a",
+  "paired_at": "2026-01-26T21:51:49.132767+00:00",
+  "name": "iPhone Daniela",
+  "model": "iPhone14,5",
+  "identifier": "B5548AFE-6E63-4F44-9918-55EBABF2E19C",
+  "alignment_date": "2026-01-26T21:51:49.132767+00:00",
+  "alignment_index": 0,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

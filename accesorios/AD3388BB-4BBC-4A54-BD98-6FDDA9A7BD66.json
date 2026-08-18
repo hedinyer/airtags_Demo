@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "9099e337e6939ac257fe85e4dc5312082fbcab040e3eaac16a6b3e49",
+  "skn": "d7e1b59edffac042c9674817962f793cffae064e3e4e910c6ee08c2e0ddbefb0",
+  "sks": "30ea6617d2c69cb89afc624dd0a10e484da4572757849f8c19674533ebda4fff",
+  "paired_at": "2025-06-25T15:05:35.449926+00:00",
+  "name": "OSR74H",
+  "model": "",
+  "identifier": "AD3388BB-4BBC-4A54-BD98-6FDDA9A7BD66",
+  "alignment_date": "2026-08-17T00:37:10+00:00",
+  "alignment_index": 40071,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

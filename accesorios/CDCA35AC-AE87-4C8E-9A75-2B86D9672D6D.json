@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "cc30b629b5b84d0088c25713dd1680c8a89de2dc717b9ef0d29db275",
+  "skn": "fdd5ddc88b517234bb3a77c90fc75d4cb3fd49321e640088d1d9dbf226f68c1d",
+  "sks": "a73f2038b0c71e477bdb05ffa064bec1f09046415d574ccc06bb9254cfbe84c9",
+  "paired_at": "2025-06-24T19:11:31.410024+00:00",
+  "name": "OSO88H",
+  "model": "",
+  "identifier": "CDCA35AC-AE87-4C8E-9A75-2B86D9672D6D",
+  "alignment_date": "2026-08-17T00:59:10+00:00",
+  "alignment_index": 40153,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

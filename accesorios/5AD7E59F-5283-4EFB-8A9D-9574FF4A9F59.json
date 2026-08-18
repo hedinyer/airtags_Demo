@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b18f8b7d3f95ee8df042285eb02726bc5b9507c7958c1d05ae0d5e1c",
+  "skn": "e24e7d71bac72aead88d9dc09f322adb769046ae95f6f906603d444b7613b66e",
+  "sks": "9ef4052ce0e076c018223c72be9be8743f6f03a6bbf590edf7ac6e13f7fa5162",
+  "paired_at": "2025-06-21T20:17:26.366980+00:00",
+  "name": "OSR73H",
+  "model": "",
+  "identifier": "5AD7E59F-5283-4EFB-8A9D-9574FF4A9F59",
+  "alignment_date": "2026-03-03T16:05:26+00:00",
+  "alignment_index": 24464,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

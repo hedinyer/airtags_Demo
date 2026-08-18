@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "1677f99b4327c43b465b9725bb645fd57ac8129805d82759805aa4a4",
+  "skn": "1e620a1874eabedfa10669fc6c3987c86bdaa5da0f00a731c42ea4fad72bd4f7",
+  "sks": "147ebe19ab7b28a6d19a3cbca194ee7f15012a9c10886b9e2c6ec80e685a104b",
+  "paired_at": "2025-06-04T19:49:17.444065+00:00",
+  "name": "OSP24H",
+  "model": "",
+  "identifier": "BF1076CE-13AC-44BF-AE6E-38A5C128E86F",
+  "alignment_date": "2026-08-16T17:49:50+00:00",
+  "alignment_index": 42042,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

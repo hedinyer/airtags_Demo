@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b2ef9b2a0be196978726e6f72f5d3813d851f3f942c82c8230925694",
+  "skn": "13dcb9ca31a640afaa34a86eb6a5567f3729fc6c95581cabeb5a9460fdaf61b5",
+  "sks": "ee3bdc58038b12dd91c8a4ff9e9abc58fc90294696a5962e73af08d6fb40d03c",
+  "paired_at": "2025-06-06T15:37:23.673340+00:00",
+  "name": "OSP31H",
+  "model": "",
+  "identifier": "46748F32-6845-42EC-85D5-A9B3B72F01AD",
+  "alignment_date": "2026-08-16T23:26:00+00:00",
+  "alignment_index": 41855,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

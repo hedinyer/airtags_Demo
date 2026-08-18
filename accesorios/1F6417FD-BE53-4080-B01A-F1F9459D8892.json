@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "90703d01cc5d45947e1fbe4e489be4c5270961ce8024ee46ae22dc94",
+  "skn": "a08e22163b1923c871d5c5e2a6bf1e958f29e6b5961a495905dc1d1776d79d32",
+  "sks": "de5ff84f7c8cf52e7d0f0e8e0e823f7b84b9e3935052080aa48c4237c6abaa44",
+  "paired_at": "2025-05-15T21:11:44.118249+00:00",
+  "name": "HLD68H",
+  "model": "",
+  "identifier": "1F6417FD-BE53-4080-B01A-F1F9459D8892",
+  "alignment_date": "2026-08-16T23:20:20+00:00",
+  "alignment_index": 43978,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "c7ba26f536229a599afd7bff85f5f6e0fc5dfd99c7d13a8dc0de4d2b",
+  "skn": "84c4943e7a88d68dd0e6f7f9812615d92947fce5870a4bf0c56578b7db1e2b2f",
+  "sks": "ad1fe40f3da1aec9edc523e6704a0ca902ab7b78762edee8d2ead851f989b884",
+  "paired_at": "2025-06-20T21:13:23.443413+00:00",
+  "name": "OSP29H",
+  "model": "",
+  "identifier": "FBF2F180-8C6A-4C95-9056-691CC394E0D8",
+  "alignment_date": "2026-08-15T22:50:10+00:00",
+  "alignment_index": 40419,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

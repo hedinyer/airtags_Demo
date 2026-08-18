@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "ca357046d18e9eeeb44c805cb111ab6a6716f0699a28565e3738ef28",
+  "skn": "e67653fc5dee0bfdf094e13b8bafbbf7afa55e7945e42819678c1a12d3249192",
+  "sks": "db2c367bce71cdbc5ed157ac6ec037d9f96115183e0ab9996eeb0e91e721af50",
+  "paired_at": "2025-06-09T22:40:32.786657+00:00",
+  "name": "MCY91H",
+  "model": "",
+  "identifier": "E8939F8F-9F57-4D30-937A-43BE768F4BCD",
+  "alignment_date": "2026-06-26T16:44:00+00:00",
+  "alignment_index": 33757,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

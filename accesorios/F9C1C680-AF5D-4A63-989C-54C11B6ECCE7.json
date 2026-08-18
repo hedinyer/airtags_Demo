@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "2c0f45c0d3899c077ff37f53f38a9b1ee8611c72e995eb8fb39d48f9",
+  "skn": "40f740df33644690f06d26a8b10731bb10bfbbb1b13cfa3ff95ae22162c171cf",
+  "sks": "69d520b815028da865b1bf8e77377bf009cc5846c5bc1e22261ddcc702fe5eae",
+  "paired_at": "2025-06-04T19:17:44.053728+00:00",
+  "name": "OSN71H",
+  "model": "",
+  "identifier": "F9C1C680-AF5D-4A63-989C-54C11B6ECCE7",
+  "alignment_date": "2026-08-17T01:21:00+00:00",
+  "alignment_index": 42074,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

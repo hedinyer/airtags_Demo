@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "baafaefa8e9d14c64c57e2dc924eff0b1192255f13b691a53aabac5f",
+  "skn": "7375d489cdbe8f288a226db8da673d04f455034008960c8b26bf00eb8cb78b33",
+  "sks": "307122af4a48ae68dde9a1401aafbfe13970f8ac51eb0ec183efa79afd47f717",
+  "paired_at": "2025-05-10T12:56:41.014119+00:00",
+  "name": null,
+  "model": "iPhone14,5",
+  "identifier": "0CB91669-F343-4D79-8946-7D5D11E9AB87",
+  "alignment_date": "2025-12-12T01:00:09.340426+00:00",
+  "alignment_index": 10,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

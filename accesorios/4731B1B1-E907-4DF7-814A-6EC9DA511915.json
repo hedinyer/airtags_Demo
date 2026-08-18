@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "cf0701e724505989a0651940a5e8be834134bce26b6affe72bec2a9b",
+  "skn": "731c5285e9a83d4b097d4b8d4aaf7ce7e20deeee6aac29805ff7028e0ddcec25",
+  "sks": "1ed4b6048e9cbe1b7fda6ded8ef3e926447243db2fd9c0bee4718071a894d10f",
+  "paired_at": "2025-06-24T15:36:15.197120+00:00",
+  "name": "OSP35H",
+  "model": "",
+  "identifier": "4731B1B1-E907-4DF7-814A-6EC9DA511915",
+  "alignment_date": "2026-08-17T00:32:00+00:00",
+  "alignment_index": 40165,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

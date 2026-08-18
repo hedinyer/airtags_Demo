@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "c19ca28fe5f14a326655333d5b795a11066e3b32329c9542493a80ac",
+  "skn": "f458d46ef8c64cae558e8dd29a43a09ab08d70a6757c7e5fc40d682fdd4ec1bf",
+  "sks": "ac614e336cecc9f168c2968b22afef2e43e17ec03970ea4b114e9f5f543b0146",
+  "paired_at": "2025-06-20T14:19:34.038935+00:00",
+  "name": "JRP44H",
+  "model": "",
+  "identifier": "8F89AC74-B63F-40AC-ABA3-D1D46526971F",
+  "alignment_date": "2026-08-17T00:52:10+00:00",
+  "alignment_index": 40554,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

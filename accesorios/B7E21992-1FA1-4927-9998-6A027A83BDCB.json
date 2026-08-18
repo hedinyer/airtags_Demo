@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "24fb8dc46d22bef134a9ce67124563c342e23f73e0168b67f16b2bec",
+  "skn": "677ad1dec8b8b88c90ab6714537b7a0c77ea33ada22250e36e89bfd2fb83d963",
+  "sks": "14704b6a388f2fd76af804f295a2108e2a44cf69f96672cb81bb30329d1f2b0f",
+  "paired_at": "2025-06-09T20:43:46.312985+00:00",
+  "name": "OSP36H",
+  "model": "",
+  "identifier": "B7E21992-1FA1-4927-9998-6A027A83BDCB",
+  "alignment_date": "2026-08-17T00:48:30+00:00",
+  "alignment_index": 41573,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

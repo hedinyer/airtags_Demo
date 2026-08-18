@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "bbe7f08df26bc02391baa335ab7bb7990c69c95d7f71c1206f1c81bb",
+  "skn": "1fc010b8108a102236d589bb30b792758e64f0f1e7cb3dbf154bf1f0df040b78",
+  "sks": "fd97f2304f711e57c7c69a61b39d4b1a3398212dbe22fb57d6ae9fbd40386a8b",
+  "paired_at": "2025-06-04T19:16:22.761116+00:00",
+  "name": "OSM77H",
+  "model": "",
+  "identifier": "4FDA50DE-E4F8-4E01-9BC3-6EE1B81EF9B6",
+  "alignment_date": "2026-06-19T17:55:10+00:00",
+  "alignment_index": 36428,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "71bf0ce397448b27eb9e8fa0ab3724d4916896a06c418fa9ecb5ca11",
+  "skn": "adae64435262d042fc5d97b5d75bac31b2a84e9d34c006aa262e7d8c8c3eb3b5",
+  "sks": "22d4dcefa9ad90fb43da97b959e3e967106e64eb5355bd6ff000e932fcbbcb93",
+  "paired_at": "2025-06-19T15:04:13.257559+00:00",
+  "name": "OSR71H",
+  "model": "",
+  "identifier": "55DD9E0B-5260-4367-A149-B4236E1F4BB6",
+  "alignment_date": "2026-08-17T01:16:00+00:00",
+  "alignment_index": 40650,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

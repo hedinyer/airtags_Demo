@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "24638a7152d5ee4ef56223e76cc755f64b453241b62ea12006875c63",
+  "skn": "6abcc1c835cbd9fa0cdf752faeb03b5728aea802115c6b7afa6a5984212582bb",
+  "sks": "38c163b55e5758af691dab9fce900396df464b9723556da1ebf08dd0f31cf8df",
+  "paired_at": "2025-06-04T19:18:27.705685+00:00",
+  "name": "OSM73H",
+  "model": "",
+  "identifier": "BEC0F647-5112-4947-8F2F-5BCB5F31E563",
+  "alignment_date": "2026-08-17T01:23:50+00:00",
+  "alignment_index": 42074,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

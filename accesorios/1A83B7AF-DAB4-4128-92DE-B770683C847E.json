@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "e36a73a85f5ede30f1562345951ebb3dca765145f38b2c42650e6742",
+  "skn": "78e651c67b54bb5a43a5cf69681b0810d0fb89cfc33dd3e9b70d211e800bdfa1",
+  "sks": "bdaccde7e4064f3e1f2e5ae0c09085e6f7b35f210d0a93c9f8e9a4edac498369",
+  "paired_at": "2025-06-06T15:36:46.502111+00:00",
+  "name": "OSP28H",
+  "model": "",
+  "identifier": "1A83B7AF-DAB4-4128-92DE-B770683C847E",
+  "alignment_date": "2025-12-16T15:06:09+00:00",
+  "alignment_index": 18524,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}

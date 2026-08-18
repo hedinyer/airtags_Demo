@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d2f9e5815f9ec12e6bbfbd306689318143541e80f2c5234f50ec877f",
+  "skn": "3ae86ab173a8a355157e09a5805fa06cb075d0c4062b9c526260e24c9a079a6e",
+  "sks": "1cdc7fcadf179bd829144c61fe57d52793bf697048344f488165d91144bc94d6",
+  "paired_at": "2025-06-04T19:40:39.790706+00:00",
+  "name": "OSP25h",
+  "model": "",
+  "identifier": "67A6BB78-99F0-4226-A08D-C451D1C33EA6",
+  "alignment_date": "2026-08-17T01:19:50+00:00",
+  "alignment_index": 41953,
+  "icloud_account": "ivankasaenz23@gmail.com",
+  "imported_at": "2026-08-18T17:00:08.750151+00:00",
+  "first_imported_at": "2026-08-18T17:00:08.750151+00:00"
+}
