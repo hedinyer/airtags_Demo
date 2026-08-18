@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "f34cee8fab19a363a1c5bc585daaf938e3bc40565f143c6a41c79d6c",
+  "skn": "c82a7fafad3e57b9be8bc6955ec8794b14dac88e49e6afde145d36b08ac2e2d3",
+  "sks": "b5e572fd88221f48d6fbcdfb1dfacce5e6ac29019f081cf80ca9a63378d9c66b",
+  "paired_at": "2025-10-01T17:00:12.599798+00:00",
+  "name": "TRW52H",
+  "model": "",
+  "identifier": "841D5389-E44E-483B-9D28-3C7DB832B140",
+  "alignment_date": "2026-08-11T13:34:40+00:00",
+  "alignment_index": 30131,
+  "icloud_account": "niicolasgarrido@gmail.com",
+  "imported_at": "2026-08-18T16:28:19.713357+00:00",
+  "first_imported_at": "2026-08-18T16:28:19.713357+00:00"
+}

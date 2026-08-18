@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "32067310ae6f8941ec69de98b0450b98817ef3e88c50d19c87413e1a",
+  "skn": "6c3978f5e63b1e933e6ccf7b992ca54e607ba77e2b997c52c0da3e5587e26b25",
+  "sks": "b685226a47be2aa5c3386d7e66224e543298fc64e0c7ca4f908d9aac6caab4de",
+  "paired_at": "2025-09-04T13:34:01.744813+00:00",
+  "name": "TIO16H 5979",
+  "model": "",
+  "identifier": "3D22CEDA-71EB-45BE-8D75-97242B2914C5",
+  "alignment_date": "2026-08-11T12:04:30+00:00",
+  "alignment_index": 32730,
+  "icloud_account": "niicolasgarrido@gmail.com",
+  "imported_at": "2026-08-18T16:28:19.713357+00:00",
+  "first_imported_at": "2026-08-18T16:28:19.713357+00:00"
+}

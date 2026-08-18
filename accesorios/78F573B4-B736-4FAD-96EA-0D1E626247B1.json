@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "28b2ca0e7d9103df53bb614d1f877146761dc2175e078964a47337d3",
+  "skn": "bff042b14e394fc80eb388ce9638c368cd74380059acaea37f19112541335989",
+  "sks": "b9d16227712ce9500903e101b6dfc7dd52aff23ab4d5476c1f8bc03f568374fc",
+  "paired_at": "2025-12-23T19:50:00.419238+00:00",
+  "name": "ZOT02H",
+  "model": "",
+  "identifier": "78F573B4-B736-4FAD-96EA-0D1E626247B1",
+  "alignment_date": "2026-08-14T17:59:50+00:00",
+  "alignment_index": 22458,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}

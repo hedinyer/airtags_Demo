@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "2df2c3e4f96005262705da82bf07ae5238f268f93d3b522e28e5abd0",
+  "skn": "295ee24e9c70afef6e42ed96e3983d261356ffe05c217766e7f6e3ebe1b3b21e",
+  "sks": "77dec5ef40ec3e8b7881432a13b815c9334ad19ab523c57272ac73587bf3cf3b",
+  "paired_at": "2025-12-23T19:41:17.658200+00:00",
+  "name": "iPhone",
+  "model": "iPhone12,1",
+  "identifier": "29E816F8-F077-4BF8-8328-19315603A17E",
+  "alignment_date": "2025-12-23T19:41:17.658200+00:00",
+  "alignment_index": 0,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}

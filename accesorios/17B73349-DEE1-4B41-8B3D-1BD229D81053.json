@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d6e4fd81e52964c7dd1f1cccc5b1c06c0eae81b9bec1137bb8a1fd7f",
+  "skn": "2709d3c0cf955c1b005e4a780d497fd5c301256182dea73b15ce9af5bfb85858",
+  "sks": "5789b8c66ac325ef8e3c51d72fd8d07696630778f1f43faf84723fc2cf3a7856",
+  "paired_at": "2025-09-04T13:36:16.562284+00:00",
+  "name": "TIO24H 5891",
+  "model": "",
+  "identifier": "17B73349-DEE1-4B41-8B3D-1BD229D81053",
+  "alignment_date": "2026-08-11T02:44:00+00:00",
+  "alignment_index": 32679,
+  "icloud_account": "niicolasgarrido@gmail.com",
+  "imported_at": "2026-08-18T16:28:19.713357+00:00",
+  "first_imported_at": "2026-08-18T16:28:19.713357+00:00"
+}

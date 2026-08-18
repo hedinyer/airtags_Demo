@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "109ce5b4b75415c7f92d7b98b3bd3966072d662f7fb1f24616685cd2",
+  "skn": "e59cd11adbae4135cdc2bb5349b665adf57fa6768d44797fcce6db0200de2c4f",
+  "sks": "159444feb01905f3a7ecd4819873599b2cee4aef922db3c1a9e3ce9450f40fa7",
+  "paired_at": "2026-01-29T13:34:58.315130+00:00",
+  "name": "TIF35H",
+  "model": "",
+  "identifier": "5BBC02F5-F6D3-4596-9199-CA73F45A5171",
+  "alignment_date": "2026-08-14T18:33:20+00:00",
+  "alignment_index": 18933,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}

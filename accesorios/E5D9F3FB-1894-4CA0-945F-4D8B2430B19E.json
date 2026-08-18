@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "4820e0a378ce9e161b19b45f70fa2cb78cb4c9d999c2a3b238654bb8",
+  "skn": "a24a9d0dfbe7435448c6e4d40f8235411bcc139ca6960b8e490e43726a84703d",
+  "sks": "908c8cdfc5141ce5e0021db85193c2856f935e850cfffb2fa563200df876b2f2",
+  "paired_at": "2026-01-24T14:35:48.292058+00:00",
+  "name": "ZPG02H",
+  "model": "",
+  "identifier": "E5D9F3FB-1894-4CA0-945F-4D8B2430B19E",
+  "alignment_date": "2026-08-14T18:42:30+00:00",
+  "alignment_index": 19410,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}

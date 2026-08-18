@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "1e99b190b846874696e4730faa6f9dab083cec6b07f111252e17f513",
+  "skn": "0430c35cf3fe244b63899464397e243db2c75ca278999a289bf6f23064c12cbb",
+  "sks": "9fbd8bf95dac75fe115522cf10864282f6220f65f8901732b6c1230d5f11113c",
+  "paired_at": "2025-09-30T21:51:07.746627+00:00",
+  "name": "TSB11H",
+  "model": "",
+  "identifier": "32BFA36D-76D7-4040-A6CE-A14D35AA1FCB",
+  "alignment_date": "2026-08-11T12:17:20+00:00",
+  "alignment_index": 30203,
+  "icloud_account": "niicolasgarrido@gmail.com",
+  "imported_at": "2026-08-18T16:28:19.713357+00:00",
+  "first_imported_at": "2026-08-18T16:28:19.713357+00:00"
+}

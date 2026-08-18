@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "816a37e7576512fdedf492407fca9653623b29b4183bff360bf38560",
+  "skn": "9546e80d0e567e4f1298b82b31c2fd87e1e2dd3c3e93d39d41dfe97b3bd75b0f",
+  "sks": "d2fb1cb650a1de8525eaf204db3d315f73c4806f4dfcdc11dabbf84c593478d8",
+  "paired_at": "2026-01-13T16:24:24.386549+00:00",
+  "name": "ZOT14H",
+  "model": "",
+  "identifier": "312DBA61-EE3E-4A13-A933-FA86FA029634",
+  "alignment_date": "2026-08-14T17:49:40+00:00",
+  "alignment_index": 20455,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}

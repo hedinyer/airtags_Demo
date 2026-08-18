@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b69ff40c36577acc42bf935fb6f1ddbf6307c769f7c0c6211d460af3",
+  "skn": "221141baa97fba5df2fcfa18cd10816ae6b1a4b851a5603bcd95f260fd4f6a7c",
+  "sks": "b38c655a4fc53b7a49aa3583f063a5de29be12a51cd6753b2a045728b919f924",
+  "paired_at": "2025-08-29T01:28:34.473317+00:00",
+  "name": "TIM94H 8931",
+  "model": "",
+  "identifier": "729A5D86-DAAB-47AC-A334-B1393877AEE1",
+  "alignment_date": "2026-08-11T09:40:20+00:00",
+  "alignment_index": 33347,
+  "icloud_account": "niicolasgarrido@gmail.com",
+  "imported_at": "2026-08-18T16:28:19.713357+00:00",
+  "first_imported_at": "2026-08-18T16:28:19.713357+00:00"
+}

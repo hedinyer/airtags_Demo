@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d6882d2bbd868e09dea14e9fe7987d86b32e5197d500ee91d36916dc",
+  "skn": "c1a901f9018271975909a2f33d3dae2cb20a85cc8aa84be81153fadbafc43bdc",
+  "sks": "dd4d121312cc197c6703c8fb5bf3bb1738fdab800c85fc1280986820acbb7285",
+  "paired_at": "2026-02-02T15:29:32.366442+00:00",
+  "name": "ZPG15H",
+  "model": "",
+  "identifier": "AC361365-0C03-40CF-A01B-04C78883471D",
+  "alignment_date": "2026-08-14T18:36:50+00:00",
+  "alignment_index": 18541,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}

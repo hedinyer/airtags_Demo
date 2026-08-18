@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "a9cf3809ca14a44dec454fa3f210d840d4e2ef96c2c9bf7c55361ee7",
+  "skn": "d6971c10797ddc7a690d8964a81f286244257e3815db420f13c0d53286267966",
+  "sks": "aaa1f23f7a88ed844d1bf8a254060121e8dbf7c1378c7201d916dac33494cb01",
+  "paired_at": "2025-09-04T13:38:23.293077+00:00",
+  "name": "TIO28H 5924",
+  "model": "",
+  "identifier": "2C33F2D7-4306-4B79-B47A-1673F32A4ABA",
+  "alignment_date": "2026-08-11T13:23:30+00:00",
+  "alignment_index": 32736,
+  "icloud_account": "niicolasgarrido@gmail.com",
+  "imported_at": "2026-08-18T16:28:19.713357+00:00",
+  "first_imported_at": "2026-08-18T16:28:19.713357+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "7d55f42642c9bd495daf6a3c62819962857db466d0df2a5efa0c1321",
+  "skn": "3a9ab1c9419c04ea761bfbf2d927af9448e34d1a4ee775891a667a1a64d92496",
+  "sks": "1c5fb833e898b5de80f546c4bca404078f8b1afea99cfaae9c36aff8d676ea08",
+  "paired_at": "2025-12-23T19:40:54.067896+00:00",
+  "name": "ZOQ15H",
+  "model": "",
+  "identifier": "EC8C8545-1F2C-4FD3-AA20-776C56F202AE",
+  "alignment_date": "2026-08-14T18:44:30+00:00",
+  "alignment_index": 22462,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}

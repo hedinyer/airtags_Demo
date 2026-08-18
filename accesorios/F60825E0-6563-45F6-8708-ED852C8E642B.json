@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "0909b137674119f0bc6fc0fe06d688e82940f5a0ad0059acba145650",
+  "skn": "5e60666fe91487c66f5d93dd0f84c5f24f07c08115a250c6b7dba04161e70b1b",
+  "sks": "084880f89d562ec666d6f944e7ca0db2fc4e8ee815afce7bd384c4da5e43b219",
+  "paired_at": "2026-01-27T16:16:44.022868+00:00",
+  "name": "JRH21H",
+  "model": "",
+  "identifier": "F60825E0-6563-45F6-8708-ED852C8E642B",
+  "alignment_date": "2026-08-14T18:45:30+00:00",
+  "alignment_index": 14005,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}

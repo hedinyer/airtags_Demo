@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d7fe4d08206b447f824d1d6cdb266b6c8698f513e01cb6e8d697f433",
+  "skn": "e021b7e2f8a2a13ca7243620979bdd4487a023faff8b6345463796279fbb78f9",
+  "sks": "41bfbd960ded7c54e4930c7af688c4df3319f0f2a1801d659fad4f0cfb861154",
+  "paired_at": "2025-09-04T13:34:48.940818+00:00",
+  "name": "TIO27H 5886",
+  "model": "",
+  "identifier": "C76F0A8A-EB74-4391-A0E8-A470D8417045",
+  "alignment_date": "2026-08-11T13:32:30+00:00",
+  "alignment_index": 32738,
+  "icloud_account": "niicolasgarrido@gmail.com",
+  "imported_at": "2026-08-18T16:28:19.713357+00:00",
+  "first_imported_at": "2026-08-18T16:28:19.713357+00:00"
+}

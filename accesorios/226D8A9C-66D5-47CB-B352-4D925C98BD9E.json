@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "60fb40ebd85ad6fc643b88eacf50a9c384b7744b59bf57ba6f77e55f",
+  "skn": "a1a5b57c97146791a91055a7e9de635be500126f0a2fb0160c3b64b4a6da70f8",
+  "sks": "8c48ff79ebdcca382a6f4e5e1a8f7f870abe17cc4fe37932147efa015d031ae6",
+  "paired_at": "2025-09-04T16:46:43.881737+00:00",
+  "name": "TIO26H MESA",
+  "model": "",
+  "identifier": "226D8A9C-66D5-47CB-B352-4D925C98BD9E",
+  "alignment_date": "2026-08-11T13:29:30+00:00",
+  "alignment_index": 32725,
+  "icloud_account": "niicolasgarrido@gmail.com",
+  "imported_at": "2026-08-18T16:28:19.713357+00:00",
+  "first_imported_at": "2026-08-18T16:28:19.713357+00:00"
+}

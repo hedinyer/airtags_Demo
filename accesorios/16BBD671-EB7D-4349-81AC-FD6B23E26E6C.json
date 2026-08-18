@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "e51cd8d7bed31c6103c22348998c309e142d6440bfbe28656c9c79fa",
+  "skn": "e59baabe9c8bd9d9eb609e168ce5880fd920e709f8de147e1bea217208103f01",
+  "sks": "ae3d83c1fbdbf23623269db07f87cd45e100d82bfa6fb664f7db71552310ba7f",
+  "paired_at": "2026-02-02T14:49:42.045102+00:00",
+  "name": "ZPJ43H",
+  "model": "",
+  "identifier": "16BBD671-EB7D-4349-81AC-FD6B23E26E6C",
+  "alignment_date": "2026-08-14T18:30:00+00:00",
+  "alignment_index": 18545,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "1590aae3a36ff5a1e37ddacf3423bc2ee09ff42c76346e74592f7d1d",
+  "skn": "8d4bd34fde1e048749bedac5888085b214aa01ddbb663d25e3b32adc783c17c4",
+  "sks": "755d3cda2b96656a1992ac746a54c9c1b3f8a878f0035c557e32d8416640cc73",
+  "paired_at": "2025-09-05T00:49:55.252145+00:00",
+  "name": "TIR73H 0144 GBR",
+  "model": "",
+  "identifier": "148D916B-C5EF-42ED-8C5E-8E38B42B5AD9",
+  "alignment_date": "2026-03-11T16:29:33+00:00",
+  "alignment_index": 18015,
+  "icloud_account": "niicolasgarrido@gmail.com",
+  "imported_at": "2026-08-18T16:28:19.713357+00:00",
+  "first_imported_at": "2026-08-18T16:28:19.713357+00:00"
+}

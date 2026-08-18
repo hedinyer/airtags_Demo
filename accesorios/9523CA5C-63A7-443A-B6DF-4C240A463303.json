@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "4eb48a6a49b1999ab9ac98dd89d38e002c0c4f53c994596a2f33f9c2",
+  "skn": "0336ed96a1ae4d3ec3557187dc74286744f0f86f1d93389eae0782d16cf36551",
+  "sks": "9c13a059772bb5f31c5ff8f80e92f4509e5af5de886f61e725c4ff431b80c704",
+  "paired_at": "2025-12-26T19:47:21.735730+00:00",
+  "name": "MDF61H",
+  "model": "",
+  "identifier": "9523CA5C-63A7-443A-B6DF-4C240A463303",
+  "alignment_date": "2026-08-14T18:30:30+00:00",
+  "alignment_index": 22170,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}

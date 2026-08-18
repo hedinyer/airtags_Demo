@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "32b409d52f4ff6732d047c024f1090744e4ea55f6a0675493777798f",
+  "skn": "1dbbbcb16587262d9bd57ee87018e6e927b8a9d11c8d415f137d91c120bb4b9f",
+  "sks": "b4042b547bac9434caa3fd2229211593ff45124a0d277a7d655facd37c7b6c69",
+  "paired_at": "2025-08-29T01:26:55.861990+00:00",
+  "name": "TIM96H 6419",
+  "model": "",
+  "identifier": "74FF31FB-4619-4C65-A18F-D4797DBEA05E",
+  "alignment_date": "2026-08-11T12:35:50+00:00",
+  "alignment_index": 33358,
+  "icloud_account": "niicolasgarrido@gmail.com",
+  "imported_at": "2026-08-18T16:28:19.713357+00:00",
+  "first_imported_at": "2026-08-18T16:28:19.713357+00:00"
+}

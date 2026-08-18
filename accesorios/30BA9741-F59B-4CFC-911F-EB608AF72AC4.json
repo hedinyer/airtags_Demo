@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "f9f0c9b28329d2b8e7eb2b33b4ef1cd895ff9e74ec9c5b539f8e2b67",
+  "skn": "c34fe07358cd411d55212864e50a1d3ed5eb0e8257499625f223e0acdce37e0b",
+  "sks": "72ce29342a4edcfcfbd0a503350bfc062a9c57acf7e10ab5c894fa7d85043d4d",
+  "paired_at": "2026-01-08T13:40:12.148603+00:00",
+  "name": "HLS94H",
+  "model": "",
+  "identifier": "30BA9741-F59B-4CFC-911F-EB608AF72AC4",
+  "alignment_date": "2026-08-14T16:19:50+00:00",
+  "alignment_index": 20940,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "73331e8a24a9262e6c6db97f8a8d32e040414f67ebd4a0cbe46d322f",
+  "skn": "0da33def792000ce6c1b8a09ce731799c8dc146e9a4f8fb39427effc083ae4ae",
+  "sks": "e06f366a49300ab97eb5b9bca3908f8c19e05c7c193e6111f75bc893f7c5accc",
+  "paired_at": "2025-09-04T13:39:18.331667+00:00",
+  "name": "TIO18H 6938",
+  "model": "",
+  "identifier": "3DDA9083-F729-42B0-81A7-FD65567AA50D",
+  "alignment_date": "2026-08-10T19:01:10+00:00",
+  "alignment_index": 32660,
+  "icloud_account": "niicolasgarrido@gmail.com",
+  "imported_at": "2026-08-18T16:28:19.713357+00:00",
+  "first_imported_at": "2026-08-18T16:28:19.713357+00:00"
+}

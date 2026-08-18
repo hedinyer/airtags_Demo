@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "78d1f2822b0bd761bb3c845c01a2c134ee9a4015e050625568271b11",
+  "skn": "41d70b9109a984b9760a209db9aefa94bcee9b3e6a698357c03bccc805bf26dc",
+  "sks": "1a19fdac03bde9e176db45e7d030cbe8a88b12b1a42bf64f3e19bcb840911e6c",
+  "paired_at": "2025-09-03T20:50:49.471317+00:00",
+  "name": "TIO22H 5995",
+  "model": "",
+  "identifier": "D8ADB67B-1AE1-411F-9F4C-34E7EB35CEF7",
+  "alignment_date": "2026-03-12T15:32:55+00:00",
+  "alignment_index": 17212,
+  "icloud_account": "niicolasgarrido@gmail.com",
+  "imported_at": "2026-08-18T16:28:19.713357+00:00",
+  "first_imported_at": "2026-08-18T16:28:19.713357+00:00"
+}

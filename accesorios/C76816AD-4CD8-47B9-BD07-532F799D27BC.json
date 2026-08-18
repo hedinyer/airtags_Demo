@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "6622788f8fe910c2b46ea52ab03818cb979b5960fc3d322a3a0f21ee",
+  "skn": "4925a57b4074392d9a073c21544b3233696eda5fb0b4535a4e9bc9f613bc174d",
+  "sks": "080b349741d5071c62d6a27583fb022c425b02ef3e59bfa3cd9ee1b6ad26abcf",
+  "paired_at": "2026-01-06T15:29:25.022885+00:00",
+  "name": "ZOT10H",
+  "model": "",
+  "identifier": "C76816AD-4CD8-47B9-BD07-532F799D27BC",
+  "alignment_date": "2026-08-14T18:37:40+00:00",
+  "alignment_index": 21133,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}

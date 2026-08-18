@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "a534a66f108a1f677ff1c0b2e01e5cc6a969d02b0d08512c1a71ee51",
+  "skn": "467e57ea9b42419f72186a4a2d3dd3c7c99c5ede63b616410d8a8ca26c218e8f",
+  "sks": "b12c043df4a3aadfc063e8e1fa7396272d2d79127c181843401f499ec8078feb",
+  "paired_at": "2025-09-27T14:05:09.587127+00:00",
+  "name": "TRW40H",
+  "model": "",
+  "identifier": "715A106B-42EE-4ADA-9A3A-3BD71258C07D",
+  "alignment_date": "2026-08-11T13:15:20+00:00",
+  "alignment_index": 30526,
+  "icloud_account": "niicolasgarrido@gmail.com",
+  "imported_at": "2026-08-18T16:28:19.713357+00:00",
+  "first_imported_at": "2026-08-18T16:28:19.713357+00:00"
+}

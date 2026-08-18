@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "4d4566b970e60a909b7c8654d73c1ade9924d8a1e0c6a487f6d73f1e",
+  "skn": "041bbce9d6ce3e9f32914a99f6ed09e50099e6fb6e0ff5c08ebdc2e0e51dfedb",
+  "sks": "518422e0a58006547ff693a8de5372f2ab671e28019c8e3eb8091cbda0d0ec6d",
+  "paired_at": "2026-01-31T15:42:23.105557+00:00",
+  "name": "OSN72H",
+  "model": "",
+  "identifier": "F5E94E16-A8DC-450C-BE35-F066589B7451",
+  "alignment_date": "2026-08-14T18:38:30+00:00",
+  "alignment_index": 18733,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}

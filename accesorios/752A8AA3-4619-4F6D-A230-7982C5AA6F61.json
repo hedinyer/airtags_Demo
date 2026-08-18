@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "3257dcfd94a11ea971c39497fabed82086f21db2191d88fb5549e0d1",
+  "skn": "cd51a1fb47ac75f2a194f0e374da1ad6acf561ee57811616303e7309809e472f",
+  "sks": "4248de41b92dd3177b20557ae049eb1f1e70754f784ab2458edc28768301cc03",
+  "paired_at": "2025-12-23T19:45:24.745612+00:00",
+  "name": "ZOT07H",
+  "model": "",
+  "identifier": "752A8AA3-4619-4F6D-A230-7982C5AA6F61",
+  "alignment_date": "2026-08-14T18:31:40+00:00",
+  "alignment_index": 22460,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}

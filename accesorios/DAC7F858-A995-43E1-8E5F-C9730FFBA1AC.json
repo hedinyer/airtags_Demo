@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "c84acc2156e27529c9c53a5f3354f5e8fb47e844ddf9efa4af505f0d",
+  "skn": "ac9f32db9d8845a780434977f49cf4618bcff1333e0ed11a7e175b5c12ca308b",
+  "sks": "4b3eb6272e0a46ac6a47a4f4b7f3959e3b563de7b1f1f8676f9a16de599fef86",
+  "paired_at": "2025-08-29T02:39:40.047912+00:00",
+  "name": "TIM92H 6940",
+  "model": "",
+  "identifier": "DAC7F858-A995-43E1-8E5F-C9730FFBA1AC",
+  "alignment_date": "2026-08-11T13:31:20+00:00",
+  "alignment_index": 33357,
+  "icloud_account": "niicolasgarrido@gmail.com",
+  "imported_at": "2026-08-18T16:28:19.713357+00:00",
+  "first_imported_at": "2026-08-18T16:28:19.713357+00:00"
+}

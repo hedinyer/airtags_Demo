@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "e1ed4cd85b36e445780d46c616c83b0978296589c41ccf599e261f4d",
+  "skn": "504882b2e3f5ed0f702bec7a132df47c84bc3800b0beb3d978bf61e3a2b28174",
+  "sks": "9f2390f547e4bf468d0d2160cb8e9f6498f08adccf297bd97f73783ca085969e",
+  "paired_at": "2025-10-02T13:55:00.033706+00:00",
+  "name": "TCS29H",
+  "model": "",
+  "identifier": "04848D7B-DD1B-4956-B4BF-B471B67E72CD",
+  "alignment_date": "2026-08-11T13:18:40+00:00",
+  "alignment_index": 14531,
+  "icloud_account": "niicolasgarrido@gmail.com",
+  "imported_at": "2026-08-18T16:28:19.713357+00:00",
+  "first_imported_at": "2026-08-18T16:28:19.713357+00:00"
+}

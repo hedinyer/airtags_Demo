@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "221d5f860d3ead9bcd3257529c9b99ccaa947368a2d705bc4fd448df",
+  "skn": "801a4b8d85200ee4c5f18f94c7d9ee050e6cd3b2d2ebf3e2a728d561cc50c0b8",
+  "sks": "c8c82ff7bb2d1e73141f8e79936f0b9df9d54210e274ac7c7d6a0da87d47604d",
+  "paired_at": "2025-09-27T16:56:03.542356+00:00",
+  "name": "TRW42H",
+  "model": "",
+  "identifier": "03FD1720-B6C5-4A4B-8F84-8D957D527959",
+  "alignment_date": "2026-08-11T08:04:00+00:00",
+  "alignment_index": 30494,
+  "icloud_account": "niicolasgarrido@gmail.com",
+  "imported_at": "2026-08-18T16:28:19.713357+00:00",
+  "first_imported_at": "2026-08-18T16:28:19.713357+00:00"
+}

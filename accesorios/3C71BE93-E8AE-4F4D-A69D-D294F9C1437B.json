@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "810d96c5dd62759694eea78fb670dea05a031ec5f05b10b9169b14d0",
+  "skn": "e2a006c88a0a284e1b033568f86e9df28a30f8a989c0f727e6cf8379557c548f",
+  "sks": "14900bb08513a7285d3b351c8d957a62298b76fe6283ccc0f3c4c39af480f427",
+  "paired_at": "2026-01-06T15:31:45.940880+00:00",
+  "name": "ZOT12H",
+  "model": "",
+  "identifier": "3C71BE93-E8AE-4F4D-A69D-D294F9C1437B",
+  "alignment_date": "2026-08-14T18:37:00+00:00",
+  "alignment_index": 21133,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}

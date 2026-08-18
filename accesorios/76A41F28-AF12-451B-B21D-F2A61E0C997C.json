@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d1eba94fcde23c99161945e44d5c7d6be4562a28705fe47f18d7fe5b",
+  "skn": "26bd9c4232d135273c88d074b4b4dace148720363327915017feab9b1cbed5b7",
+  "sks": "111d61839e95432328659c9ef423d1c5d7fe5830329538f85ea4fe3e5fe0f2ee",
+  "paired_at": "2026-01-23T15:55:08.933325+00:00",
+  "name": "ZPF83H",
+  "model": "",
+  "identifier": "76A41F28-AF12-451B-B21D-F2A61E0C997C",
+  "alignment_date": "2026-08-14T18:43:10+00:00",
+  "alignment_index": 19500,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}

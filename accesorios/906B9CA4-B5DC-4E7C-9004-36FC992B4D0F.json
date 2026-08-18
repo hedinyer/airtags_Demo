@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "49a6be0e2b7160ed0812126d04344e79fab399e57afcccd6632f05b5",
+  "skn": "d075fcf24403ec6540c083a534deab3d22674fd01adc4590e58b0fa1d04921df",
+  "sks": "6f36d3c755f1b5056338b69a9784b9541eb08706f0850e6f00e9bf54a0d7a0d3",
+  "paired_at": "2025-12-27T13:59:56.695145+00:00",
+  "name": "ZOT06H",
+  "model": "",
+  "identifier": "906B9CA4-B5DC-4E7C-9004-36FC992B4D0F",
+  "alignment_date": "2026-08-14T18:31:10+00:00",
+  "alignment_index": 22099,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}

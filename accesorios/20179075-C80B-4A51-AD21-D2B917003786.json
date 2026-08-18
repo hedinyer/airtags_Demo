@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "183b5709587166413ada0da68a11bc85a88410286344b497c94e4723",
+  "skn": "6dbefe447e724f676d685a8f576641439d813151aacfe5014bb5d7e66fa6eb5f",
+  "sks": "f82c036254ded4d004018d1cf0c48efb3c54441e81a83af96a3d750a414d6c5c",
+  "paired_at": "2026-02-02T17:18:17.801264+00:00",
+  "name": "ZPL68H",
+  "model": "",
+  "identifier": "20179075-C80B-4A51-AD21-D2B917003786",
+  "alignment_date": "2026-08-14T18:20:00+00:00",
+  "alignment_index": 18533,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}

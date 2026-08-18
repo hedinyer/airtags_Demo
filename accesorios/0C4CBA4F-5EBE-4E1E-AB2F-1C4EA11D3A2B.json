@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b39aa1a2c1ba3c1befd674d283b878cca8f75a55c65d85abe7b3ae68",
+  "skn": "d8c8b258df5105acc82b4fc1d777307bb21e5bcc58cb5d7ad79dac515f64b3e5",
+  "sks": "a44e6509edab221adbd9acdcca207da2301b08d4ca9307d16cd0aad195cc3c2a",
+  "paired_at": "2025-12-27T13:56:02.515139+00:00",
+  "name": "ZOT04H",
+  "model": "",
+  "identifier": "0C4CBA4F-5EBE-4E1E-AB2F-1C4EA11D3A2B",
+  "alignment_date": "2026-08-14T18:01:20+00:00",
+  "alignment_index": 22021,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}

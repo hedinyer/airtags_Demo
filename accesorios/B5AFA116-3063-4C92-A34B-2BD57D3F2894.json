@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "553a6dd3a70742d86c5930dfb4b734c36e98604ca0007116e57eea7e",
+  "skn": "e40f2ad9aedaacebac3b551dcc6390b4072ff6adcd072baa7168606660f95060",
+  "sks": "c5f7aa298b1b8eb5addb42017db40245c7183a91bd1e4b57aa45c83bbf132eb3",
+  "paired_at": "2025-08-29T02:33:20.067874+00:00",
+  "name": "TIM95H 6402",
+  "model": "",
+  "identifier": "B5AFA116-3063-4C92-A34B-2BD57D3F2894",
+  "alignment_date": "2026-08-11T13:33:30+00:00",
+  "alignment_index": 33357,
+  "icloud_account": "niicolasgarrido@gmail.com",
+  "imported_at": "2026-08-18T16:28:19.713357+00:00",
+  "first_imported_at": "2026-08-18T16:28:19.713357+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "32a376f1ad831d10cba568136c1428fef90ddeb1d8d43c0c81374fd1",
+  "skn": "0b19205d5d6bedbca75ddef83768c3fbb29aca85cddea895084137a0b07fbe91",
+  "sks": "2b1cbdeb21c6cc2473364d3ff37cf5865d73150e0ce81398add2e7f5c6ab662b",
+  "paired_at": "2026-01-06T15:30:45.907936+00:00",
+  "name": "ZOX78H",
+  "model": "",
+  "identifier": "CA3B7BFE-4BB2-4DC2-927C-E40294E22094",
+  "alignment_date": "2026-08-14T18:38:20+00:00",
+  "alignment_index": 21134,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}

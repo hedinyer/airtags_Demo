@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "50727fde674502f13abfc438c1d6d24caad9142a1aae5c24269d4b02",
+  "skn": "83a4a17809d44c3884d5d6812b294fcbdb79df62a2a72d24217d190a4998087e",
+  "sks": "4caa0f783d10313b6181d4ec23dfb7c2f21214e9b79d3d06118b6a096b5566d4",
+  "paired_at": "2026-01-07T18:16:51.590742+00:00",
+  "name": "OSG01H",
+  "model": "",
+  "identifier": "DBE6A4D4-660A-4504-B900-D77BDF2D1B61",
+  "alignment_date": "2026-08-14T18:41:00+00:00",
+  "alignment_index": 21027,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "0b86fdc130a9d6c07f1a3b14eb8286412a36802414cdf272b42800c7",
+  "skn": "b2cc4dc79b0d7a660d4699962ecfbf61d4d829f63955952a0c3dd9c4cbcddd69",
+  "sks": "b62a2cf3fcb74caee2b8858302eb211a7be2fb7177e72eedc5711b72c6bd1fee",
+  "paired_at": "2026-02-02T15:58:12.416168+00:00",
+  "name": "ZPL69H",
+  "model": "",
+  "identifier": "95D34051-F664-4C9B-93DD-0170E4F12930",
+  "alignment_date": "2026-08-14T17:58:50+00:00",
+  "alignment_index": 18537,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}

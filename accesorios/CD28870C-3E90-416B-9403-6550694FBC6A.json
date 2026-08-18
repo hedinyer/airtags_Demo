@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b0a4a3872140076cdf7611254e53c2e299e5c9e86d50966d9ee5a13d",
+  "skn": "bfe1c5725e7ca87900357c8e349c73b3303ef858d20cb49f0c2c42ef8fe0e9f7",
+  "sks": "0258a8be37f3531367296ce8fd78e0bb9d1f9d08d270d7fd64bc66ba37a4a8bb",
+  "paired_at": "2025-09-29T16:15:57.347170+00:00",
+  "name": "TRW47H",
+  "model": "",
+  "identifier": "CD28870C-3E90-416B-9403-6550694FBC6A",
+  "alignment_date": "2026-05-08T23:37:20+00:00",
+  "alignment_index": 21246,
+  "icloud_account": "niicolasgarrido@gmail.com",
+  "imported_at": "2026-08-18T16:28:19.713357+00:00",
+  "first_imported_at": "2026-08-18T16:28:19.713357+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "7204c1296a694c6bcb6c3a0d2810e4fbdebb0f054575de08d1827d61",
+  "skn": "c6c78cb5ce6e77e805946c94c386b57117e776acfd80cfacbf003917a19c80fb",
+  "sks": "ca54e954efdc17b3aae292203cabc1886299a43c00e6bed8b728ea2ad6068bbc",
+  "paired_at": "2025-09-29T18:36:10.359335+00:00",
+  "name": "OSP34H",
+  "model": "",
+  "identifier": "E475E412-955D-48D0-A877-9E60BD4490D0",
+  "alignment_date": "2026-08-11T13:34:00+00:00",
+  "alignment_index": 30317,
+  "icloud_account": "niicolasgarrido@gmail.com",
+  "imported_at": "2026-08-18T16:28:19.713357+00:00",
+  "first_imported_at": "2026-08-18T16:28:19.713357+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "bd400509698538dc17a5413f637da5ea8840c47acf735a913c0da83b",
+  "skn": "7cefe4f4174e3a5f5f94402cdc255b065b8795bfbaad1622cefc5ffcb9f212b5",
+  "sks": "83ee06e492f22f08664417c25bcdfeae8648ff0ecae86d36de956faf71e1d5ea",
+  "paired_at": "2025-09-25T16:20:11.481434+00:00",
+  "name": "TRW44H",
+  "model": "",
+  "identifier": "5F24B054-697B-4EFA-83BA-F538E137F1BD",
+  "alignment_date": "2026-08-11T12:40:30+00:00",
+  "alignment_index": 30706,
+  "icloud_account": "niicolasgarrido@gmail.com",
+  "imported_at": "2026-08-18T16:28:19.713357+00:00",
+  "first_imported_at": "2026-08-18T16:28:19.713357+00:00"
+}

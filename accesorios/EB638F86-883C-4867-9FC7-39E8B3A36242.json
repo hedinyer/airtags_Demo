@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "ddf4def14f968967d5ec52e84fc34203b20a90e8f218ee82a10e43eb",
+  "skn": "dd91ba321069a225b37394617de24d05962263143f1ab9bbb63023c0f25fd2ab",
+  "sks": "b1aa5d737de2ebb63c02ac88befddba4336af8abd8cb081ccb3b3af8439b99a6",
+  "paired_at": "2025-09-05T15:56:09.161637+00:00",
+  "name": "TIO23H",
+  "model": "",
+  "identifier": "EB638F86-883C-4867-9FC7-39E8B3A36242",
+  "alignment_date": "2026-08-11T13:34:10+00:00",
+  "alignment_index": 32633,
+  "icloud_account": "niicolasgarrido@gmail.com",
+  "imported_at": "2026-08-18T16:28:19.713357+00:00",
+  "first_imported_at": "2026-08-18T16:28:19.713357+00:00"
+}

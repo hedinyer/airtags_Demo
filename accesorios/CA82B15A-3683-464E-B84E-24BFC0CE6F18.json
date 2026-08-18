@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "e2d6e9f2376e5338536b19ef61d7ce1e9ff315b44bb3e2e208f7a2fa",
+  "skn": "2158e77de799d50c70cb113eddeb2991933095ee50a2b3c23de6dc54dd858813",
+  "sks": "fea018b77f48d23e9a35416f4bcc684d1aa11e383554e46cda2077dd3e521e0b",
+  "paired_at": "2026-02-02T14:19:55.738617+00:00",
+  "name": "ZPL72H",
+  "model": "",
+  "identifier": "CA82B15A-3683-464E-B84E-24BFC0CE6F18",
+  "alignment_date": "2026-08-14T17:59:10+00:00",
+  "alignment_index": 18544,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}

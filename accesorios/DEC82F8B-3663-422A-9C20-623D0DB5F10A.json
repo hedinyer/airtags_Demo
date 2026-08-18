@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "385def31790d76b9eb8a88ebdbeb42bc4f2e4bb23b9e5bbf793603d3",
+  "skn": "a51daf5e320a50948866c7feb2aaf13968483dcfe49c1d089a25f87d46f60f0c",
+  "sks": "33bae137c30714be7d3709687d8afd4217ed5369389021b0240a08d4bea3b3ab",
+  "paired_at": "2026-01-23T15:53:26.444485+00:00",
+  "name": "ZPF97H",
+  "model": "",
+  "identifier": "DEC82F8B-3663-422A-9C20-623D0DB5F10A",
+  "alignment_date": "2026-08-14T18:09:30+00:00",
+  "alignment_index": 19498,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b13ba41264d7b913be8c23c49896b80058fc239f651b6d1661417314",
+  "skn": "7e64acac981d99178d2cf09fd18c1686b94bcc12a4560b876962fb1aa1a8fc91",
+  "sks": "f5892f9ce71c73ddc2448034e73bdb0a13f92d587b9b7f5f5504fe7fe12f3950",
+  "paired_at": "2026-01-08T13:48:39.421323+00:00",
+  "name": "JRP58H",
+  "model": "",
+  "identifier": "311F5944-4277-4B94-8136-7B6EC7873ADC",
+  "alignment_date": "2026-03-06T02:49:46+00:00",
+  "alignment_index": 4758,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}

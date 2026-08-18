@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "c57a3e41c63293b3e501e4329b64fdf655533a6157b57a4eb9a89cc8",
+  "skn": "edafda81a7192e8a77ee6b4e7ca1bd6814447cdadf42044349da9a5ed3f7bfa8",
+  "sks": "7ad9f35189388798aacb569d92b3c0b7d847a4c13ac5a365e3b5c75a56626e1e",
+  "paired_at": "2025-08-29T01:51:47.549092+00:00",
+  "name": "TIM91H 8544",
+  "model": "",
+  "identifier": "C015A8BC-CC94-44EB-A74A-0FE8526E6394",
+  "alignment_date": "2026-08-11T13:07:20+00:00",
+  "alignment_index": 33359,
+  "icloud_account": "niicolasgarrido@gmail.com",
+  "imported_at": "2026-08-18T16:28:19.713357+00:00",
+  "first_imported_at": "2026-08-18T16:28:19.713357+00:00"
+}

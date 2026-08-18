@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "569731aaffcadfc560e8b797c1208e3700b3588d8ad8fb0078dfc50a",
+  "skn": "0c69eaaedd2510bdfb71d8aa4cabd2da09e5499b8c9c0991e5a0ffb3b91081fe",
+  "sks": "29ef874c1297d65a80a9aa0135fbc19ae22e7d2c849f1a257a7a5eedfd8e3f65",
+  "paired_at": "2025-09-05T00:53:02.679887+00:00",
+  "name": "TIR71H 5982",
+  "model": "",
+  "identifier": "884DD621-005D-4E4B-8927-883245D1B2FE",
+  "alignment_date": "2026-07-23T15:17:40+00:00",
+  "alignment_index": 30845,
+  "icloud_account": "niicolasgarrido@gmail.com",
+  "imported_at": "2026-08-18T16:28:19.713357+00:00",
+  "first_imported_at": "2026-08-18T16:28:19.713357+00:00"
+}

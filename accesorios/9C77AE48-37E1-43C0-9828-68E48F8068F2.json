@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "cbf13d7813714b26f6275741a6d82a45f04e451e78d3e7b56f4daf40",
+  "skn": "5c5a56d2cf3915bd90984d8f31b6b8a3ef9c6dfd30981d6ad075ab717430bf86",
+  "sks": "be981cb93623b38c8dc09a4372189a2fab8bd2aeca881d45457ff2edea778d44",
+  "paired_at": "2026-02-06T18:12:45.178264+00:00",
+  "name": "GAT36H",
+  "model": "",
+  "identifier": "9C77AE48-37E1-43C0-9828-68E48F8068F2",
+  "alignment_date": "2026-08-13T17:10:10+00:00",
+  "alignment_index": 18044,
+  "icloud_account": "sppbera@icloud.com",
+  "imported_at": "2026-08-18T16:43:09.265872+00:00",
+  "first_imported_at": "2026-08-18T16:43:09.265872+00:00"
+}
