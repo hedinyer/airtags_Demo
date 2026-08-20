@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "81bd2856f41c7ab830c836468e1f58249b387f08886f8b42dc0141c3",
+  "skn": "73ef80b6164eef741e91f0387eb54b7351394ac6d890441dfd5188cff3b3ff36",
+  "sks": "50606ec1795da2f1867d947a095d1bec8ab431e69e6e1df86f0811da5e58c192",
+  "paired_at": "2025-10-22T13:32:35.516039+00:00",
+  "name": "TSD42H Milán",
+  "model": "",
+  "identifier": "668FE089-AC54-419C-8ECC-C4F5DF64ED21",
+  "alignment_date": "2026-08-10T19:25:10+00:00",
+  "alignment_index": 28057,
+  "icloud_account": "beramonedas1@gmail.com",
+  "imported_at": "2026-08-20T19:56:39.269907+00:00",
+  "first_imported_at": "2026-08-20T19:56:39.269907+00:00"
+}

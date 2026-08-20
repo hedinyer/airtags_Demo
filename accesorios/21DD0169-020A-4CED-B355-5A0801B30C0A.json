@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "0f4e9b70374c41410eef6461dc3a0646de1b4c7cc370e0682b7f2f4a",
+  "skn": "c68e5eb78a5bf30ede6f8aa96264a803042858a4b6c40972a4f5fc82606f1534",
+  "sks": "45f360488dcc24225002f6d8668120db77ff54e333f0df60d7cecd2de476c382",
+  "paired_at": "2025-10-16T14:02:57.818680+00:00",
+  "name": "TSI83H",
+  "model": "",
+  "identifier": "21DD0169-020A-4CED-B355-5A0801B30C0A",
+  "alignment_date": "2026-08-10T18:37:50+00:00",
+  "alignment_index": 28628,
+  "icloud_account": "beramonedas1@gmail.com",
+  "imported_at": "2026-08-20T19:56:39.269907+00:00",
+  "first_imported_at": "2026-08-20T19:56:39.269907+00:00"
+}

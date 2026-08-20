@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "443816c5ab5900e346eb993d1447bd9054b7979534d95bbf8b78155f",
+  "skn": "a252e00964c114a6a23d76d516d6bcf1f42d63ee98d08e901dfffaf8b946b0bf",
+  "sks": "8d3fb74736478d8e1a0b00fff1828482cbe52cbd9dac3c0e6127bd47699dec4a",
+  "paired_at": "2025-12-22T15:07:52.232790+00:00",
+  "name": "ZOK35H",
+  "model": "",
+  "identifier": "0D27089E-2A75-4BA2-8C8B-CE105AB18D4B",
+  "alignment_date": "2026-07-15T05:29:50+00:00",
+  "alignment_index": 19643,
+  "icloud_account": "beracentro@icloud.com",
+  "imported_at": "2026-08-20T19:14:06.421667+00:00",
+  "first_imported_at": "2026-08-20T19:14:06.421667+00:00"
+}

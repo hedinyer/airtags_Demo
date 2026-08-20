@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d7ec90ce660a6cecca70e5b7be56c4d0257aa75575a7b7f1f11107a2",
+  "skn": "78f30efa1ba7ce266fd4b101181e1723f1b1288b075459c6208d69b91a294ad6",
+  "sks": "841fd67e32bee6ac2786241475eece330874768427427a9bbf45af9801c26c2e",
+  "paired_at": "2025-10-16T14:13:16.358970+00:00",
+  "name": "TSI78H",
+  "model": "",
+  "identifier": "F92649CB-CC02-474A-80EB-BA647EAD6BAC",
+  "alignment_date": "2026-08-10T15:14:00+00:00",
+  "alignment_index": 28614,
+  "icloud_account": "beramonedas1@gmail.com",
+  "imported_at": "2026-08-20T19:56:39.269907+00:00",
+  "first_imported_at": "2026-08-20T19:56:39.269907+00:00"
+}

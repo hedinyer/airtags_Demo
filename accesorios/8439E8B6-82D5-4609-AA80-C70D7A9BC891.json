@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "9b644d1a2b8ad19dac5465f378685f640e2f5786ae02c7d371a29988",
+  "skn": "ac2901a2cb2c730341ec12281a32deffdea62b10c066aa0756284e5f96664bd3",
+  "sks": "38ee0cc7d84127fc9c55b7abdd6529c2a7ac5feadf30d7af71134915e397d62a",
+  "paired_at": "2025-10-21T15:15:21.896146+00:00",
+  "name": "TSK21H",
+  "model": "",
+  "identifier": "8439E8B6-82D5-4609-AA80-C70D7A9BC891",
+  "alignment_date": "2026-08-10T19:22:50+00:00",
+  "alignment_index": 28146,
+  "icloud_account": "beramonedas1@gmail.com",
+  "imported_at": "2026-08-20T19:56:39.269907+00:00",
+  "first_imported_at": "2026-08-20T19:56:39.269907+00:00"
+}

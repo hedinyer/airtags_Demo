@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "f8365b234eb0a81ff69c57b947d80294f5d387183cbba139a803522f",
+  "skn": "e8db307b867d2b88b00980fe3bdae91ea7a30953ff459ce0598b28cec9b93b2e",
+  "sks": "19ee376eb4663b64bf5cb77f34155d32aea62db9af6937bf9f4da5219401d9ca",
+  "paired_at": "2025-10-21T15:10:35.837934+00:00",
+  "name": "TSI94H",
+  "model": "",
+  "identifier": "A99F8D0C-117F-4DEE-8C3B-89704777ACA3",
+  "alignment_date": "2026-04-13T03:47:20+00:00",
+  "alignment_index": 16659,
+  "icloud_account": "beramonedas1@gmail.com",
+  "imported_at": "2026-08-20T19:56:39.269907+00:00",
+  "first_imported_at": "2026-08-20T19:56:39.269907+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "09491d32cde39d13cd2b9cf6367b0f40c14564aa410b25feb36113e9",
+  "skn": "43bacc62845f0b63002cfb538a07861f94cb9bce12efabc258d2fc250f798d0b",
+  "sks": "428cda81cc11a431fe88739fb92d64c420ecee316333f0eb7ff213470d22ae43",
+  "paired_at": "2025-10-17T13:24:55.889823+00:00",
+  "name": "TID31H",
+  "model": "",
+  "identifier": "FD6871C5-41D3-4945-84C6-06C5F435A2AB",
+  "alignment_date": "2026-08-10T19:22:00+00:00",
+  "alignment_index": 28518,
+  "icloud_account": "beramonedas1@gmail.com",
+  "imported_at": "2026-08-20T19:56:39.269907+00:00",
+  "first_imported_at": "2026-08-20T19:56:39.269907+00:00"
+}

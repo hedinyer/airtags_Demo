@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d4a7a8ae4612ba599aafce959810431387c1b3e57b2e37a14ade53d4",
+  "skn": "2484c8537157225d44b062ecc14bd2c0e25223a761725ea1f9c871420126f130",
+  "sks": "5d27b26a5f5dc2a0a959dd5bd7b15d82efd86a64d725be4dbe2268c268746e5b",
+  "paired_at": "2025-10-21T15:08:39.788363+00:00",
+  "name": "TSK26H",
+  "model": "",
+  "identifier": "C156969A-F8C0-4008-ABF9-4AD58419FA7E",
+  "alignment_date": "2026-08-10T14:42:40+00:00",
+  "alignment_index": 28127,
+  "icloud_account": "beramonedas1@gmail.com",
+  "imported_at": "2026-08-20T19:56:39.269907+00:00",
+  "first_imported_at": "2026-08-20T19:56:39.269907+00:00"
+}

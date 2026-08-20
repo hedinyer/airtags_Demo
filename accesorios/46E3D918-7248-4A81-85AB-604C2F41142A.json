@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "c837030e31f01af3cec3bbe11c773f41ce5246e37951c2ec58137422",
+  "skn": "0064854c678113acabd67e216b4c5fa18e494064599a4334ec358d6e2a499780",
+  "sks": "17dd061f6ee5778b1ce4edaa081a97b35d04e72c50729d33f2f5e52d7d02cc80",
+  "paired_at": "2025-10-22T18:26:46.102565+00:00",
+  "name": "TSK32H",
+  "model": "",
+  "identifier": "46E3D918-7248-4A81-85AB-604C2F41142A",
+  "alignment_date": "2026-08-10T18:36:00+00:00",
+  "alignment_index": 28035,
+  "icloud_account": "beramonedas1@gmail.com",
+  "imported_at": "2026-08-20T19:56:39.269907+00:00",
+  "first_imported_at": "2026-08-20T19:56:39.269907+00:00"
+}

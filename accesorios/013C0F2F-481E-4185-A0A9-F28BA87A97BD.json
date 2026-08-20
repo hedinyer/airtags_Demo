@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "21670a3ba58fae2db4067e9844a186836ca1dbbcba28837ce22c964c",
+  "skn": "a09b636c07b245c16be0a3dc8f6ffb3b08f3811e97d640a1100ba28fe7b2e9ae",
+  "sks": "098a538563966184a3fdf1b97dceab46483431ff033b3ff29e73f1ccf424d618",
+  "paired_at": "2025-12-26T13:27:20.769560+00:00",
+  "name": "ZOT43H",
+  "model": "",
+  "identifier": "013C0F2F-481E-4185-A0A9-F28BA87A97BD",
+  "alignment_date": "2026-08-10T20:00:50+00:00",
+  "alignment_index": 21820,
+  "icloud_account": "beracentro@icloud.com",
+  "imported_at": "2026-08-20T19:14:06.421667+00:00",
+  "first_imported_at": "2026-08-20T19:14:06.421667+00:00"
+}

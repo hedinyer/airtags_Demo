@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "2b3917236af7b3a9605c7cb1b35bea583f01160ebe904f77338e83f2",
+  "skn": "b5c44830c3cba6efdb5918436db5ef1802216b943da7bd8125fe768dae1a1c80",
+  "sks": "0c30235fc86d3b03a1448d035fe3c52b83368ed43a231c5e96764d7b698c7344",
+  "paired_at": "2025-12-22T15:19:43.569433+00:00",
+  "name": "ZOK53H",
+  "model": "",
+  "identifier": "B016CAAD-8483-4FE1-BC03-095DB2A13041",
+  "alignment_date": "2026-04-13T23:22:40+00:00",
+  "alignment_index": 10785,
+  "icloud_account": "beracentro@icloud.com",
+  "imported_at": "2026-08-20T19:14:06.421667+00:00",
+  "first_imported_at": "2026-08-20T19:14:06.421667+00:00"
+}

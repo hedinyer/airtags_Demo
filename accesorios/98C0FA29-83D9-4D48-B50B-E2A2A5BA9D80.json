@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "9a9e909378c83ea8f551cb0e20b2458f61b93969acf27862bb4ef157",
+  "skn": "0da64aafe6bf32b20beb7ece77a2adaa0500450dc457c2bd03b3c1e10e770c8c",
+  "sks": "a5fcdb21c96a52ab73f14f5f1c5c083059ea93b17fd193e3421e4789422d82fa",
+  "paired_at": "2025-12-22T15:10:38.117411+00:00",
+  "name": "ZOK45H",
+  "model": "",
+  "identifier": "98C0FA29-83D9-4D48-B50B-E2A2A5BA9D80",
+  "alignment_date": "2026-08-10T21:29:40+00:00",
+  "alignment_index": 22202,
+  "icloud_account": "beracentro@icloud.com",
+  "imported_at": "2026-08-20T19:14:06.421667+00:00",
+  "first_imported_at": "2026-08-20T19:14:06.421667+00:00"
+}

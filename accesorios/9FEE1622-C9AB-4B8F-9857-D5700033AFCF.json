@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "ae1e9c56d4cd6330df1ca6ebf1cf31b3507619dc8108e76d92b211b8",
+  "skn": "404a67b0050f9844f7b8b7d6949796e60aa62b2359d6e91d4fff089134522df8",
+  "sks": "08f651b3b005a535f4905181dd25b472d1a6bf0021d8b56a83f7bc6e5a2ec1e8",
+  "paired_at": "2025-10-23T14:48:28.063572+00:00",
+  "name": "TSP08H",
+  "model": "",
+  "identifier": "9FEE1622-C9AB-4B8F-9857-D5700033AFCF",
+  "alignment_date": "2026-08-10T18:43:50+00:00",
+  "alignment_index": 27911,
+  "icloud_account": "beramonedas1@gmail.com",
+  "imported_at": "2026-08-20T19:56:39.269907+00:00",
+  "first_imported_at": "2026-08-20T19:56:39.269907+00:00"
+}

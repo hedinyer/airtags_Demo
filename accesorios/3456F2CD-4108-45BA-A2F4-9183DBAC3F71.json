@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "1dd6a8c64b29bddbacf9d293e820e141a2a5a16930ebbc6044de0090",
+  "skn": "c5357a4e904fd12890fa85be7740673c5a98605ebc0c40a496b5ae8cd575f7b2",
+  "sks": "117add35b61e211e127ff8698334853a9cf80d58443ac547a702a4302b55bdaa",
+  "paired_at": "2025-10-16T14:08:11.602525+00:00",
+  "name": "TSI77H",
+  "model": "",
+  "identifier": "3456F2CD-4108-45BA-A2F4-9183DBAC3F71",
+  "alignment_date": "2026-08-10T19:15:10+00:00",
+  "alignment_index": 28630,
+  "icloud_account": "beramonedas1@gmail.com",
+  "imported_at": "2026-08-20T19:56:39.269907+00:00",
+  "first_imported_at": "2026-08-20T19:56:39.269907+00:00"
+}

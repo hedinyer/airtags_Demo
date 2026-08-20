@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "dc79e8a0355c7c4a842fd6f629a6c3d774fdcf45671d7f4955a1cd5d",
+  "skn": "511b69083bc8a1bddf5cebe9b0f4f1ae13cc8593059a3acdb6885113664e97f7",
+  "sks": "47a40ed1231b19de0ad7a37b4e7f328f39f9763f502e89ca70b73cb376baab3f",
+  "paired_at": "2026-01-09T15:31:05.624869+00:00",
+  "name": "ZPE20H",
+  "model": "",
+  "identifier": "2E1E5419-1AD5-411F-8ACE-514BA995D874",
+  "alignment_date": "2026-08-10T20:24:20+00:00",
+  "alignment_index": 20346,
+  "icloud_account": "beracentro@icloud.com",
+  "imported_at": "2026-08-20T19:14:06.421667+00:00",
+  "first_imported_at": "2026-08-20T19:14:06.421667+00:00"
+}

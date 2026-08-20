@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "e142362eeee626ad8ce0d0861114155df456c4da98dfd83094cf0755",
+  "skn": "d0c836a2d57666497f5aa8a31692c863dc8c3c364182c093dc9653e3920355f6",
+  "sks": "cd98b76579c471bcc7c6edcca5e2cf27927a5f95b24342ce4e7f3a6317cc5af4",
+  "paired_at": "2025-10-22T19:04:20.107472+00:00",
+  "name": "TSK30H",
+  "model": "",
+  "identifier": "3509CF72-9C08-4FE4-82B7-0531214984A5",
+  "alignment_date": "2026-08-10T18:19:50+00:00",
+  "alignment_index": 28030,
+  "icloud_account": "beramonedas1@gmail.com",
+  "imported_at": "2026-08-20T19:56:39.269907+00:00",
+  "first_imported_at": "2026-08-20T19:56:39.269907+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "c8cd7a67ee61cd42216b04bc6d703a8d26982bdbcfcfeea67edfb2b8",
+  "skn": "d187c882b83af55ef5d4bc5667248aa09c017b8363e402b06f299906f18adc4e",
+  "sks": "06b14692c7b7369f2a4421171b09a67cc115d01baf1771660335b655898ab240",
+  "paired_at": "2026-01-05T20:45:12.962539+00:00",
+  "name": "ZOT48H",
+  "model": "",
+  "identifier": "D0E581EE-061D-44AA-894E-C727DDF71116",
+  "alignment_date": "2026-08-10T21:18:30+00:00",
+  "alignment_index": 20835,
+  "icloud_account": "beracentro@icloud.com",
+  "imported_at": "2026-08-20T19:14:06.421667+00:00",
+  "first_imported_at": "2026-08-20T19:14:06.421667+00:00"
+}

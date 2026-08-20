@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "1a50fc6f1b39a6f9b58e4494623bd671a3a71d432b1f5cf450c041e5",
+  "skn": "881c585507138b738038c3651c5f0478a4f12cbf69ad94970efa3711a049539b",
+  "sks": "77f45fe3008b1a04fdbc30c53aa821db2efac8a408727a86de0986c33404c23b",
+  "paired_at": "2025-10-22T16:36:41.468156+00:00",
+  "name": "TSK38H",
+  "model": "",
+  "identifier": "C836AA34-CA66-4329-8F76-A602B0F4FF7D",
+  "alignment_date": "2026-08-10T19:30:30+00:00",
+  "alignment_index": 28044,
+  "icloud_account": "beramonedas1@gmail.com",
+  "imported_at": "2026-08-20T19:56:39.269907+00:00",
+  "first_imported_at": "2026-08-20T19:56:39.269907+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "3acefcbeb3b0f0d279e9dd3846a3c75dd887999c2b7c4f5738dfd475",
+  "skn": "0570bf73c3155d54f71b532fa0249e49ea4eea96f8a45b694d84545684b37f22",
+  "sks": "79681cd6f1cb01a775a791739218ad684f801396767aedb4cc1636f4b35a78ab",
+  "paired_at": "2025-10-14T21:07:12.780777+00:00",
+  "name": "TSI81H",
+  "model": "",
+  "identifier": "CA15BE78-606A-4144-BCB5-37281A274F52",
+  "alignment_date": "2026-08-10T18:49:30+00:00",
+  "alignment_index": 28793,
+  "icloud_account": "beramonedas1@gmail.com",
+  "imported_at": "2026-08-20T19:56:39.269907+00:00",
+  "first_imported_at": "2026-08-20T19:56:39.269907+00:00"
+}

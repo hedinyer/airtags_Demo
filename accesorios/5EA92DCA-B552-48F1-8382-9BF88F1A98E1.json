@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "af6b80bd29838fc95fb37846950465f77ed4b96d3b34e384210a8bcb",
+  "skn": "57902c5fe23952d94f2f20b2b49cfac741de7730f53f892576067d9f900baf4c",
+  "sks": "25216b36623b8289c2c6a6ad0439536a9d7310814751f674fe9a027362933bd2",
+  "paired_at": "2025-10-16T13:53:04.380873+00:00",
+  "name": "TSI91H",
+  "model": "",
+  "identifier": "5EA92DCA-B552-48F1-8382-9BF88F1A98E1",
+  "alignment_date": "2026-08-10T19:29:50+00:00",
+  "alignment_index": 28632,
+  "icloud_account": "beramonedas1@gmail.com",
+  "imported_at": "2026-08-20T19:56:39.269907+00:00",
+  "first_imported_at": "2026-08-20T19:56:39.269907+00:00"
+}

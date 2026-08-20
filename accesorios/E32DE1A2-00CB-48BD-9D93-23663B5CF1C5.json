@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "73c1a19286dc08469236b643dcd277e73d2349674b4005b2e16ed78d",
+  "skn": "2685bdc882c06ce1790dc10bf85f2c9585bfcbe6c648b0de4db7bae85c641515",
+  "sks": "586042732effef707f6106357242dfdbe1d38450c7ae5643b1044e4822ab847e",
+  "paired_at": "2026-01-07T14:23:32.941331+00:00",
+  "name": "ZPE14H",
+  "model": "",
+  "identifier": "E32DE1A2-00CB-48BD-9D93-23663B5CF1C5",
+  "alignment_date": "2026-08-10T21:22:30+00:00",
+  "alignment_index": 20670,
+  "icloud_account": "beracentro@icloud.com",
+  "imported_at": "2026-08-20T19:14:06.421667+00:00",
+  "first_imported_at": "2026-08-20T19:14:06.421667+00:00"
+}

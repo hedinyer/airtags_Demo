@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "fefef9e51b1b8f58260cea11cea5065a1cdcf75388b825c930c3bd88",
+  "skn": "e85e8b5b4a6ccb2e463cccf89b848255b45f54364fe839093a8478c9ad439dec",
+  "sks": "3941db21dddad9c5841caf7cc339a08a3ad31d76b1278bbc5d6853d178320546",
+  "paired_at": "2025-10-21T15:11:52.014933+00:00",
+  "name": "TSI95H",
+  "model": "",
+  "identifier": "9AE89CA9-0800-43EC-A466-975595E649D0",
+  "alignment_date": "2025-11-16T03:36:22+00:00",
+  "alignment_index": 2451,
+  "icloud_account": "beramonedas1@gmail.com",
+  "imported_at": "2026-08-20T19:56:39.269907+00:00",
+  "first_imported_at": "2026-08-20T19:56:39.269907+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "004d72019f45632e490f3d06c76af867b4b57c1decc69d40535f03e3",
+  "skn": "4827f8edaaa115e45b9ae9630dfdaca6a7212b2e3d9fcfae4ec620961df4ca44",
+  "sks": "f15e6ac09570e14d952a785a8cb159b6eb489047c4f4a58522bee4dfebc2e8e3",
+  "paired_at": "2026-01-07T14:09:55.996278+00:00",
+  "name": "ZPE06H",
+  "model": "",
+  "identifier": "E63C842A-CAB9-4D1F-805D-BD81CD05DFB5",
+  "alignment_date": "2026-07-15T01:08:40+00:00",
+  "alignment_index": 18094,
+  "icloud_account": "beracentro@icloud.com",
+  "imported_at": "2026-08-20T19:14:06.421667+00:00",
+  "first_imported_at": "2026-08-20T19:14:06.421667+00:00"
+}

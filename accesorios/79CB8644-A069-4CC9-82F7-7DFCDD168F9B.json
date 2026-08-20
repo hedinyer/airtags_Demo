@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "346001694983322f0b29430e2aba59deedebb310462e7db3caf83085",
+  "skn": "cb8d42ebdc5ee1cf763ef9d04627af15a7207826f8a474607f5fa48878e33321",
+  "sks": "453ccd0c224534251b065dd8d93574d1f9ce0306d9127d0d34c8d360aa47f4bc",
+  "paired_at": "2025-10-14T22:09:56.530213+00:00",
+  "name": "TSI89H",
+  "model": "",
+  "identifier": "79CB8644-A069-4CC9-82F7-7DFCDD168F9B",
+  "alignment_date": "2026-08-10T19:15:10+00:00",
+  "alignment_index": 28790,
+  "icloud_account": "beramonedas1@gmail.com",
+  "imported_at": "2026-08-20T19:56:39.269907+00:00",
+  "first_imported_at": "2026-08-20T19:56:39.269907+00:00"
+}

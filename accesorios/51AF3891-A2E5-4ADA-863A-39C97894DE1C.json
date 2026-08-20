@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "0b6f691f350b554392951aba5a662edf2a05c0154455e9f1ae8416e8",
+  "skn": "5979e45ae6ced1919ace89044f8a344c8d7f4b7205ccc48a3f934625b265a25a",
+  "sks": "c5123766e398c07fe0495017b926c2f8f0e9c89de64f1ab037685fa7958fb8d1",
+  "paired_at": "2025-12-23T14:29:02.263634+00:00",
+  "name": "ZOK50H",
+  "model": "",
+  "identifier": "51AF3891-A2E5-4ADA-863A-39C97894DE1C",
+  "alignment_date": "2026-08-10T19:39:30+00:00",
+  "alignment_index": 22103,
+  "icloud_account": "beracentro@icloud.com",
+  "imported_at": "2026-08-20T19:14:06.421667+00:00",
+  "first_imported_at": "2026-08-20T19:14:06.421667+00:00"
+}

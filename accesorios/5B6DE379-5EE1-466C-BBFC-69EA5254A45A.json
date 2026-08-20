@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "061d53f4e00decb87c284235d6abb83c8155eaf9f54147bbe05a412e",
+  "skn": "3a10f11ed0a145b89957395796dd474e31306bf174983a5a19b0778287e74fc1",
+  "sks": "4e29c23e66ae032bb88eeea3803649914425b89e73763f09de855bc60e842f47",
+  "paired_at": "2025-10-22T19:59:56.532729+00:00",
+  "name": "TSK29H",
+  "model": "",
+  "identifier": "5B6DE379-5EE1-466C-BBFC-69EA5254A45A",
+  "alignment_date": "2026-08-10T19:28:50+00:00",
+  "alignment_index": 27952,
+  "icloud_account": "beramonedas1@gmail.com",
+  "imported_at": "2026-08-20T19:56:39.269907+00:00",
+  "first_imported_at": "2026-08-20T19:56:39.269907+00:00"
+}

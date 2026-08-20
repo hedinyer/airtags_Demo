@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "21147210183f44898716de7f2716b132f28e99d9633e524a101dbfe4",
+  "skn": "a846eb458ac57c4fd2afb1a49fbd5c4849b9e3cdc74ac1e77cc229a39f533f80",
+  "sks": "39e0dc483274be10968577aa0cc0cfb34090265be55fdb91d8f7675ab83b3e7c",
+  "paired_at": "2025-10-21T15:14:13.165872+00:00",
+  "name": "TSK25H",
+  "model": "",
+  "identifier": "F97498C0-7165-4CD8-AACD-E8D6F8F45D7A",
+  "alignment_date": "2025-12-18T18:44:51+00:00",
+  "alignment_index": 5084,
+  "icloud_account": "beramonedas1@gmail.com",
+  "imported_at": "2026-08-20T19:56:39.269907+00:00",
+  "first_imported_at": "2026-08-20T19:56:39.269907+00:00"
+}

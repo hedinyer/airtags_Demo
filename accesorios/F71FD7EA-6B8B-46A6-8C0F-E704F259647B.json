@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "2a9ec8472a3db2c801c9dedc39f9e6f59a018e4142bb8752753f28aa",
+  "skn": "0c079bff3e0c2634ec584ae0d5e6e304023e86442b79cf5a9ddb4d9dcb4fa794",
+  "sks": "44179a9a87678250ae7f8e274a0a30d71a1b4a6625d4977e5e62b677cebf676f",
+  "paired_at": "2025-10-14T18:11:15.116065+00:00",
+  "name": "iPhone",
+  "model": "iPhone12,1",
+  "identifier": "F71FD7EA-6B8B-46A6-8C0F-E704F259647B",
+  "alignment_date": "2025-10-14T18:11:15.116065+00:00",
+  "alignment_index": 0,
+  "icloud_account": "beramonedas1@gmail.com",
+  "imported_at": "2026-08-20T19:56:39.269907+00:00",
+  "first_imported_at": "2026-08-20T19:56:39.269907+00:00"
+}

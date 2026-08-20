@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "5c47e50c79ca5cfeb88f091777afc20984b85a48588379f1ad564bba",
+  "skn": "e49b6cec8291466764b06c9b70257d8c311c9c2c511511c4a6f3db468f2ddb4d",
+  "sks": "4e98c544b985f983d2fb39e38605b63187fffe7cdbe41c72d00da3d4680dd46a",
+  "paired_at": "2025-12-26T13:28:29.798835+00:00",
+  "name": "ZOT44H",
+  "model": "",
+  "identifier": "1B0800A6-95FB-4FF4-9B6F-C61838F269C3",
+  "alignment_date": "2026-08-10T21:24:00+00:00",
+  "alignment_index": 21826,
+  "icloud_account": "beracentro@icloud.com",
+  "imported_at": "2026-08-20T19:14:06.421667+00:00",
+  "first_imported_at": "2026-08-20T19:14:06.421667+00:00"
+}

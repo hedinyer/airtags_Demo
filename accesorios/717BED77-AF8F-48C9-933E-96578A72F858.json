@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "c2805abae98ecb7dbf78274453f725f845499d0ea65baccc70fcd38b",
+  "skn": "799ab3fd4796215f15d9d0de2cf06475c296d98c67084c87945604c8f6042f35",
+  "sks": "dcce733e6b8a3ff0c0ee41a0ff6797bdcaf93e028bfcfbe67d482f033fe695a6",
+  "paired_at": "2026-01-09T15:29:51.308171+00:00",
+  "name": "ZPE15H",
+  "model": "",
+  "identifier": "717BED77-AF8F-48C9-933E-96578A72F858",
+  "alignment_date": "2026-08-10T21:22:20+00:00",
+  "alignment_index": 20473,
+  "icloud_account": "beracentro@icloud.com",
+  "imported_at": "2026-08-20T19:14:06.421667+00:00",
+  "first_imported_at": "2026-08-20T19:14:06.421667+00:00"
+}

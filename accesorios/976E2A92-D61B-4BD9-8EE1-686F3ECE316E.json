@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "31a5ab3bffb4382c48939e36960a7479669fa777534f4b348f118946",
+  "skn": "9ff0706c18a86e7ee871900e2a192c52ece40d5fe9d49de6c4c0239bad0c6a3c",
+  "sks": "d13f94db0d739f3bee243fce93d5b96e40b48e878b2a8336638fbe5613c208e8",
+  "paired_at": "2026-08-20T19:44:01.577821+00:00",
+  "name": null,
+  "model": "MacBookAir10,1",
+  "identifier": "976E2A92-D61B-4BD9-8EE1-686F3ECE316E",
+  "alignment_date": "2026-08-20T19:44:01.577821+00:00",
+  "alignment_index": 0,
+  "icloud_account": "beramonedas1@gmail.com",
+  "imported_at": "2026-08-20T19:56:39.269907+00:00",
+  "first_imported_at": "2026-08-20T19:56:39.269907+00:00"
+}

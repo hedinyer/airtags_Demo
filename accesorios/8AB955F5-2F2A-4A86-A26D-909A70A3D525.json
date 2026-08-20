@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "a5d87266511cf067ce80c76b258607698c2c2c1913f7174aa2e41417",
+  "skn": "6243914e51edab405c727f8d2e95b933d10c675b52bc0879bc0a7006f1240f35",
+  "sks": "47903fc3bae8878542844e47ec7023bfae809c5e4af5a0b19df56b6d4ffd7992",
+  "paired_at": "2026-01-09T14:24:23.361376+00:00",
+  "name": "ZPE21H Milán",
+  "model": "",
+  "identifier": "8AB955F5-2F2A-4A86-A26D-909A70A3D525",
+  "alignment_date": "2026-08-10T21:23:20+00:00",
+  "alignment_index": 20477,
+  "icloud_account": "beracentro@icloud.com",
+  "imported_at": "2026-08-20T19:14:06.421667+00:00",
+  "first_imported_at": "2026-08-20T19:14:06.421667+00:00"
+}

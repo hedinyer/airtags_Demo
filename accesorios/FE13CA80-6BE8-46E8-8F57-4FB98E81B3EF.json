@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "e701651406050ec46e7d92d7d24712db46cc0a5b0234abd6e8f55646",
+  "skn": "5d88c86f177d6d9a243cfc60f85a029045504b3e25c61743d1be462f8ea355d1",
+  "sks": "27f8fb6e743b74ed822a1a3ddc502712d0b77d2f0c88c05b31e2156d99de2f6b",
+  "paired_at": "2025-12-26T13:45:34.932433+00:00",
+  "name": "ZOT45H",
+  "model": "",
+  "identifier": "FE13CA80-6BE8-46E8-8F57-4FB98E81B3EF",
+  "alignment_date": "2026-08-10T20:26:20+00:00",
+  "alignment_index": 21820,
+  "icloud_account": "beracentro@icloud.com",
+  "imported_at": "2026-08-20T19:14:06.421667+00:00",
+  "first_imported_at": "2026-08-20T19:14:06.421667+00:00"
+}
