@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "6315de7af9865223f32c6b6c0a27993a35938f312213543df845c48b",
+  "skn": "6a3efc7b85e8d3aa582b0d8b10469a9e8193c451ff888fde1581c56775b04e5e",
+  "sks": "146a24dcd7e5ab1a22425a66a63f948eabf1668558bb6cc253f96b60f6802d33",
+  "paired_at": "2026-06-19T21:12:30.668494+00:00",
+  "name": "HAQ85I",
+  "model": "empty",
+  "identifier": "F9372DD3-30C9-4F4B-BF04-A4E10C833AEA",
+  "alignment_date": "2026-08-21T16:12:30+00:00",
+  "alignment_index": 6030,
+  "icloud_account": "alejandroardila218@gmail.com",
+  "imported_at": "2026-08-25T20:50:12.912409+00:00",
+  "first_imported_at": "2026-08-25T20:50:12.912409+00:00"
+}

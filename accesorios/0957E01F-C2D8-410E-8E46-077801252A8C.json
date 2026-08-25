@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "88a2bf613d40886a9a8242a5bec4463a9d8fb5bb4aa8957b6445c7ff",
+  "skn": "1f87eed529de139682fbed28fd50672e63a796ffadd8b61c53756d531fc863ae",
+  "sks": "2ef419fb6e190e965cfb39bcc026f7e1d1fc5e72d4878dbc5b2f898b1be3894e",
+  "paired_at": "2026-06-19T20:43:49.317631+00:00",
+  "name": "HAQ73I",
+  "model": "empty",
+  "identifier": "0957E01F-C2D8-410E-8E46-077801252A8C",
+  "alignment_date": "2026-08-24T15:02:40+00:00",
+  "alignment_index": 6315,
+  "icloud_account": "alejandroardila218@gmail.com",
+  "imported_at": "2026-08-25T20:50:12.912409+00:00",
+  "first_imported_at": "2026-08-25T20:50:12.912409+00:00"
+}

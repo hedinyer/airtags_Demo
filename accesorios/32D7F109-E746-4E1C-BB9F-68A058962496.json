@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "16965a44d3023d876bddd6832726ec060989b71cae80437b34e3825a",
+  "skn": "f97ab084bc09be5f791937bc2a44af7772c00e6597f4fcf8d06f3985ef784b5d",
+  "sks": "3ebd09ef67343916c87428bcd8a12ffa5f831b81b206946c7357121bb2a56445",
+  "paired_at": "2026-06-11T16:22:54.170911+00:00",
+  "name": "HAM95I",
+  "model": "empty",
+  "identifier": "32D7F109-E746-4E1C-BB9F-68A058962496",
+  "alignment_date": "2026-08-24T12:52:00+00:00",
+  "alignment_index": 7091,
+  "icloud_account": "alejandroardila218@gmail.com",
+  "imported_at": "2026-08-25T20:50:12.912409+00:00",
+  "first_imported_at": "2026-08-25T20:50:12.912409+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b1f23b7b079f5fabc4bf897c41ffd3e68effa78eb28f4b08d2d52e7d",
+  "skn": "b2fd49bb409ca4ef404603f951a30e36c7018c7e498d73a5a74b5042103f702c",
+  "sks": "c05cd00570d097ffae7bae221e644e503ea7e8a0cab830d219acc52b7ec82a81",
+  "paired_at": "2026-06-11T18:04:50.308579+00:00",
+  "name": "HAM89I",
+  "model": "empty",
+  "identifier": "F621D15A-6076-4F3B-9EDA-06C453644EA7",
+  "alignment_date": "2026-08-24T14:50:40+00:00",
+  "alignment_index": 7092,
+  "icloud_account": "alejandroardila218@gmail.com",
+  "imported_at": "2026-08-25T20:50:12.912409+00:00",
+  "first_imported_at": "2026-08-25T20:50:12.912409+00:00"
+}

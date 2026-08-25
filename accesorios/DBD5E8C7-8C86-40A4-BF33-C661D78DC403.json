@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "4c623dcfa172632c2cf5bd3ebba277b9c2492c43748dec8a6b8bec39",
+  "skn": "958b680f70b4c48b798849ffad554deac2b9af284210cc8aae219a1f2d779e2d",
+  "sks": "4bbc9f63867867c07621dcfe89f62e870b18a554b80858216e59f52e193ba8e3",
+  "paired_at": "2026-06-26T15:21:55.703684+00:00",
+  "name": "KGC88I",
+  "model": "empty",
+  "identifier": "DBD5E8C7-8C86-40A4-BF33-C661D78DC403",
+  "alignment_date": "2026-08-24T15:01:30+00:00",
+  "alignment_index": 5663,
+  "icloud_account": "alejandroardila218@gmail.com",
+  "imported_at": "2026-08-25T20:50:12.912409+00:00",
+  "first_imported_at": "2026-08-25T20:50:12.912409+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "96ef879ad19944e6ee905d6ecf7e185fe9a6a0b595712b8b60e99989",
+  "skn": "3041b1de68b8160d1c2e1aa1a13fe1983073691f5c2d9459a9945fb678a0f1f2",
+  "sks": "287ea02e1c6a9fec7665f3d090b1198c7600ef05e1f76b3fa91b076f4318e736",
+  "paired_at": "2026-06-05T19:30:43.612670+00:00",
+  "name": "HAB89I",
+  "model": "empty",
+  "identifier": "E62C165C-3B72-4A52-9FAA-F068AE994CDC",
+  "alignment_date": "2026-08-24T15:02:00+00:00",
+  "alignment_index": 7663,
+  "icloud_account": "alejandroardila218@gmail.com",
+  "imported_at": "2026-08-25T20:50:12.912409+00:00",
+  "first_imported_at": "2026-08-25T20:50:12.912409+00:00"
+}

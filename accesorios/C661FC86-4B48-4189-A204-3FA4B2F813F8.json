@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "4ea2641b1f3dd485749a75e540ff7d5987853806293190ce765f39cb",
+  "skn": "1eb9c92e6087205610e984a29775e0d3484de522ab8214a389bc9856499846af",
+  "sks": "e26a3bfb287ad8976ef03f3a213e7f8c5169bfda4409571e288a557eaa971304",
+  "paired_at": "2026-06-18T21:23:44.383193+00:00",
+  "name": "HAQ82I",
+  "model": "empty",
+  "identifier": "C661FC86-4B48-4189-A204-3FA4B2F813F8",
+  "alignment_date": "2026-08-24T14:05:10+00:00",
+  "alignment_index": 6404,
+  "icloud_account": "alejandroardila218@gmail.com",
+  "imported_at": "2026-08-25T20:50:12.912409+00:00",
+  "first_imported_at": "2026-08-25T20:50:12.912409+00:00"
+}

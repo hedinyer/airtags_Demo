@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d40161c9800308572cd75f61de2944b69eb103b4388b2aaa77ef788c",
+  "skn": "2cb0a9fa8a88429f1b95ddd94b5654fcd1c99bc1d76f8abc9264dc51f531c2cb",
+  "sks": "01f80db44a54632cf08a1df48fcb420105de89093eb74c6ab9acff9c6b8650a5",
+  "paired_at": "2026-06-30T22:20:55.930319+00:00",
+  "name": "KFF85I",
+  "model": "empty",
+  "identifier": "5ADA1A03-4830-402A-A183-915DE6D667AA",
+  "alignment_date": "2026-08-24T14:14:40+00:00",
+  "alignment_index": 5249,
+  "icloud_account": "alejandroardila218@gmail.com",
+  "imported_at": "2026-08-25T20:50:12.912409+00:00",
+  "first_imported_at": "2026-08-25T20:50:12.912409+00:00"
+}

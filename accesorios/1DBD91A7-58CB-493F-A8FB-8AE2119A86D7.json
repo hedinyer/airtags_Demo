@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "7facc6407ee0797f05379e64b86b13e7d35392a786209c8feeee9c13",
+  "skn": "b445eb0f35b0fdfa8d2c1846339565041b92ec2a3f715a750e6a13a913e9ddde",
+  "sks": "9c1a20fe0333a539d450aa04cea295244dffcfda004b49c3b550da820f066e4a",
+  "paired_at": "2026-06-05T20:14:03.607823+00:00",
+  "name": "HAM80I",
+  "model": "empty",
+  "identifier": "1DBD91A7-58CB-493F-A8FB-8AE2119A86D7",
+  "alignment_date": "2026-08-24T14:33:10+00:00",
+  "alignment_index": 7659,
+  "icloud_account": "alejandroardila218@gmail.com",
+  "imported_at": "2026-08-25T20:50:12.912409+00:00",
+  "first_imported_at": "2026-08-25T20:50:12.912409+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "fc9cba04343fac17f0bc2e045df901d206d5269d1832eef6f444c59d",
+  "skn": "0ce669938dec25fdf8a45e070f01e1d25161fc1fcfbacc663a3e5ca461a36dab",
+  "sks": "225b0ba953088aeabe93226bf3d21ac5e7364c2cd630b2455b48885b2e3f9eaa",
+  "paired_at": "2026-06-05T20:32:31.576231+00:00",
+  "name": "HAB79I",
+  "model": "empty",
+  "identifier": "2073A5E2-3645-460C-9100-1D588B2D93F7",
+  "alignment_date": "2026-08-24T14:16:20+00:00",
+  "alignment_index": 7656,
+  "icloud_account": "alejandroardila218@gmail.com",
+  "imported_at": "2026-08-25T20:50:12.912409+00:00",
+  "first_imported_at": "2026-08-25T20:50:12.912409+00:00"
+}

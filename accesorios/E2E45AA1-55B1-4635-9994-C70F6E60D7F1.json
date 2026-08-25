@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "151d7f69fda5b2cfc3c1655f49f6413bd6d802248a9f7e6b16bde8d1",
+  "skn": "966a9eb53c61e5812f40c71e4f3b44f6cf4dbdf5daee45c3aa6170f795c714da",
+  "sks": "7bbdc2c12f8f6d7912d07a018428754187f50a943741a0fd9e813f3e8b6a9102",
+  "paired_at": "2026-06-19T14:55:15.994813+00:00",
+  "name": "HAM88I",
+  "model": "empty",
+  "identifier": "E2E45AA1-55B1-4635-9994-C70F6E60D7F1",
+  "alignment_date": "2026-08-24T14:51:20+00:00",
+  "alignment_index": 6337,
+  "icloud_account": "alejandroardila218@gmail.com",
+  "imported_at": "2026-08-25T20:50:12.912409+00:00",
+  "first_imported_at": "2026-08-25T20:50:12.912409+00:00"
+}

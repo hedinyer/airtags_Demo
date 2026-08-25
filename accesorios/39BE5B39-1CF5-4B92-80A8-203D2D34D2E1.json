@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "8276d049f5bf7b7e2cbeac21043ebfdf9f8b271503c62fb1c8b69919",
+  "skn": "3003f6fb1d8e74390f23675ff7be0e3b30ca32d9434a621965abf47b6c42a82d",
+  "sks": "4e5dfe976aa248c2f946edfa3400cf91f93cd66ae3803d48afbaf744f69777cd",
+  "paired_at": "2026-06-12T20:05:08.944200+00:00",
+  "name": "HAM86I",
+  "model": "empty",
+  "identifier": "39BE5B39-1CF5-4B92-80A8-203D2D34D2E1",
+  "alignment_date": "2026-08-24T12:44:00+00:00",
+  "alignment_index": 6980,
+  "icloud_account": "alejandroardila218@gmail.com",
+  "imported_at": "2026-08-25T20:50:12.912409+00:00",
+  "first_imported_at": "2026-08-25T20:50:12.912409+00:00"
+}
