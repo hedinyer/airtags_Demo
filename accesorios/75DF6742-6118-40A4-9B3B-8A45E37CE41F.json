@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "dc6e9e70b30e9b2396a6a4e888dba478608a7691bef943e46a8baf2f",
+  "skn": "33f0f045f9ab1a235fd1f46ba27a915f0b91acd106b2e5eec98202b635b0e5b5",
+  "sks": "b567b1d1a8dd544ad78ec13f3c97f2de27a7a8cb35294318d840f2b1974c466b",
+  "paired_at": "2026-06-26T17:00:24.571057+00:00",
+  "name": "HAE08I",
+  "model": "empty",
+  "identifier": "75DF6742-6118-40A4-9B3B-8A45E37CE41F",
+  "alignment_date": "2026-08-24T14:06:10+00:00",
+  "alignment_index": 5653,
+  "icloud_account": "motosprom@icloud.com",
+  "imported_at": "2026-08-27T14:59:57.699300+00:00",
+  "first_imported_at": "2026-08-27T14:59:57.699300+00:00"
+}

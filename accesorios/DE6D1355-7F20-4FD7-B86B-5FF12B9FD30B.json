@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "598938985fcdb482618f16d085b1304eac058f608ccc857380c1989d",
+  "skn": "4eea16c4e085c92b336d5b8b7e0b4b767aa25a47a4fd9a3e0202ec3eee5e5cd7",
+  "sks": "f1b74ad94f7303d6bea813201dfe5556b5e336a6d29923c3ee3df0cb7ceea5d7",
+  "paired_at": "2026-07-17T15:36:15.939208+00:00",
+  "name": "HAI34I",
+  "model": "empty",
+  "identifier": "DE6D1355-7F20-4FD7-B86B-5FF12B9FD30B",
+  "alignment_date": "2026-08-24T14:21:10+00:00",
+  "alignment_index": 3643,
+  "icloud_account": "motosprom@icloud.com",
+  "imported_at": "2026-08-27T14:59:57.699300+00:00",
+  "first_imported_at": "2026-08-27T14:59:57.699300+00:00"
+}

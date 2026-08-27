@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "228a61ea633a7b0572442952dbdd31dcbf1620691166f93508a15324",
+  "skn": "9ebba96f5673afb702d0e8fa1f29ac7991875f0f53663f0add75838535924971",
+  "sks": "50cc80382ea3349ee9705eb15c7496bd1642e55e7ce71c409d4f329febb13b80",
+  "paired_at": "2025-10-30T16:21:08.013610+00:00",
+  "name": "TSP81H",
+  "model": "",
+  "identifier": "AB122292-BFB3-4227-8C3E-E94ED67617BC",
+  "alignment_date": "2026-08-12T18:49:20+00:00",
+  "alignment_index": 27465,
+  "icloud_account": "gpssolucionesas@icloud.com",
+  "imported_at": "2026-08-27T14:31:48.677386+00:00",
+  "first_imported_at": "2026-08-27T14:31:48.677386+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "9d7364de8b2a82b2e2797eeced6ce4a0ffec3350a0117d4fe473c5fc",
+  "skn": "5f234b856878bc8884c2d4674c827217e107285ee4d91bc74cbee716776ae4f3",
+  "sks": "a41d6fd131f26480ada2194b1ef75f9f0f608a1eb9e881565f8243fd724b5a67",
+  "paired_at": "2026-07-10T21:32:01.241001+00:00",
+  "name": "HLF17H",
+  "model": "empty",
+  "identifier": "75DF8329-FE0C-4B28-B1D3-5C9910F63938",
+  "alignment_date": "2026-08-25T03:49:00+00:00",
+  "alignment_index": 4307,
+  "icloud_account": "motosprom@icloud.com",
+  "imported_at": "2026-08-27T14:59:57.699300+00:00",
+  "first_imported_at": "2026-08-27T14:59:57.699300+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "7b9dfa1157b90623c08bf4543a1b0a9ba96f83d774531ed154a0af34",
+  "skn": "60a6adf32dd51bc5e5417257247025bdbedb8f3b04926d35c37a62200d2e5620",
+  "sks": "13b4dc05736bdf5551828dab8baa8855ce3e3a7e54d40c8aa2e09ea79143c100",
+  "paired_at": "2025-11-07T21:27:13.869253+00:00",
+  "name": "TSV63H",
+  "model": "",
+  "identifier": "D2EE42D3-4016-48D1-B445-D51F559D9835",
+  "alignment_date": "2026-08-12T15:12:50+00:00",
+  "alignment_index": 26664,
+  "icloud_account": "gpssolucionesas@icloud.com",
+  "imported_at": "2026-08-27T14:31:48.677386+00:00",
+  "first_imported_at": "2026-08-27T14:31:48.677386+00:00"
+}

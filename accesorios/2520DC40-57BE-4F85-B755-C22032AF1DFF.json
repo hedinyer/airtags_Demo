@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "ee92585a0fac1bcbedf2c305731b357e5c129102347a431be155a38c",
+  "skn": "8134867dd541aee4b6e45234b945778a137d2a434720d5fd64907107a1e252fc",
+  "sks": "e42ed0ec6284857884c644f6d823a7e851b73584b063e09e6d46b5c254645c4e",
+  "paired_at": "2025-10-29T21:01:11.504372+00:00",
+  "name": "TSP82H",
+  "model": "",
+  "identifier": "2520DC40-57BE-4F85-B755-C22032AF1DFF",
+  "alignment_date": "2026-07-07T19:44:30+00:00",
+  "alignment_index": 23689,
+  "icloud_account": "gpssolucionesas@icloud.com",
+  "imported_at": "2026-08-27T14:31:48.677386+00:00",
+  "first_imported_at": "2026-08-27T14:31:48.677386+00:00"
+}

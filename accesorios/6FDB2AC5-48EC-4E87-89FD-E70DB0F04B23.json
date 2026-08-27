@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "10547e80468fe8e4fa7f7a84acd1b2df6ab18a3b24b78f76f43cd024",
+  "skn": "79cb2fb700db984790bc4a36ef2a7766c89f5430f3a9157938dba45ea5cabfee",
+  "sks": "9d39ad2a1f802761ee846b09a2dfec77b11b1d6c9114c663c8cf3cb0857d0a8e",
+  "paired_at": "2025-10-28T21:28:00.753512+00:00",
+  "name": "HLV54H",
+  "model": "",
+  "identifier": "6FDB2AC5-48EC-4E87-89FD-E70DB0F04B23",
+  "alignment_date": "2026-08-12T18:54:10+00:00",
+  "alignment_index": 27639,
+  "icloud_account": "gpssolucionesas@icloud.com",
+  "imported_at": "2026-08-27T14:31:48.677386+00:00",
+  "first_imported_at": "2026-08-27T14:31:48.677386+00:00"
+}

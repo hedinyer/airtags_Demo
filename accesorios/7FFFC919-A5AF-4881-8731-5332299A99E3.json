@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "047db8d6f737a95012f1a61610ecf4872ab3fbe0d6745572fadac1a5",
+  "skn": "06566d73da46cd5c587e8aaf02f1a79cfeea78abe619445e5573dfa075b56e20",
+  "sks": "6bbdd1c66bb8512c5960be69bcf13cf551a7345c37277cbed59f0d9118fb4591",
+  "paired_at": "2026-07-18T18:24:03.063996+00:00",
+  "name": "OSC02H",
+  "model": "empty",
+  "identifier": "7FFFC919-A5AF-4881-8731-5332299A99E3",
+  "alignment_date": "2026-08-24T18:07:40+00:00",
+  "alignment_index": 3552,
+  "icloud_account": "motosprom@icloud.com",
+  "imported_at": "2026-08-27T14:59:57.699300+00:00",
+  "first_imported_at": "2026-08-27T14:59:57.699300+00:00"
+}

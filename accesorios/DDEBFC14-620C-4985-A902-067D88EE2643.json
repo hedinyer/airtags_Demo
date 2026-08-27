@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "946c80d7130682ccbb4a8c19b3764bf950d60cb2af8c27f52d6a0cec",
+  "skn": "f2aba0c61a78bdb90fb5ac4761636ef8025e3f29e47f2680e8b22ee4fee9f48e",
+  "sks": "8e79926676d4695b09dbec3341ea4a3b7f282797306636cc35caa8d636d92fb7",
+  "paired_at": "2026-07-17T17:09:29.023421+00:00",
+  "name": "KFK36I",
+  "model": "empty",
+  "identifier": "DDEBFC14-620C-4985-A902-067D88EE2643",
+  "alignment_date": "2026-08-26T08:57:00+00:00",
+  "alignment_index": 3649,
+  "icloud_account": "motosprom@icloud.com",
+  "imported_at": "2026-08-27T14:59:57.699300+00:00",
+  "first_imported_at": "2026-08-27T14:59:57.699300+00:00"
+}

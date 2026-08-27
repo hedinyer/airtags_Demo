@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "6b0b41fd5dbb859fc0085ea8e11449c93cfe937856e31b48b3a602b2",
+  "skn": "163ac2c5c40ba59e13c87d8bc9a06a476fbb43683c4b8b1b23049205310a824f",
+  "sks": "a16e287a51106dc3784f7720e5bc2e15a4da03d2f89319ba5815d7a896ddb858",
+  "paired_at": "2025-11-07T22:09:17.644746+00:00",
+  "name": "TSR19H",
+  "model": "",
+  "identifier": "CA7400E4-7CFE-4C40-9B14-73E9CC3C14B9",
+  "alignment_date": "2026-08-12T18:48:40+00:00",
+  "alignment_index": 26676,
+  "icloud_account": "gpssolucionesas@icloud.com",
+  "imported_at": "2026-08-27T14:31:48.677386+00:00",
+  "first_imported_at": "2026-08-27T14:31:48.677386+00:00"
+}

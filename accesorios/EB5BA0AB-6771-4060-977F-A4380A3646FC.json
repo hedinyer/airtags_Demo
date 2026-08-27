@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "3008dbeabef57a1ab334c8d3fba67717dabe5b4de40169d0a00b19bd",
+  "skn": "2265019d9ea1a40b9bd5607abb552a3572cdb2613550809375135564540f33f7",
+  "sks": "bfc1047aad55f41860a0293d46e9cba2ea758d036765f28d21ca4630a35582d3",
+  "paired_at": "2025-10-23T23:43:29.640967+00:00",
+  "name": "TSM49H",
+  "model": "",
+  "identifier": "EB5BA0AB-6771-4060-977F-A4380A3646FC",
+  "alignment_date": "2026-08-12T18:48:00+00:00",
+  "alignment_index": 28110,
+  "icloud_account": "gpssolucionesas@icloud.com",
+  "imported_at": "2026-08-27T14:31:48.677386+00:00",
+  "first_imported_at": "2026-08-27T14:31:48.677386+00:00"
+}

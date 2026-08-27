@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "ed12e73f6971e080fb99b880b807c9d2d50ff5e0e571fabf509bf4a0",
+  "skn": "0ddfe40202ecab0219722e90e627ba5916a8aaa2e636c1d1bdf52eaa6383fd27",
+  "sks": "7a5196b0243a2ac7042bf1da96379fab94ec9fe3008c654a2ebb7d5c879df435",
+  "paired_at": "2026-06-14T19:14:45.138944+00:00",
+  "name": "MDG82H",
+  "model": "empty",
+  "identifier": "2A7C81B8-DEE6-4D2A-B681-05A8EDB60A0D",
+  "alignment_date": "2026-08-24T14:08:10+00:00",
+  "alignment_index": 6784,
+  "icloud_account": "motosprom@icloud.com",
+  "imported_at": "2026-08-27T14:59:57.699300+00:00",
+  "first_imported_at": "2026-08-27T14:59:57.699300+00:00"
+}

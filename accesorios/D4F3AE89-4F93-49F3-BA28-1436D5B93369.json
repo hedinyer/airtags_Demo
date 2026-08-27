@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "fbd0ff4e21d839aa73d1f64a6b37f2dfff4fa0c991d72056e4016075",
+  "skn": "6d1dc2a8337da316b44c02fbb0e00d6fc7af4416df3eda6667aaa852c7d90318",
+  "sks": "7f050425573ea8e2a40abb72ba4ce4a1a854140cd07bbacffd14bf5b4fb19092",
+  "paired_at": "2025-10-21T14:46:19.157516+00:00",
+  "name": "iPhone",
+  "model": "iPhone12,1",
+  "identifier": "D4F3AE89-4F93-49F3-BA28-1436D5B93369",
+  "alignment_date": "2025-10-21T14:46:19.157516+00:00",
+  "alignment_index": 0,
+  "icloud_account": "gpssolucionesas@icloud.com",
+  "imported_at": "2026-08-27T14:31:48.677386+00:00",
+  "first_imported_at": "2026-08-27T14:31:48.677386+00:00"
+}

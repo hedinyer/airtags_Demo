@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "732675776097bf39d995ab701aca646dbd8af7307152a48cd910a1a2",
+  "skn": "a97d0e40afdd20e1cac6108efc12e8d72799bf27a542aff825993709529ff417",
+  "sks": "f889e990d24a5bf49ff15b57b0788c3fbfd9582897c968c6ccad1a9dabe6f51e",
+  "paired_at": "2026-06-17T15:40:38.179031+00:00",
+  "name": "HAI38I",
+  "model": "empty",
+  "identifier": "A182ED5F-46BA-413E-AFD4-75B0B30D2048",
+  "alignment_date": "2026-08-25T15:20:50+00:00",
+  "alignment_index": 6538,
+  "icloud_account": "motosprom@icloud.com",
+  "imported_at": "2026-08-27T14:59:57.699300+00:00",
+  "first_imported_at": "2026-08-27T14:59:57.699300+00:00"
+}

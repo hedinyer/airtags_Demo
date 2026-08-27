@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "eb4ac454f7fff0d814dd0447e59a18aea78e975c43e4cbd2fcf0b540",
+  "skn": "f553da9c41f5c4237f2ccbfe13308e5e630933a08a0479cb7b0f61ed5d5e84d2",
+  "sks": "fa2801a9361b9cfc29a7574d6f70fe80fb34b088092d12939c5374a46b4ce239",
+  "paired_at": "2025-10-22T14:13:24.211583+00:00",
+  "name": "JSK44H",
+  "model": "",
+  "identifier": "A70E4E9B-6C4B-47C4-A8C8-D60FB5F6560E",
+  "alignment_date": "2026-08-12T18:56:50+00:00",
+  "alignment_index": 28244,
+  "icloud_account": "gpssolucionesas@icloud.com",
+  "imported_at": "2026-08-27T14:31:48.677386+00:00",
+  "first_imported_at": "2026-08-27T14:31:48.677386+00:00"
+}

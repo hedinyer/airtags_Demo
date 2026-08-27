@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "6e87d7bf5968e742f0f96c3209474242b208800537b2d0357eab0f4e",
+  "skn": "4c95511e8268e352114cbdaafa2da850c415e7e028b2434775df8e0b7b7432bb",
+  "sks": "9b5b0ac045743d402febb4087f6719d43395f71a59feea03b20b0932c7666adb",
+  "paired_at": "2026-06-26T14:20:42.852760+00:00",
+  "name": "TTD89H",
+  "model": "empty",
+  "identifier": "87E0BE4C-165A-419A-A69D-6B30E9F5FBB7",
+  "alignment_date": "2026-08-24T14:20:40+00:00",
+  "alignment_index": 5666,
+  "icloud_account": "motosprom@icloud.com",
+  "imported_at": "2026-08-27T14:59:57.699300+00:00",
+  "first_imported_at": "2026-08-27T14:59:57.699300+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "cc8d1a0cbab23cfa661a256e08afd2b815d529145e7da8362086e5e8",
+  "skn": "9286b21dcf2c9fe4bb9c5b44b70d7906be504b85f20463318ac4835019cc96d5",
+  "sks": "87109b3faf348b8f57ed9d3e5368a9702a6261f8c3e8b4299ed44fbe7c2c1314",
+  "paired_at": "2025-10-31T22:11:18.658914+00:00",
+  "name": "TSP88H",
+  "model": "",
+  "identifier": "B9D72932-9D23-4704-B51A-39903CAEF60A",
+  "alignment_date": "2026-08-12T18:12:10+00:00",
+  "alignment_index": 27345,
+  "icloud_account": "gpssolucionesas@icloud.com",
+  "imported_at": "2026-08-27T14:31:48.677386+00:00",
+  "first_imported_at": "2026-08-27T14:31:48.677386+00:00"
+}

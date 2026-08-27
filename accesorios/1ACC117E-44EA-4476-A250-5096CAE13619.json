@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "4d50cb35132ba0c8dcd061b9dac9fc996f1b7e77a8c641020155d4db",
+  "skn": "a9033387c18416521a78b52a4ce208f3f9a80fd9431172dbbd3b320f2c44888d",
+  "sks": "deef81191cb962f55684b1bf014ae739f88c570d977517659b97698b3b3edd4b",
+  "paired_at": "2025-11-12T16:54:05.036995+00:00",
+  "name": "TSY59H",
+  "model": "",
+  "identifier": "1ACC117E-44EA-4476-A250-5096CAE13619",
+  "alignment_date": "2026-08-12T18:39:40+00:00",
+  "alignment_index": 26216,
+  "icloud_account": "gpssolucionesas@icloud.com",
+  "imported_at": "2026-08-27T14:31:48.677386+00:00",
+  "first_imported_at": "2026-08-27T14:31:48.677386+00:00"
+}

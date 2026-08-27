@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d3b586f32dd186e4556471fd337a4262795f6ce453e7311332c322fc",
+  "skn": "301d5648c96ce9624d99083a75634e0ea6d089eb34c9b88a717c2121361e80fe",
+  "sks": "53196d7d21a002317108389b227fed798118aab046cc0065943286623d89b338",
+  "paired_at": "2026-07-16T18:11:49.637944+00:00",
+  "name": "HAI41I",
+  "model": "empty",
+  "identifier": "1C00E6B7-078C-416A-A4F4-0AEB675D678A",
+  "alignment_date": "2026-08-24T16:36:40+00:00",
+  "alignment_index": 3738,
+  "icloud_account": "motosprom@icloud.com",
+  "imported_at": "2026-08-27T14:59:57.699300+00:00",
+  "first_imported_at": "2026-08-27T14:59:57.699300+00:00"
+}

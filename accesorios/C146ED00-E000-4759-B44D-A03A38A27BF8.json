@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "eb45f60fbc095e9ba3c41b81b289c6a65c034474b75398f7f9544fff",
+  "skn": "610c8d029a5261f23308c76727f0b32fe0147f63aa08b99b3684092b73245e46",
+  "sks": "b42a12e4c3345bea7abe4673371baa43d180825e061053fc3631b4385651636c",
+  "paired_at": "2025-11-06T13:03:36.266257+00:00",
+  "name": "CHÍA",
+  "model": "",
+  "identifier": "C146ED00-E000-4759-B44D-A03A38A27BF8",
+  "alignment_date": "2026-08-12T18:40:50+00:00",
+  "alignment_index": 26807,
+  "icloud_account": "gpssolucionesas@icloud.com",
+  "imported_at": "2026-08-27T14:31:48.677386+00:00",
+  "first_imported_at": "2026-08-27T14:31:48.677386+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "6005ea28ea20e2825786bee324a78fa8421257be81107b51b003f15f",
+  "skn": "3cf3ed20d5ab209c2d6acc9616a7bb253421c3164c675f3c3cbeba1ec47d250a",
+  "sks": "3ae5610ea76cd922b6657499ec83e397a3bbc8eb7509d4cc8eb8f5cb80f74092",
+  "paired_at": "2026-06-18T22:23:27.974190+00:00",
+  "name": "MCQ22H",
+  "model": "empty",
+  "identifier": "FE0AC5F4-72C4-4D69-8083-6686FA23621A",
+  "alignment_date": "2026-08-25T06:12:10+00:00",
+  "alignment_index": 6402,
+  "icloud_account": "motosprom@icloud.com",
+  "imported_at": "2026-08-27T14:59:57.699300+00:00",
+  "first_imported_at": "2026-08-27T14:59:57.699300+00:00"
+}

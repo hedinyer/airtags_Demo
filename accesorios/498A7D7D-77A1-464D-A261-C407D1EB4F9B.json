@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "98a6ade29bff3725fa9c46d6326fc7c0c02fde56f374658bcff61551",
+  "skn": "441c67880f19088c7bd7919066b54e3409ed90df7fceddc10d89ad15db7b30c1",
+  "sks": "7d4cf4241e024d0e3ab63fb85381a1799825179cc6849092b2457f6a1c6fd1f8",
+  "paired_at": "2026-06-14T18:45:40.014070+00:00",
+  "name": "MCO76H",
+  "model": "empty",
+  "identifier": "498A7D7D-77A1-464D-A261-C407D1EB4F9B",
+  "alignment_date": "2026-08-24T14:19:30+00:00",
+  "alignment_index": 6799,
+  "icloud_account": "motosprom@icloud.com",
+  "imported_at": "2026-08-27T14:59:57.699300+00:00",
+  "first_imported_at": "2026-08-27T14:59:57.699300+00:00"
+}

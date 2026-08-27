@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "73d39c0b2d7228b8f094cb56bf792dba8a6cbe46e04e3df3077261ef",
+  "skn": "f3d674627193bfa7d186308877df128ebb34ac8d37ae1ed0a3cd20f020632a28",
+  "sks": "fc0dfcdbad0cc01df469b9027a5b32bde1e7564e6d6ecf7b6a277ab483e98bc5",
+  "paired_at": "2025-10-29T17:13:10.223066+00:00",
+  "name": "MDI12H",
+  "model": "",
+  "identifier": "F8E453F4-1FD6-4C7D-AC35-607720DB672F",
+  "alignment_date": "2026-08-12T18:13:50+00:00",
+  "alignment_index": 27557,
+  "icloud_account": "gpssolucionesas@icloud.com",
+  "imported_at": "2026-08-27T14:31:48.677386+00:00",
+  "first_imported_at": "2026-08-27T14:31:48.677386+00:00"
+}

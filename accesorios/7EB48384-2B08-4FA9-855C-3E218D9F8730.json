@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d44598e8d2289caa17c93214273b099e6f2a8d8c1ff57dbff97f0ed9",
+  "skn": "7369989db26e06956fe338d6b38a67f49c2927ac9938015ef6c830e822ac6457",
+  "sks": "1ba1eea99dea0aaf7d3491b15217a4e69751d1998b9c0d0cf1ab87571160d73e",
+  "paired_at": "2026-07-09T20:05:47.377413+00:00",
+  "name": "HAO83I",
+  "model": "empty",
+  "identifier": "7EB48384-2B08-4FA9-855C-3E218D9F8730",
+  "alignment_date": "2026-08-26T12:03:40+00:00",
+  "alignment_index": 4577,
+  "icloud_account": "motosprom@icloud.com",
+  "imported_at": "2026-08-27T14:59:57.699300+00:00",
+  "first_imported_at": "2026-08-27T14:59:57.699300+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d9697e14c095f1346f753e8f719178b715ee7ce86524ba5fe8728ba7",
+  "skn": "f40f15f1fb5d8770b6b1c7f4576e875622c5f5040724c3b8a7e825a7b84c9137",
+  "sks": "08e89447b17a3ec553a67cfb9b82b2ccbd480459af9bae57916afaff5ab41052",
+  "paired_at": "2026-07-09T13:24:17.563424+00:00",
+  "name": "KFE75I",
+  "model": "empty",
+  "identifier": "9074AF8B-2460-4744-88AA-AE0E9FA3AE90",
+  "alignment_date": "2026-08-26T08:15:40+00:00",
+  "alignment_index": 4421,
+  "icloud_account": "motosprom@icloud.com",
+  "imported_at": "2026-08-27T14:59:57.699300+00:00",
+  "first_imported_at": "2026-08-27T14:59:57.699300+00:00"
+}

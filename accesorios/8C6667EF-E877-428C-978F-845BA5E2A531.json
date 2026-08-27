@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "aade91db426b6295c05d6767a94e44e5555bc1f08e2a3dcc72ed0636",
+  "skn": "75f424df0c83f0474b053bd8aafe5925a85524007a5b1e804f3b035a7ea9a023",
+  "sks": "73a8e2537f1969af05900d942c3f01d079c0fc3a1ebafe0b0b4be43eb0dfecf4",
+  "paired_at": "2026-07-17T17:30:44.914193+00:00",
+  "name": "TIN98H",
+  "model": "empty",
+  "identifier": "8C6667EF-E877-428C-978F-845BA5E2A531",
+  "alignment_date": "2026-08-26T08:03:30+00:00",
+  "alignment_index": 3650,
+  "icloud_account": "motosprom@icloud.com",
+  "imported_at": "2026-08-27T14:59:57.699300+00:00",
+  "first_imported_at": "2026-08-27T14:59:57.699300+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "1a654061c84970d0708961d039004d4f3fa457eee9fbe83d8bdb11d6",
+  "skn": "9c9232c877a22a6885dc5162e00215c145de5d4a9b13b7e89e35f2589db6a6db",
+  "sks": "fee768a585ab7974ce9b88e76a0f2b5b8d6b4c4b4989f3af278bb85dcc616281",
+  "paired_at": "2025-11-01T16:04:36.054285+00:00",
+  "name": "TSR13H",
+  "model": "",
+  "identifier": "95A2C773-A366-4074-B736-7CE990F5ADCF",
+  "alignment_date": "2026-08-12T18:40:10+00:00",
+  "alignment_index": 27275,
+  "icloud_account": "gpssolucionesas@icloud.com",
+  "imported_at": "2026-08-27T14:31:48.677386+00:00",
+  "first_imported_at": "2026-08-27T14:31:48.677386+00:00"
+}

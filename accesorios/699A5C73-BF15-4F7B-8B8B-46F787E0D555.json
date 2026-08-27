@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "97a6baa143d3a5c6786993783952cf0f8f17dc54d00fde4c8314019b",
+  "skn": "ecf72699ad55fd804b50f3037f5a80de6bc51e30d6a71f42d498df772aa7a01d",
+  "sks": "a088df30634fc0afa4dda0c3f38f6d9125d52f0aeb6ab5c3fb5e7b179591041e",
+  "paired_at": "2026-07-23T19:55:23.648686+00:00",
+  "name": "HAI33I",
+  "model": "empty",
+  "identifier": "699A5C73-BF15-4F7B-8B8B-46F787E0D555",
+  "alignment_date": "2026-08-24T14:17:30+00:00",
+  "alignment_index": 3050,
+  "icloud_account": "motosprom@icloud.com",
+  "imported_at": "2026-08-27T14:59:57.699300+00:00",
+  "first_imported_at": "2026-08-27T14:59:57.699300+00:00"
+}

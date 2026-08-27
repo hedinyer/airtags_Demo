@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "443177b8d9e1f5866da2501659502bc352a283f3841c24a9dff7be48",
+  "skn": "0b351815be24bc2748a752b36f40c87f6c8bd35c75a4cf11a8b023cf404dfd47",
+  "sks": "0ae4ba143be4a91e8fda07194522b8351268dbafe6a18eb4f179c1e78d264a89",
+  "paired_at": "2026-06-14T18:45:28.211409+00:00",
+  "name": "iPhone",
+  "model": "iPhone13,2",
+  "identifier": "94E6B4E5-836A-4119-A617-DDF56B754E0D",
+  "alignment_date": "2026-06-14T18:45:28.211409+00:00",
+  "alignment_index": 0,
+  "icloud_account": "motosprom@icloud.com",
+  "imported_at": "2026-08-27T14:59:57.699300+00:00",
+  "first_imported_at": "2026-08-27T14:59:57.699300+00:00"
+}

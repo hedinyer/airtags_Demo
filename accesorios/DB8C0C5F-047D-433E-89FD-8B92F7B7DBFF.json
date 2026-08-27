@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "8d34e3753e2c908d89072a7f53abc2130e273f1c2e00323510f3ce90",
+  "skn": "d061b6837a6063cd3e60be4b7a409876ddbb743372e48448fe9aaa22ff7f4418",
+  "sks": "45cbb863c0995eec4a06dc1a4b083ef7bcb8170a67a48f21dc793d4496c36058",
+  "paired_at": "2026-07-10T22:02:48.694708+00:00",
+  "name": "OSD62H",
+  "model": "empty",
+  "identifier": "DB8C0C5F-047D-433E-89FD-8B92F7B7DBFF",
+  "alignment_date": "2026-08-24T14:07:40+00:00",
+  "alignment_index": 4289,
+  "icloud_account": "motosprom@icloud.com",
+  "imported_at": "2026-08-27T14:59:57.699300+00:00",
+  "first_imported_at": "2026-08-27T14:59:57.699300+00:00"
+}

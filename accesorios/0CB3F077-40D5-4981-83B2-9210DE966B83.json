@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d276d931e11fe696666ed7ddaa3e8882a53c92be63b7b7c2fe9edb1e",
+  "skn": "27a9d0913b12d6b13a5444e7af5c64dd562cf86cb5afca8c14b4b1c814fc53cd",
+  "sks": "cb7b0e1c67588aaed3e1bcf28f34dee4f6fc6a26cae94d7845b851efc7c9d32a",
+  "paired_at": "2025-10-23T23:42:48.633866+00:00",
+  "name": "TSM48H",
+  "model": "",
+  "identifier": "0CB3F077-40D5-4981-83B2-9210DE966B83",
+  "alignment_date": "2026-08-12T18:55:20+00:00",
+  "alignment_index": 28111,
+  "icloud_account": "gpssolucionesas@icloud.com",
+  "imported_at": "2026-08-27T14:31:48.677386+00:00",
+  "first_imported_at": "2026-08-27T14:31:48.677386+00:00"
+}

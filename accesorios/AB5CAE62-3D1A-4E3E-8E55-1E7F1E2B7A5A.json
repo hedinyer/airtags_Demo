@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "0a1c12a0b8682aa2531a41b7ab04d5c137b5fd25580b5effefaf286c",
+  "skn": "16d23a5ff4c5a73ab19facf68bd53148cb7423cff0d6f64d33667f6a90d82c08",
+  "sks": "51c01679f21282f4ce068931b840694155c53992b0cd996a2b6ce3845423ba7e",
+  "paired_at": "2026-06-19T16:36:19.540207+00:00",
+  "name": "HAE12I",
+  "model": "empty",
+  "identifier": "AB5CAE62-3D1A-4E3E-8E55-1E7F1E2B7A5A",
+  "alignment_date": "2026-08-24T14:13:00+00:00",
+  "alignment_index": 6327,
+  "icloud_account": "motosprom@icloud.com",
+  "imported_at": "2026-08-27T14:59:57.699300+00:00",
+  "first_imported_at": "2026-08-27T14:59:57.699300+00:00"
+}

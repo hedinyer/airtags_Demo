@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "856ebb1fac0716cd508b096315525127e898b289ae82b4454140e41c",
+  "skn": "b497229319a30314065f7a24d88f27e0607503214e6d20c0fe3d0e4307205e6f",
+  "sks": "94e8dfb72984def77d94abe2379ed4245e98b4837735532d58316021b5c58a6c",
+  "paired_at": "2026-06-15T15:55:41.248441+00:00",
+  "name": "OSM70H",
+  "model": "empty",
+  "identifier": "F68A5B70-76EC-4E2B-B2CE-46625A764C9D",
+  "alignment_date": "2026-08-24T18:26:00+00:00",
+  "alignment_index": 6731,
+  "icloud_account": "motosprom@icloud.com",
+  "imported_at": "2026-08-27T14:59:57.699300+00:00",
+  "first_imported_at": "2026-08-27T14:59:57.699300+00:00"
+}

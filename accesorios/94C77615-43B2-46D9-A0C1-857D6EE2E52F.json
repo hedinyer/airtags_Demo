@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "560477e7d6b7c30263c16b18ad98c7b71f3322f48e1969e64192feac",
+  "skn": "a730aebfc1df72646028cbcd3032ec0536e9d1b02dec733a73e3c89aee267698",
+  "sks": "f1fb56f1db2b00a915c4ceca50239ea0a6c7e9d99dfaca252eedd8d97aec3174",
+  "paired_at": "2025-10-25T16:29:43.856941+00:00",
+  "name": "OSQ29H",
+  "model": "",
+  "identifier": "94C77615-43B2-46D9-A0C1-857D6EE2E52F",
+  "alignment_date": "2026-08-12T11:59:20+00:00",
+  "alignment_index": 27919,
+  "icloud_account": "gpssolucionesas@icloud.com",
+  "imported_at": "2026-08-27T14:31:48.677386+00:00",
+  "first_imported_at": "2026-08-27T14:31:48.677386+00:00"
+}

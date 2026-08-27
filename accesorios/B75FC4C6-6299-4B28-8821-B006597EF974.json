@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "fad257518d016ba3d23b4ea02d0dbe426eea8a55560bd36d50018cd9",
+  "skn": "58fe731dda022f11b1a7f0f00a972b5e781d8858a31439f6924d2576e847f461",
+  "sks": "21a86cec68794d3fee5831e264df708ad6a305a78ad3be4c6320e99e45cb49b6",
+  "paired_at": "2025-10-23T21:35:48.157463+00:00",
+  "name": "TSO01H",
+  "model": "",
+  "identifier": "B75FC4C6-6299-4B28-8821-B006597EF974",
+  "alignment_date": "2026-03-22T19:38:51+00:00",
+  "alignment_index": 14393,
+  "icloud_account": "gpssolucionesas@icloud.com",
+  "imported_at": "2026-08-27T14:31:48.677386+00:00",
+  "first_imported_at": "2026-08-27T14:31:48.677386+00:00"
+}

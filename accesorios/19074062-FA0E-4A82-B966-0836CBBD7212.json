@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "0a4ebbf8cab37fe7245dd2b9559a3822cf00d08268cd52cf2116c5ee",
+  "skn": "ee24739730e02bbd57abb373860c623aa3dec4cb20c35e7cfe94540e889cf931",
+  "sks": "a7dd4a080d92a916373aa9f3b4b54d18154b740f53d5bc3903546b23f9668298",
+  "paired_at": "2025-11-01T16:03:55.764290+00:00",
+  "name": "TSR12H",
+  "model": "",
+  "identifier": "19074062-FA0E-4A82-B966-0836CBBD7212",
+  "alignment_date": "2026-08-12T18:43:50+00:00",
+  "alignment_index": 27268,
+  "icloud_account": "gpssolucionesas@icloud.com",
+  "imported_at": "2026-08-27T14:31:48.677386+00:00",
+  "first_imported_at": "2026-08-27T14:31:48.677386+00:00"
+}

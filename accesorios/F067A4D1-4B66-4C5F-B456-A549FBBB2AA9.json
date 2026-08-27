@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "2a2a2ec1f021ed4adc5bee25d23a50fe3f51d867b61763bb099eb4cb",
+  "skn": "909a7fec8ed701e562f558a89b9ab62e145336a3dd71f98e6a7ab0647da20735",
+  "sks": "59eb66e67b73072a0e7d4d9e78e698c9e1802dc82ebfca8c52f2fb27d78ac5ed",
+  "paired_at": "2025-10-30T14:00:08.343597+00:00",
+  "name": "TSP83H",
+  "model": "",
+  "identifier": "F067A4D1-4B66-4C5F-B456-A549FBBB2AA9",
+  "alignment_date": "2026-08-12T17:28:10+00:00",
+  "alignment_index": 27471,
+  "icloud_account": "gpssolucionesas@icloud.com",
+  "imported_at": "2026-08-27T14:31:48.677386+00:00",
+  "first_imported_at": "2026-08-27T14:31:48.677386+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "7cff830208bb5b8e756941a6a13ba4c0f7b3aad9d8170ab1ddbb1f4f",
+  "skn": "03ea1b0220c8a252f555d481fbf4657fba937a840b257b5e0bfe8328c71bd758",
+  "sks": "78d8eebf3b4be735c46848f9aff83365fc2d132dcad7ae5fc7074b0606e80918",
+  "paired_at": "2025-10-31T21:34:30.532159+00:00",
+  "name": "TSR10H",
+  "model": "",
+  "identifier": "63443848-18F8-4790-966F-9F29980B058D",
+  "alignment_date": "2026-08-12T18:42:40+00:00",
+  "alignment_index": 27348,
+  "icloud_account": "gpssolucionesas@icloud.com",
+  "imported_at": "2026-08-27T14:31:48.677386+00:00",
+  "first_imported_at": "2026-08-27T14:31:48.677386+00:00"
+}

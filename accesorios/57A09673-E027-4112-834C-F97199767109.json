@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d7e57c7a3fdf7ccd53caa26b40230afa67bf4f619907dfbeedeb5a5e",
+  "skn": "824ffe195e6b8242c0a0c18af54331167802e36b819a2ceda02819e798f1c1f3",
+  "sks": "d7fe462e25e7bd8f4ee5363fb133c7c9d57bf22c1f1e4092f02a2dd311e6007e",
+  "paired_at": "2025-10-23T23:41:57.629441+00:00",
+  "name": "TSI08H",
+  "model": "",
+  "identifier": "57A09673-E027-4112-834C-F97199767109",
+  "alignment_date": "2026-08-12T18:53:30+00:00",
+  "alignment_index": 28110,
+  "icloud_account": "gpssolucionesas@icloud.com",
+  "imported_at": "2026-08-27T14:31:48.677386+00:00",
+  "first_imported_at": "2026-08-27T14:31:48.677386+00:00"
+}

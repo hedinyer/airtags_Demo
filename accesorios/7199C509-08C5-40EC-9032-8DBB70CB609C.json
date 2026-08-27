@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "f50e7615690f6a48e5df559199ec5f581d5f9881d06d35f9af80752e",
+  "skn": "d7245e6cf40f0c011cf2b6ef01999d89504806d1b4d635e14336808d33a3daf8",
+  "sks": "0fea03ec67de01a791a69ddaecd870f06c9cc64dfc0661fe2e3a3ebd684430e1",
+  "paired_at": "2026-07-27T14:15:31.444732+00:00",
+  "name": "KFK43I",
+  "model": "empty",
+  "identifier": "7199C509-08C5-40EC-9032-8DBB70CB609C",
+  "alignment_date": "2026-08-24T14:13:10+00:00",
+  "alignment_index": 2688,
+  "icloud_account": "motosprom@icloud.com",
+  "imported_at": "2026-08-27T14:59:57.699300+00:00",
+  "first_imported_at": "2026-08-27T14:59:57.699300+00:00"
+}

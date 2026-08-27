@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "6c0e354fde5ea70ab39370e11189fafa35927702cc19d114ac8b240f",
+  "skn": "9c09e49fb0f04a01d9a3782476b17a555a232f0bce760832518b44a50f73a631",
+  "sks": "d288ed2fe69d16d3a9ee174c5dd0af69b4d67279343eb1f3c13806f21dc24e46",
+  "paired_at": "2026-07-21T20:33:04.736079+00:00",
+  "name": "KFK31I",
+  "model": "empty",
+  "identifier": "6BA3C60B-6233-4047-8F83-DAC3985119E2",
+  "alignment_date": "2026-08-24T14:06:30+00:00",
+  "alignment_index": 3239,
+  "icloud_account": "motosprom@icloud.com",
+  "imported_at": "2026-08-27T14:59:57.699300+00:00",
+  "first_imported_at": "2026-08-27T14:59:57.699300+00:00"
+}

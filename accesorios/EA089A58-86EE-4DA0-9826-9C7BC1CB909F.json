@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "fee4a8842f4253e00b3eed0ac4e0d3170b8ef0e54228cb2b0fea3fd9",
+  "skn": "ebf3ef734cdc4a81b9d994094de5bf042a25e8b50d136eb06917e0f779d62e4f",
+  "sks": "cdd8d325d4b0f61a743512981f0c7c41830c6705563a7b5607588fbe13762f38",
+  "paired_at": "2026-07-16T18:22:45.778792+00:00",
+  "name": "KFK37I",
+  "model": "empty",
+  "identifier": "EA089A58-86EE-4DA0-9826-9C7BC1CB909F",
+  "alignment_date": "2026-08-24T14:10:00+00:00",
+  "alignment_index": 3728,
+  "icloud_account": "motosprom@icloud.com",
+  "imported_at": "2026-08-27T14:59:57.699300+00:00",
+  "first_imported_at": "2026-08-27T14:59:57.699300+00:00"
+}

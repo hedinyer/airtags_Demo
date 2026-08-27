@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "3598f10983cf89ad0c9c9b6c55ab2be0db7970f3391b062282c3c7bd",
+  "skn": "187594111b792d1c8987b9afc6427111db86c0df3c11e35ae492ff777fac255f",
+  "sks": "87337ede693369d059cde79c7bb41019748ab4abd4d3897290be176cca0fc974",
+  "paired_at": "2026-06-14T23:40:32.757918+00:00",
+  "name": "OSE71H",
+  "model": "empty",
+  "identifier": "DF99953A-8A04-44B6-91DF-0D7EEBD4F94C",
+  "alignment_date": "2026-08-24T22:40:10+00:00",
+  "alignment_index": 6794,
+  "icloud_account": "motosprom@icloud.com",
+  "imported_at": "2026-08-27T14:59:57.699300+00:00",
+  "first_imported_at": "2026-08-27T14:59:57.699300+00:00"
+}

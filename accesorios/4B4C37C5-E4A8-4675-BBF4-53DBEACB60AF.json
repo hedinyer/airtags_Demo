@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b56dfaa6738defa8babf7b0e7ae2fc4753059ac1803d8a80e07f6dbf",
+  "skn": "21e40ceb4281534334f0804870b7662f0a225cb432f4501d2f1f55d1c265a55d",
+  "sks": "f294eff28f5dc1dd4df27f132c9abf7e53571411992f3612acc83fefb3d90fd5",
+  "paired_at": "2025-11-06T13:32:55.399945+00:00",
+  "name": "JRQ57H",
+  "model": "",
+  "identifier": "4B4C37C5-E4A8-4675-BBF4-53DBEACB60AF",
+  "alignment_date": "2026-08-12T18:39:50+00:00",
+  "alignment_index": 26804,
+  "icloud_account": "gpssolucionesas@icloud.com",
+  "imported_at": "2026-08-27T14:31:48.677386+00:00",
+  "first_imported_at": "2026-08-27T14:31:48.677386+00:00"
+}

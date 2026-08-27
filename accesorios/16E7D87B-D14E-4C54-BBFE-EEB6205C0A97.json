@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "6ef6c55940534335d4718b33d51cd0db8f0fab9c096515112830643c",
+  "skn": "59986d84bcb5bf775b69c30a300dfe7484df856185f47c64ba4bbf8398d59036",
+  "sks": "c4ab0574a4422f85a23fc30ed132980401907e137572f9f2d2817003c499a7c7",
+  "paired_at": "2025-10-22T15:25:26.733059+00:00",
+  "name": "TSK40H",
+  "model": "",
+  "identifier": "16E7D87B-D14E-4C54-BBFE-EEB6205C0A97",
+  "alignment_date": "2026-08-12T18:03:10+00:00",
+  "alignment_index": 28236,
+  "icloud_account": "gpssolucionesas@icloud.com",
+  "imported_at": "2026-08-27T14:31:48.677386+00:00",
+  "first_imported_at": "2026-08-27T14:31:48.677386+00:00"
+}

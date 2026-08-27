@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "c9d1ad854e42e96c2fe5214888c8c0ca52a28d224e12fe3d529ccb0a",
+  "skn": "95342e4b2d9513dcc702a03d9d6132c0241bf34f9ea3b73740df567e7e6aaff5",
+  "sks": "431aff3f5701b05338eab352a78dee0f51d73d604ec363a14de9b5fdf36862da",
+  "paired_at": "2025-10-29T16:57:11.405875+00:00",
+  "name": "MDC25H",
+  "model": "",
+  "identifier": "6D1827D6-8453-4AC6-9DAD-CA62C59E8A81",
+  "alignment_date": "2026-08-12T18:25:10+00:00",
+  "alignment_index": 27559,
+  "icloud_account": "gpssolucionesas@icloud.com",
+  "imported_at": "2026-08-27T14:31:48.677386+00:00",
+  "first_imported_at": "2026-08-27T14:31:48.677386+00:00"
+}
