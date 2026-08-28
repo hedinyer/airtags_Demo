@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "59a122f97beb8d18ab9af62d8e51d2b64d73b89637337b3951e043e8",
+  "skn": "daa315354360254e33493635a16fa95c2081da0e78a9dde65e94889260f348f4",
+  "sks": "8b4d4a534a0b64ba6a26e0d01caf1cfdf0e796f06701fa1ba053d2d560d04172",
+  "paired_at": "2025-10-24T17:39:04.381340+00:00",
+  "name": "TSQ38H",
+  "model": "",
+  "identifier": "D8078845-8827-4EFC-B3E6-58D4BC5A044B",
+  "alignment_date": "2026-01-16T13:55:01.225624+00:00",
+  "alignment_index": 8050,
+  "icloud_account": "andreamonedas5@gmail.com",
+  "imported_at": "2026-08-28T19:44:53.190619+00:00",
+  "first_imported_at": "2026-08-28T19:44:53.190619+00:00"
+}

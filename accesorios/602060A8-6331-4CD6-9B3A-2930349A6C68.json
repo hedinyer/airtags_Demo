@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "cc6daa2207dd8627637a276100dc65cb73356703ddaed18b067fa5da",
+  "skn": "f795e8aeaa6c920bd2f04164b3e5e6184e9e27456495d17a93f355984b107b84",
+  "sks": "d153d1d891584f052975b751db004e6a7b5dbc5613ab183a87e468e8ad08e47c",
+  "paired_at": "2025-10-24T20:49:03.973447+00:00",
+  "name": "TSQ41H",
+  "model": "",
+  "identifier": "602060A8-6331-4CD6-9B3A-2930349A6C68",
+  "alignment_date": "2025-10-27T21:15:09.147662+00:00",
+  "alignment_index": 291,
+  "icloud_account": "andreamonedas5@gmail.com",
+  "imported_at": "2026-08-28T19:44:53.190619+00:00",
+  "first_imported_at": "2026-08-28T19:44:53.190619+00:00"
+}

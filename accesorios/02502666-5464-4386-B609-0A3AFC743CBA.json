@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "cf2726b060162970a2182a92e203d3816f4d65298fb98ce244cff185",
+  "skn": "c196ee8e619505b8010b181785d8a9c7080a6561047df82a1c180cbd4ef6bd94",
+  "sks": "8656af1c35068c40f2cbce218b412a2145e65b5e348ca665e2330e577ea26931",
+  "paired_at": "2025-11-06T14:38:19.578230+00:00",
+  "name": "TST13H",
+  "model": "",
+  "identifier": "02502666-5464-4386-B609-0A3AFC743CBA",
+  "alignment_date": "2026-04-16T21:47:15.165607+00:00",
+  "alignment_index": 15486,
+  "icloud_account": "andreamonedas5@gmail.com",
+  "imported_at": "2026-08-28T19:44:53.190619+00:00",
+  "first_imported_at": "2026-08-28T19:44:53.190619+00:00"
+}
