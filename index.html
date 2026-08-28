@@ -27,7 +27,9 @@
       --safe-b: env(safe-area-inset-bottom, 0px);
       --safe-t: env(safe-area-inset-top, 0px);
       --safe-l: env(safe-area-inset-left, 0px);
+      --safe-r: env(safe-area-inset-right, 0px);
       --sheet-width: min(380px, calc(100vw - 24px));
+      --sheet-h: 0px;
       --radius-sheet: 28px;
       --focus: oklch(0.55 0.16 145);
       --font: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
@@ -35,12 +37,17 @@
     }
     * { box-sizing: border-box; }
     html, body {
-      margin: 0; height: 100%;
+      margin: 0;
+      height: 100%;
+      height: 100dvh;
       font-family: var(--font);
       color: var(--ink);
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       background: oklch(0.92 0.01 240);
+      touch-action: manipulation;
+      -webkit-tap-highlight-color: oklch(0.55 0.16 145 / 0.12);
+      overscroll-behavior: none;
     }
     #map {
       position: absolute; inset: 0;
@@ -63,8 +70,8 @@
       margin-inline-end: 12px !important;
     }
     .leaflet-control-zoom a {
-      width: 40px !important; height: 40px !important;
-      line-height: 40px !important;
+      width: 44px !important; height: 44px !important;
+      line-height: 44px !important;
       color: var(--ink) !important;
       background: oklch(1 0 0 / 0.88) !important;
       backdrop-filter: blur(12px);
@@ -75,17 +82,10 @@
       position: absolute; z-index: 1000;
       top: calc(12px + var(--safe-t));
       inset-inline-start: calc(16px + var(--safe-l) + var(--sheet-width) + 12px);
-      inset-inline-end: 16px;
+      inset-inline-end: calc(16px + var(--safe-r));
       display: flex; justify-content: flex-end; align-items: center;
       gap: 10px;
       pointer-events: none;
-    }
-    @media (max-width: 719px) {
-      .top-chrome {
-        inset-inline-start: 16px;
-        justify-content: space-between;
-      }
-      .top-chrome .brand { display: none; }
     }
     .brand {
       pointer-events: auto;
@@ -146,7 +146,31 @@
       padding-bottom: 0;
       overflow: hidden;
     }
-    .sheet-handle { display: none; }
+    .sheet-handle {
+      display: none;
+      width: 100%;
+      border: 0;
+      background: transparent;
+      padding: 10px 0 4px;
+      min-height: 44px;
+      cursor: pointer;
+      flex-shrink: 0;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    .sheet-handle::before {
+      content: "";
+      display: block;
+      width: 40px;
+      height: 5px;
+      border-radius: 999px;
+      background: oklch(0.78 0.01 260);
+      margin: 0 auto;
+    }
+    .sheet-handle:focus-visible {
+      outline: 2px solid var(--focus);
+      outline-offset: -4px;
+    }
     .sheet-head {
       padding: 18px 20px 12px;
       flex-shrink: 0;
@@ -321,13 +345,13 @@
       box-shadow: none;
     }
     .popup-actions {
-      display: flex; flex-wrap: wrap; gap: 8px;
+      display: flex; flex-wrap: wrap; gap: 12px;
       margin-top: 10px;
     }
     .popup-actions button {
-      border: 0; border-radius: 10px;
-      padding: 8px 12px; min-height: 36px;
-      font: inherit; font-size: 0.82rem; font-weight: 600;
+      border: 0; border-radius: 12px;
+      padding: 12px 16px; min-height: 44px;
+      font: inherit; font-size: 0.9rem; font-weight: 600;
       cursor: pointer; color: var(--ink);
       background: oklch(0.94 0.008 260);
     }
@@ -343,12 +367,12 @@
       display: grid;
       grid-template-columns: 1fr auto;
       align-items: center;
-      gap: 4px;
+      gap: 12px;
     }
     .device-row .device { width: 100%; }
     .device-row[aria-selected="true"] .device { background: var(--row-active); }
     .icon-btn {
-      width: 36px; height: 36px; border-radius: 50%;
+      width: 44px; height: 44px; border-radius: 50%;
       border: 0; padding: 0;
       display: grid; place-items: center;
       background: oklch(0.94 0.008 260);
@@ -386,23 +410,24 @@
       font-size: 0.78rem; font-weight: 500;
       color: var(--ink-secondary);
     }
-    .route-actions { display: flex; gap: 8px; flex-shrink: 0; }
+    .route-actions { display: flex; gap: 8px; flex-shrink: 0; flex-wrap: wrap; }
     .route-actions button,
     .route-actions .maps {
       border: 0; border-radius: 12px;
-      padding: 10px 14px; min-height: 40px;
-      font: inherit; font-size: 0.85rem; font-weight: 600;
+      padding: 12px 16px; min-height: 44px;
+      font: inherit; font-size: 0.9rem; font-weight: 600;
       cursor: pointer;
       box-sizing: border-box;
     }
     .route-actions .share {
-      background: var(--accent); color: white;
+      background: oklch(0.94 0.008 260); color: var(--ink);
     }
     .route-actions .maps {
       display: none;
       background: #1a73e8; color: white;
       text-decoration: none;
       align-items: center;
+      justify-content: center;
     }
     .route-actions .share:focus-visible,
     .route-actions .maps:focus-visible,
@@ -436,11 +461,85 @@
     body.shared .route-actions .maps { display: inline-flex; }
     @media (max-width: 719px) {
       :root {
-        --sheet-width: min(300px, calc(100vw - 20px));
+        --sheet-width: 100%;
+        --sheet-h-peek: min(38vh, 340px);
+        --sheet-h-peek: min(38dvh, 340px);
+        --sheet-h-expanded: min(88vh, 780px);
+        --sheet-h-expanded: min(88dvh, 780px);
+        --sheet-h: var(--sheet-h-peek);
       }
+      .top-chrome {
+        inset-inline-start: calc(12px + var(--safe-l));
+        inset-inline-end: calc(12px + var(--safe-r));
+        justify-content: flex-end;
+      }
+      .top-chrome .brand { display: none; }
+      .leaflet-control-zoom {
+        margin-bottom: calc(var(--sheet-h) + 12px) !important;
+      }
+      .leaflet-control-attribution {
+        margin-bottom: calc(var(--sheet-h) + 8px) !important;
+      }
+      .sheet {
+        top: auto;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: var(--sheet-h);
+        max-height: var(--sheet-h);
+        border-radius: var(--radius-sheet) var(--radius-sheet) 0 0;
+        padding-bottom: var(--safe-b);
+        padding-inline: var(--safe-l) var(--safe-r);
+        transition-property: height, max-height;
+        transition-duration: 220ms;
+        transition-timing-function: cubic-bezier(0.2, 0, 0, 1);
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .sheet { transition: none; }
+      }
+      .sheet[data-sheet="expanded"] {
+        --sheet-h: var(--sheet-h-expanded);
+      }
+      .sheet-handle { display: flex; }
+      .sheet-head { padding: 4px 20px 10px; }
+      .sheet-head h1 { font-size: 1.35rem; }
+      .list { padding-bottom: 12px; }
       .route-bar {
-        left: 12px;
-        bottom: calc(12px + var(--safe-b));
+        left: calc(12px + var(--safe-l));
+        right: calc(12px + var(--safe-r));
+        bottom: calc(var(--sheet-h) + 10px);
+        flex-direction: column;
+        align-items: stretch;
+        padding: 14px 16px;
+        padding-bottom: 14px;
+      }
+      .route-actions {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+      .route-actions .maps {
+        display: inline-flex;
+        min-height: 52px;
+        font-size: 1.05rem;
+        order: -1;
+      }
+      .route-actions .share,
+      .route-actions .close-route {
+        min-height: 48px;
+      }
+      .route-bar.sheet-expanded {
+        visibility: hidden;
+        pointer-events: none;
+      }
+      body.shared .route-bar {
+        bottom: calc(16px + var(--safe-b));
+      }
+      body.shared .route-actions .maps {
+        min-height: 56px;
+        font-size: 1.1rem;
       }
     }
   </style>
@@ -464,28 +563,42 @@
     </div>
   </div>
 
-  <section class="sheet" aria-label="Dispositivos">
-    <div class="sheet-handle" aria-hidden="true"></div>
+  <section
+    class="sheet"
+    id="deviceSheet"
+    role="complementary"
+    aria-label="Lista de monedas"
+    data-sheet="peek"
+    aria-expanded="false"
+  >
+    <button
+      type="button"
+      class="sheet-handle"
+      id="sheetHandle"
+      aria-controls="deviceSheet"
+      aria-expanded="false"
+      aria-label="Ampliar lista"
+    ></button>
     <header class="sheet-head">
-      <h1>Dispositivos</h1>
-      <p class="sheet-sub" id="summary" role="status">Cargando ubicaciones…</p>
+      <h1>Tus monedas</h1>
+      <p class="sheet-sub" id="summary" role="status">Toca una para ver dónde está</p>
     </header>
     <div class="search-wrap">
-      <label class="sr-only" for="search">Buscar dispositivos</label>
-      <input id="search" class="search" type="search" placeholder="Buscar" autocomplete="off" />
+      <label class="sr-only" for="search">Buscar moneda</label>
+      <input id="search" class="search" type="search" placeholder="Buscar moneda" autocomplete="off" enterkeyhint="search" />
     </div>
-    <div class="list" id="list" aria-label="Lista de dispositivos"></div>
+    <div class="list" id="list" aria-label="Lista de monedas"></div>
   </section>
 
   <div class="route-bar" id="routeBar" hidden role="status">
     <p>
       <span id="routeTitle">Ruta</span>
-      <span class="muted" id="routeMeta">Obteniendo tu ubicación…</span>
+      <span class="muted" id="routeMeta">Buscando tu ubicación…</span>
       <span class="muted" id="routeSeen" hidden></span>
     </p>
     <div class="route-actions">
-      <a class="maps" id="mapsRouteBtn" href="#" target="_blank" rel="noopener noreferrer">Google Maps</a>
-      <button type="button" class="share" id="shareRouteBtn">Compartir</button>
+      <a class="maps" id="mapsRouteBtn" href="#" target="_blank" rel="noopener noreferrer">Abrir en Maps</a>
+      <button type="button" class="share" id="shareRouteBtn">Copiar enlace</button>
       <button type="button" class="close-route" id="closeRouteBtn" aria-label="Cerrar ruta">Cerrar</button>
     </div>
   </div>
@@ -528,6 +641,75 @@
     let latestUpdatedAt = null;
     let lastRouteSummary = '';
     const SHARE_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M12 3v12"/><path d="m7 8 5-5 5 5"/></svg>';
+    const sheetEl = document.getElementById('deviceSheet');
+    const sheetHandle = document.getElementById('sheetHandle');
+    const MOBILE_MQ = window.matchMedia('(max-width: 719px)');
+
+    function isMobile() {
+      return MOBILE_MQ.matches;
+    }
+
+    function syncSheetUi(mode) {
+      if (!sheetEl || SHARED_PLACA) return;
+      const expanded = mode === 'expanded';
+      sheetEl.dataset.sheet = expanded ? 'expanded' : 'peek';
+      sheetEl.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+      if (sheetHandle) {
+        sheetHandle.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+        sheetHandle.setAttribute(
+          'aria-label',
+          expanded ? 'Reducir lista' : 'Ampliar lista'
+        );
+      }
+      try {
+        sessionStorage.setItem('fm-sheet', expanded ? 'expanded' : 'peek');
+      } catch { /* ponytail: ignore */ }
+      document.documentElement.style.setProperty(
+        '--sheet-h',
+        expanded ? 'var(--sheet-h-expanded)' : 'var(--sheet-h-peek)'
+      );
+      // ponytail: hide route bar while list is expanded so it does not pin to the top
+      const bar = document.getElementById('routeBar');
+      if (bar) bar.classList.toggle('sheet-expanded', expanded);
+      requestAnimationFrame(() => {
+        map.invalidateSize({ animate: false });
+      });
+    }
+
+    function setSheet(mode) {
+      if (!isMobile()) return;
+      syncSheetUi(mode === 'expanded' ? 'expanded' : 'peek');
+    }
+
+    function collapseSheetForMap() {
+      if (isMobile()) setSheet('peek');
+    }
+
+    (function initSheet() {
+      if (SHARED_PLACA || !sheetEl) return;
+      let saved = 'peek';
+      try {
+        saved = sessionStorage.getItem('fm-sheet') || 'peek';
+      } catch { /* ignore */ }
+      if (isMobile()) syncSheetUi(saved === 'expanded' ? 'expanded' : 'peek');
+      sheetHandle?.addEventListener('click', () => {
+        const next = sheetEl.dataset.sheet === 'expanded' ? 'peek' : 'expanded';
+        setSheet(next);
+      });
+      document.querySelector('.sheet-head')?.addEventListener('click', (e) => {
+        if (!isMobile() || e.target.closest('a,button,input')) return;
+        const next = sheetEl.dataset.sheet === 'expanded' ? 'peek' : 'expanded';
+        setSheet(next);
+      });
+      MOBILE_MQ.addEventListener('change', () => {
+        if (isMobile()) {
+          syncSheetUi(sheetEl.dataset.sheet === 'expanded' ? 'expanded' : 'peek');
+        } else {
+          document.documentElement.style.removeProperty('--sheet-h');
+          map.invalidateSize({ animate: false });
+        }
+      });
+    })();
 
     function placaFromUrl() {
       return SHARED_PLACA || (new URLSearchParams(location.search).get('placa') || '').trim();
@@ -651,10 +833,11 @@
     async function showRouteTo(d) {
       if (!d || !d.found) return;
       routeTarget = d;
+      collapseSheetForMap();
       const bar = document.getElementById('routeBar');
       bar.hidden = false;
       document.getElementById('routeTitle').textContent = d.name;
-      document.getElementById('routeMeta').textContent = 'Obteniendo tu ubicación…';
+      document.getElementById('routeMeta').textContent = 'Buscando tu ubicación…';
       setMapsLink(d);
       routeLayer.clearLayers();
 
@@ -663,9 +846,9 @@
         from = await getUserPosition();
       } catch {
         document.getElementById('routeMeta').textContent =
-          'Activa la ubicación para ver la ruta hasta esta moneda.';
+          'Activa la ubicación en Ajustes → Safari. O usa Abrir en Maps.';
         updateSharedTimes(d);
-        if (SHARED_PLACA) {
+        if (SHARED_PLACA || isMobile()) {
           map.flyTo([d.latitude, d.longitude], 15, {
             duration: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 0.5,
           });
@@ -707,7 +890,12 @@
       document.getElementById('routeMeta').textContent = lastRouteSummary;
       updateSharedTimes(d);
 
-      const pad = SHARED_PLACA ? [56, 56, 100, 56] : [48, 48, 80, 48 + (window.innerWidth >= 720 ? 400 : 20)];
+      map.invalidateSize({ animate: false });
+      const pad = SHARED_PLACA
+        ? [56, 56, 120, 56]
+        : isMobile()
+          ? [48, 24, Math.round((window.innerHeight * 0.38) + 90), 24]
+          : [48, 48, 80, 48 + 400];
       const bounds = L.latLngBounds([from, [d.latitude, d.longitude], ...route.coords]);
       map.fitBounds(bounds, {
         padding: pad,
@@ -769,6 +957,7 @@
     function selectDevice(d, { fly = true, route = false, syncUrl = true } = {}) {
       selectedKey = d && d.found ? deviceKey(d) : null;
       if (syncUrl) setPlacaUrl(d && d.found ? d.name : null);
+      if (d && d.found) collapseSheetForMap();
       accuracyLayer.clearLayers();
       for (const [key, marker] of markers) {
         const name = (marker.__device && marker.__device.name) || key;
@@ -792,6 +981,7 @@
       }).addTo(accuracyLayer);
       if (route) showRouteTo(d);
       else if (fly) {
+        map.invalidateSize({ animate: false });
         map.flyTo([d.latitude, d.longitude], Math.max(map.getZoom(), 15), {
           duration: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 0.65,
         });
@@ -810,8 +1000,8 @@
         const empty = document.createElement('div');
         empty.className = 'empty';
         empty.textContent = q
-          ? `Ningún dispositivo coincide con “${query}”.`
-          : 'Aún no hay dispositivos. Espera la primera consulta.';
+          ? `Ninguna moneda coincide con “${query}”.`
+          : 'No hay monedas todavía. Espera un momento.';
         list.appendChild(empty);
         return;
       }
@@ -835,7 +1025,7 @@
         btn.setAttribute(
           'aria-label',
           d.found
-            ? `${d.name}. Visto ${when}. Batería ${d.battery}. Mostrar ruta en el mapa`
+            ? `${d.name}. Visto ${when}. Batería ${d.battery}. Toca para ver en el mapa`
             : `${d.name}. Sin ubicación`
         );
         btn.innerHTML =
@@ -862,7 +1052,7 @@
               if (!ok) return;
               const t = document.getElementById('statusText');
               const prev = t.textContent;
-              t.textContent = 'Enlace copiado';
+              t.textContent = 'Enlace copiado. Ya puedes pegarlo.';
               setTimeout(() => { t.textContent = prev; }, 1600);
             });
           });
@@ -885,7 +1075,9 @@
       const updated = relTime(data.updated_at);
       if (!placa) {
         document.getElementById('summary').textContent =
-          `${found.length} de ${devices.length} con ubicación · Actualizado ${updated}`;
+          found.length
+            ? `${found.length} monedas con ubicación · Actualizado ${updated}`
+            : `Sin ubicación todavía · Actualizado ${updated}`;
       }
       document.getElementById('statusText').textContent = `Actualizado ${updated}`;
 
@@ -910,7 +1102,7 @@
             `Precisión ~${Number(d.accuracy_m) || 0} m` +
             `<div class="popup-actions">` +
             `<button type="button" class="primary" data-act="route">Cómo llegar</button>` +
-            `<button type="button" data-act="share">Compartir</button>` +
+            `<button type="button" data-act="share">Copiar enlace</button>` +
             `</div>`;
 
         let marker = markers.get(key);
@@ -967,7 +1159,12 @@
         }
         if (!fittedOnce && bounds.length) {
           if (bounds.length === 1) map.setView(bounds[0], 15);
-          else map.fitBounds(bounds, { padding: [48, 48, 48, 48 + 400] });
+          else {
+            const pad = isMobile()
+              ? [48, 24, Math.round((window.innerHeight * 0.38) + 24), 24]
+              : [48, 48, 48, 48 + 400];
+            map.fitBounds(bounds, { padding: pad });
+          }
           fittedOnce = true;
         }
       }
@@ -985,7 +1182,7 @@
             selectDevice(hit, { route: true, syncUrl: false });
           } else {
             document.getElementById('routeMeta').textContent =
-              `No hay ubicación para “${placa}”.`;
+              `No hay ubicación para “${placa}”. Prueba más tarde.`;
             document.getElementById('routeSeen').hidden = true;
           }
         }
@@ -1049,7 +1246,7 @@
         if (EMBEDDED) render(EMBEDDED);
         else {
           document.getElementById('summary').textContent =
-            'No se pudo cargar ubicaciones. Comprueba que el servidor esté en marcha.';
+            'No se pudo cargar. Revisa la conexión e intenta de nuevo.';
           document.getElementById('statusText').textContent = 'Sin conexión';
         }
       }
