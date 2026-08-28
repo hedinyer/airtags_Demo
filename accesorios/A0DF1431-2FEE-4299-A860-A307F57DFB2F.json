@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "eaf12fad1694be7d1700f8ec4815fe304235e7e87bc0607f38494ca7",
+  "skn": "27e0f29bd8431fd115fc9dccad5ce4848f1586df20ff8b532e7d2341a5b8ffaf",
+  "sks": "37d86d2f0cff70eb93b76015c0e969992134fc5f7c00512405e41bf24dba8c38",
+  "paired_at": "2026-04-09T21:07:30.172677+00:00",
+  "name": "DUW24I",
+  "model": "",
+  "identifier": "A0DF1431-2FEE-4299-A860-A307F57DFB2F",
+  "alignment_date": "2026-08-24T15:18:20+00:00",
+  "alignment_index": 13130,
+  "icloud_account": "ventasunicas@icloud.com",
+  "imported_at": "2026-08-28T21:37:57.273575+00:00",
+  "first_imported_at": "2026-08-28T21:37:57.273575+00:00"
+}

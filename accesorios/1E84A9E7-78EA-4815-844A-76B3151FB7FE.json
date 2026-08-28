@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "36691b033e49dc0112fc5ef3984188788efda2d30385d4879f1b013c",
+  "skn": "275a55966779f3827c4293814ace4e8b979348fb0d0d34d0a017077027652cdd",
+  "sks": "0cb7da61c7329c79bc68cee600ac5a2d966da70ca5c438babfd0bf2b09119a14",
+  "paired_at": "2026-04-09T18:29:55.144783+00:00",
+  "name": "DUR50I",
+  "model": "",
+  "identifier": "1E84A9E7-78EA-4815-844A-76B3151FB7FE",
+  "alignment_date": "2026-08-24T15:30:00+00:00",
+  "alignment_index": 13141,
+  "icloud_account": "ventasunicas@icloud.com",
+  "imported_at": "2026-08-28T21:37:57.273575+00:00",
+  "first_imported_at": "2026-08-28T21:37:57.273575+00:00"
+}

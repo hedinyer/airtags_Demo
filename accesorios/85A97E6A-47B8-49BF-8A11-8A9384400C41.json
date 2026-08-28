@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "20abefb2ba9d9f64be7db47bbb786b28b06d65aa65452e26748f0a9f",
+  "skn": "abd840315e23d389828a7a2ac09ead16d6ef157b2dd04c87e3a7c23eb64059d5",
+  "sks": "6d4c78445d7f0fa9c41a932ed430321c6132611903cdb0f704e533ea27cded8a",
+  "paired_at": "2026-04-11T16:35:54.729057+00:00",
+  "name": "MCQ26H",
+  "model": "",
+  "identifier": "85A97E6A-47B8-49BF-8A11-8A9384400C41",
+  "alignment_date": "2026-08-24T15:28:10+00:00",
+  "alignment_index": 12956,
+  "icloud_account": "ventasunicas@icloud.com",
+  "imported_at": "2026-08-28T21:37:57.273575+00:00",
+  "first_imported_at": "2026-08-28T21:37:57.273575+00:00"
+}

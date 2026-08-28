@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "08862866c941da795ad02dfe256d1ab5648946b079fd15b1e9f64bce",
+  "skn": "fcfe61ecd1170a082c14f51953c40d130b32e68f9a5ead97d6e11838db651640",
+  "sks": "aaaad65924885980173bfe76710a8dac38a7ea30379619781995a52936a49616",
+  "paired_at": "2026-03-13T15:16:05.953693+00:00",
+  "name": "DTW25I",
+  "model": "",
+  "identifier": "876B4A0E-0150-4CCD-BD73-618550B9CE02",
+  "alignment_date": "2026-08-24T15:27:30+00:00",
+  "alignment_index": 15745,
+  "icloud_account": "ventasunicas@icloud.com",
+  "imported_at": "2026-08-28T21:37:57.273575+00:00",
+  "first_imported_at": "2026-08-28T21:37:57.273575+00:00"
+}

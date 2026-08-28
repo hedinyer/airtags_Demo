@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "0f9be2dff6aae0527954769cb0630e6e50c2dc4b65cddb8ea7f650b2",
+  "skn": "b2fc2b9bd025d16f54657d9046363074c288c40533f02a66e4201d07ea72f3f7",
+  "sks": "9dc107406863c7c0e1be8502eb66de35e81e7b239d67b2106f3eddd1c559eb52",
+  "paired_at": "2026-03-13T14:46:30.881707+00:00",
+  "name": "DTW23I",
+  "model": "",
+  "identifier": "85A5C3E0-F9A0-4C35-A081-AEA11E06503D",
+  "alignment_date": "2026-08-24T15:34:20+00:00",
+  "alignment_index": 15748,
+  "icloud_account": "ventasunicas@icloud.com",
+  "imported_at": "2026-08-28T21:37:57.273575+00:00",
+  "first_imported_at": "2026-08-28T21:37:57.273575+00:00"
+}

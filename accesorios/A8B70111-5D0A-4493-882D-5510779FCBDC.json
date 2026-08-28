@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "f4f296b1b28e9ff84f79ae5908147c02553cb1c5958d62c56dfef638",
+  "skn": "ca9a432e883808f20927775814937f5bc7129991eed7781741f6ff6a55d186c9",
+  "sks": "33e962165dc9bddd9154abb9184450768a27fa18f2e7a7513be892618a1e3908",
+  "paired_at": "2026-04-08T22:26:43.481450+00:00",
+  "name": "TRW43H",
+  "model": "",
+  "identifier": "A8B70111-5D0A-4493-882D-5510779FCBDC",
+  "alignment_date": "2026-05-22T02:25:20+00:00",
+  "alignment_index": 4145,
+  "icloud_account": "ventasunicas@icloud.com",
+  "imported_at": "2026-08-28T21:37:57.273575+00:00",
+  "first_imported_at": "2026-08-28T21:37:57.273575+00:00"
+}

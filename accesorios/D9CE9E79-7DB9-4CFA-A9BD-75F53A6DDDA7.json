@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "f8f5160001f939cdf1b7658e10d576a78d726947587945e31276462c",
+  "skn": "d1586c0d1b42c32201182f3d19a6e23fdc4de3c2dad274670b5e2308afd6ec2d",
+  "sks": "e3832b97ffe6284156378a0bbc2beadf56e47b1bff9af877f758252a72bd4687",
+  "paired_at": "2026-03-16T18:30:48.674359+00:00",
+  "name": "MDI61H",
+  "model": "",
+  "identifier": "D9CE9E79-7DB9-4CFA-A9BD-75F53A6DDDA7",
+  "alignment_date": "2026-08-24T15:32:30+00:00",
+  "alignment_index": 15445,
+  "icloud_account": "ventasunicas@icloud.com",
+  "imported_at": "2026-08-28T21:37:57.273575+00:00",
+  "first_imported_at": "2026-08-28T21:37:57.273575+00:00"
+}

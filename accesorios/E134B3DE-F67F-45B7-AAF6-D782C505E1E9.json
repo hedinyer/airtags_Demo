@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "1efa882d7c76d8047e2a27bf1f2562a839d6ef89f6d34dd248a5c7b1",
+  "skn": "9a6f2e7054e63f40d3bef752169eb93cdb0f0a81ab49379e9f4420fef974d7e3",
+  "sks": "2252e142f22c2ab9bc1d54dc3988de66fe3792ae551d158cc39fdd05d7205032",
+  "paired_at": "2026-04-09T20:57:44.293562+00:00",
+  "name": "DUR41I",
+  "model": "",
+  "identifier": "E134B3DE-F67F-45B7-AAF6-D782C505E1E9",
+  "alignment_date": "2026-08-24T12:35:40+00:00",
+  "alignment_index": 13120,
+  "icloud_account": "ventasunicas@icloud.com",
+  "imported_at": "2026-08-28T21:37:57.273575+00:00",
+  "first_imported_at": "2026-08-28T21:37:57.273575+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "c6f8afcca0e6ac9019650cd841402762cf507d1be46af8811bc3e9cb",
+  "skn": "2378694171c4a6fc1b1cd8d1748d160b8111d052ca44e08b5cdbfab4d583e7d4",
+  "sks": "aaee4e2cece351395b735e0fdbdcaeb0a57a0a6e3b1c73c143a97dcc9f868d97",
+  "paired_at": "2026-03-17T19:52:17.727198+00:00",
+  "name": "DTW18I",
+  "model": "",
+  "identifier": "0679CCE1-4A27-4679-9887-D116A2F9F6F9",
+  "alignment_date": "2026-08-23T01:05:40+00:00",
+  "alignment_index": 15190,
+  "icloud_account": "ventasunicas@icloud.com",
+  "imported_at": "2026-08-28T21:37:57.273575+00:00",
+  "first_imported_at": "2026-08-28T21:37:57.273575+00:00"
+}

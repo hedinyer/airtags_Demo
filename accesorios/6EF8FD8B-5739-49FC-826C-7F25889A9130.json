@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "eeff610aee939449613ecd9cdb80d73308a49ffdb009ba251162b3a9",
+  "skn": "f83f5a7da9b6a4425aeceb428ad05581c331e6430a04b9dfd1b4d8bdf8288627",
+  "sks": "59cc77dd4dda2e0c89bff2adbbb57bc114370e2b7886cdb9e9cafd1090dfc151",
+  "paired_at": "2026-03-20T22:49:13.938738+00:00",
+  "name": "DUR38I",
+  "model": "",
+  "identifier": "6EF8FD8B-5739-49FC-826C-7F25889A9130",
+  "alignment_date": "2026-08-24T04:17:00+00:00",
+  "alignment_index": 14893,
+  "icloud_account": "ventasunicas@icloud.com",
+  "imported_at": "2026-08-28T21:37:57.273575+00:00",
+  "first_imported_at": "2026-08-28T21:37:57.273575+00:00"
+}

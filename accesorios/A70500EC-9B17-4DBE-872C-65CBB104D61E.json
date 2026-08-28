@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "2d24758d9a4f66f076741f8e3b99efa631f2ebfbcd4125aed2a6e859",
+  "skn": "f2e7e200c18f59cb258b714d17451f1d56dfb78b3b49e06c766a7fc8062cc1b4",
+  "sks": "6e89f8ee3e304a2162aab2a54938313856055cfed8f7f003e61d3923ad3a5a5d",
+  "paired_at": "2026-03-20T13:34:43.343003+00:00",
+  "name": "JQX32h",
+  "model": "",
+  "identifier": "A70500EC-9B17-4DBE-872C-65CBB104D61E",
+  "alignment_date": "2026-04-03T00:33:40+00:00",
+  "alignment_index": 1288,
+  "icloud_account": "ventasunicas@icloud.com",
+  "imported_at": "2026-08-28T21:37:57.273575+00:00",
+  "first_imported_at": "2026-08-28T21:37:57.273575+00:00"
+}

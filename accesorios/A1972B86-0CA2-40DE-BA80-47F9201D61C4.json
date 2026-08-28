@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "e00ee0db71168030906defb85f47e6ae6cc891297aff1fc9f91e865f",
+  "skn": "86f2d3b16e6924fcd4b792429c1985fdc8ea48885f03a54d3f0e3e4f45cf4fee",
+  "sks": "13896d1844b3361bea946e48d58bd9afc5b734103f5f28de0d559db2fc925ce1",
+  "paired_at": "2026-04-13T15:43:55.367127+00:00",
+  "name": "DUR52I",
+  "model": "",
+  "identifier": "A1972B86-0CA2-40DE-BA80-47F9201D61C4",
+  "alignment_date": "2026-08-24T15:21:00+00:00",
+  "alignment_index": 12767,
+  "icloud_account": "ventasunicas@icloud.com",
+  "imported_at": "2026-08-28T21:37:57.273575+00:00",
+  "first_imported_at": "2026-08-28T21:37:57.273575+00:00"
+}
