@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "7aba69ce01bb3440e1e45ad54272a951281652ac2d17c62bc6e6e8d2",
+  "skn": "9c070044bf948e5fd9e931def797330b05a410d6e821c7d466805434e8039fdb",
+  "sks": "af2c142427dcc6fa6cc130d89c693cc905b2459c28f81bdeaf398140d11aed6d",
+  "paired_at": "2025-08-20T21:13:44.729947+00:00",
+  "name": "TIH82H",
+  "model": "",
+  "identifier": "A4697EF6-7514-4A07-8DDA-AA4DDFBF45DA",
+  "alignment_date": "2026-08-24T14:22:30+00:00",
+  "alignment_index": 35398,
+  "icloud_account": "gabrielacarrillo2410@icloud.com",
+  "imported_at": "2026-08-28T20:11:07.536625+00:00",
+  "first_imported_at": "2026-08-28T20:11:07.536625+00:00"
+}

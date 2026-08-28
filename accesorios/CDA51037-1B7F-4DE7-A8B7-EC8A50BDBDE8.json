@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "65d976dee43cf817b5307c300212cb3f08ce15071691c1c72af3c835",
+  "skn": "2ba9961f61d7ca378278471d3b60375d47adb3f77b2e7d0ffe750feccc8a919d",
+  "sks": "aed8eae7f3b5d717d24be09717290d856339ae53beeeadf9d947cdfb7f0e5ab2",
+  "paired_at": "2025-08-21T13:36:41.394561+00:00",
+  "name": "ZPG10H",
+  "model": "",
+  "identifier": "CDA51037-1B7F-4DE7-A8B7-EC8A50BDBDE8",
+  "alignment_date": "2026-08-24T09:48:10+00:00",
+  "alignment_index": 35314,
+  "icloud_account": "gabrielacarrillo2410@icloud.com",
+  "imported_at": "2026-08-28T20:11:07.536625+00:00",
+  "first_imported_at": "2026-08-28T20:11:07.536625+00:00"
+}

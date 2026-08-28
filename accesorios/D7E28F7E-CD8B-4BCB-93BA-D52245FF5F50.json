@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "40b06b24e85b6eabcafd385dbf66edb5696261b4a6270336c8121437",
+  "skn": "ab996279c5e6880680b507a3ab7cfceff8bde343b790ee1084bef97880084004",
+  "sks": "8b5ac9c4ee14bdffafbc113eb2860e9ef1f8d4e48b187625b421b8e4d27766db",
+  "paired_at": "2025-08-20T21:46:29.691732+00:00",
+  "name": "TIK42H",
+  "model": "",
+  "identifier": "D7E28F7E-CD8B-4BCB-93BA-D52245FF5F50",
+  "alignment_date": "2026-08-24T16:27:10+00:00",
+  "alignment_index": 35404,
+  "icloud_account": "gabrielacarrillo2410@icloud.com",
+  "imported_at": "2026-08-28T20:11:07.536625+00:00",
+  "first_imported_at": "2026-08-28T20:11:07.536625+00:00"
+}

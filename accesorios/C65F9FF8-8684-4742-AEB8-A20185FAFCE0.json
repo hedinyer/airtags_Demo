@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "5afb96d78f03e5a4e1543dd71c53a49d3033438460de1cbb61c33f59",
+  "skn": "766bc8e6637762ec2df5eac96ff699a65143ce2401ef992b6c3422051024c039",
+  "sks": "2aa70af72b531bb5a2fbd40c514b496b9afc75df00b1022c1a5fd39a3f52dc8e",
+  "paired_at": "2025-08-14T20:35:23.824436+00:00",
+  "name": "TIB75H",
+  "model": "",
+  "identifier": "C65F9FF8-8684-4742-AEB8-A20185FAFCE0",
+  "alignment_date": "2026-08-24T16:49:30+00:00",
+  "alignment_index": 25777,
+  "icloud_account": "gabrielacarrillo2410@icloud.com",
+  "imported_at": "2026-08-28T20:11:07.536625+00:00",
+  "first_imported_at": "2026-08-28T20:11:07.536625+00:00"
+}

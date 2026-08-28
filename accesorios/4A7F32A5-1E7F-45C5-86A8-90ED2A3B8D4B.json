@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "26e240436c1e73087d88d5126ec6cb1365fa48b4605357d7a6661d4f",
+  "skn": "5410a0c2447b9dc9a04e6e0a1181e596c58efad05d156a786878a9df401d6ce2",
+  "sks": "2797159f271c670fbc2f787ebfc2c6b1798169d247032db0c4e9ace891bec9fc",
+  "paired_at": "2026-06-14T16:44:37.149046+00:00",
+  "name": "RAZ81H",
+  "model": "empty",
+  "identifier": "4A7F32A5-1E7F-45C5-86A8-90ED2A3B8D4B",
+  "alignment_date": "2026-08-25T14:33:08.273000+00:00",
+  "alignment_index": 6906,
+  "icloud_account": "gabrielacarrillo2410@icloud.com",
+  "imported_at": "2026-08-28T20:11:07.536625+00:00",
+  "first_imported_at": "2026-08-28T20:11:07.536625+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "9b0c0f143e88f6e59100e599c9f87b4a1f011dafd0fedefeab657f25",
+  "skn": "bc0d2259505c23c6733e0bf2e6dc1ee270ea7b9cdec0e7009b04dc0f4988b7df",
+  "sks": "fde9a6bb2bd92bfe927df27714c62f6821749ebfea8676340a766bfdb2f3e967",
+  "paired_at": "2025-08-19T20:49:22.077613+00:00",
+  "name": "TIF40H",
+  "model": "",
+  "identifier": "886B1717-49F0-4BB1-94A0-7D1F5444B50C",
+  "alignment_date": "2026-08-24T15:34:50+00:00",
+  "alignment_index": 35500,
+  "icloud_account": "gabrielacarrillo2410@icloud.com",
+  "imported_at": "2026-08-28T20:11:07.536625+00:00",
+  "first_imported_at": "2026-08-28T20:11:07.536625+00:00"
+}

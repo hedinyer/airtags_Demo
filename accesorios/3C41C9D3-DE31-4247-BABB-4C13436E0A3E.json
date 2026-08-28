@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "60c4b2105353a229aca3c74a40fd721d026d1f82c93662e969f4a0d2",
+  "skn": "c7a2d220f74ff36ccc5fa4377bc272115b4af159a73e1218197b4e8f4c660e0b",
+  "sks": "179c5587f9cc71c003b5799c6b60ab040d602b8c3b93a50cdf9d31b8b6f25451",
+  "paired_at": "2025-08-23T19:21:09.475677+00:00",
+  "name": "TIK46H",
+  "model": "",
+  "identifier": "3C41C9D3-DE31-4247-BABB-4C13436E0A3E",
+  "alignment_date": "2026-08-24T16:03:00+00:00",
+  "alignment_index": 35124,
+  "icloud_account": "gabrielacarrillo2410@icloud.com",
+  "imported_at": "2026-08-28T20:11:07.536625+00:00",
+  "first_imported_at": "2026-08-28T20:11:07.536625+00:00"
+}

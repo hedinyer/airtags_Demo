@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "0c8008f29e6e43c6976a4c3480c9727bd69e16d99a8737a4c4a15287",
+  "skn": "eeac8880f9382395445f02e21a581f5420e3bfae830361cc83903c098a689def",
+  "sks": "32b0f4115779188fac0dd46c6255dfe6e3695d4c5d1f3e44a37ba5503f9744d0",
+  "paired_at": "2025-08-29T22:13:54.021025+00:00",
+  "name": "TIL41H",
+  "model": "",
+  "identifier": "671D42A3-FEB0-47F5-BB1F-E4EC79B4D83D",
+  "alignment_date": "2026-06-18T01:07:00+00:00",
+  "alignment_index": 28044,
+  "icloud_account": "gabrielacarrillo2410@icloud.com",
+  "imported_at": "2026-08-28T20:11:07.536625+00:00",
+  "first_imported_at": "2026-08-28T20:11:07.536625+00:00"
+}
