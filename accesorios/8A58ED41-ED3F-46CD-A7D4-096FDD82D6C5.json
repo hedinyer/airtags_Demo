@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "86bc0f7ed0bdc597e621fdae80e7b35d18b77e8619d1ed5136d05fd4",
+  "skn": "b7092ad5c4038a5a39f2e460bbf48e3ba525c80796f1662cd2b841259b438b2e",
+  "sks": "c4a43128bab11139f406e7bedce2c3a89c94c04a373a3267cc3b57f53fd757b6",
+  "paired_at": "2025-09-10T19:20:39.931157+00:00",
+  "name": "TIR80H",
+  "model": "",
+  "identifier": "8A58ED41-ED3F-46CD-A7D4-096FDD82D6C5",
+  "alignment_date": "2026-08-04T16:08:30+00:00",
+  "alignment_index": 31477,
+  "icloud_account": "beragarrido@icloud.com",
+  "imported_at": "2026-08-27T18:45:51.238591+00:00",
+  "first_imported_at": "2026-08-27T18:45:51.238591+00:00"
+}

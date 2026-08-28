@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "086b9e94174c88713128042786ac75c6b8d1bb2687fdc9ebb2680763",
+  "skn": "4fc0816d98ea43744893c07e913a6dfbd1de6a484c2248e48c43ee70b64fb8c9",
+  "sks": "4b5b7213b85647b523c5b5688dff113f980781a683f3e82e4f5060ea30593a6b",
+  "paired_at": "2025-09-23T16:01:08.121323+00:00",
+  "name": "TRT15H",
+  "model": "",
+  "identifier": "4AB8381C-6435-4B07-A324-1B102AAC4616",
+  "alignment_date": "2026-08-04T16:36:10+00:00",
+  "alignment_index": 30244,
+  "icloud_account": "beragarrido@icloud.com",
+  "imported_at": "2026-08-27T18:45:51.238591+00:00",
+  "first_imported_at": "2026-08-27T18:45:51.238591+00:00"
+}

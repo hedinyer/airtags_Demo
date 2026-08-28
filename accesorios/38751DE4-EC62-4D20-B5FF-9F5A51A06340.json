@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "5af1413527f757abc019fd81c243e4301f8e4284fdf0f855f9157564",
+  "skn": "72ddf0f945c0d504a7169e45c6fb1c2314bfe1064e247b623b7440e3e2ebbbb7",
+  "sks": "29fef2e02bf753c1683156b31b0eab8eb071c7323898d2d3cc73de715eca6434",
+  "paired_at": "2025-06-27T21:57:13.525856+00:00",
+  "name": "JRM99H",
+  "model": "",
+  "identifier": "38751DE4-EC62-4D20-B5FF-9F5A51A06340",
+  "alignment_date": "2026-08-27T21:45:11.371000+00:00",
+  "alignment_index": 40900,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

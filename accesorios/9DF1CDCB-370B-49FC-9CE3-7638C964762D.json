@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "e05c414ea4ebd93db74c8bd6debc4f4b43dabdce9f88fe667d1e5993",
+  "skn": "fe5e3fa778587b51a64ce53338e9afbb6bcbd52f9afe1ca3655f400e7092841f",
+  "sks": "d41cd1e23a859979a3b47bf059913950fa9142c0a88c3af0dee4d4bc1d696712",
+  "paired_at": "2025-06-27T21:15:13.135658+00:00",
+  "name": "DYC08H",
+  "model": "",
+  "identifier": "9DF1CDCB-370B-49FC-9CE3-7638C964762D",
+  "alignment_date": "2026-08-27T13:52:40+00:00",
+  "alignment_index": 40868,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

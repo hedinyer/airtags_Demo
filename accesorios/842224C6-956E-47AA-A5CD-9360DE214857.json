@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "2c2a4d34e092b601bbaba1f8e3262511c82832c28e053970f85f8495",
+  "skn": "79244edf583a86ebc7c9782880de2240c6a662078338a8a2a04f3ffd1f95b490",
+  "sks": "f3466670aaca051dae05d1612a70629221fa61801244be27eb75cbdeb92c0d0c",
+  "paired_at": "2025-06-26T21:18:24.627772+00:00",
+  "name": "YPL22C",
+  "model": "",
+  "identifier": "842224C6-956E-47AA-A5CD-9360DE214857",
+  "alignment_date": "2026-08-27T12:03:10+00:00",
+  "alignment_index": 40956,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

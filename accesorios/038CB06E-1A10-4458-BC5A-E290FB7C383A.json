@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "35578ffe5afae1ceb8d8c59f35983a56d9bf83cf155a6572ae2145cc",
+  "skn": "10b6685061f146df8544c852c71d82e3b98e364a4b4df729270e609576336234",
+  "sks": "c9d8866d0937178ab71d8a9744bdb9ea14c5ffab027f926fdd9284f2ae3effbc",
+  "paired_at": "2025-09-25T19:17:16.472079+00:00",
+  "name": "TRT29H",
+  "model": "",
+  "identifier": "038CB06E-1A10-4458-BC5A-E290FB7C383A",
+  "alignment_date": "2026-08-04T16:40:20+00:00",
+  "alignment_index": 30037,
+  "icloud_account": "beragarrido@icloud.com",
+  "imported_at": "2026-08-27T18:45:51.238591+00:00",
+  "first_imported_at": "2026-08-27T18:45:51.238591+00:00"
+}

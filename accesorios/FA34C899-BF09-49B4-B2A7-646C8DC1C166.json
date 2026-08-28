@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "13c18d05d74390168e34ae28d3c18999bd4c28ca347b0081a3c3ef5a",
+  "skn": "240ec5721fe538bdb7d77bb5aa25c377dc7423af119b01b98805cd96dac347ad",
+  "sks": "997a9f63b12ab17b07041126b43284a178ee4958e2aa11ec92b60a9c24bfbe61",
+  "paired_at": "2026-03-20T18:51:39.493566+00:00",
+  "name": "iPhone",
+  "model": "iPhone11,8",
+  "identifier": "FA34C899-BF09-49B4-B2A7-646C8DC1C166",
+  "alignment_date": "2026-03-20T18:51:39.493566+00:00",
+  "alignment_index": 0,
+  "icloud_account": "veramotoos@icloud.com",
+  "imported_at": "2026-08-27T15:27:48.212814+00:00",
+  "first_imported_at": "2026-08-27T15:27:48.212814+00:00"
+}

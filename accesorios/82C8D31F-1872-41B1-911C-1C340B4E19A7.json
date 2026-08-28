@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b738eca74479f8de5f98c35f9a0c012b1b461b3972fe3903dc1ab6f1",
+  "skn": "7e2be763b449707a1ae3336b79d7b7ed32ef53c64510c28d25feb981360c65c5",
+  "sks": "7a3d9e0f2d10d9eef7d62c5850f7cf0292f256f10bf460b7d6ce26947e454453",
+  "paired_at": "2025-09-23T19:35:58.769787+00:00",
+  "name": "TRT17H",
+  "model": "",
+  "identifier": "82C8D31F-1872-41B1-911C-1C340B4E19A7",
+  "alignment_date": "2025-11-24T08:57:22+00:00",
+  "alignment_index": 5910,
+  "icloud_account": "beragarrido@icloud.com",
+  "imported_at": "2026-08-27T18:45:51.238591+00:00",
+  "first_imported_at": "2026-08-27T18:45:51.238591+00:00"
+}

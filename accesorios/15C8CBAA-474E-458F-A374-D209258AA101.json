@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "2ab4f715e13a73ade37543e5510e54dc6a32e1406c29231c145ff708",
+  "skn": "de2b84e3d50abf6f52b31a270ff1ecbf56486ed621a3d596b5239b86cf4e945b",
+  "sks": "2e4bdd07a90e06ed399e18cc819ede4f36a4b282b82607b8c14da1ddc245e139",
+  "paired_at": "2025-05-08T19:52:07.371141+00:00",
+  "name": "OSE72H",
+  "model": "",
+  "identifier": "15C8CBAA-474E-458F-A374-D209258AA101",
+  "alignment_date": "2026-07-29T13:33:30+00:00",
+  "alignment_index": 42807,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

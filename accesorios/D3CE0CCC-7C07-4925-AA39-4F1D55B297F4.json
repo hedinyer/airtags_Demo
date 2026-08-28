@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "9a1d3870974db464b3628bd51b77eeefd4d9d82273f69183a46961b8",
+  "skn": "840b5d29a6cdbff115f53b03ac39faa8431c3555d579777fba74b25c45b5d391",
+  "sks": "8f727aa416602ec9bd7310963a83ca3488c79ed248adccc50dd04ff41870e20b",
+  "paired_at": "2025-09-24T17:13:52.728416+00:00",
+  "name": "TRT14H",
+  "model": "",
+  "identifier": "D3CE0CCC-7C07-4925-AA39-4F1D55B297F4",
+  "alignment_date": "2026-08-04T16:17:10+00:00",
+  "alignment_index": 30141,
+  "icloud_account": "beragarrido@icloud.com",
+  "imported_at": "2026-08-27T18:45:51.238591+00:00",
+  "first_imported_at": "2026-08-27T18:45:51.238591+00:00"
+}

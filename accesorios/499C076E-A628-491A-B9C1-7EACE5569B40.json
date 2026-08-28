@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "bf7b29e653b94dca4661b27aae5e89a99e696f31cd9acf9001b82af6",
+  "skn": "4e15938ffbfba77dea5e0e5b250a34980afa40ff0e94642a69fc4c1ffc3463e6",
+  "sks": "ca28a7527980b45c67d68f70b129b58b9c77a23d44b2ca523e921f2fab18c5c0",
+  "paired_at": "2025-07-01T16:52:24.993170+00:00",
+  "name": "RAK72H",
+  "model": "",
+  "identifier": "499C076E-A628-491A-B9C1-7EACE5569B40",
+  "alignment_date": "2026-08-27T13:54:30+00:00",
+  "alignment_index": 40500,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

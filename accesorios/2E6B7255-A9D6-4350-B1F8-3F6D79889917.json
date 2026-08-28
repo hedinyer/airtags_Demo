@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "ba1f94ecb0b1eb46a8b30cc739b0b42bfa429f75d616519ed7bcdc55",
+  "skn": "cc3ec7dbf462471a38f4f1b3c27b0ea7673d327076932eb93438c90e9cee2e5b",
+  "sks": "72d8fbbb756690aa14fa500966ac81995f139a90b1076bb33edec845b176c160",
+  "paired_at": "2025-07-10T13:49:19.565370+00:00",
+  "name": "RAR21H",
+  "model": "",
+  "identifier": "2E6B7255-A9D6-4350-B1F8-3F6D79889917",
+  "alignment_date": "2026-08-27T14:00:40+00:00",
+  "alignment_index": 29269,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

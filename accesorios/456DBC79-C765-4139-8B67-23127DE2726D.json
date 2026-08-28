@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "a948a22e4b7d48df738003dad02850683de2e8169148d930c1553c17",
+  "skn": "997e9ddf7165037508a94a6d165e4a5799bf3f71e6712798826863b384f23ebb",
+  "sks": "f433789f1af3de9d38bff6aff43821f34433f3b4202088ea1de0569015e486e1",
+  "paired_at": "2025-05-05T21:55:18.950456+00:00",
+  "name": "OSE14H",
+  "model": "",
+  "identifier": "456DBC79-C765-4139-8B67-23127DE2726D",
+  "alignment_date": "2026-08-27T00:38:30+00:00",
+  "alignment_index": 45902,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

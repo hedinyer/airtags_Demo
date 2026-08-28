@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d593b7348c2a0395e96ee78cc2c32d93311b48befd3d3a418880679d",
+  "skn": "e498a2a4a657529b41c2959b77a5107ed674832c448f7e8fc2c9e740d9a79783",
+  "sks": "5f808b09fe2341eb85777b3551605e7636a8c69ae4d9ffa6b3240e984d60a7f8",
+  "paired_at": "2025-09-11T17:08:37.766547+00:00",
+  "name": "TRT02H",
+  "model": "",
+  "identifier": "A23EB35E-0D82-4FB9-ABE1-F6028966C194",
+  "alignment_date": "2026-08-04T16:23:10+00:00",
+  "alignment_index": 31391,
+  "icloud_account": "beragarrido@icloud.com",
+  "imported_at": "2026-08-27T18:45:51.238591+00:00",
+  "first_imported_at": "2026-08-27T18:45:51.238591+00:00"
+}

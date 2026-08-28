@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "79e9987cde648346295ca7b458af04cf9dc6ffa56ab7e2875e508825",
+  "skn": "4b4a0c3ca82c0ccd229a37770dfce73b821d945ee70de9927ef44c8e4aa794bd",
+  "sks": "fe729f1f0efd45f8fc506e1c34a4a7ded9ed1811c706fea1643025d310a51ea3",
+  "paired_at": "2025-09-15T15:39:03.693353+00:00",
+  "name": "TRT08H",
+  "model": "",
+  "identifier": "69A3E424-5DB0-4940-B99B-3B547C5E95CB",
+  "alignment_date": "2026-08-04T13:32:40+00:00",
+  "alignment_index": 30912,
+  "icloud_account": "beragarrido@icloud.com",
+  "imported_at": "2026-08-27T18:45:51.238591+00:00",
+  "first_imported_at": "2026-08-27T18:45:51.238591+00:00"
+}

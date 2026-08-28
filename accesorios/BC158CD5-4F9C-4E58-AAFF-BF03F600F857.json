@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "302d09dd0f015a72897c1cd6ce9a44d733a6bc2b4c9bf0a75d291d71",
+  "skn": "57ea2d1ea736b59f13d18c43b2986b46d08195976ebd205a37cb0bca4d22159f",
+  "sks": "273c57d40c6760c09ff043292b1325d81af0f7a0fb9fcd8209a51de22026ca59",
+  "paired_at": "2025-07-12T17:24:49.041005+00:00",
+  "name": "RAZ58H",
+  "model": "",
+  "identifier": "BC158CD5-4F9C-4E58-AAFF-BF03F600F857",
+  "alignment_date": "2026-05-02T22:14:20+00:00",
+  "alignment_index": 28200,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

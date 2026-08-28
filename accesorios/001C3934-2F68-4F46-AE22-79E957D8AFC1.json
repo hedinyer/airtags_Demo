@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "15f184f763efa42376f6fa46501e64777f8b55f270e34ccfb247f313",
+  "skn": "93d9f4624e6fe34b2dc67aa55b0291c46829cc76078a79e030241d8e73d91c56",
+  "sks": "afcf47db371849b7af1fc33d60cef8623d433b48dfd7c982ab8eba7ab289cf53",
+  "paired_at": "2025-07-01T15:12:35.178382+00:00",
+  "name": "RAZ51H",
+  "model": "",
+  "identifier": "001C3934-2F68-4F46-AE22-79E957D8AFC1",
+  "alignment_date": "2026-08-27T21:00:20.092000+00:00",
+  "alignment_index": 40538,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

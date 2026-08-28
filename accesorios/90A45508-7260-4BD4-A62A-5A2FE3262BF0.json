@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "23cf06ce2439b6c274754b1501af2c7353fff5200e892fdc8c72058a",
+  "skn": "42348eb93ab193ee2e4af66543c96fdb1935503ec49c8b047448861636bd10fb",
+  "sks": "a8e925269da5af04c402cd66d0869f8996afbe978a48530251bfe542a30bccd0",
+  "paired_at": "2025-05-05T22:24:03.013186+00:00",
+  "name": "JRU72H",
+  "model": "",
+  "identifier": "90A45508-7260-4BD4-A62A-5A2FE3262BF0",
+  "alignment_date": "2026-08-27T03:16:40+00:00",
+  "alignment_index": 45909,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

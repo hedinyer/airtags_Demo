@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "e168f99ce8b9280b6b8fbc2c1c9da7c960bd3a0452010f900ae483b4",
+  "skn": "1c46af033e96c19654bbc7225ab0b96f74c09ccce825ee7bdc12204a2de452fb",
+  "sks": "b08e7ed349427366937a8e17e287ecd6e8a069f5f4f859bf02c5e64200bf4201",
+  "paired_at": "2025-06-28T15:05:26.671728+00:00",
+  "name": "OSQ30H",
+  "model": "",
+  "identifier": "7C0ABC9C-FF98-4AE3-B042-A36F50A76677",
+  "alignment_date": "2026-08-27T13:57:50+00:00",
+  "alignment_index": 40797,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

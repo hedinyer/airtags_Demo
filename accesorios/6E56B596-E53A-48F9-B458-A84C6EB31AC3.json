@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "882e4b3ee35f8ea99e0112b6e3247aa87610ef5257655c8dbf4fa4a3",
+  "skn": "14ee58793354e7a3c93225cd8476cea54c698eb8568b4c39b5a3b48d5166de66",
+  "sks": "7470da2b1871a04595b3e76d050f5ed1ee5beb82f03baaabc58392e463073035",
+  "paired_at": "2025-07-03T14:07:34.562632+00:00",
+  "name": "GAO85H",
+  "model": "",
+  "identifier": "6E56B596-E53A-48F9-B458-A84C6EB31AC3",
+  "alignment_date": "2026-08-27T14:01:30+00:00",
+  "alignment_index": 40321,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

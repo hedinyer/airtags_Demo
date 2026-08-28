@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "881643fb68c9696667b7cbc323508c09fe66c6c605616b5b615ffe8c",
+  "skn": "6788a7e6371e0d3575d2f6126126bc736830284b9ea1db68db0f43ae0b2874fb",
+  "sks": "7a8c3f0630afee766a2cd48aeb3ee54ab1e7720e033be0a19626a08f7d9e7a7e",
+  "paired_at": "2025-09-23T19:28:20.787545+00:00",
+  "name": "TRT22H",
+  "model": "",
+  "identifier": "EB36E5DC-DFD3-462D-93E1-9C18B9802B7F",
+  "alignment_date": "2026-08-04T16:16:30+00:00",
+  "alignment_index": 30227,
+  "icloud_account": "beragarrido@icloud.com",
+  "imported_at": "2026-08-27T18:45:51.238591+00:00",
+  "first_imported_at": "2026-08-27T18:45:51.238591+00:00"
+}

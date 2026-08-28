@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "7432407bcb910f149328483a26f2b8590de6a54ee9938fb697ec31b3",
+  "skn": "7a7e50b959e9f5d64a7392e581afa813438c847da1853c239ae383fc2190a4c8",
+  "sks": "3c1b659ba90f4f798179bfdeb91dcab2e7190f62e5e01b957238d7babf9969bd",
+  "paired_at": "2026-02-02T22:25:00.942057+00:00",
+  "name": "Sariri iphone",
+  "model": "iPhone17,3",
+  "identifier": "EF8D30E9-84F3-4BCD-A63E-78EDC787D000",
+  "alignment_date": "2026-02-02T22:25:00.942057+00:00",
+  "alignment_index": 0,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

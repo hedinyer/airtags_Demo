@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "22e191f7ef25162764984c8d37e72d41d560d2d42a16c10b19279161",
+  "skn": "4c64a9274f570f762ca024def59f0d8aa542a09a070541b70610463a7be9ac18",
+  "sks": "62c80b02e579d0a5cf8b6d65c0a4bc559a900836fc5b825c4ed74244ceb8cb79",
+  "paired_at": "2025-07-05T14:32:57.523711+00:00",
+  "name": "RAU96H",
+  "model": "",
+  "identifier": "B22FDD02-0848-4EF5-B57F-3C56FCCC9A47",
+  "alignment_date": "2026-08-27T21:00:08.054000+00:00",
+  "alignment_index": 40135,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

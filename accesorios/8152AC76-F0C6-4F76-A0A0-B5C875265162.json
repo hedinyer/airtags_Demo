@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "8dc439a82c1acba1a8bbd93650bf21a6588a3b191d6cd027961d9bb9",
+  "skn": "a9fd53dc5779303ea2f835e90f756af4cce4d8ca3a2a4f076e885eb298b798a6",
+  "sks": "834d2f999827ee142e541715b2882fa13aff1b512a4f197a9cad6fade5e15a10",
+  "paired_at": "2025-09-23T19:30:13.278138+00:00",
+  "name": "TRT21H",
+  "model": "",
+  "identifier": "8152AC76-F0C6-4F76-A0A0-B5C875265162",
+  "alignment_date": "2026-08-04T16:15:00+00:00",
+  "alignment_index": 30228,
+  "icloud_account": "beragarrido@icloud.com",
+  "imported_at": "2026-08-27T18:45:51.238591+00:00",
+  "first_imported_at": "2026-08-27T18:45:51.238591+00:00"
+}

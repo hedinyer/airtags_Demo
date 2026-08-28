@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "dc0c6755b2ac979025305ba65f069417b8796e408ae15237ff4ac8a5",
+  "skn": "ec84a8476ed3b9ffed02df4468dfec860e032ed0a0f3629ebd1ef7d1ca847605",
+  "sks": "800bbcc0a8138a0680ef1a6842a3050544acb0dae1e887d3e8efa1aeafc52b3f",
+  "paired_at": "2025-09-13T17:46:59.389354+00:00",
+  "name": "TIR93H",
+  "model": "",
+  "identifier": "3A872D82-5BDB-4419-9D04-8E73835B6BC8",
+  "alignment_date": "2026-08-04T16:37:10+00:00",
+  "alignment_index": 31197,
+  "icloud_account": "beragarrido@icloud.com",
+  "imported_at": "2026-08-27T18:45:51.238591+00:00",
+  "first_imported_at": "2026-08-27T18:45:51.238591+00:00"
+}

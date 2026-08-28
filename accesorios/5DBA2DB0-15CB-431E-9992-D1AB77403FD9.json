@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "bfda361f420e6329901fb4662a341b38f4f026a97bbf13ee972e4484",
+  "skn": "f8bcd28cf3f6823410a2d024a2e70045d3db3b2fe1b465f8e5ecdc37c2932282",
+  "sks": "b9801c205a635927e7a269983c4f9c14be4a48e56c1ed8047794b9d96457627a",
+  "paired_at": "2025-05-15T15:04:00.260360+00:00",
+  "name": "OSI52H",
+  "model": "",
+  "identifier": "5DBA2DB0-15CB-431E-9992-D1AB77403FD9",
+  "alignment_date": "2026-08-27T02:58:30+00:00",
+  "alignment_index": 44976,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

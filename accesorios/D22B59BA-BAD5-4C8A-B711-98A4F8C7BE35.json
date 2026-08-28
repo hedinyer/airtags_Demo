@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "a6dc83ced83feac026a68275d23c25ebab816a4f62ca2200445adcb4",
+  "skn": "59721fed6ff048cd47d063019ca54ce08faf020d8e0655ecbdf97c01efb41458",
+  "sks": "3f46659f83143ab54d819715e9a9b31776fd8c86696517bcec62223f11e178d0",
+  "paired_at": "2025-09-17T17:20:00.301865+00:00",
+  "name": "TRT12H",
+  "model": "",
+  "identifier": "D22B59BA-BAD5-4C8A-B711-98A4F8C7BE35",
+  "alignment_date": "2026-08-04T11:57:20+00:00",
+  "alignment_index": 30795,
+  "icloud_account": "beragarrido@icloud.com",
+  "imported_at": "2026-08-27T18:45:51.238591+00:00",
+  "first_imported_at": "2026-08-27T18:45:51.238591+00:00"
+}

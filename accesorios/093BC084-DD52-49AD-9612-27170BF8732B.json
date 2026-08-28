@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "03e73b8dfdafbf30d5da0afad55c4b513ba880c3f9f65bc35f020e59",
+  "skn": "06539ac979f7955cc6fb6b181a73eea337730a7b76a821a6af098797af14bade",
+  "sks": "8f9f1c45f350b2c900e900e9be5dca31fc4e15dfb994dbef778c9012bf0bc672",
+  "paired_at": "2025-06-26T21:39:10.667735+00:00",
+  "name": "HLR39H",
+  "model": "",
+  "identifier": "093BC084-DD52-49AD-9612-27170BF8732B",
+  "alignment_date": "2026-08-27T20:19:43.991000+00:00",
+  "alignment_index": 40987,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

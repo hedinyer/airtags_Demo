@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "cc16b4ba1d4923afcbfdf8c3aa98a8afffb06873bd57938f1799a2c5",
+  "skn": "7f78d211b92328c33c0f63b93fc2862590379c089b7aef3aaf8a8f1bdb9985a8",
+  "sks": "1163ee64ea134589de46374947b229a0f5cea6acf4b18def28704e7e66937951",
+  "paired_at": "2025-05-21T20:50:47.513315+00:00",
+  "name": "JRK20H",
+  "model": "",
+  "identifier": "F6498246-C3C2-4FCA-BA91-45B02E3D2973",
+  "alignment_date": "2026-08-27T13:36:40+00:00",
+  "alignment_index": 44420,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

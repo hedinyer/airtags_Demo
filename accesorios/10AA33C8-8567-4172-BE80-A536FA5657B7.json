@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "4d03020c2edd00e66be3fc71e19767a525ace5ed6e72603a16235d83",
+  "skn": "d48978e33b1834091377905d227d986e8eca78ff1175442f20751deb6664fb49",
+  "sks": "1b3354be5e8bde023b3d183176fa187e3ff262471290f54cf74e2d6c0fa198d1",
+  "paired_at": "2025-09-24T17:16:13.120812+00:00",
+  "name": "TRT13H",
+  "model": "",
+  "identifier": "10AA33C8-8567-4172-BE80-A536FA5657B7",
+  "alignment_date": "2026-08-04T16:45:20+00:00",
+  "alignment_index": 30144,
+  "icloud_account": "beragarrido@icloud.com",
+  "imported_at": "2026-08-27T18:45:51.238591+00:00",
+  "first_imported_at": "2026-08-27T18:45:51.238591+00:00"
+}

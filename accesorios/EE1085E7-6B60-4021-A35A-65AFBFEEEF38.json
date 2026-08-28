@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "1623c0a5ca7d73c2bb7e49de5f31baf121a8ebc5e6f9c46dbe3fb345",
+  "skn": "904bbf104e49bc778f51a376dd80b9877706689d5078abb698a551342c5ad21d",
+  "sks": "7812f24b6a03fa279ddf546a78c15544f0a22bb6151d50786842d157c1fdc1ff",
+  "paired_at": "2025-06-28T14:55:04.879318+00:00",
+  "name": "OSQ62H",
+  "model": "",
+  "identifier": "EE1085E7-6B60-4021-A35A-65AFBFEEEF38",
+  "alignment_date": "2026-08-27T13:48:30+00:00",
+  "alignment_index": 40798,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

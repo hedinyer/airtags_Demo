@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "a4617caab12422d7bac8771dccb483d9a300ba0ac1b7ef1991f62d0e",
+  "skn": "82e84c940e7d2aae0d1cc19c22ead8084e7f5019c7bda7592cc6512c36df662c",
+  "sks": "ce55d9e4faf76dd11d45f3c87fe3600f0b45c3067f9cc631058da9ca4eac3031",
+  "paired_at": "2025-05-06T17:42:49.304379+00:00",
+  "name": "OSG30H",
+  "model": "",
+  "identifier": "45A71E44-81AD-4A5A-8B19-34BA4B70FE16",
+  "alignment_date": "2026-08-27T03:31:10+00:00",
+  "alignment_index": 45833,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

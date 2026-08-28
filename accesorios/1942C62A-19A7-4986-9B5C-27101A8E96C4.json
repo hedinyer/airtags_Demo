@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "f4447bb521212c4e9f764784d59a2a407426fbcf82e300f44e6491f6",
+  "skn": "1a085e6649f3ab2c0d3350b54e1737e99eed012d51c6894d7c353aa3ef17f5c2",
+  "sks": "2dedc54ae26250a4cac51c55863fa66130afaebe1cd3722ac0c3a906c1f892ab",
+  "paired_at": "2026-06-05T16:15:57.050434+00:00",
+  "name": "HAB88I",
+  "model": "",
+  "identifier": "1942C62A-19A7-4986-9B5C-27101A8E96C4",
+  "alignment_date": "2026-08-10T19:17:40+00:00",
+  "alignment_index": 6349,
+  "icloud_account": "veramotoos@icloud.com",
+  "imported_at": "2026-08-27T15:27:48.212814+00:00",
+  "first_imported_at": "2026-08-27T15:27:48.212814+00:00"
+}

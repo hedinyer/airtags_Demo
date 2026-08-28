@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "2d2db03a9f758d24e7251b965c66c482ddb4936c1e8c86d594f2e74e",
+  "skn": "b0ccfd4929d21e4ef54ea438558450ab3224a3286b702b55ee63f92eda49f08c",
+  "sks": "ff2ae026dc9eca9e4c2e4b4746ff1f90fdd071807f28b9a2631c366b8ff16fff",
+  "paired_at": "2025-07-10T13:50:42.859107+00:00",
+  "name": "RAZ56H",
+  "model": "",
+  "identifier": "76159B20-01B6-47F5-AA29-1479C32FDB26",
+  "alignment_date": "2026-08-27T13:59:40+00:00",
+  "alignment_index": 39650,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

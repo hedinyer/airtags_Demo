@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "6798a04fdd9aa966e294fb2990b7185d59ce55d23f49f13451cf0ae0",
+  "skn": "bce461b156e939ec28514f59dc7628e88f7966c41c36a84315739b2e068228dd",
+  "sks": "4f16db0a60628ddb66d256b8513b7667d67cf926058fb6fc835b45436ec77d96",
+  "paired_at": "2025-07-12T17:26:10.560806+00:00",
+  "name": "RAZ54H",
+  "model": "",
+  "identifier": "76ADE1E1-7603-470C-89D2-1F521F8A3A62",
+  "alignment_date": "2026-08-27T03:25:30+00:00",
+  "alignment_index": 39398,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

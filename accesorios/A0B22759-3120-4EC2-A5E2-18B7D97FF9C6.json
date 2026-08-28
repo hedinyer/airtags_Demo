@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "f4208fb9239d97a58053ae15ed1feb6111c93833c8936ab551a41ca3",
+  "skn": "e42a19f7f771c9b96a44b23ccd71a1cfe231a9fc1d8c1091da897029f53bea52",
+  "sks": "9c442d984855709984b6f6b259477baf8ab14349ca16f415ff6c67348245f498",
+  "paired_at": "2025-09-24T17:14:59.261762+00:00",
+  "name": "TIR87H",
+  "model": "",
+  "identifier": "A0B22759-3120-4EC2-A5E2-18B7D97FF9C6",
+  "alignment_date": "2026-08-04T15:00:50+00:00",
+  "alignment_index": 30137,
+  "icloud_account": "beragarrido@icloud.com",
+  "imported_at": "2026-08-27T18:45:51.238591+00:00",
+  "first_imported_at": "2026-08-27T18:45:51.238591+00:00"
+}

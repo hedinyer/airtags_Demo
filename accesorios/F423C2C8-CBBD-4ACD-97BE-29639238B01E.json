@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "6a0f7e7f10f44a912e0988e61e363539faaaba5ec6117a6ab991bb83",
+  "skn": "4f2fc3eb3afe80cfd44bad2e28486bba47dd5b23d628e35ab81cbab54903a804",
+  "sks": "cb61832928bb0ebc6767077bd1bb05c98d7cd9bbe0360c26481113e5afae54f3",
+  "paired_at": "2025-07-28T20:40:08.265352+00:00",
+  "name": "DYC07H",
+  "model": "",
+  "identifier": "F423C2C8-CBBD-4ACD-97BE-29639238B01E",
+  "alignment_date": "2026-08-27T03:25:40+00:00",
+  "alignment_index": 37851,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

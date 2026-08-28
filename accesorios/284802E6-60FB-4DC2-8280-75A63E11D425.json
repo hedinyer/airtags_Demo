@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "a8ec253e02bfdb0aa3348d75d92b91804891b04aadfceb7dc367bf53",
+  "skn": "9f9b0083544ffab123c2e7d653c4769be8b43e580bdfff01a5157d6345612020",
+  "sks": "540cd8ce91d0701d25acc253f6235ba57d4517b5f787c5d5afe4652dde8f2795",
+  "paired_at": "2025-07-02T20:46:49.691556+00:00",
+  "name": "RAK71H",
+  "model": "",
+  "identifier": "284802E6-60FB-4DC2-8280-75A63E11D425",
+  "alignment_date": "2026-05-12T16:11:30+00:00",
+  "alignment_index": 27345,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

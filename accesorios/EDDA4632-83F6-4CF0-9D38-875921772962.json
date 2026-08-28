@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "780302305e2c47c71237819559663a56498aeca68d5223f1e48594ce",
+  "skn": "04e26fa89f5ade42623384e12d815887f266943239fe800e488c429f30930ffd",
+  "sks": "dcf2b702a3a47319daa122ed6339a331f55ff33dea57908809d9e18db3a708f1",
+  "paired_at": "2025-05-08T19:49:58.755474+00:00",
+  "name": "OSE81H",
+  "model": "",
+  "identifier": "EDDA4632-83F6-4CF0-9D38-875921772962",
+  "alignment_date": "2026-03-25T07:37:10+00:00",
+  "alignment_index": 30768,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

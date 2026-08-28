@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "92cb8fd37d20d23862911239762666a41e66542796d4b87d2fb6dd52",
+  "skn": "8ec21282d09c25c48a0647d434f6be7d3b4c0fa5dd401b7bd4c3130dc748bfa1",
+  "sks": "dd89ff472c461e7448279e5cf06ee2629d23838e7aaede162331a87022bb701b",
+  "paired_at": "2025-05-05T22:03:54.672215+00:00",
+  "name": "OSM71H",
+  "model": "",
+  "identifier": "22D9E399-5897-48EE-B7A9-75359639B905",
+  "alignment_date": "2026-08-27T03:02:20+00:00",
+  "alignment_index": 45911,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

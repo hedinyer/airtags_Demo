@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "4877dbb99ac371d6a778ac6cebe2f0a1e39d4c2acaf4d690027407f9",
+  "skn": "21b05938a56d87d03c8dd9017c69771f9af8f5fd9a034f884dc2083bd6a25212",
+  "sks": "337348001686dd2c452228b5908f3e008fda4348e4f7c006b2a1696cd62e4133",
+  "paired_at": "2025-09-23T19:32:12.483842+00:00",
+  "name": "TRT20H",
+  "model": "",
+  "identifier": "1610D705-F9BD-417F-8105-4C6FF50DB1E7",
+  "alignment_date": "2026-08-04T14:43:00+00:00",
+  "alignment_index": 30222,
+  "icloud_account": "beragarrido@icloud.com",
+  "imported_at": "2026-08-27T18:45:51.238591+00:00",
+  "first_imported_at": "2026-08-27T18:45:51.238591+00:00"
+}

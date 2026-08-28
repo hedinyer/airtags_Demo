@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "f47292121d1a470f7c22ff9adb9c4b3dd9ee23ac77ffb6f5fc8e7616",
+  "skn": "7d4dd015d56df4c330e1e9aa2ed2861c2b32c7f33b352ea018e404082f3cb5de",
+  "sks": "8e130f5becbdce809401e1704ca792c3b81c09eb3757152a7ae8f5aa2ea92809",
+  "paired_at": "2025-12-17T19:26:10.706796+00:00",
+  "name": "Moto abuela Carmen",
+  "model": "",
+  "identifier": "64843BE9-9369-4674-B18E-E54118B622DC",
+  "alignment_date": "2026-08-27T03:16:30+00:00",
+  "alignment_index": 24225,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

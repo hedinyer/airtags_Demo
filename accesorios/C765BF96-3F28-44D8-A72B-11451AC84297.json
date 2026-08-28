@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d8d783c570e22c72c7e1cfa32a4a8164d00520a9b91cc923e348d558",
+  "skn": "70003eae9620423168a40e6a0f344de60c34534460c60bc247eb638aff518afd",
+  "sks": "3b3e91845d893991b318dbcd66b460fa8d72abae91d9aee3999c592b61f4dd83",
+  "paired_at": "2025-09-15T20:03:08.040286+00:00",
+  "name": "TIR88H",
+  "model": "",
+  "identifier": "C765BF96-3F28-44D8-A72B-11451AC84297",
+  "alignment_date": "2026-08-04T16:20:40+00:00",
+  "alignment_index": 30994,
+  "icloud_account": "beragarrido@icloud.com",
+  "imported_at": "2026-08-27T18:45:51.238591+00:00",
+  "first_imported_at": "2026-08-27T18:45:51.238591+00:00"
+}

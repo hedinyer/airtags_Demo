@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "723d489437bca07eff085a756a497c7549a9b2113433459b4bd109e3",
+  "skn": "165792dfb8f9db54b63ec9aa304cc9238c46ce7fd69f5159794df64f1a10e259",
+  "sks": "d3a4bd492f603da9f9222186686326976a2f0d7d5084f63fbaf1fb77dc1f857d",
+  "paired_at": "2025-07-31T20:40:51.356738+00:00",
+  "name": "ZXU87G",
+  "model": "",
+  "identifier": "7AA5DC9F-67A9-405A-B57E-5146AD261C0A",
+  "alignment_date": "2025-12-26T11:03:41+00:00",
+  "alignment_index": 14171,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

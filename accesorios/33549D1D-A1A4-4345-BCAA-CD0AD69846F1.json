@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "2a7f6ef16ed2f54fdace646a7b04baa2c7434a9c87e2a043056cb81d",
+  "skn": "668ea8e8d9b97936cf956ffd0bdf287c99c3b6d82ca925dfdc3aef0c188e249b",
+  "sks": "65a618cafdae0b91a8a66d0192a810bf8e016bdb9e91bd5eb40db8b1db286efd",
+  "paired_at": "2026-05-11T17:02:56.037574+00:00",
+  "name": "GZO64I",
+  "model": "",
+  "identifier": "33549D1D-A1A4-4345-BCAA-CD0AD69846F1",
+  "alignment_date": "2026-08-10T19:01:00+00:00",
+  "alignment_index": 8745,
+  "icloud_account": "veramotoos@icloud.com",
+  "imported_at": "2026-08-27T15:27:48.212814+00:00",
+  "first_imported_at": "2026-08-27T15:27:48.212814+00:00"
+}

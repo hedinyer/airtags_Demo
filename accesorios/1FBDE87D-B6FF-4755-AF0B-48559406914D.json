@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "ab7ecbcb059c0591269216ee762fac7bc71dbe37efcad453c0f02ff7",
+  "skn": "52d40b247d4b0c1f0c69796f4c1a101b594d9a0b517d493120b51485b9b5c10b",
+  "sks": "4be1cc3d996b451946639952139019203b16245ee3121be87ed3bb5a0bba4f4e",
+  "paired_at": "2025-09-24T17:18:18.039189+00:00",
+  "name": "DXY78H",
+  "model": "",
+  "identifier": "1FBDE87D-B6FF-4755-AF0B-48559406914D",
+  "alignment_date": "2026-08-04T16:12:40+00:00",
+  "alignment_index": 30138,
+  "icloud_account": "beragarrido@icloud.com",
+  "imported_at": "2026-08-27T18:45:51.238591+00:00",
+  "first_imported_at": "2026-08-27T18:45:51.238591+00:00"
+}

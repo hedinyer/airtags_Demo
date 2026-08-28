@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "6beb5de9c52ae37fa5431481109cf3c03682ea306eb8e4d08d28c332",
+  "skn": "e9f5f39f44a54e800eabcb7b0c3a1f150a7561ff2443cfead915f05bc1e1d6c9",
+  "sks": "c364d666f7302202d0147d579ad8368afe73be0af3f790b79c4fc9e175345ccb",
+  "paired_at": "2025-05-15T15:07:15.958147+00:00",
+  "name": "DTV75I",
+  "model": "",
+  "identifier": "7BA80081-8AE9-47BD-989A-FE272D8A9FB7",
+  "alignment_date": "2026-08-27T03:20:10+00:00",
+  "alignment_index": 44976,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

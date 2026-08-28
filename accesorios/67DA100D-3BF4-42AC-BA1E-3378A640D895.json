@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "bcbfb59be10264fd130c71a49682baa42b4b8cf4789030f4a128e7d0",
+  "skn": "c673445edf5322a9f0be95f535ed1cfdbe653dbff7aeac3c3f03e4c09f5b0f96",
+  "sks": "2fac4b951a56bc3ed0753b15bb0beaedc788ff08141a8c9248482b0a972e3188",
+  "paired_at": "2025-07-12T17:22:27.607529+00:00",
+  "name": "RAR40H",
+  "model": "",
+  "identifier": "67DA100D-3BF4-42AC-BA1E-3378A640D895",
+  "alignment_date": "2026-08-27T03:21:40+00:00",
+  "alignment_index": 39403,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

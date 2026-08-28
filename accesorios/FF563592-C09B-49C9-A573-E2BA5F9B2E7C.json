@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b506e6522f84ae1d4f77f8364f1fc48b0c5a95d2e191db6046d7fa37",
+  "skn": "2fa9771957bbbc46b72c8988a2868748c083d9adf7745c1c05550b99abf4cf03",
+  "sks": "c8305fa5ea92fcc8182f8f0ebce82d77328c173fea96f9f0baf5988a20f22843",
+  "paired_at": "2025-09-25T18:30:37.766785+00:00",
+  "name": "TRY78H",
+  "model": "",
+  "identifier": "FF563592-C09B-49C9-A573-E2BA5F9B2E7C",
+  "alignment_date": "2026-08-04T16:34:30+00:00",
+  "alignment_index": 30041,
+  "icloud_account": "beragarrido@icloud.com",
+  "imported_at": "2026-08-27T18:45:51.238591+00:00",
+  "first_imported_at": "2026-08-27T18:45:51.238591+00:00"
+}

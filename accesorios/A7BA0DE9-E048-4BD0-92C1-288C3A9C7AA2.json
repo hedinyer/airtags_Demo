@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "9100920aa8b7c62d1fa5ec2dd08bbd6829973655f0fa3a8a29953a72",
+  "skn": "b1a049ba722be64fb38f560aeec967df0dc69d37e9dbb83f0e0cdf515df1ab3b",
+  "sks": "30abd7034af43e4b85542ae4408dbba68e8c4971991a8d3620ea54fea5ae695d",
+  "paired_at": "2025-07-11T15:13:06.734614+00:00",
+  "name": "RAR39H",
+  "model": "",
+  "identifier": "A7BA0DE9-E048-4BD0-92C1-288C3A9C7AA2",
+  "alignment_date": "2026-02-04T22:05:32+00:00",
+  "alignment_index": 19996,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

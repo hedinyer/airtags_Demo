@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "4ec9694da302e5ce3cb7ed4884f92aae10c39ace7246d15e8049a8c1",
+  "skn": "bfd61208dd2949d51ecbd33b0d17d5e3b69e1f0e06944dcc0514a8e69a4ab40c",
+  "sks": "3cdfea0e418bd8ffbaca73439bbf97a7c281abc7dba86bbf2a088108d9e7dc47",
+  "paired_at": "2025-06-28T15:07:11.089945+00:00",
+  "name": "OSQ65H",
+  "model": "",
+  "identifier": "9C0A7A05-5F84-4240-A3DB-E9F8A49EE343",
+  "alignment_date": "2026-08-27T21:00:20.099000+00:00",
+  "alignment_index": 40824,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

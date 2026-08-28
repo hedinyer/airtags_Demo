@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d422293acd02daf6c53b2727b5a84355e9f3db28fec22deb5ce8ddae",
+  "skn": "19361861b203c9af8805b76f81832c82497bdf50825091459e55f88a0541eedd",
+  "sks": "02665b8ae76a8e699117063a2e6ddafd82e634fce2a57f9020fda7cd90381c8f",
+  "paired_at": "2025-09-25T20:39:19.288422+00:00",
+  "name": "TRY77H",
+  "model": "",
+  "identifier": "04C7F8AF-9885-45B8-8980-2DFB8E938A27",
+  "alignment_date": "2026-07-26T18:55:50+00:00",
+  "alignment_index": 29166,
+  "icloud_account": "beragarrido@icloud.com",
+  "imported_at": "2026-08-27T18:45:51.238591+00:00",
+  "first_imported_at": "2026-08-27T18:45:51.238591+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "6edc5b270a952566f1c3b4b8540e00f51c315c1c5010923dfe328c17",
+  "skn": "c0424d3c9249b9350fc364973a85af009fb4eb721006ffbafc5d3fe8e86c6ae4",
+  "sks": "f03cf5ede38d23e92047a7a5aed8b9b358d5afca5be3172f29ada942f3111484",
+  "paired_at": "2025-07-12T17:14:52.435742+00:00",
+  "name": "RAZ57H",
+  "model": "",
+  "identifier": "AD48C26B-8412-47C1-AD07-2617AFF2B332",
+  "alignment_date": "2026-04-30T22:23:30+00:00",
+  "alignment_index": 28053,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

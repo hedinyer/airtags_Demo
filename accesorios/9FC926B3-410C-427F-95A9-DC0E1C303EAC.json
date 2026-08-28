@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b5266b06fee69fbb25776fba70ab7aa83384cb276ae9efac5a7f1ff6",
+  "skn": "5233f58c980453c8f4786648abfb6c1dab8ac75f4932a540fc03fc0569f4fe4a",
+  "sks": "244541826621eeec0892700885b1aec2c52a2fe5e78fe66c3975851f919c80a8",
+  "paired_at": "2025-07-03T14:08:32.304019+00:00",
+  "name": "MCR31H",
+  "model": "",
+  "identifier": "9FC926B3-410C-427F-95A9-DC0E1C303EAC",
+  "alignment_date": "2026-08-27T21:45:01.899000+00:00",
+  "alignment_index": 40352,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

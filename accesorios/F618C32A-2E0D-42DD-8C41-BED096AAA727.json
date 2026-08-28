@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "2443187f5e7790ba8633e89a572e6b814313bc75d2e67f45d2b19039",
+  "skn": "50568132c09012f401a4e6b6f76e8c10ab41aae6bed2ead5c8a329535ae99bf1",
+  "sks": "174a25b7781f22b3521cb5698ffcabfcdadd923986e39b6b4780e36398ca23f7",
+  "paired_at": "2026-08-20T15:47:51.526221+00:00",
+  "name": "Mt-03 gps 2",
+  "model": "empty",
+  "identifier": "F618C32A-2E0D-42DD-8C41-BED096AAA727",
+  "alignment_date": "2026-08-27T21:45:00.008000+00:00",
+  "alignment_index": 698,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

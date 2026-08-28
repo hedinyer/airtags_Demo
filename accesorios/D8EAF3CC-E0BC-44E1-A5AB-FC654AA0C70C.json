@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "a31721b975a97737e5977769e52e2c0e196f5495b5b08958e011ebc0",
+  "skn": "312bd3975a3808548c58adb311c6876ae2c0c7ab318edc57567527acb72dde93",
+  "sks": "88086385b8221d8e9756027ca52384ae47c12d6620074a264001062a934be8a9",
+  "paired_at": "2025-05-05T22:09:24.632395+00:00",
+  "name": "OSA91H",
+  "model": "",
+  "identifier": "D8EAF3CC-E0BC-44E1-A5AB-FC654AA0C70C",
+  "alignment_date": "2026-08-27T03:25:10+00:00",
+  "alignment_index": 33014,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

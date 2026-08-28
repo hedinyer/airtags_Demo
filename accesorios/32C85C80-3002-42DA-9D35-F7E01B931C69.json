@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "752f44c09d0193032ae31b3c85d4039894c6d9f820395daac5a35274",
+  "skn": "1e575d884a912c0d80d4d710bf8b6b2086ff54ce7973eb58f54962b211f24e4a",
+  "sks": "6b101d7e459c6505004beb1f171536c3cfb4f9d839fba7b9442a208100ed1dcd",
+  "paired_at": "2026-04-20T20:16:45.845425+00:00",
+  "name": "DVR79I",
+  "model": "",
+  "identifier": "32C85C80-3002-42DA-9D35-F7E01B931C69",
+  "alignment_date": "2026-08-10T18:48:10+00:00",
+  "alignment_index": 10747,
+  "icloud_account": "veramotoos@icloud.com",
+  "imported_at": "2026-08-27T15:27:48.212814+00:00",
+  "first_imported_at": "2026-08-27T15:27:48.212814+00:00"
+}

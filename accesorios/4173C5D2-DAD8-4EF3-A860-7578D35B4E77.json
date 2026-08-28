@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "85886a7a56738fbd79784b33df913dfc672cd73258621063d72b4a6c",
+  "skn": "aeca926b744201ae9e122debae1b612d1a76bd258aa3f69abfd97bdccb1414c5",
+  "sks": "ea71988dcce1b6b78f4e4c5a4cd44e90079e3e013a48f06367d0948c2f8cf23b",
+  "paired_at": "2025-07-12T17:21:42.626490+00:00",
+  "name": "RAQ81H",
+  "model": "",
+  "identifier": "4173C5D2-DAD8-4EF3-A860-7578D35B4E77",
+  "alignment_date": "2026-07-17T18:11:10+00:00",
+  "alignment_index": 35492,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

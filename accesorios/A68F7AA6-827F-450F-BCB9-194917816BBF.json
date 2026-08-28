@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "c9b0d0afc41b6436d4b5c0a1be13ca4c0d5dfaaf64ef6068eca3bfd8",
+  "skn": "be644385e597404e3436bcaf172766e0ea2075584892165e11a0bb628127d6d0",
+  "sks": "7995e902e0f440a8904a91c0bd0e095d8cbe582870c3ef02fdbb4034514c42e6",
+  "paired_at": "2025-06-28T15:10:02.772468+00:00",
+  "name": "OSQ26H",
+  "model": "",
+  "identifier": "A68F7AA6-827F-450F-BCB9-194917816BBF",
+  "alignment_date": "2026-08-27T21:00:08.029000+00:00",
+  "alignment_index": 40826,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "1c7ed483d5627b43e30ba36b88369206f4f338811fff222f8cae0a6d",
+  "skn": "8d00c6a3a50a650347e010f0730456463aab8e7cbf46c3db50fd4969e6b56389",
+  "sks": "c7ae77761ed274e3e11f0d921917ced2e9f278afb4ae238ca1ebf847a999b86e",
+  "paired_at": "2025-07-11T15:13:40.198381+00:00",
+  "name": "RAQ40H",
+  "model": "",
+  "identifier": "E65D32A2-6F29-4403-8558-90B70C954A75",
+  "alignment_date": "2026-06-16T16:13:10+00:00",
+  "alignment_index": 15208,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

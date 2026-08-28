@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "018e836850752cb32a1f327321e68431f9d5f60706a49435014a2d2b",
+  "skn": "321aae91860f67d2b4b20e7dd13dc605334e7ad400e262a738802c2c49038bfe",
+  "sks": "6621bf9d84a64853598562f0841da542f75a7cad5c1ed26f0b2ff97e9e0768d0",
+  "paired_at": "2026-03-05T14:18:06.786861+00:00",
+  "name": "Bwis Daniela Sáenz",
+  "model": "AirTag (2nd generation)",
+  "identifier": "0E41F130-4B5E-493C-BD72-942240F9EF4C",
+  "alignment_date": "2026-08-27T13:58:00+00:00",
+  "alignment_index": 16778,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

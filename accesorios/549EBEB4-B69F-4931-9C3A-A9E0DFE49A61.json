@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d13705e3f521e41d789b6486b2c82fcc9817289ced4fac5ee6d622f5",
+  "skn": "473f6adea0083e00bf5d8f8d5e044294548edb50e7d5c39195220bd7e98dbcf5",
+  "sks": "97d0cd7ec64c72dab963119a3a5cdd4b05dcf214a8ac653a035c2afdb7517bd2",
+  "paired_at": "2025-09-24T17:17:22.985689+00:00",
+  "name": "TRTO9H",
+  "model": "",
+  "identifier": "549EBEB4-B69F-4931-9C3A-A9E0DFE49A61",
+  "alignment_date": "2026-03-13T15:16:40.762000+00:00",
+  "alignment_index": 14787,
+  "icloud_account": "beragarrido@icloud.com",
+  "imported_at": "2026-08-27T18:45:51.238591+00:00",
+  "first_imported_at": "2026-08-27T18:45:51.238591+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "01e203308fe1389a32b1c61740e343aa4f00d70c2f335e7b4385841c",
+  "skn": "0cbd5b5c8aeb708ce95636c568d7f30a1de689b200f84696ef25ce6be2d07a95",
+  "sks": "9d093e982f5bec7d752b31f0df82d6802f025eea1bde4f63054ffa1f58aaf5dc",
+  "paired_at": "2025-09-25T20:24:58.449969+00:00",
+  "name": "TRT10H",
+  "model": "",
+  "identifier": "B387281F-07FC-4C17-A156-486498D3D6CC",
+  "alignment_date": "2026-08-04T00:18:40+00:00",
+  "alignment_index": 29970,
+  "icloud_account": "beragarrido@icloud.com",
+  "imported_at": "2026-08-27T18:45:51.238591+00:00",
+  "first_imported_at": "2026-08-27T18:45:51.238591+00:00"
+}

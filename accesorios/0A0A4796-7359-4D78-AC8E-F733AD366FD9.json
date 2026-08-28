@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "90de00735d4f1eb2a2a3c2a45f3ba5d64c12663fdef8bcc1914e220f",
+  "skn": "74b4de3d770415b201e2ed2fc02c7a6710e7e6c469fe33eff1a4486478e834c8",
+  "sks": "3e09b6d8ecef6dc4d69ff2bac3380517d6f91a9ea91fa0baa4dd628fd140c465",
+  "paired_at": "2025-07-12T17:20:58.990036+00:00",
+  "name": "RAQ50H",
+  "model": "",
+  "identifier": "0A0A4796-7359-4D78-AC8E-F733AD366FD9",
+  "alignment_date": "2026-08-27T03:15:20+00:00",
+  "alignment_index": 39402,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

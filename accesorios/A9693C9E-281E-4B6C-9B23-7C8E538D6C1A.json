@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "ea3fe53a7c7873e66b1017700951d47091d4fdc0f5e4da8ee299bc13",
+  "skn": "74a5ce5506a69b395d242a8c936743d80640c11ebecf710127612baeae84ebef",
+  "sks": "c082e62cf49cbfe92bddc37d32384c7e3137e2c63f70c44ff85f5980d04ac008",
+  "paired_at": "2025-10-01T19:22:58.876156+00:00",
+  "name": "iPhone FG",
+  "model": "iPhone17,2",
+  "identifier": "A9693C9E-281E-4B6C-9B23-7C8E538D6C1A",
+  "alignment_date": "2025-10-01T19:22:58.876156+00:00",
+  "alignment_index": 0,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

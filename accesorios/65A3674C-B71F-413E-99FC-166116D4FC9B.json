@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "27791a532a9db0146c8afe316be7917223d56a9c253952ff1d1ba275",
+  "skn": "f7ad5a5ebf8214a180367e34f505b39a1d953e0a786e726466001d72f82745ee",
+  "sks": "037104d407c791e0ad66f0460fd6ad2da209c1ba522778de9178634285b60dbf",
+  "paired_at": "2026-04-27T20:35:09.139991+00:00",
+  "name": "MERCEDES BENZ CARRO",
+  "model": "",
+  "identifier": "65A3674C-B71F-413E-99FC-166116D4FC9B",
+  "alignment_date": "2026-08-27T13:54:00+00:00",
+  "alignment_index": 11686,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

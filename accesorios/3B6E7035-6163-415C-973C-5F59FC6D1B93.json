@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "fe8f5f46b96b6065e82f76dd30f106c093c0ad35349b956a090eaa11",
+  "skn": "9af72552c858b2be031fe1ebe1184e30e0dce818f109e8cade30bcd5fe932b8d",
+  "sks": "7864c5fab450a1ee52c8baf99b71be9026f6bfec15bfaa6a2cf09237e069d3e6",
+  "paired_at": "2025-05-08T19:49:14.717465+00:00",
+  "name": "OSG31H",
+  "model": "",
+  "identifier": "3B6E7035-6163-415C-973C-5F59FC6D1B93",
+  "alignment_date": "2026-08-27T03:18:20+00:00",
+  "alignment_index": 45572,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

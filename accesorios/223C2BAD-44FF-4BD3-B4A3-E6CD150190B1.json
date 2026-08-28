@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "35d313285623c89ac327acaa469b1ca02905d3b15ac20c92dedd44d1",
+  "skn": "c9a0860c4e3b70dafbf5aff14b2e6d4e9b4eb1be5a6cbf2ed856ae8c156d0acc",
+  "sks": "65c3e90083ded8ef7b1c239ff35673850410410d4118ff21670a4457a6b5afb4",
+  "paired_at": "2025-05-06T17:37:23.247194+00:00",
+  "name": "OSA96H",
+  "model": "",
+  "identifier": "223C2BAD-44FF-4BD3-B4A3-E6CD150190B1",
+  "alignment_date": "2026-08-27T03:19:50+00:00",
+  "alignment_index": 45834,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

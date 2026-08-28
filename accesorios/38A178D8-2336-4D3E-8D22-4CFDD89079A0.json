@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "83939d27aec61b4376eea3cba9af4989a1d3f4f8262e0ea85a8cd869",
+  "skn": "06aa01386555d182ff789462bd3e578f30740d328d878513e7bcc76a07fb8a1c",
+  "sks": "c11171bdd8962bcb28b1c1b78bc4d325a6a218753a3a2da89a5fef1888e4b75f",
+  "paired_at": "2025-05-24T19:47:15.774687+00:00",
+  "name": "OSL50H",
+  "model": "",
+  "identifier": "38A178D8-2336-4D3E-8D22-4CFDD89079A0",
+  "alignment_date": "2026-08-26T23:45:00+00:00",
+  "alignment_index": 44081,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

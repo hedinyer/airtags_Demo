@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "a70254c23deb07dd2a03c5045daa62fb219702ddbc31bef220d8459f",
+  "skn": "093e3b202c54d8bc48c31e02c1df21effadcb9234cb3556f972348d5fa6e4e6e",
+  "sks": "539df38b037e457c89dfac5438c6813205ca9a3d46217d0a89946461b480254e",
+  "paired_at": "2025-06-06T15:34:18.135533+00:00",
+  "name": "OSP33H",
+  "model": "",
+  "identifier": "EE29AE80-6698-446B-9AD2-B7B7223057A8",
+  "alignment_date": "2026-02-23T00:33:38+00:00",
+  "alignment_index": 25093,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "6a8203d3672238a0a07ebf8c17a93f7ea6ceb481afd0b9607b19ab5e",
+  "skn": "9d46ff447ed7c45002f274a1a7645cc823b0c8e334f35a99b5174da6140ddba2",
+  "sks": "261e79bf3f1471c12393b624604b2d42c15d3f7825e1cc458212f88ef8350a1f",
+  "paired_at": "2026-06-05T17:26:12.784889+00:00",
+  "name": "HAM79I",
+  "model": "",
+  "identifier": "80EA631A-6412-4ED5-BBFF-E487EBF3BA45",
+  "alignment_date": "2026-08-10T17:31:50+00:00",
+  "alignment_index": 6338,
+  "icloud_account": "veramotoos@icloud.com",
+  "imported_at": "2026-08-27T15:27:48.212814+00:00",
+  "first_imported_at": "2026-08-27T15:27:48.212814+00:00"
+}

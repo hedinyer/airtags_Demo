@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "69a6922f90051187961d8e9eadbc61832f4007bcc3ab8410f49fa52a",
+  "skn": "f18bcd49d41bf1d3859f7f7b57296ac8e787a572f697663269318c177c7767f3",
+  "sks": "3e1e18b6e2a6556dc6c79d1b3bd06859384bdb1a24d07bf267f195c432facb47",
+  "paired_at": "2025-05-15T15:03:09.206808+00:00",
+  "name": "OSI74H",
+  "model": "",
+  "identifier": "67616A20-9D30-4F75-8E06-E428E9BA7BD2",
+  "alignment_date": "2026-08-10T21:41:40+00:00",
+  "alignment_index": 43417,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

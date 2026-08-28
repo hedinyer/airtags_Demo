@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "4a7f7b620a013ae34cb467b1965009fcbb43439cea975d7ac7a05b6d",
+  "skn": "b5359370e542a7337c64b919692d2d7e86d8c08e61537d15eebbfcfb442d137e",
+  "sks": "9a58aa6404c69b347cd8f8580e5f2cd82e55afc8dd919ed31b17be6526f156eb",
+  "paired_at": "2026-03-02T22:08:27.770724+00:00",
+  "name": "Camioneta blanca SP",
+  "model": "AirTag (2nd generation)",
+  "identifier": "629DFF4F-C7A8-4B76-B545-DAA6A2ABCB2F",
+  "alignment_date": "2026-08-27T14:02:40+00:00",
+  "alignment_index": 17056,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

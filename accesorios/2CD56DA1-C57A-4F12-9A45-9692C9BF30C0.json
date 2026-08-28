@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "dcc3ee68317b5f0195ba74615919aac1bc5c483422789ef9c98b289f",
+  "skn": "3412aa5b191a481380677b08f4319bed850f1cfbda9c6607f7b2979b02e69945",
+  "sks": "9b12a2700be4a003e1488e42351a0b962201f97d50c4547d9c1b1a0b07a1afb5",
+  "paired_at": "2026-06-05T18:43:59.480173+00:00",
+  "name": "HAM81I",
+  "model": "",
+  "identifier": "2CD56DA1-C57A-4F12-9A45-9692C9BF30C0",
+  "alignment_date": "2026-08-10T18:59:00+00:00",
+  "alignment_index": 6339,
+  "icloud_account": "veramotoos@icloud.com",
+  "imported_at": "2026-08-27T15:27:48.212814+00:00",
+  "first_imported_at": "2026-08-27T15:27:48.212814+00:00"
+}

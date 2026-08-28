@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "4620b5458be6713b98a0824162101d6e62fde72f1f0e6a1ae2044aeb",
+  "skn": "c84f3826a47bec0f758efc0c0c3e760db5534e1c212002c22fc9492304968d5e",
+  "sks": "00224b1abab08c0ecbd809b620e41b6a1901855c50092238ac16ef362a3976b8",
+  "paired_at": "2026-06-06T13:39:25.707202+00:00",
+  "name": "AirTag llaves mt-03",
+  "model": "AirTag (2nd generation)",
+  "identifier": "DE6894D3-07FB-4DA1-A4AA-0C9001A9A042",
+  "alignment_date": "2026-08-27T14:06:30+00:00",
+  "alignment_index": 7852,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

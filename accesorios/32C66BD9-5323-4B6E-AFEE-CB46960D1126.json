@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "107c6141fc733ef2a7dd0e6624a8356b3e8f2156c9ae1eecfc057fba",
+  "skn": "dd833b5d8db26ea76597b851505071d8a5c4d35b8f2f5a554ce1ab5db1e32a09",
+  "sks": "c04d34a338b7538b75dace0685c90aa9c71b207ee1eca83fdd909263985a4509",
+  "paired_at": "2025-09-25T17:58:33.768845+00:00",
+  "name": "TRT26H",
+  "model": "",
+  "identifier": "32C66BD9-5323-4B6E-AFEE-CB46960D1126",
+  "alignment_date": "2026-08-04T15:01:50+00:00",
+  "alignment_index": 30039,
+  "icloud_account": "beragarrido@icloud.com",
+  "imported_at": "2026-08-27T18:45:51.238591+00:00",
+  "first_imported_at": "2026-08-27T18:45:51.238591+00:00"
+}

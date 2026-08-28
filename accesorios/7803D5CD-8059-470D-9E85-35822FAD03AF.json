@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "c2657f207ac4c2074fb8ab097b85b118106b4b59cf7f872a55376d6a",
+  "skn": "b0647cf59c40bed9b76614f5b565f9763c93275ca934934467426a5cb4092fee",
+  "sks": "c05e67098fef0a388939a571f76f42c5468513fe6f6dba629bc5e21218f84b05",
+  "paired_at": "2025-09-23T19:21:59.322433+00:00",
+  "name": "TRT23H ",
+  "model": "",
+  "identifier": "7803D5CD-8059-470D-9E85-35822FAD03AF",
+  "alignment_date": "2025-11-24T08:54:28+00:00",
+  "alignment_index": 5911,
+  "icloud_account": "beragarrido@icloud.com",
+  "imported_at": "2026-08-27T18:45:51.238591+00:00",
+  "first_imported_at": "2026-08-27T18:45:51.238591+00:00"
+}

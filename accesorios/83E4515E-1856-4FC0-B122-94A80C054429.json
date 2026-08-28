@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "eaabcc5f2383830e372b53b0e9dfe4aa4c3b1c768a09649d395fe7c0",
+  "skn": "f6ad552369eb05a2af3205dc815e5e60dd3627cd4ce7284214fea54cc663c84f",
+  "sks": "69d7cb5f0406d832700af963f78d305ea266654651ed14bb4206e18474ddd29b",
+  "paired_at": "2025-06-05T21:08:20.731806+00:00",
+  "name": "OSP22H",
+  "model": "",
+  "identifier": "83E4515E-1856-4FC0-B122-94A80C054429",
+  "alignment_date": "2025-07-16T18:06:54+00:00",
+  "alignment_index": 3563,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

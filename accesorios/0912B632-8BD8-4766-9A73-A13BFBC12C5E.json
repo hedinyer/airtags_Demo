@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "013e727938667fbeb036ba2385092564c003631152477845b5d269c0",
+  "skn": "6af408c001a36814b4861c5a5145fcd581c6381ea677a7f57befc829389164e9",
+  "sks": "7e53dfa17b6e78b0cb310762f25682b85211f0b7470a1491c7ea4f474cec9239",
+  "paired_at": "2026-04-14T20:34:17.921531+00:00",
+  "name": "DVF30I",
+  "model": "",
+  "identifier": "0912B632-8BD8-4766-9A73-A13BFBC12C5E",
+  "alignment_date": "2026-08-10T19:12:50+00:00",
+  "alignment_index": 11324,
+  "icloud_account": "veramotoos@icloud.com",
+  "imported_at": "2026-08-27T15:27:48.212814+00:00",
+  "first_imported_at": "2026-08-27T15:27:48.212814+00:00"
+}

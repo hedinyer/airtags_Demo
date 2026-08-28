@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "82a588d3756cfa4174fa953da83cd633da12db492f609377973972fb",
+  "skn": "1264c7749a14dfbe94c6d6bd5afc4a3b34f872dc40880c518745e03ca5a35548",
+  "sks": "5c6620c27b68d6bba83403a358c5c6c59a0a12d7f172394369096d047c729f2a",
+  "paired_at": "2025-07-03T14:06:32.671897+00:00",
+  "name": "DJM48H",
+  "model": "",
+  "identifier": "27FD4109-4D9C-4D17-B9F4-3D663EA9AF76",
+  "alignment_date": "2026-08-27T13:52:10+00:00",
+  "alignment_index": 40321,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

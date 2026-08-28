@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "50bbadef0c6a372fd717f9d9c9d0e2ec30cfee0c6246ef51437d163b",
+  "skn": "29531e1abbc4660b73627e1ffbd06680236731c81997f37c1482ca8e62ad37af",
+  "sks": "fccccf60db9bf3965f5e7cb0bc26c74a14885e313f94cea8ed5115d5f95b30ef",
+  "paired_at": "2025-09-23T19:34:01.016887+00:00",
+  "name": "TRT19H",
+  "model": "",
+  "identifier": "1B39A5AC-A799-4F8D-832C-C19DC7BBB5EA",
+  "alignment_date": "2026-08-04T16:16:10+00:00",
+  "alignment_index": 30228,
+  "icloud_account": "beragarrido@icloud.com",
+  "imported_at": "2026-08-27T18:45:51.238591+00:00",
+  "first_imported_at": "2026-08-27T18:45:51.238591+00:00"
+}

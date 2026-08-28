@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b614e742bfb5ba9c67214f0b4e0a67a45a9f5f5e7e4d7aa446c58d2f",
+  "skn": "63ec69ae47bcb87a83da47999e5ec02a66c9c69521a2c93f3e497cfc871036c0",
+  "sks": "d79c05d1c05b7cf8b64e119d75a09a5bdc59990b580ae7b6ee612802bf628c1c",
+  "paired_at": "2025-07-01T19:20:32.677830+00:00",
+  "name": "ZXZ86G",
+  "model": "",
+  "identifier": "072B511A-541E-48B5-AF2B-00E848C8AA72",
+  "alignment_date": "2026-08-13T17:49:00+00:00",
+  "alignment_index": 39145,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

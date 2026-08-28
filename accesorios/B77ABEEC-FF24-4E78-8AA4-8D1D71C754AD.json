@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "52b8a3d75b63204ff2fd257e0f9d4803bb2e0ed4f85ad7504e6183de",
+  "skn": "8863cdb26f48a9c33390e036a584b79c406fde9e3efa00cc5394dbfe65127ca1",
+  "sks": "70d77abffe9c306ee9eb18c1bb2b1aa5907dabf4a13c00d004119062eb9ce50c",
+  "paired_at": "2025-09-18T13:10:08.050253+00:00",
+  "name": "TRT05H",
+  "model": "",
+  "identifier": "B77ABEEC-FF24-4E78-8AA4-8D1D71C754AD",
+  "alignment_date": "2026-08-04T16:46:30+00:00",
+  "alignment_index": 30736,
+  "icloud_account": "beragarrido@icloud.com",
+  "imported_at": "2026-08-27T18:45:51.238591+00:00",
+  "first_imported_at": "2026-08-27T18:45:51.238591+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "f6a60fc4d5f9623100007c3ae50b5f3321ee7e7e16a5aa81bba54603",
+  "skn": "412ab52689e8c7c70830511b345b13a93a7b4e8d43aa39d833ccfec95ef30650",
+  "sks": "a0f5c3f36e64514bf19c8ca4191cb4ffff7ea1ae93b2dc6c30b27d658e8d58f9",
+  "paired_at": "2025-06-28T15:04:18.147186+00:00",
+  "name": "OSQ28H",
+  "model": "",
+  "identifier": "31668387-88CF-4741-BE24-8AD7A117A8BD",
+  "alignment_date": "2026-08-27T21:00:20.067000+00:00",
+  "alignment_index": 40820,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "1d252db2aae52cf4d60bb077aad8040f1808d1d4a5e885ecd131c92d",
+  "skn": "4a3ebceb1b40b9d45d691ea357bb6fe089c0605a50a8e3a14dda4a5b24fa9045",
+  "sks": "666420199baf82b14a09c0b52b6514309674411745e0a6f046dc4c033aaded6f",
+  "paired_at": "2026-05-28T14:51:58.609727+00:00",
+  "name": "HAB76I",
+  "model": "",
+  "identifier": "E7861D67-95B3-4F22-A159-640042E635E7",
+  "alignment_date": "2026-08-10T13:43:00+00:00",
+  "alignment_index": 7100,
+  "icloud_account": "veramotoos@icloud.com",
+  "imported_at": "2026-08-27T15:27:48.212814+00:00",
+  "first_imported_at": "2026-08-27T15:27:48.212814+00:00"
+}

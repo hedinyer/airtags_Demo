@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "9a39fea7eb4ef9698b1f52ea7da3850f1f31c883ffcc76f45af88b37",
+  "skn": "756b8ca972627096e5ca742ec59676b06b06bfcbebefd69617a5b9790695a94d",
+  "sks": "904347f8b5e09c3f3487e0bc4c0cda8e816ea8c05db415ccc4a8bf5204cab02c",
+  "paired_at": "2025-09-09T16:08:04.039471+00:00",
+  "name": "TIM95H",
+  "model": "",
+  "identifier": "4D46187A-8BB3-401F-8CAD-F9AFFE2D09C6",
+  "alignment_date": "2026-08-04T16:12:30+00:00",
+  "alignment_index": 31586,
+  "icloud_account": "beragarrido@icloud.com",
+  "imported_at": "2026-08-27T18:45:51.238591+00:00",
+  "first_imported_at": "2026-08-27T18:45:51.238591+00:00"
+}

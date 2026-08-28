@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "3ffdd8203295e2ec6d4d0d60e5cd1f109cd92a47e225f7dd7100f444",
+  "skn": "b4ea1b781f81d95128af9692744aec77832c9bffedf2ecbedc2144dbcc29a365",
+  "sks": "7d71e7f4fc1b3805cf482ea9a6fe164fc10f589dfb08a2db60732ac5262e5b9f",
+  "paired_at": "2025-07-12T17:19:22.440850+00:00",
+  "name": "RAO98H",
+  "model": "",
+  "identifier": "02DBFAED-14DF-46D4-9094-8C34BC5A40A6",
+  "alignment_date": "2026-08-27T02:57:40+00:00",
+  "alignment_index": 39376,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

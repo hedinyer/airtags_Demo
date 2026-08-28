@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "06abc29e0de1a3a8b7c5215daef1c0b21fe3ae75916b4b077dd5f476",
+  "skn": "210e10daaad76ddde2fe267374f092fb2a9c3e733f3ab324f98c5f7f43961146",
+  "sks": "c3bd51d791ba862ae743b0009ee88021408cb7696cf9679fc24b53c9a3a58164",
+  "paired_at": "2025-05-08T19:50:45.655626+00:00",
+  "name": "ZXT26H",
+  "model": "",
+  "identifier": "2D8ACB56-EAA0-4EAD-8BCE-6E338DE0AFE6",
+  "alignment_date": "2026-08-27T03:18:30+00:00",
+  "alignment_index": 45631,
+  "icloud_account": "sasogapi0912@gmail.com",
+  "imported_at": "2026-08-27T19:13:10.188852+00:00",
+  "first_imported_at": "2026-08-27T19:13:10.188852+00:00"
+}

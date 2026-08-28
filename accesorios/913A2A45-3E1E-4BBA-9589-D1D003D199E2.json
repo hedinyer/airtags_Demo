@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b91440a146ff485e279f2d1e003113b3d5d2e5ae7943310aa67ca656",
+  "skn": "7104930e44902f7b9b837052816f1c591c6413ff3cd8228eff5bcf54e43c4fc6",
+  "sks": "d652848dd2aa7ea928122aeae60478a7f8a3b5e52fe3536ae29a6dd962feabfe",
+  "paired_at": "2025-07-03T14:10:01.076865+00:00",
+  "name": "RAU98H",
+  "model": "",
+  "identifier": "913A2A45-3E1E-4BBA-9589-D1D003D199E2",
+  "alignment_date": "2026-08-27T21:00:08.041000+00:00",
+  "alignment_index": 40350,
+  "icloud_account": "felipegarrido07@icloud.com",
+  "imported_at": "2026-08-28T14:20:58.488565+00:00",
+  "first_imported_at": "2026-08-28T14:20:58.488565+00:00"
+}
