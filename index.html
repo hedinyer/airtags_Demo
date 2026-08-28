@@ -4,9 +4,13 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>Find My</title>
-  <link rel="preconnect" href="https://unpkg.com" />
+  <link rel="preconnect" href="https://unpkg.com" crossorigin />
+  <link rel="preconnect" href="https://server.arcgisonline.com" crossorigin />
+  <link rel="preconnect" href="https://rpjkwoxqnvwcnlnffudt.supabase.co" crossorigin />
+  <link rel="dns-prefetch" href="https://unpkg.com" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
   <style>
     :root {
       --ink: oklch(0.18 0.01 260);
@@ -138,13 +142,20 @@
       width: var(--sheet-width);
       max-height: none;
       display: flex; flex-direction: column;
-      background: var(--sheet);
-      backdrop-filter: blur(28px) saturate(1.35);
-      -webkit-backdrop-filter: blur(28px) saturate(1.35);
+      background: var(--sheet-solid);
       border-radius: var(--radius-sheet);
       box-shadow: var(--shadow-sheet);
       padding-bottom: 0;
       overflow: hidden;
+    }
+    @supports ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px))) {
+      @media (min-width: 720px) {
+        .sheet {
+          background: var(--sheet);
+          backdrop-filter: blur(28px) saturate(1.35);
+          -webkit-backdrop-filter: blur(28px) saturate(1.35);
+        }
+      }
     }
     .sheet-handle {
       display: none;
@@ -603,6 +614,8 @@
     </div>
   </div>
 
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
   <script>
     // ponytail: write_live_map injects snapshot; Vercel lee Supabase Storage (no el JSON del deploy)
     const EMBEDDED = /*__EMBEDDED__*/null;
@@ -612,7 +625,8 @@
     const LOCATIONS_URL = IS_LOCAL
       ? 'locations.json'
       : 'https://rpjkwoxqnvwcnlnffudt.supabase.co/storage/v1/object/public/airtags/locations.json';
-    const POLL_MS = IS_LOCAL ? 2000 : 5000;
+    // ponytail: VPS empuja ~30s; poll agresivo solo quemaba CPU/red
+    const POLL_MS = IS_LOCAL ? 3000 : 15000;
     const COLORS = [
       '#0A84FF', '#30D158', '#FF9F0A', '#FF375F', '#5E5CE6',
       '#64D2FF', '#BF5AF2', '#FFD60A', '#AC8E68', '#FF6482'
@@ -621,16 +635,33 @@
     const map = L.map('map', {
       zoomControl: true,
       attributionControl: true,
+      preferCanvas: true,
+      fadeAnimation: false,
+      markerZoomAnimation: false,
+      zoomAnimation: !window.matchMedia('(prefers-reduced-motion: reduce)').matches,
     });
     // ponytail: CARTO raster exige API key; Esri street tiles no
     L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
       maxZoom: 19,
-      attribution: 'Tiles &copy; Esri &mdash; Source: Esri, OpenStreetMap'
+      attribution: 'Tiles &copy; Esri &mdash; Source: Esri, OpenStreetMap',
+      updateWhenIdle: true,
+      keepBuffer: 2,
     }).addTo(map);
     map.setView([7.09, -73.12], 12);
     map.zoomControl.setPosition('topright');
 
     const markers = new Map();
+    const markerLayer = L.markerClusterGroup({
+      showCoverageOnHover: false,
+      maxClusterRadius: 55,
+      spiderfyOnMaxZoom: true,
+      disableClusteringAtZoom: 16,
+      animate: false,
+      chunkedLoading: true,
+      chunkInterval: 50,
+      chunkDelay: 25,
+    });
+    map.addLayer(markerLayer);
     const accuracyLayer = L.layerGroup().addTo(map);
     const routeLayer = L.layerGroup().addTo(map);
     let fittedOnce = false;
@@ -640,11 +671,15 @@
     let routeTarget = null;
     let deepLinkDone = false;
     let latestUpdatedAt = null;
+    let lastRenderedAt = null;
+    let lastListSig = '';
     let lastRouteSummary = '';
+    let ticking = false;
     const SHARE_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M12 3v12"/><path d="m7 8 5-5 5 5"/></svg>';
     const sheetEl = document.getElementById('deviceSheet');
     const sheetHandle = document.getElementById('sheetHandle');
     const MOBILE_MQ = window.matchMedia('(max-width: 719px)');
+    const iconCache = new Map();
 
     function isMobile() {
       return MOBILE_MQ.matches;
@@ -944,29 +979,49 @@
     }
 
     function pinIcon(name, selected) {
+      const key = `${name}\0${selected ? 1 : 0}`;
+      let icon = iconCache.get(key);
+      if (icon) return icon;
       const color = colorFor(name);
       const letter = escapeHtml(initialFor(name));
-      return L.divIcon({
+      icon = L.divIcon({
         className: 'fm-marker',
         iconSize: [36, 36],
         iconAnchor: [18, 18],
         popupAnchor: [0, -18],
         html: `<div class="fm-pin${selected ? ' selected' : ''}" style="background:${color}">${letter}</div>`,
       });
+      iconCache.set(key, icon);
+      return icon;
+    }
+
+    function setMarkerSelected(key, selected) {
+      const marker = markers.get(key);
+      if (!marker) return;
+      const name = (marker.__device && marker.__device.name) || key;
+      marker.setIcon(pinIcon(name, selected));
+      marker.__selected = selected;
     }
 
     function selectDevice(d, { fly = true, route = false, syncUrl = true } = {}) {
+      const prev = selectedKey;
       selectedKey = d && d.found ? deviceKey(d) : null;
       if (syncUrl) setPlacaUrl(d && d.found ? d.name : null);
       if (d && d.found) collapseSheetForMap();
       accuracyLayer.clearLayers();
-      for (const [key, marker] of markers) {
-        const name = (marker.__device && marker.__device.name) || key;
-        marker.setIcon(pinIcon(name, key === selectedKey));
-      }
-      document.querySelectorAll('.device-row').forEach((el) => {
-        el.setAttribute('aria-selected', el.dataset.key === selectedKey ? 'true' : 'false');
+      if (prev && prev !== selectedKey) setMarkerSelected(prev, false);
+      if (selectedKey) setMarkerSelected(selectedKey, true);
+      document.querySelectorAll('.device-row[aria-selected="true"]').forEach((el) => {
+        el.setAttribute('aria-selected', 'false');
       });
+      if (selectedKey) {
+        const esc =
+          window.CSS && typeof CSS.escape === 'function'
+            ? CSS.escape(selectedKey)
+            : selectedKey.replace(/\\/g, '\\\\').replace(/"/g, '\\"');
+        const row = document.querySelector(`.device-row[data-key="${esc}"]`);
+        if (row) row.setAttribute('aria-selected', 'true');
+      }
       if (!d || !d.found) {
         clearRoute();
         return;
@@ -984,20 +1039,34 @@
       else if (fly) {
         map.invalidateSize({ animate: false });
         map.flyTo([d.latitude, d.longitude], Math.max(map.getZoom(), 15), {
-          duration: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 0.65,
+          duration: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 0.45,
         });
       }
     }
 
-    function renderList(devices, query) {
-      const list = document.getElementById('list');
-      list.innerHTML = '';
+    function listSignature(devices, query) {
       const q = (query || '').trim().toLowerCase();
+      let sig = q + '\n';
+      for (const d of devices) {
+        if (q && !(d.name || '').toLowerCase().includes(q)) continue;
+        sig += `${deviceKey(d)}\t${d.found ? 1 : 0}\t${d.battery || ''}\t${d.timestamp || ''}\n`;
+      }
+      return sig;
+    }
+
+    function renderList(devices, query, force = false) {
+      const list = document.getElementById('list');
+      const q = (query || '').trim().toLowerCase();
+      const sig = listSignature(devices, q);
+      if (!force && sig === lastListSig) return;
+      lastListSig = sig;
+
       const filtered = q
         ? devices.filter((d) => (d.name || '').toLowerCase().includes(q))
         : devices;
 
       if (!filtered.length) {
+        list.innerHTML = '';
         const empty = document.createElement('div');
         empty.className = 'empty';
         empty.textContent = q
@@ -1007,7 +1076,10 @@
         return;
       }
 
-      filtered.forEach((d) => {
+      // ponytail: found first so useful rows paint above the fold
+      const sorted = filtered.slice().sort((a, b) => Number(b.found) - Number(a.found));
+      const frag = document.createDocumentFragment();
+      for (const d of sorted) {
         const key = deviceKey(d);
         const row = document.createElement('div');
         row.className = 'device-row';
@@ -1017,6 +1089,7 @@
         const btn = document.createElement('button');
         btn.type = 'button';
         btn.className = 'device';
+        btn.dataset.act = 'select';
         const color = colorFor(d.name);
         const when = d.found ? relTime(d.timestamp) : '';
         const stale = d.found && isStale(d.timestamp);
@@ -1034,38 +1107,57 @@
           `<span class="device-copy"><span class="device-name">${escapeHtml(d.name)}</span>` +
           `<span class="device-meta${stale ? ' stale' : ''}">${escapeHtml(meta)}</span></span>` +
           `<span class="chev" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></span>`;
-        btn.addEventListener('click', () => {
-          if (!d.found) return;
-          selectDevice(d, { route: true });
-          const marker = markers.get(key);
-          if (marker) marker.openPopup();
-        });
         row.appendChild(btn);
 
         if (d.found) {
           const share = document.createElement('button');
           share.type = 'button';
           share.className = 'icon-btn';
+          share.dataset.act = 'share';
           share.setAttribute('aria-label', `Compartir enlace de ${d.name}`);
           share.innerHTML = SHARE_ICON;
-          share.addEventListener('click', () => {
-            copyShare(d.name).then((ok) => {
-              if (!ok) return;
-              const t = document.getElementById('statusText');
-              const prev = t.textContent;
-              t.textContent = 'Enlace copiado. Ya puedes pegarlo.';
-              setTimeout(() => { t.textContent = prev; }, 1600);
-            });
-          });
           row.appendChild(share);
         }
 
-        list.appendChild(row);
-      });
+        frag.appendChild(row);
+      }
+      list.replaceChildren(frag);
+    }
+
+    function popupHtml(d, placa) {
+      if (placa) {
+        return `<strong>${escapeHtml(d.name)}</strong><br>Visto ${escapeHtml(relTime(d.timestamp))}`;
+      }
+      return (
+        `<strong>${escapeHtml(d.name)}</strong><br>` +
+        `Visto ${escapeHtml(relTime(d.timestamp))}<br>` +
+        `Batería ${escapeHtml(d.battery)}<br>` +
+        `Precisión ~${Number(d.accuracy_m) || 0} m` +
+        `<div class="popup-actions">` +
+        `<button type="button" class="primary" data-act="route">Cómo llegar</button>` +
+        `<button type="button" data-act="share">Copiar enlace</button>` +
+        `</div>`
+      );
+    }
+
+    function movedEnough(marker, lat, lng) {
+      const cur = marker.getLatLng();
+      return Math.abs(cur.lat - lat) > 1e-5 || Math.abs(cur.lng - lng) > 1e-5;
+    }
+
+    function refreshStatusOnly(data, foundCount, totalCount) {
+      const updated = relTime(data.updated_at);
+      if (!SHARED_PLACA) {
+        document.getElementById('summary').textContent = foundCount
+          ? `${foundCount} monedas con ubicación · Actualizado ${updated}`
+          : `Sin ubicación todavía · Actualizado ${updated}`;
+      }
+      document.getElementById('statusText').textContent = `Actualizado ${updated}`;
     }
 
     function render(data) {
       const all = data.devices || [];
+      const sameSnapshot = data.updated_at && data.updated_at === lastRenderedAt;
       latestUpdatedAt = data.updated_at || null;
       const placa = SHARED_PLACA;
       const devices = placa
@@ -1073,65 +1165,72 @@
         : all;
       latestDevices = devices;
       const found = devices.filter((d) => d.found);
-      const updated = relTime(data.updated_at);
-      if (!placa) {
-        document.getElementById('summary').textContent =
-          found.length
-            ? `${found.length} monedas con ubicación · Actualizado ${updated}`
-            : `Sin ubicación todavía · Actualizado ${updated}`;
+
+      if (sameSnapshot && fittedOnce) {
+        refreshStatusOnly(data, found.length, devices.length);
+        return;
       }
-      document.getElementById('statusText').textContent = `Actualizado ${updated}`;
+      lastRenderedAt = data.updated_at || null;
+      refreshStatusOnly(data, found.length, devices.length);
 
       const bounds = [];
       const seen = new Set();
+      const toAdd = [];
 
-      devices.forEach((d) => {
+      for (const d of devices) {
         const key = deviceKey(d);
         seen.add(key);
         if (!d.found) {
-          if (markers.has(key)) {
-            map.removeLayer(markers.get(key));
+          const dead = markers.get(key);
+          if (dead) {
+            markerLayer.removeLayer(dead);
             markers.delete(key);
           }
-          return;
+          continue;
         }
-        const popup = placa
-          ? `<strong>${escapeHtml(d.name)}</strong><br>Visto ${escapeHtml(relTime(d.timestamp))}`
-          : `<strong>${escapeHtml(d.name)}</strong><br>` +
-            `Visto ${escapeHtml(relTime(d.timestamp))}<br>` +
-            `Batería ${escapeHtml(d.battery)}<br>` +
-            `Precisión ~${Number(d.accuracy_m) || 0} m` +
-            `<div class="popup-actions">` +
-            `<button type="button" class="primary" data-act="route">Cómo llegar</button>` +
-            `<button type="button" data-act="share">Copiar enlace</button>` +
-            `</div>`;
 
         let marker = markers.get(key);
+        const selected = key === selectedKey || !!placa;
         if (!marker) {
           marker = L.marker([d.latitude, d.longitude], {
-            icon: pinIcon(d.name, key === selectedKey || !!placa),
+            icon: pinIcon(d.name, selected),
             title: d.name,
-          }).addTo(map);
+          });
           if (!placa) {
-            marker.on('click', () => selectDevice(d, { fly: false }));
+            marker.on('click', () => selectDevice(marker.__device, { fly: false }));
             marker.on('popupopen', () => {
               const el = marker.getPopup().getElement();
               if (!el) return;
               el.querySelector('[data-act="route"]')?.addEventListener('click', () => {
-                selectDevice(marker.__device || d, { route: true, fly: false });
+                selectDevice(marker.__device, { route: true, fly: false });
               });
               el.querySelector('[data-act="share"]')?.addEventListener('click', () => {
-                copyShare((marker.__device || d).name);
+                copyShare(marker.__device.name);
               });
             });
           }
+          marker.bindPopup(popupHtml(d, placa));
+          marker.__device = d;
+          marker.__selected = selected;
+          marker.__popupSig = `${d.timestamp}|${d.battery}|${d.accuracy_m}`;
           markers.set(key, marker);
+          toAdd.push(marker);
         } else {
-          marker.setLatLng([d.latitude, d.longitude]);
-          marker.setIcon(pinIcon(d.name, key === selectedKey || !!placa));
+          if (movedEnough(marker, d.latitude, d.longitude)) {
+            marker.setLatLng([d.latitude, d.longitude]);
+          }
+          const wantSelected = key === selectedKey || !!placa;
+          if (!!marker.__selected !== wantSelected) {
+            marker.setIcon(pinIcon(d.name, wantSelected));
+            marker.__selected = wantSelected;
+          }
+          const popupSig = `${d.timestamp}|${d.battery}|${d.accuracy_m}`;
+          if (marker.__popupSig !== popupSig) {
+            marker.setPopupContent(popupHtml(d, placa));
+            marker.__popupSig = popupSig;
+          }
+          marker.__device = d;
         }
-        marker.bindPopup(popup);
-        marker.__device = d;
         bounds.push([d.latitude, d.longitude]);
         if (placa && routeTarget && deviceKey(routeTarget) === key) {
           routeTarget = d;
@@ -1139,11 +1238,13 @@
           if (lastRouteSummary) document.getElementById('routeMeta').textContent = lastRouteSummary;
           updateSharedTimes(d);
         }
-      });
+      }
+
+      if (toAdd.length) markerLayer.addLayers(toAdd);
 
       for (const key of [...markers.keys()]) {
         if (!seen.has(key)) {
-          map.removeLayer(markers.get(key));
+          markerLayer.removeLayer(markers.get(key));
           markers.delete(key);
         }
       }
@@ -1152,10 +1253,19 @@
         renderList(devices, document.getElementById('search').value);
         if (selectedKey) {
           const sel = devices.find((d) => deviceKey(d) === selectedKey && d.found);
-          if (sel) selectDevice(sel, { fly: false, syncUrl: false });
-          else {
+          if (!sel) {
             selectedKey = null;
             accuracyLayer.clearLayers();
+          } else if (!accuracyLayer.getLayers().length) {
+            // restore accuracy ring without touching every marker icon
+            L.circle([sel.latitude, sel.longitude], {
+              radius: Math.max(30, Number(sel.accuracy_m) || 40),
+              color: colorFor(sel.name),
+              weight: 1.5,
+              opacity: 0.55,
+              fillColor: colorFor(sel.name),
+              fillOpacity: 0.12,
+            }).addTo(accuracyLayer);
           }
         }
         if (!fittedOnce && bounds.length) {
@@ -1164,7 +1274,7 @@
             const pad = isMobile()
               ? [48, 24, Math.round((window.innerHeight * 0.38) + 24), 24]
               : [48, 48, 48, 48 + 400];
-            map.fitBounds(bounds, { padding: pad });
+            map.fitBounds(bounds, { padding: pad, animate: false });
           }
           fittedOnce = true;
         }
@@ -1190,8 +1300,35 @@
       }
     }
 
+    let searchTimer = 0;
     document.getElementById('search').addEventListener('input', (e) => {
-      renderList(latestDevices, e.target.value);
+      clearTimeout(searchTimer);
+      const val = e.target.value;
+      searchTimer = setTimeout(() => renderList(latestDevices, val, true), 120);
+    });
+
+    document.getElementById('list').addEventListener('click', (e) => {
+      const btn = e.target.closest('button[data-act]');
+      if (!btn) return;
+      const row = btn.closest('.device-row');
+      if (!row) return;
+      const d = latestDevices.find((x) => deviceKey(x) === row.dataset.key);
+      if (!d) return;
+      if (btn.dataset.act === 'share') {
+        copyShare(d.name).then((ok) => {
+          if (!ok) return;
+          const t = document.getElementById('statusText');
+          const prev = t.textContent;
+          t.textContent = 'Enlace copiado. Ya puedes pegarlo.';
+          setTimeout(() => { t.textContent = prev; }, 1600);
+        });
+        return;
+      }
+      if (btn.dataset.act === 'select' && d.found) {
+        selectDevice(d, { route: true });
+        const marker = markers.get(deviceKey(d));
+        if (marker) marker.openPopup();
+      }
     });
 
     document.getElementById('list').addEventListener('keydown', (e) => {
@@ -1216,15 +1353,15 @@
 
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape' && !SHARED_PLACA) {
+        const prev = selectedKey;
         selectedKey = null;
         setPlacaUrl(null);
         clearRoute();
         accuracyLayer.clearLayers();
-        for (const [, marker] of markers) {
-          const name = (marker.__device && marker.__device.name) || '';
-          marker.setIcon(pinIcon(name, false));
-        }
-        document.querySelectorAll('.device-row').forEach((el) => el.setAttribute('aria-selected', 'false'));
+        if (prev) setMarkerSelected(prev, false);
+        document.querySelectorAll('.device-row[aria-selected="true"]').forEach((el) => {
+          el.setAttribute('aria-selected', 'false');
+        });
         map.closePopup();
       }
     });
@@ -1237,10 +1374,11 @@
     });
 
     async function tick() {
+      if (ticking) return;
+      ticking = true;
       try {
-        const res = await fetch(LOCATIONS_URL + (LOCATIONS_URL.includes('?') ? '&' : '?') + 'ts=' + Date.now(), {
-          cache: 'no-store',
-        });
+        // ponytail: no cache-bust; Storage ETag + 15s poll basta
+        const res = await fetch(LOCATIONS_URL, { cache: 'no-cache' });
         if (!res.ok) throw new Error('HTTP ' + res.status);
         render(await res.json());
       } catch (err) {
@@ -1250,11 +1388,16 @@
             'No se pudo cargar. Revisa la conexión e intenta de nuevo.';
           document.getElementById('statusText').textContent = 'Sin conexión';
         }
+      } finally {
+        ticking = false;
       }
     }
 
     tick();
     setInterval(tick, POLL_MS);
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible') tick();
+    });
   </script>
 </body>
 </html>
