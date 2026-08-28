@@ -10,7 +10,6 @@
   <link rel="dns-prefetch" href="https://unpkg.com" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
   <style>
     :root {
       --ink: oklch(0.18 0.01 260);
@@ -314,6 +313,30 @@
 
     .fm-marker {
       background: transparent; border: 0;
+    }
+    /* ponytail: brand clusters — default orange MarkerCluster.Default was the “feo” */
+    .fm-cluster-wrap {
+      background: transparent; border: 0;
+    }
+    .fm-cluster {
+      width: var(--s, 44px); height: var(--s, 44px);
+      border-radius: 50%;
+      display: grid; place-items: center;
+      background: oklch(0.55 0.16 145 / 0.2);
+      box-shadow: 0 8px 24px oklch(0.35 0.08 145 / 0.28);
+    }
+    .fm-cluster span {
+      width: calc(var(--s, 44px) * 0.72);
+      height: calc(var(--s, 44px) * 0.72);
+      border-radius: 50%;
+      display: grid; place-items: center;
+      background: linear-gradient(145deg, oklch(0.68 0.17 145), oklch(0.48 0.14 150));
+      color: white;
+      font: 700 13px/1 var(--font);
+      font-variant-numeric: tabular-nums;
+      letter-spacing: -0.02em;
+      border: 2px solid oklch(1 0 0 / 0.95);
+      box-shadow: inset 0 0 0 1px oklch(0 0 0 / 0.06);
     }
     .leaflet-popup-content-wrapper {
       border-radius: 16px;
@@ -644,6 +667,16 @@
       chunkInterval: 100,
       chunkDelay: 50,
       removeOutsideVisibleBounds: true,
+      iconCreateFunction(cluster) {
+        const n = cluster.getChildCount();
+        const size = n < 25 ? 40 : n < 100 ? 48 : 56;
+        return L.divIcon({
+          html: `<div class="fm-cluster" style="--s:${size}px"><span>${n}</span></div>`,
+          className: 'fm-cluster-wrap',
+          iconSize: [size, size],
+          iconAnchor: [size / 2, size / 2],
+        });
+      },
     });
     map.addLayer(markerLayer);
     const accuracyLayer = L.layerGroup().addTo(map);
@@ -965,13 +998,14 @@
     }
 
     function pinStyle(name, selected) {
+      // ponytail: Find My–ish dots on canvas (letters = HTML pins = INP regression)
       return {
-        radius: selected ? 10 : 7,
+        radius: selected ? 11 : 8,
         fillColor: colorFor(name),
         color: '#fff',
-        weight: selected ? 3 : 2,
+        weight: selected ? 3.5 : 2.5,
         opacity: 1,
-        fillOpacity: 0.92,
+        fillOpacity: 0.95,
       };
     }
 
@@ -1021,7 +1055,12 @@
         const target = d;
         setTimeout(() => showRouteTo(target), 0);
       } else if (fly) {
-        map.setView([d.latitude, d.longitude], Math.max(map.getZoom(), 15), { animate: false });
+        const z = Math.max(map.getZoom(), 15);
+        // ponytail: short pan, not flyTo — feels soft without zoom-anim INP tax
+        map.setView([d.latitude, d.longitude], z, {
+          animate: !window.matchMedia('(prefers-reduced-motion: reduce)').matches,
+          duration: 0.25,
+        });
       }
     }
 
