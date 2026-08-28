@@ -58,8 +58,8 @@
       z-index: 0;
     }
     .leaflet-control-attribution {
-      background: oklch(1 0 0 / 0.55) !important;
-      backdrop-filter: blur(8px);
+      /* ponytail: solid bg; blur on mobile was expensive */
+      background: oklch(1 0 0 / 0.94) !important;
       font-size: 10px !important;
       margin: 0 8px 8px 0 !important;
       border-radius: 8px;
@@ -77,8 +77,7 @@
       width: 44px !important; height: 44px !important;
       line-height: 44px !important;
       color: var(--ink) !important;
-      background: oklch(1 0 0 / 0.88) !important;
-      backdrop-filter: blur(12px);
+      background: oklch(1 0 0 / 0.94) !important;
       border-bottom-color: var(--separator) !important;
       font-size: 18px !important;
     }
@@ -96,8 +95,7 @@
       display: inline-flex; align-items: center; gap: 8px;
       padding: 8px 14px 8px 10px;
       border-radius: 999px;
-      background: oklch(1 0 0 / 0.88);
-      backdrop-filter: blur(16px) saturate(1.2);
+      background: oklch(1 0 0 / 0.94);
       box-shadow: 0 8px 28px oklch(0 0 0 / 0.12);
       font-size: 0.95rem; font-weight: 600; letter-spacing: -0.02em;
     }
@@ -113,8 +111,7 @@
       display: inline-flex; align-items: center; gap: 7px;
       padding: 8px 12px;
       border-radius: 999px;
-      background: oklch(1 0 0 / 0.88);
-      backdrop-filter: blur(16px);
+      background: oklch(1 0 0 / 0.94);
       box-shadow: 0 8px 28px oklch(0 0 0 / 0.12);
       font-size: 0.78rem; font-weight: 560; color: var(--ink-secondary);
       font-variant-numeric: tabular-nums;
@@ -318,24 +315,6 @@
     .fm-marker {
       background: transparent; border: 0;
     }
-    .fm-pin {
-      width: 36px; height: 36px;
-      border-radius: 50%;
-      display: grid; place-items: center;
-      color: white;
-      font: 700 13px/1 var(--font);
-      letter-spacing: -0.02em;
-      border: 3px solid var(--marker-ring);
-      box-shadow: 0 6px 16px oklch(0 0 0 / 0.28);
-      transform: translateY(0);
-      transition-property: transform, box-shadow;
-      transition-duration: 180ms;
-      transition-timing-function: cubic-bezier(0.2, 0, 0, 1);
-    }
-    .fm-pin.selected {
-      transform: scale(1.12);
-      box-shadow: 0 10px 24px oklch(0 0 0 / 0.35);
-    }
     .leaflet-popup-content-wrapper {
       border-radius: 16px;
       box-shadow: 0 12px 32px oklch(0 0 0 / 0.18);
@@ -379,6 +358,9 @@
       grid-template-columns: 1fr auto;
       align-items: center;
       gap: 12px;
+      /* ponytail: skip paint for off-screen rows (~796) */
+      content-visibility: auto;
+      contain-intrinsic-size: 64px;
     }
     .device-row .device { width: 100%; }
     .device-row[aria-selected="true"] .device { background: var(--row-active); }
@@ -405,8 +387,7 @@
       gap: 12px; flex-wrap: wrap;
       padding: 12px 14px;
       border-radius: 18px;
-      background: oklch(1 0 0 / 0.92);
-      backdrop-filter: blur(16px);
+      background: oklch(1 0 0 / 0.94);
       box-shadow: 0 12px 36px oklch(0 0 0 / 0.16);
     }
     .route-bar[hidden] { display: none !important; }
@@ -625,8 +606,8 @@
     const LOCATIONS_URL = IS_LOCAL
       ? 'locations.json'
       : 'https://rpjkwoxqnvwcnlnffudt.supabase.co/storage/v1/object/public/airtags/locations.json';
-    // ponytail: VPS empuja ~30s; poll agresivo solo quemaba CPU/red
-    const POLL_MS = IS_LOCAL ? 3000 : 15000;
+    // ponytail: VPS empuja ~30s; poll más rápido solo quemaba CPU/red
+    const POLL_MS = IS_LOCAL ? 3000 : 30000;
     const COLORS = [
       '#0A84FF', '#30D158', '#FF9F0A', '#FF375F', '#5E5CE6',
       '#64D2FF', '#BF5AF2', '#FFD60A', '#AC8E68', '#FF6482'
@@ -655,7 +636,7 @@
       showCoverageOnHover: false,
       maxClusterRadius: 55,
       spiderfyOnMaxZoom: true,
-      disableClusteringAtZoom: 16,
+      // ponytail: no disableClusteringAtZoom — 660 HTML pins at z16 froze mobile
       animate: false,
       chunkedLoading: true,
       chunkInterval: 50,
@@ -679,7 +660,6 @@
     const sheetEl = document.getElementById('deviceSheet');
     const sheetHandle = document.getElementById('sheetHandle');
     const MOBILE_MQ = window.matchMedia('(max-width: 719px)');
-    const iconCache = new Map();
 
     function isMobile() {
       return MOBILE_MQ.matches;
@@ -978,28 +958,23 @@
       return (Date.now() - new Date(iso).getTime()) / 60000 > 30;
     }
 
-    function pinIcon(name, selected) {
-      const key = `${name}\0${selected ? 1 : 0}`;
-      let icon = iconCache.get(key);
-      if (icon) return icon;
-      const color = colorFor(name);
-      const letter = escapeHtml(initialFor(name));
-      icon = L.divIcon({
-        className: 'fm-marker',
-        iconSize: [36, 36],
-        iconAnchor: [18, 18],
-        popupAnchor: [0, -18],
-        html: `<div class="fm-pin${selected ? ' selected' : ''}" style="background:${color}">${letter}</div>`,
-      });
-      iconCache.set(key, icon);
-      return icon;
+    function pinStyle(name, selected) {
+      return {
+        radius: selected ? 10 : 7,
+        fillColor: colorFor(name),
+        color: '#fff',
+        weight: selected ? 3 : 2,
+        opacity: 1,
+        fillOpacity: 0.92,
+      };
     }
 
     function setMarkerSelected(key, selected) {
       const marker = markers.get(key);
       if (!marker) return;
       const name = (marker.__device && marker.__device.name) || key;
-      marker.setIcon(pinIcon(name, selected));
+      marker.setStyle(pinStyle(name, selected));
+      if (selected) marker.bringToFront();
       marker.__selected = selected;
     }
 
@@ -1049,7 +1024,8 @@
       let sig = q + '\n';
       for (const d of devices) {
         if (q && !(d.name || '').toLowerCase().includes(q)) continue;
-        sig += `${deviceKey(d)}\t${d.found ? 1 : 0}\t${d.battery || ''}\t${d.timestamp || ''}\n`;
+        // ponytail: omit timestamp — VPS push every ~30s was rebuild-all-796-rows
+        sig += `${deviceKey(d)}\t${d.found ? 1 : 0}\t${d.battery || ''}\n`;
       }
       return sig;
     }
@@ -1192,10 +1168,8 @@
         let marker = markers.get(key);
         const selected = key === selectedKey || !!placa;
         if (!marker) {
-          marker = L.marker([d.latitude, d.longitude], {
-            icon: pinIcon(d.name, selected),
-            title: d.name,
-          });
+          // ponytail: circleMarker = canvas path; divIcon HTML froze at ~600 pins
+          marker = L.circleMarker([d.latitude, d.longitude], pinStyle(d.name, selected));
           if (!placa) {
             marker.on('click', () => selectDevice(marker.__device, { fly: false }));
             marker.on('popupopen', () => {
@@ -1221,7 +1195,7 @@
           }
           const wantSelected = key === selectedKey || !!placa;
           if (!!marker.__selected !== wantSelected) {
-            marker.setIcon(pinIcon(d.name, wantSelected));
+            marker.setStyle(pinStyle(d.name, wantSelected));
             marker.__selected = wantSelected;
           }
           const popupSig = `${d.timestamp}|${d.battery}|${d.accuracy_m}`;
@@ -1377,8 +1351,8 @@
       if (ticking) return;
       ticking = true;
       try {
-        // ponytail: no cache-bust; Storage ETag + 15s poll basta
-        const res = await fetch(LOCATIONS_URL, { cache: 'no-cache' });
+        // ponytail: default cache; Storage ETag + 30s poll basta
+        const res = await fetch(LOCATIONS_URL);
         if (!res.ok) throw new Error('HTTP ' + res.status);
         render(await res.json());
       } catch (err) {
