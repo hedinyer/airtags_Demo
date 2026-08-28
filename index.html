@@ -622,9 +622,10 @@
       zoomControl: true,
       attributionControl: true,
     });
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-      maxZoom: 20,
-      attribution: '&copy; OpenStreetMap &copy; CARTO'
+    // ponytail: CARTO raster exige API key; Esri street tiles no
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+      maxZoom: 19,
+      attribution: 'Tiles &copy; Esri &mdash; Source: Esri, OpenStreetMap'
     }).addTo(map);
     map.setView([7.09, -73.12], 12);
     map.zoomControl.setPosition('topright');
