@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "976a1aac76dceee448fcd313b80a0514af077f60d84183ff777fda33",
+  "skn": "fede9bbcde710c3bf33c26aa3dfaaea337e1d31eecfb5e0245ebf6f6f80dd4c2",
+  "sks": "510eddc0e0fd359a6bd8cf21addd84f8e503daa183ee513fe1533839036cf1e9",
+  "paired_at": "2026-02-23T20:05:57.041309+00:00",
+  "name": "DTV73I",
+  "model": "",
+  "identifier": "EB19A214-63EF-441C-B70B-2AC632366766",
+  "alignment_date": "2026-08-14T15:01:50+00:00",
+  "alignment_index": 16493,
+  "icloud_account": "spbera2208@gmail.com",
+  "imported_at": "2026-08-28T20:28:43.211809+00:00",
+  "first_imported_at": "2026-08-28T20:28:43.211809+00:00"
+}

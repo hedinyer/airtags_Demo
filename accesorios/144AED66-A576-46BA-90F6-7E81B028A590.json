@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "bef6be3d99a14f5e59c7a67f56c2e982d08a5ea9e08d026ee33af638",
+  "skn": "2c72ce860c9e23347b6c458f4ab5fd63cf04202c04788ca5904f164c2b5986e9",
+  "sks": "2b7a7b3aa061bd618334df1521a30bdc16547fd41aa6fa5ec8400e99465b56a1",
+  "paired_at": "2026-02-16T22:12:48.953197+00:00",
+  "name": "BAM46I",
+  "model": "",
+  "identifier": "144AED66-A576-46BA-90F6-7E81B028A590",
+  "alignment_date": "2026-08-14T15:08:10+00:00",
+  "alignment_index": 17158,
+  "icloud_account": "spbera2208@gmail.com",
+  "imported_at": "2026-08-28T20:28:43.211809+00:00",
+  "first_imported_at": "2026-08-28T20:28:43.211809+00:00"
+}

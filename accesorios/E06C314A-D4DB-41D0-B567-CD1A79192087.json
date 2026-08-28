@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "e57fe6b9cb8f487e3fdee2474c58aef47842405738da4dbdea16a13f",
+  "skn": "28b0f0674e104369de59c9c3efa42881353ad44e0f0810b478c069168b6c4fd1",
+  "sks": "3a0c20ef48327261d77a7ab4b3d3397131dba8e3e0389e94a3a9e21179d35cd9",
+  "paired_at": "2026-02-24T16:11:56.129838+00:00",
+  "name": "DTV72I",
+  "model": "",
+  "identifier": "E06C314A-D4DB-41D0-B567-CD1A79192087",
+  "alignment_date": "2026-08-14T11:17:00+00:00",
+  "alignment_index": 16398,
+  "icloud_account": "spbera2208@gmail.com",
+  "imported_at": "2026-08-28T20:28:43.211809+00:00",
+  "first_imported_at": "2026-08-28T20:28:43.211809+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "4cb6eccd0338351c7102bed0b65174eda4f9cf2484e214664c487a77",
+  "skn": "8df56959f9be0dd76786d220eadc1f01c51176677c9f5fe7535e06ead90ce326",
+  "sks": "e417eff58a5b93ef186fd19efd3f7ec81c4d3ca1e4bcb15d8c88f09532bf8f98",
+  "paired_at": "2026-03-13T20:20:18.695056+00:00",
+  "name": "DTW24I",
+  "model": "AirTag (2nd generation)",
+  "identifier": "B60986CE-805E-4B53-880D-4ABAA83ABE3A",
+  "alignment_date": "2026-08-14T15:18:00+00:00",
+  "alignment_index": 14765,
+  "icloud_account": "spbera2208@gmail.com",
+  "imported_at": "2026-08-28T20:28:43.211809+00:00",
+  "first_imported_at": "2026-08-28T20:28:43.211809+00:00"
+}

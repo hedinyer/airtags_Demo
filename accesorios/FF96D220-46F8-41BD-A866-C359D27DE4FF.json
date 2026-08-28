@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "412a237946e1d9766eb5f74b2f9c261f93d73336a30a41730de63253",
+  "skn": "4fb288ce698aa95dd40d95f0f079843363f8b0f48e375a4f16d90b577e1da3c5",
+  "sks": "b69c40f051f31f935640d7072f1df1b060589882145474253be6339d103150a2",
+  "paired_at": "2026-03-05T16:08:34.619562+00:00",
+  "name": "DTV97I",
+  "model": "",
+  "identifier": "FF96D220-46F8-41BD-A866-C359D27DE4FF",
+  "alignment_date": "2026-08-14T15:11:50+00:00",
+  "alignment_index": 15550,
+  "icloud_account": "spbera2208@gmail.com",
+  "imported_at": "2026-08-28T20:28:43.211809+00:00",
+  "first_imported_at": "2026-08-28T20:28:43.211809+00:00"
+}

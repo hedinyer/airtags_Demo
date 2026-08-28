@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "41f445151bed4feac5dda9f5bf4461e6dc4bf8df1e460b64de512955",
+  "skn": "345b649059e883618d200e8c8ecdb9c9a0785c4719f99fd9fbe85d5124a9d75a",
+  "sks": "7e710ef608dde177de28fa3259c33e916230195c240467cad19ab40a05f893b5",
+  "paired_at": "2026-03-02T20:12:46.132056+00:00",
+  "name": "DTV86I",
+  "model": "",
+  "identifier": "3ABDAA0E-B426-4A54-BE4E-A2B804A721BF",
+  "alignment_date": "2026-08-14T15:20:00+00:00",
+  "alignment_index": 15822,
+  "icloud_account": "spbera2208@gmail.com",
+  "imported_at": "2026-08-28T20:28:43.211809+00:00",
+  "first_imported_at": "2026-08-28T20:28:43.211809+00:00"
+}

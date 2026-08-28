@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "9238490efdbc67012f94672a1f9ffc5beef8d35500767e88fe56f782",
+  "skn": "9c45e99f8fcb7ffa5384746d21013c3f6daba7cb3df22ec9687c645244590a7c",
+  "sks": "09bd4e82543947e802533909e622eae8b4e5a45e552f47e9596d42d46fe2b5a6",
+  "paired_at": "2026-02-24T13:29:45.646501+00:00",
+  "name": "DTV74I",
+  "model": "",
+  "identifier": "2A0A6620-D837-476F-8587-EF84E68CEBEA",
+  "alignment_date": "2026-08-14T14:29:20+00:00",
+  "alignment_index": 16421,
+  "icloud_account": "spbera2208@gmail.com",
+  "imported_at": "2026-08-28T20:28:43.211809+00:00",
+  "first_imported_at": "2026-08-28T20:28:43.211809+00:00"
+}

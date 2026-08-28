@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "7c1b9b9fdc24351ef137a96caf1f7ae71a158f8a0daad36101817fcc",
+  "skn": "d1c4ee9d099f24fde81833313706cb4c5d3a2c482d39b214552f2c404a24301b",
+  "sks": "8bfd3e08ec36e3a19873822aefd666317109ae742700a850ae82ad9a15e5b3d7",
+  "paired_at": "2026-02-27T16:58:46.194980+00:00",
+  "name": "DTV66I",
+  "model": "",
+  "identifier": "BFC7DD6E-3CFE-4D07-8469-E4ED6EBCF518",
+  "alignment_date": "2026-08-10T18:00:30+00:00",
+  "alignment_index": 13150,
+  "icloud_account": "spbera2208@gmail.com",
+  "imported_at": "2026-08-28T20:28:43.211809+00:00",
+  "first_imported_at": "2026-08-28T20:28:43.211809+00:00"
+}

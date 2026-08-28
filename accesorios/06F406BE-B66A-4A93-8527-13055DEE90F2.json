@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "918ed90947e460c463d348362f9058ca8cc635fe5814534ea0ff02ff",
+  "skn": "43020733c7cadb6e1ac7bd8aa780f2f2c4c8cde0f93e749b2397a57c49fd74b6",
+  "sks": "d7e9ac67e3b436c569aabe6ed043168b2814b758b3d4c55ffe1c226598fa6e39",
+  "paired_at": "2026-03-02T20:16:47.101256+00:00",
+  "name": "DTV87I",
+  "model": "",
+  "identifier": "06F406BE-B66A-4A93-8527-13055DEE90F2",
+  "alignment_date": "2026-08-14T13:00:40+00:00",
+  "alignment_index": 15813,
+  "icloud_account": "spbera2208@gmail.com",
+  "imported_at": "2026-08-28T20:28:43.211809+00:00",
+  "first_imported_at": "2026-08-28T20:28:43.211809+00:00"
+}

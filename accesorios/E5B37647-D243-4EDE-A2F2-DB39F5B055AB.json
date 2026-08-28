@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "4a02a952cd86e404c9b4a808e84f5042298b7d7cd6d8d4fcc928c256",
+  "skn": "05147fcb11a88481db42a181031090bd1e90be9cc925f021ad57bb1db8982c74",
+  "sks": "61a66f7ce541ced991805783906153c0646e93ab9e09c3d9c824ffd5d92678d4",
+  "paired_at": "2026-03-02T20:11:02.643909+00:00",
+  "name": "DTV91I",
+  "model": "",
+  "identifier": "E5B37647-D243-4EDE-A2F2-DB39F5B055AB",
+  "alignment_date": "2026-08-14T15:03:00+00:00",
+  "alignment_index": 15821,
+  "icloud_account": "spbera2208@gmail.com",
+  "imported_at": "2026-08-28T20:28:43.211809+00:00",
+  "first_imported_at": "2026-08-28T20:28:43.211809+00:00"
+}

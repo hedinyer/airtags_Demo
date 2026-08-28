@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b13a57aaf46e653be205a746e85be508af78d1d9a326578b9a1eca3b",
+  "skn": "0f0f924c0a384fb4f1088a93baee31e7aef64397e78e028d2f9558f2bf2e5b97",
+  "sks": "1dbbb3ec6b82fc57275db853c7944ca2c34ccfdc30275669c82e5c4b45585012",
+  "paired_at": "2026-02-27T16:59:59.918361+00:00",
+  "name": "DTV65I",
+  "model": "",
+  "identifier": "20377208-C4BE-4F4B-8777-DDB9E1B54CAF",
+  "alignment_date": "2026-08-14T15:26:50+00:00",
+  "alignment_index": 16122,
+  "icloud_account": "spbera2208@gmail.com",
+  "imported_at": "2026-08-28T20:28:43.211809+00:00",
+  "first_imported_at": "2026-08-28T20:28:43.211809+00:00"
+}
