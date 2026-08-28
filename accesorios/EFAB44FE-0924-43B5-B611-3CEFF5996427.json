@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "df7ed237df0eca8d62176692c28bd9ff0f5afebdf489d02896ba9f92",
+  "skn": "304f52974a71dd00412a778ac753516094c7bcd6acd16e0640961f310b646dab",
+  "sks": "a461c47ffd73e98c6981560380fd01ca4f2f493129531eaaa4682faf8bd8d3f8",
+  "paired_at": "2026-03-13T12:21:35.802372+00:00",
+  "name": "iPhone",
+  "model": "iPhone11,6",
+  "identifier": "EFAB44FE-0924-43B5-B611-3CEFF5996427",
+  "alignment_date": "2026-03-13T12:21:35.802372+00:00",
+  "alignment_index": 0,
+  "icloud_account": "ventasunicas@icloud.com",
+  "imported_at": "2026-08-28T21:37:57.273575+00:00",
+  "first_imported_at": "2026-08-28T21:37:57.273575+00:00"
+}

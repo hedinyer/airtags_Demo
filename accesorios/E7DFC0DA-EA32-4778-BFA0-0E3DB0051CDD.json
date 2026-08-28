@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "808d811b5df92d8524fef3f6f849c650751e8e6c8bca3dd4152fa192",
+  "skn": "d6b5ec803d53cdc2ce2aa0b82fc828018f801d43911df50b55292be1ac96b5f7",
+  "sks": "9fe3fc8529f1db852292455c04e35b162620bc3fe8a7a58f8622f8682115b604",
+  "paired_at": "2026-04-11T15:59:08.943007+00:00",
+  "name": "NGA10G",
+  "model": "",
+  "identifier": "E7DFC0DA-EA32-4778-BFA0-0E3DB0051CDD",
+  "alignment_date": "2026-08-23T13:52:20+00:00",
+  "alignment_index": 12833,
+  "icloud_account": "ventasunicas@icloud.com",
+  "imported_at": "2026-08-28T21:37:57.273575+00:00",
+  "first_imported_at": "2026-08-28T21:37:57.273575+00:00"
+}

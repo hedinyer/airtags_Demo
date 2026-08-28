@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "5cbac4c363c0f2c690de942278c6e758a9113eb5f0599a40a7a91e34",
+  "skn": "0fbff70e48d90b10255fcf8d3a67ccb4fc33ab0686d4b2ca29d9f2fb38f191cf",
+  "sks": "e2eee0e2f066c69729cb36951e66000056f2a7c502491d85441a4ef07de359b0",
+  "paired_at": "2026-03-27T22:09:32.771461+00:00",
+  "name": "DUR39H",
+  "model": "",
+  "identifier": "8A9E6B00-F24A-4FAB-B3CF-15C640DA4F60",
+  "alignment_date": "2026-08-24T15:34:30+00:00",
+  "alignment_index": 14375,
+  "icloud_account": "ventasunicas@icloud.com",
+  "imported_at": "2026-08-28T21:37:57.273575+00:00",
+  "first_imported_at": "2026-08-28T21:37:57.273575+00:00"
+}

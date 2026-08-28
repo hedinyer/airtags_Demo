@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "921975d2a006777bff3c103ee668d86b5bebee374d2e8dc977120bae",
+  "skn": "4d1adf8f5d3ecbb879886b0e1f19a726ec8f90ee291703f7b4db4de6783e249c",
+  "sks": "3dd8d434865c54035a6492d699827fb79c722af8f86f0ff33c86b9f0610d64e2",
+  "paired_at": "2026-03-19T14:34:59.736159+00:00",
+  "name": "TIB71h",
+  "model": "",
+  "identifier": "33E18D2C-426C-4759-992A-80AE90DCCCBF",
+  "alignment_date": "2026-08-22T15:43:30+00:00",
+  "alignment_index": 14982,
+  "icloud_account": "ventasunicas@icloud.com",
+  "imported_at": "2026-08-28T21:37:57.273575+00:00",
+  "first_imported_at": "2026-08-28T21:37:57.273575+00:00"
+}

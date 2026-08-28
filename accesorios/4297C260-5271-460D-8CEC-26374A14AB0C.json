@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d00bb904195dd3fb7ddd4cbaa3574fae562705bdcdd69eda9de419e6",
+  "skn": "dc141faf83a854fcbc1ae6cb195954fe781731e36e0f6d4b4a663d9b91722fbc",
+  "sks": "d17d998a6c58c6c5a66bba7f88fd9f9c35b4117f3d8735c2ae995e7d88f6b5c7",
+  "paired_at": "2026-03-19T15:32:35.423260+00:00",
+  "name": "DTW22I",
+  "model": "",
+  "identifier": "4297C260-5271-460D-8CEC-26374A14AB0C",
+  "alignment_date": "2026-08-24T15:24:00+00:00",
+  "alignment_index": 15168,
+  "icloud_account": "ventasunicas@icloud.com",
+  "imported_at": "2026-08-28T21:37:57.273575+00:00",
+  "first_imported_at": "2026-08-28T21:37:57.273575+00:00"
+}

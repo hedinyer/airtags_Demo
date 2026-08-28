@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "5ae3712492f6bfe1df091ef0b57d78a3c6429cc46d951f8685b91e21",
+  "skn": "b72a94a0ea05773ca0f83889a6687453be99c244de50d3b1ae7830dd5327941f",
+  "sks": "86306362e63bb591c465df64b3142fca1c87101ae7f7ccaf505164e1d4b8d49e",
+  "paired_at": "2026-04-09T18:31:40.194974+00:00",
+  "name": "DUR44I",
+  "model": "",
+  "identifier": "4D145FFC-40FA-4DD7-B369-905129B77FB7",
+  "alignment_date": "2026-08-24T15:17:30+00:00",
+  "alignment_index": 13140,
+  "icloud_account": "ventasunicas@icloud.com",
+  "imported_at": "2026-08-28T21:37:57.273575+00:00",
+  "first_imported_at": "2026-08-28T21:37:57.273575+00:00"
+}

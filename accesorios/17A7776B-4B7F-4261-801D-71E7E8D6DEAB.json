@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "a383ce533accd38069d2e83297fb83729296d52241389cf4abfcd363",
+  "skn": "b2c3d2ab07ff206a0dd62d816ddcb5e9e0d7c9da3be92e836d9fac1f81d7c710",
+  "sks": "dfa924953f0966fb5aa656857ac508727052b8d3b36fcba7a552dfed459c39ec",
+  "paired_at": "2026-04-07T14:48:20.506470+00:00",
+  "name": "DUM02I",
+  "model": "",
+  "identifier": "17A7776B-4B7F-4261-801D-71E7E8D6DEAB",
+  "alignment_date": "2026-08-24T14:33:50+00:00",
+  "alignment_index": 13344,
+  "icloud_account": "ventasunicas@icloud.com",
+  "imported_at": "2026-08-28T21:37:57.273575+00:00",
+  "first_imported_at": "2026-08-28T21:37:57.273575+00:00"
+}

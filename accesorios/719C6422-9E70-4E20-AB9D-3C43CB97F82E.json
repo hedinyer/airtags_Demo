@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "dd51fdde5c2620004b18e94100d0c46cc327e17d5fdb47544e30ba55",
+  "skn": "4d013c2b38ee9190d416faa0275d2f44849f6cf7cf09126d090a4859bbd391b8",
+  "sks": "d02f8e35f67a7ae91f69aca34677a21184e52886258d9448b1f5ed41e212e2e5",
+  "paired_at": "2026-04-07T18:50:43.737697+00:00",
+  "name": "DUJ54I",
+  "model": "",
+  "identifier": "719C6422-9E70-4E20-AB9D-3C43CB97F82E",
+  "alignment_date": "2026-08-24T15:27:20+00:00",
+  "alignment_index": 13332,
+  "icloud_account": "ventasunicas@icloud.com",
+  "imported_at": "2026-08-28T21:37:57.273575+00:00",
+  "first_imported_at": "2026-08-28T21:37:57.273575+00:00"
+}

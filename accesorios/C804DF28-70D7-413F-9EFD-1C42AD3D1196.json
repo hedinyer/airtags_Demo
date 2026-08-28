@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "ab3a88862932760e82dbdad63782716c792a19658ae13118d866ca1c",
+  "skn": "8aa5f393341917f8e7d5b1f4a06f956ee82cdff9bde625b5759dee53af3c3593",
+  "sks": "7f74bf8559c3850ad75fbc38ffbc61f8c13c91e6bfd290cfec34cf62481a7687",
+  "paired_at": "2026-03-13T15:12:14.076281+00:00",
+  "name": "DTW20I",
+  "model": "",
+  "identifier": "C804DF28-70D7-413F-9EFD-1C42AD3D1196",
+  "alignment_date": "2026-08-24T15:33:10+00:00",
+  "alignment_index": 15747,
+  "icloud_account": "ventasunicas@icloud.com",
+  "imported_at": "2026-08-28T21:37:57.273575+00:00",
+  "first_imported_at": "2026-08-28T21:37:57.273575+00:00"
+}

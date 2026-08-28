@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "8eda9806388b9f1472c6865c01962001ee9a488b81b3e86d575e1413",
+  "skn": "0e00fe47916e693cabf4488c41eb351ffb38916b21bf1d946d7f1804dcc1f526",
+  "sks": "49b6fe1457760875ca7a8e7739f5a8ab5a3f2b19cf7f6a11c26e1c209c557c0b",
+  "paired_at": "2026-03-13T14:45:10.157932+00:00",
+  "name": "DTW26I",
+  "model": "",
+  "identifier": "389094A5-61F9-4A67-A28E-AC52D3FA2252",
+  "alignment_date": "2026-08-24T13:00:40+00:00",
+  "alignment_index": 15738,
+  "icloud_account": "ventasunicas@icloud.com",
+  "imported_at": "2026-08-28T21:37:57.273575+00:00",
+  "first_imported_at": "2026-08-28T21:37:57.273575+00:00"
+}

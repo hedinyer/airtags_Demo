@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b88569608180c3ee959aaf41f5090fd9e0c94c1ca28d049097016279",
+  "skn": "fe45ecf0e935a6e50110d7d776882275edba14dc084af720aa97dbd7311d99c6",
+  "sks": "ff3d20d808fce36a0755193d7f6174e18d623bea04f11ae93f3d6d39ac33b049",
+  "paired_at": "2026-03-19T18:29:55.900404+00:00",
+  "name": "DXY38H",
+  "model": "",
+  "identifier": "9A142100-874B-4892-8302-C2C20B6332BC",
+  "alignment_date": "2026-08-24T15:38:40+00:00",
+  "alignment_index": 15158,
+  "icloud_account": "ventasunicas@icloud.com",
+  "imported_at": "2026-08-28T21:37:57.273575+00:00",
+  "first_imported_at": "2026-08-28T21:37:57.273575+00:00"
+}

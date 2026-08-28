@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "46ea022827e7a1d92c46fc842f94ca4afa5f09ef7e142483d74e4cfa",
+  "skn": "2a53e7887905d4b0f451e6bdc889220bef6fc5e6fa4c8a0237f93040a12afd9d",
+  "sks": "13c6ebe41e30dcf0a9060bcfcc335edc1a87a1f6400b13fa61932b26385059ea",
+  "paired_at": "2026-03-16T20:24:21.029897+00:00",
+  "name": "TIF42H",
+  "model": "",
+  "identifier": "2C9F0194-1F63-40FC-8325-643AD291E5F8",
+  "alignment_date": "2026-08-24T15:27:20+00:00",
+  "alignment_index": 15415,
+  "icloud_account": "ventasunicas@icloud.com",
+  "imported_at": "2026-08-28T21:37:57.273575+00:00",
+  "first_imported_at": "2026-08-28T21:37:57.273575+00:00"
+}
