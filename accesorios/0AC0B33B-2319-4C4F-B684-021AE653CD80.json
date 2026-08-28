@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "5da9f4d91b17978614c4eb63ee713d72a8f60c045d274facdd5ea760",
+  "skn": "f3a87c10b39fef7b55644f999ee390c44877cc3760ac66c941d9d1c7e4cc8776",
+  "sks": "7effffd40d09f6c2375cd4908f1b22f12e593e71a592a711c4b029dbe6c8bbb5",
+  "paired_at": "2025-08-21T13:40:03.514595+00:00",
+  "name": "TIK48H #6",
+  "model": "",
+  "identifier": "0AC0B33B-2319-4C4F-B684-021AE653CD80",
+  "alignment_date": "2026-08-24T16:48:40+00:00",
+  "alignment_index": 35341,
+  "icloud_account": "gabrielacarrillo2410@icloud.com",
+  "imported_at": "2026-08-28T20:11:07.536625+00:00",
+  "first_imported_at": "2026-08-28T20:11:07.536625+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "94da6433d40c4693d56a8aa1a45b320a64828884a8f00b6e285a1540",
+  "skn": "bd86c972fdaaa310186b183f48e8c4b76ea89699a4f2b0bb87729f96ffce95e0",
+  "sks": "bebd2c7d827e3b2f3524a1bad95b89daf9ca4d5b9f7ada3d5d52d2b556a40cb0",
+  "paired_at": "2025-10-23T16:16:18.791651+00:00",
+  "name": "TSP05H",
+  "model": "",
+  "identifier": "473C4A22-F4D8-4D30-B32D-DE27078DBBC7",
+  "alignment_date": "2026-04-11T15:21:18.410170+00:00",
+  "alignment_index": 16317,
+  "icloud_account": "andreamonedas5@gmail.com",
+  "imported_at": "2026-08-28T19:44:53.190619+00:00",
+  "first_imported_at": "2026-08-28T19:44:53.190619+00:00"
+}

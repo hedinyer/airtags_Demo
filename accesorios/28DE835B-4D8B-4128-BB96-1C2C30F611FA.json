@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "a3587b6cd9cb2342e1bf4387042b0eb4d85588351b8f4f3b111bc4b7",
+  "skn": "c7d138ee319c8813cde74e55bb90df88a9acc39b0172f4b464c258b229cb8e32",
+  "sks": "1b33f43b48c3031012cc947c5f109f5019e0ea58846e74c7213c5f66d45a6152",
+  "paired_at": "2025-08-23T19:17:04.866361+00:00",
+  "name": "Tik45H",
+  "model": "",
+  "identifier": "28DE835B-4D8B-4128-BB96-1C2C30F611FA",
+  "alignment_date": "2026-08-24T16:49:20+00:00",
+  "alignment_index": 35127,
+  "icloud_account": "gabrielacarrillo2410@icloud.com",
+  "imported_at": "2026-08-28T20:11:07.536625+00:00",
+  "first_imported_at": "2026-08-28T20:11:07.536625+00:00"
+}

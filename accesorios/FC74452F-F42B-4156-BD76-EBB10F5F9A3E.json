@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "47f450fd410349183187f16a2abfb9b3640cf253f6c4d130738126d2",
+  "skn": "641fbe345f8aafc2a50cc340abc3ae0fca8be55e40b57071a5a3fff52177cd42",
+  "sks": "0cc29cb9d2a783ec60f135b0936459b196b526c4bc5d59d0dd98ea98d343cb1c",
+  "paired_at": "2026-02-27T17:03:44.068444+00:00",
+  "name": "DTV68I",
+  "model": "",
+  "identifier": "FC74452F-F42B-4156-BD76-EBB10F5F9A3E",
+  "alignment_date": "2026-08-14T15:14:10+00:00",
+  "alignment_index": 16122,
+  "icloud_account": "spbera2208@gmail.com",
+  "imported_at": "2026-08-28T20:28:43.211809+00:00",
+  "first_imported_at": "2026-08-28T20:28:43.211809+00:00"
+}

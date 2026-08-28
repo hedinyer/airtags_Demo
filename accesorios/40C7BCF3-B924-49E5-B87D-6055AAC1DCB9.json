@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "dde9119045103b96a382d964884239936b2f2b85bbc1506b13ced40e",
+  "skn": "5296e97d80ed09371896ecb2f814dddc37905508db67de86dcd19d90826b8000",
+  "sks": "87f95c05884a8717f16950aefad1ca0b73a9e7327a66b3de87150e2eaf2e7856",
+  "paired_at": "2026-02-16T21:52:52.567460+00:00",
+  "name": "iPhone de ANDREA",
+  "model": "iPhone12,1",
+  "identifier": "40C7BCF3-B924-49E5-B87D-6055AAC1DCB9",
+  "alignment_date": "2026-02-16T21:52:52.567460+00:00",
+  "alignment_index": 0,
+  "icloud_account": "spbera2208@gmail.com",
+  "imported_at": "2026-08-28T20:28:43.211809+00:00",
+  "first_imported_at": "2026-08-28T20:28:43.211809+00:00"
+}

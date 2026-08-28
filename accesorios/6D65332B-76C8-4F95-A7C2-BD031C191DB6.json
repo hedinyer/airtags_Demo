@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "0dea82180a8b49ed0fc62d39ad9624afb07adaf3b0d3af34d591240e",
+  "skn": "36574466b64a9994651196025f395b2658961bcc4b3a07dd9152e559d34ba164",
+  "sks": "afe0a6e6d927576dc2c164920b730665c8e18d7f07f858fe9ab9af5e44625a40",
+  "paired_at": "2026-03-05T16:12:00.511717+00:00",
+  "name": "DTV99I",
+  "model": "",
+  "identifier": "6D65332B-76C8-4F95-A7C2-BD031C191DB6",
+  "alignment_date": "2026-08-14T14:44:30+00:00",
+  "alignment_index": 15548,
+  "icloud_account": "spbera2208@gmail.com",
+  "imported_at": "2026-08-28T20:28:43.211809+00:00",
+  "first_imported_at": "2026-08-28T20:28:43.211809+00:00"
+}

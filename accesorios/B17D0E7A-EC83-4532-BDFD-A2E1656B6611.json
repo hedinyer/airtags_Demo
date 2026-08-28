@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "91da3dbe0f599d240b0e6d65010754ce489e7197a8db0f0f95924b78",
+  "skn": "d99c4bac02cc72b810bf366b6446da139ff4e0f577941627f4e1920ea7390cdd",
+  "sks": "995c164ad9e1ee71b40bfb3a389f49d05a3eb3a5bf3210de935e193a050a7b33",
+  "paired_at": "2025-10-24T21:07:40.590093+00:00",
+  "name": "TSQ49H",
+  "model": "",
+  "identifier": "B17D0E7A-EC83-4532-BDFD-A2E1656B6611",
+  "alignment_date": "2025-11-14T04:30:05.820193+00:00",
+  "alignment_index": 1951,
+  "icloud_account": "andreamonedas5@gmail.com",
+  "imported_at": "2026-08-28T19:44:53.190619+00:00",
+  "first_imported_at": "2026-08-28T19:44:53.190619+00:00"
+}

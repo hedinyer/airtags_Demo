@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "84c0ec1aa1a27360068282e0a1dd155983cbdb927cf0a19e7d2ac3ef",
+  "skn": "56f7e462eb76e5c11abda94d6b8df3d4f4ffe00ba9586bf0b74aec353aef5733",
+  "sks": "0decf0b2e2d392115907c5df7d653d651612b2b9730ef09b59fd83db09302584",
+  "paired_at": "2025-10-28T18:19:42.618490+00:00",
+  "name": "TSQ48H",
+  "model": "",
+  "identifier": "364BA606-EF88-4E10-8755-9E0F8666A674",
+  "alignment_date": "2025-11-07T16:57:37.519899+00:00",
+  "alignment_index": 955,
+  "icloud_account": "andreamonedas5@gmail.com",
+  "imported_at": "2026-08-28T19:44:53.190619+00:00",
+  "first_imported_at": "2026-08-28T19:44:53.190619+00:00"
+}

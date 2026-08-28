@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b667f7a05616901d807106c72717e20b5c4ed26d2e4c8a15ad74bbff",
+  "skn": "90c73cef1b282217a7e8745871a64802e87012d90dea5ce96718585dd22a2acc",
+  "sks": "39ba9f36ea2fb855a9cd2884b21ac3fce4fd4d1391662d850aca1d4fecf13fcd",
+  "paired_at": "2025-10-27T14:04:52.506298+00:00",
+  "name": "TSP16H",
+  "model": "",
+  "identifier": "48DAE79A-4C07-4558-B83D-1A7DDCE0FA49",
+  "alignment_date": "2026-01-16T16:28:13.614170+00:00",
+  "alignment_index": 7786,
+  "icloud_account": "andreamonedas5@gmail.com",
+  "imported_at": "2026-08-28T19:44:53.190619+00:00",
+  "first_imported_at": "2026-08-28T19:44:53.190619+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "dd8ec6b0bbeb4108f353870513cddf693785a83530740814690d4f85",
+  "skn": "ae6b27356f4b7a395be379b40c41c0d1733af709db3962b8211850edffa5bf32",
+  "sks": "0a8a56d31326c1cb66f80610fd7d65afcc90bbd823eb2a9c1594a30268c29b58",
+  "paired_at": "2025-11-06T14:05:45.701611+00:00",
+  "name": "TST09H",
+  "model": "",
+  "identifier": "17C73FEB-8A84-4CE2-A171-5336174EDB74",
+  "alignment_date": "2025-11-06T14:15:45.349190+00:00",
+  "alignment_index": 2,
+  "icloud_account": "andreamonedas5@gmail.com",
+  "imported_at": "2026-08-28T19:44:53.190619+00:00",
+  "first_imported_at": "2026-08-28T19:44:53.190619+00:00"
+}

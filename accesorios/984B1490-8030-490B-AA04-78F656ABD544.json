@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "a87853d3de8d705f89d4190efe2e81526dc6eea4038819a5f58055bb",
+  "skn": "dace6c2a78d9cf9b0c80bbf105e75273e25907c3bb04676ade4fe195f641c4d0",
+  "sks": "f6b24278b5a29f3c7341b16a6b0d6b18809ca04a44e3b5df9519518c64762465",
+  "paired_at": "2026-03-05T16:07:01.326602+00:00",
+  "name": "DTV96I",
+  "model": "",
+  "identifier": "984B1490-8030-490B-AA04-78F656ABD544",
+  "alignment_date": "2026-08-14T15:13:50+00:00",
+  "alignment_index": 15550,
+  "icloud_account": "spbera2208@gmail.com",
+  "imported_at": "2026-08-28T20:28:43.211809+00:00",
+  "first_imported_at": "2026-08-28T20:28:43.211809+00:00"
+}

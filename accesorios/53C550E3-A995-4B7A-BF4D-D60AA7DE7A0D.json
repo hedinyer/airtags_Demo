@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "a17557bc241f73aa182132796911123bb60302108bdeaeb8feb652b2",
+  "skn": "59a5c46ee771398b16a4c5f0026665e79435b0ab97a212522cf8a5a76bfb25e4",
+  "sks": "21927de15f09bd46e3256f1095ebb72168a756782c074a6db3c70ce0920a70b8",
+  "paired_at": "2025-08-22T18:54:16.709023+00:00",
+  "name": "Abc",
+  "model": "",
+  "identifier": "53C550E3-A995-4B7A-BF4D-D60AA7DE7A0D",
+  "alignment_date": "2026-08-24T16:14:30+00:00",
+  "alignment_index": 35223,
+  "icloud_account": "gabrielacarrillo2410@icloud.com",
+  "imported_at": "2026-08-28T20:11:07.536625+00:00",
+  "first_imported_at": "2026-08-28T20:11:07.536625+00:00"
+}

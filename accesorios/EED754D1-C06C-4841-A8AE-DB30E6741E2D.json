@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "a1251bb2e5d7d0a3d6dc75711bfb452f637e4bbcd3f6d9b5a1b93c3c",
+  "skn": "c2ce1ff67875438c14c3cee41e6bd05744bdc37ebdbe4592de815c2235b1548d",
+  "sks": "8bc11977a5480e0916c4684211a8cc242eb5f449e5c9a5ba92110ccff629d531",
+  "paired_at": "2025-10-24T17:36:38.622979+00:00",
+  "name": "TSQ40H",
+  "model": "",
+  "identifier": "EED754D1-C06C-4841-A8AE-DB30E6741E2D",
+  "alignment_date": "2025-11-06T16:15:16.821891+00:00",
+  "alignment_index": 1244,
+  "icloud_account": "andreamonedas5@gmail.com",
+  "imported_at": "2026-08-28T19:44:53.190619+00:00",
+  "first_imported_at": "2026-08-28T19:44:53.190619+00:00"
+}

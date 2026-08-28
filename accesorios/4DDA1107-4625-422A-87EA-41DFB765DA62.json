@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "3dcfc0b39c55395e0ca66a60b7e46a589536e8373fb44e315f5e181f",
+  "skn": "31a29a02ab5eb6c942599c27b99cd849df2b595e903567e310a13ef446c75198",
+  "sks": "76186378aceaf246bf0c5fd1feb5c928b874a305f9e108130418e5f9ce02f48b",
+  "paired_at": "2025-08-13T18:58:52.324077+00:00",
+  "name": "MCQ23H",
+  "model": "",
+  "identifier": "4DDA1107-4625-422A-87EA-41DFB765DA62",
+  "alignment_date": "2026-08-24T16:45:10+00:00",
+  "alignment_index": 36088,
+  "icloud_account": "gabrielacarrillo2410@icloud.com",
+  "imported_at": "2026-08-28T20:11:07.536625+00:00",
+  "first_imported_at": "2026-08-28T20:11:07.536625+00:00"
+}

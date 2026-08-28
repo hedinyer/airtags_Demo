@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "458ba9d3bd48fa44233c2c343268f8b8d9290a56fc88c97726050d21",
+  "skn": "a1da886b0dd0f046fc7638d3d26223e57dcdc524154a37245d7af21f6360b84e",
+  "sks": "d0982eccd36f349f0080ceb27a20c9f809b039021f1e2a2ff7bfda8206c37dba",
+  "paired_at": "2025-10-24T20:55:13.007487+00:00",
+  "name": "TSQ34H",
+  "model": "",
+  "identifier": "C053CB29-69D2-4187-8BA3-068D335D8E3E",
+  "alignment_date": "2025-12-20T05:17:29.243926+00:00",
+  "alignment_index": 5411,
+  "icloud_account": "andreamonedas5@gmail.com",
+  "imported_at": "2026-08-28T19:44:53.190619+00:00",
+  "first_imported_at": "2026-08-28T19:44:53.190619+00:00"
+}

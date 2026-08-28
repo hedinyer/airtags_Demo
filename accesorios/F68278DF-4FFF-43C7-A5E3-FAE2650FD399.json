@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "9c6da6888a0d2ec5c42dffaa3b8c9f092e4ed4b4ce9f3cbb0abce639",
+  "skn": "84a3a1410a33bd3ba6f9900e4fede8740255d38c50f1dc9490d9a2bf30e291ef",
+  "sks": "2eeb5a0d7ec165996e2a17897c47f96b8b56d6ac5ff258fdbf35162f101e7e63",
+  "paired_at": "2025-10-29T20:18:13.030719+00:00",
+  "name": "TSP15H",
+  "model": "",
+  "identifier": "F68278DF-4FFF-43C7-A5E3-FAE2650FD399",
+  "alignment_date": "2026-04-16T21:47:12.764575+00:00",
+  "alignment_index": 16231,
+  "icloud_account": "andreamonedas5@gmail.com",
+  "imported_at": "2026-08-28T19:44:53.190619+00:00",
+  "first_imported_at": "2026-08-28T19:44:53.190619+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "c9eee3eba9fab5cf8506e65fb3ed8cc8078a136b63ed73cc08c90b1b",
+  "skn": "c14b119a81ec281bb9e40b89f2d1af879528aa12d6aca6991fa053890af14af9",
+  "sks": "d284ab3d605027b35662a1faac4fd0bfe7fb2a5fd990851a024cbbe1dfd629d5",
+  "paired_at": "2026-03-05T16:13:36.306528+00:00",
+  "name": "DTW01I",
+  "model": "",
+  "identifier": "86EC0160-DECF-47F0-95DF-9E2B414A6538",
+  "alignment_date": "2026-08-14T12:50:40+00:00",
+  "alignment_index": 15540,
+  "icloud_account": "spbera2208@gmail.com",
+  "imported_at": "2026-08-28T20:28:43.211809+00:00",
+  "first_imported_at": "2026-08-28T20:28:43.211809+00:00"
+}

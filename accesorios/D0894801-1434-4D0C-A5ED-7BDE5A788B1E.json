@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "f82bad0a2e5fe7a7519375f01630129a9579b41f3f8af80b851f7d36",
+  "skn": "a9233aff394eb5a4faebbd80fc0fdf0b66be0245f421e5a9ec6e396de6b8e668",
+  "sks": "8cd99fac5e1b614b80673c3c9787ab13151a7f6b3b7b08d6302eebf17ca9fdaa",
+  "paired_at": "2025-10-10T22:28:18.200888+00:00",
+  "name": "TSI70H",
+  "model": "",
+  "identifier": "D0894801-1434-4D0C-A5ED-7BDE5A788B1E",
+  "alignment_date": "2025-10-10T23:30:05.595156+00:00",
+  "alignment_index": 6,
+  "icloud_account": "andreamonedas5@gmail.com",
+  "imported_at": "2026-08-28T19:44:53.190619+00:00",
+  "first_imported_at": "2026-08-28T19:44:53.190619+00:00"
+}

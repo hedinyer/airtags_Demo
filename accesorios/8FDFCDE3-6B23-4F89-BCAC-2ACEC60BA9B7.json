@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "92306e4c1839e525d3e0581cca05a5e5492268a04aaa1130e8d84eb0",
+  "skn": "f4cdc4c36511c9c0d10ca68800ecb8e58c519ee8fb6018936b4d5c621636c133",
+  "sks": "b2a3d44488e7728c47d4b7869c5390807073d50a1a0ae279dd82ed03ebed78b6",
+  "paired_at": "2025-10-10T22:23:44.510147+00:00",
+  "name": "TSI74H",
+  "model": "",
+  "identifier": "8FDFCDE3-6B23-4F89-BCAC-2ACEC60BA9B7",
+  "alignment_date": "2026-01-16T16:28:18.696072+00:00",
+  "alignment_index": 9385,
+  "icloud_account": "andreamonedas5@gmail.com",
+  "imported_at": "2026-08-28T19:44:53.190619+00:00",
+  "first_imported_at": "2026-08-28T19:44:53.190619+00:00"
+}

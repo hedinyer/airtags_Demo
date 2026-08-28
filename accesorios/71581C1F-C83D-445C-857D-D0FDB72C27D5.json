@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "505c1d91025fab109d646ed0c70b374653f21b5724aa9ce3e9b4dbb6",
+  "skn": "f805714be1e0a5900324f5456e4f418857530eb6b14c294c8a082c9841476365",
+  "sks": "4cb203b969a374a1eff34aa7345d94732492016e53438757fb596e4a8926fc71",
+  "paired_at": "2025-10-10T22:25:27.412350+00:00",
+  "name": "TSI73H",
+  "model": "",
+  "identifier": "71581C1F-C83D-445C-857D-D0FDB72C27D5",
+  "alignment_date": "2025-11-19T23:09:35.801793+00:00",
+  "alignment_index": 3842,
+  "icloud_account": "andreamonedas5@gmail.com",
+  "imported_at": "2026-08-28T19:44:53.190619+00:00",
+  "first_imported_at": "2026-08-28T19:44:53.190619+00:00"
+}

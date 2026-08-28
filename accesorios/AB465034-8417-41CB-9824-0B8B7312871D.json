@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "0e8adb3074be2cb1fdcccbf230a0d3ce0dc038a6f31a5307d27c3144",
+  "skn": "60c5b02550aaadc9934d200c652f928aa73f846c290da76a71b049754434a879",
+  "sks": "5364a2a6d5efacb93bcf99259514f2c90592b38d1d75a2a7a268b2cf1bcc36cb",
+  "paired_at": "2025-08-23T19:19:50.792355+00:00",
+  "name": "Tik41H",
+  "model": "",
+  "identifier": "AB465034-8417-41CB-9824-0B8B7312871D",
+  "alignment_date": "2026-08-24T14:20:50+00:00",
+  "alignment_index": 35117,
+  "icloud_account": "gabrielacarrillo2410@icloud.com",
+  "imported_at": "2026-08-28T20:11:07.536625+00:00",
+  "first_imported_at": "2026-08-28T20:11:07.536625+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b85ff971c4a7ade7a5878f23ee6cd8da6b435cf6c313b5f8aab27a1d",
+  "skn": "fb9ed9dcda450afa330635bd0fd7fe5242692866c24db600573d10ac3c14f67a",
+  "sks": "bc15648606c129c4fd194cd8d6a981f8c0733da763ba820215a454937a0bf6d0",
+  "paired_at": "2025-10-24T20:53:18.585846+00:00",
+  "name": "TSQ35H",
+  "model": "",
+  "identifier": "BACA24FF-F2E9-43B2-A77C-02567F68110A",
+  "alignment_date": "2025-10-24T21:58:47.351019+00:00",
+  "alignment_index": 5,
+  "icloud_account": "andreamonedas5@gmail.com",
+  "imported_at": "2026-08-28T19:44:53.190619+00:00",
+  "first_imported_at": "2026-08-28T19:44:53.190619+00:00"
+}

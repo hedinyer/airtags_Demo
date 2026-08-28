@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "6ac9afe1907d9168165a929a6ff788da9c8a49c3ec9f7432d32932cd",
+  "skn": "1aea083c080a3f0a46fc9a4bf460c1bbf3b92cfcf011b9ee81869fce8eafb8e3",
+  "sks": "791916403f41e6122d857a2320f9c40218bd726ea8f9024ae532c49ba74f18bc",
+  "paired_at": "2025-10-24T20:56:51.180503+00:00",
+  "name": "TSQ37H",
+  "model": "",
+  "identifier": "5BA8C678-170A-493B-949D-F13980476544",
+  "alignment_date": "2026-03-13T17:03:26.221000+00:00",
+  "alignment_index": 13426,
+  "icloud_account": "andreamonedas5@gmail.com",
+  "imported_at": "2026-08-28T19:44:53.190619+00:00",
+  "first_imported_at": "2026-08-28T19:44:53.190619+00:00"
+}

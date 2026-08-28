@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "ef60ba8b85bb06e49d8d76a81d323d0018ff6d81e7ff22c7587ffd5f",
+  "skn": "2f78c11f7b272753f68274b03ecd28baa6ea6f83c53bb483192c7f49ebe4b9e0",
+  "sks": "76b75682eacb2ed8af73dd5b5b5b72c2e5be2286235ade435086822f84952aab",
+  "paired_at": "2024-04-10T23:39:07.083051+00:00",
+  "name": " Iphone Gabriela",
+  "model": "iPhone13,2",
+  "identifier": "B73EDFD7-C1DA-4387-9ABC-89AA6A5F7E7D",
+  "alignment_date": "2024-04-10T23:39:07.083051+00:00",
+  "alignment_index": 0,
+  "icloud_account": "gabrielacarrillo2410@icloud.com",
+  "imported_at": "2026-08-28T20:11:07.536625+00:00",
+  "first_imported_at": "2026-08-28T20:11:07.536625+00:00"
+}

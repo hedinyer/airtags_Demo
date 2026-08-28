@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "78d5789017aee6a2657373b56313a6ac0f6696ff5ee222138ae9dbae",
+  "skn": "b74701319e3524bbc779a8cf43d02c82f07d7174f13165f0e2e6c5166e5b15b3",
+  "sks": "fefac0d56fda2cea5115df1550cd44752487fe74880181bbff7125df019198e5",
+  "paired_at": "2025-08-19T17:24:37.707242+00:00",
+  "name": "MDK87H",
+  "model": "",
+  "identifier": "ED150E7A-E0F4-4BFB-93C1-AF1D5EF38909",
+  "alignment_date": "2026-08-24T16:49:20+00:00",
+  "alignment_index": 35515,
+  "icloud_account": "gabrielacarrillo2410@icloud.com",
+  "imported_at": "2026-08-28T20:11:07.536625+00:00",
+  "first_imported_at": "2026-08-28T20:11:07.536625+00:00"
+}

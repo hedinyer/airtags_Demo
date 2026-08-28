@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "73ee47c6bb0c39e44441e0457a45483b21d1ddd9700fc6e080a7e94b",
+  "skn": "3b844e8958d9204f6f362afe388251d0c7bd2a826b6026621bb73f3feab96eab",
+  "sks": "0ce5ee8300eaf88b8ad31e20159f0688e835b2f4c03d9879f959a322412936fd",
+  "paired_at": "2025-10-10T22:17:37.451806+00:00",
+  "name": "TSI75H",
+  "model": "",
+  "identifier": "29CF4F93-2882-4111-9D57-1ECA240F3BD7",
+  "alignment_date": "2025-11-06T17:45:03.145000+00:00",
+  "alignment_index": 2575,
+  "icloud_account": "andreamonedas5@gmail.com",
+  "imported_at": "2026-08-28T19:44:53.190619+00:00",
+  "first_imported_at": "2026-08-28T19:44:53.190619+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "ae47e4b3a543f456286f700f1f2bab4d264644ea50b2e6475095db30",
+  "skn": "934c972326e6a983c984988e0814c174cd1f747c162ec576d7ea0460456f241b",
+  "sks": "a6eaed5267b195cbeee271a891fc13565e6929adf22e60fdf3b5a78be24efecf",
+  "paired_at": "2025-10-24T21:09:48.576589+00:00",
+  "name": "TSQ42H",
+  "model": "",
+  "identifier": "C1D4DF16-EA90-44AF-AAB2-C27D5148D35C",
+  "alignment_date": "2025-10-29T20:45:29.098757+00:00",
+  "alignment_index": 480,
+  "icloud_account": "andreamonedas5@gmail.com",
+  "imported_at": "2026-08-28T19:44:53.190619+00:00",
+  "first_imported_at": "2026-08-28T19:44:53.190619+00:00"
+}

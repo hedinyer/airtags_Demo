@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "a9d3c812d738d7b199bc70de960149fd85a3326282ed9b6a1a410ee4",
+  "skn": "596c33e0feac423ee599f7626c8339e1f6a0b9261c5098f8312b43aa588110ee",
+  "sks": "42722b350e266cdd35a8975d7130d66099f6d7583dbcaecbaecb6cb26b0ce81d",
+  "paired_at": "2025-10-29T20:20:27.230901+00:00",
+  "name": "TSP17H",
+  "model": "",
+  "identifier": "82645C01-D1FC-4779-9144-0D372B04A717",
+  "alignment_date": "2026-05-03T14:45:06.483496+00:00",
+  "alignment_index": 17835,
+  "icloud_account": "andreamonedas5@gmail.com",
+  "imported_at": "2026-08-28T19:44:53.190619+00:00",
+  "first_imported_at": "2026-08-28T19:44:53.190619+00:00"
+}

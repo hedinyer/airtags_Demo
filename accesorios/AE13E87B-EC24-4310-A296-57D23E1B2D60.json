@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "1b2218dd19b3dc397886ff1ccb44a9c6d61c5e333ec7d28068a9d867",
+  "skn": "7a308b74f18623fbfb247fd86db88c3c046c6345239eabff171924200b82b616",
+  "sks": "78ef83144b79be8c35c96fb131ba35b52aef87a91bdc66f34a59432be59f1eff",
+  "paired_at": "2025-10-10T22:16:26.542072+00:00",
+  "name": "iPhone",
+  "model": "iPhone10,5",
+  "identifier": "AE13E87B-EC24-4310-A296-57D23E1B2D60",
+  "alignment_date": "2025-10-10T22:16:26.542072+00:00",
+  "alignment_index": 0,
+  "icloud_account": "andreamonedas5@gmail.com",
+  "imported_at": "2026-08-28T19:44:53.190619+00:00",
+  "first_imported_at": "2026-08-28T19:44:53.190619+00:00"
+}

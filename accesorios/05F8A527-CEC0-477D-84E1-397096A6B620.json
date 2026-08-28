@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "634de00a69dfde6a883b9faf034de56aa5b2e5d3994b7769e7a0b322",
+  "skn": "2fa9aa5646a30ddb8dee2fa7e4cb12918229fdb92d83e7ef8c5cc23f0f65bced",
+  "sks": "dd7507084144d706d8312f32dc96e4a2db54c72f3b0d9dd79cbac52a61597b0c",
+  "paired_at": "2025-08-15T15:25:58.468251+00:00",
+  "name": "Tif33h",
+  "model": "",
+  "identifier": "05F8A527-CEC0-477D-84E1-397096A6B620",
+  "alignment_date": "2026-08-24T11:50:00+00:00",
+  "alignment_index": 35892,
+  "icloud_account": "gabrielacarrillo2410@icloud.com",
+  "imported_at": "2026-08-28T20:11:07.536625+00:00",
+  "first_imported_at": "2026-08-28T20:11:07.536625+00:00"
+}

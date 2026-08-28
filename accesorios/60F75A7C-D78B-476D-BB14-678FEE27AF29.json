@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "3cc471604146dcdd6ca496641398c7cd89ae9aebeee1e507183b2a79",
+  "skn": "3aa96fce97e989e924aae6a5866d6fb3104dd8988545b3e47d28b73aa4859f74",
+  "sks": "b96f69a13f8a124e400bd5a44ff790a203718506492e5b4f5347aa2b045c07cc",
+  "paired_at": "2025-08-15T16:06:20.600391+00:00",
+  "name": "TIF31H",
+  "model": "",
+  "identifier": "60F75A7C-D78B-476D-BB14-678FEE27AF29",
+  "alignment_date": "2026-04-08T20:13:20+00:00",
+  "alignment_index": 22673,
+  "icloud_account": "gabrielacarrillo2410@icloud.com",
+  "imported_at": "2026-08-28T20:11:07.536625+00:00",
+  "first_imported_at": "2026-08-28T20:11:07.536625+00:00"
+}

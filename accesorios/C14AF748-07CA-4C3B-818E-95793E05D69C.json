@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "3ced2d90df2dee022ac4010c940838093b90452fd7507ad04324ed49",
+  "skn": "ae939433ab6a0fd8e26caf86cfed6c15df0be7e1a7a2c9c2f3bc45825b9efe61",
+  "sks": "a7632d3f0ef9a531b3be706c8dceb7d66aab9b2efaea73986840dfa7cf724248",
+  "paired_at": "2025-08-15T15:00:36.553592+00:00",
+  "name": "TIF34H",
+  "model": "",
+  "identifier": "C14AF748-07CA-4C3B-818E-95793E05D69C",
+  "alignment_date": "2026-08-24T16:44:40+00:00",
+  "alignment_index": 35912,
+  "icloud_account": "gabrielacarrillo2410@icloud.com",
+  "imported_at": "2026-08-28T20:11:07.536625+00:00",
+  "first_imported_at": "2026-08-28T20:11:07.536625+00:00"
+}

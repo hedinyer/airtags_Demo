@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "50cc07c847d862fdf9f303f95a4f7855aafe1696b2f574f5e5e4a161",
+  "skn": "1b768e0cd97af67b2440728c33a373a0c7d40c4f58ea870e3069dc551152f7fd",
+  "sks": "b234a78240b625d4e208c2a65bd6e7beb796fdb6169ab7d178b910a0f12d632f",
+  "paired_at": "2025-08-21T13:36:05.613279+00:00",
+  "name": "TIK40H #2",
+  "model": "",
+  "identifier": "227FBC9A-CFA2-40D0-BA7A-69296D32780F",
+  "alignment_date": "2026-08-24T16:16:20+00:00",
+  "alignment_index": 35341,
+  "icloud_account": "gabrielacarrillo2410@icloud.com",
+  "imported_at": "2026-08-28T20:11:07.536625+00:00",
+  "first_imported_at": "2026-08-28T20:11:07.536625+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "845b5318724a5112b6b6d154c702c18a2e37a81aef0145c6e09e31ef",
+  "skn": "19c4375f320d4a0964307414b941df656365c267e352f4806a589eb57e3a2cfa",
+  "sks": "47b394ee20df0d7fba460b8495a548071000ac942402a03b1083efa7868c120b",
+  "paired_at": "2025-10-27T14:06:36.543338+00:00",
+  "name": "TSP06H",
+  "model": "",
+  "identifier": "4457EF7A-5FC9-4C03-A210-647049E66171",
+  "alignment_date": "2025-10-27T14:06:52.072605+00:00",
+  "alignment_index": 1,
+  "icloud_account": "andreamonedas5@gmail.com",
+  "imported_at": "2026-08-28T19:44:53.190619+00:00",
+  "first_imported_at": "2026-08-28T19:44:53.190619+00:00"
+}

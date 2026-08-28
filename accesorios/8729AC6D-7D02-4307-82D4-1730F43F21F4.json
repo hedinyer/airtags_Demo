@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "ed9277f4299e58e0eaabe0c2f44cd88a9a159aa5ed4453bb54870211",
+  "skn": "b1fe4ab09b801b5cdd1cfe223864c8229514901ae1e318aa3f0f8b191ddbe3e4",
+  "sks": "b4be80478802a4929695b0a7192f25418a152d6eddf924a89a1f0177d3f5908c",
+  "paired_at": "2025-10-23T16:15:07.829788+00:00",
+  "name": "TSP04H",
+  "model": "",
+  "identifier": "8729AC6D-7D02-4307-82D4-1730F43F21F4",
+  "alignment_date": "2026-04-16T21:52:05.114619+00:00",
+  "alignment_index": 16823,
+  "icloud_account": "andreamonedas5@gmail.com",
+  "imported_at": "2026-08-28T19:44:53.190619+00:00",
+  "first_imported_at": "2026-08-28T19:44:53.190619+00:00"
+}

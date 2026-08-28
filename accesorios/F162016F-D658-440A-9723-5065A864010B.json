@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "efef51f3c9fd3f3130d12b8d52be911463f7e23cf2beea0523671030",
+  "skn": "9edfea23e9f6dc6e04730db2b7f068a6b828aa28889833c88f9132ae9410be20",
+  "sks": "61c90ec4c9d4e6007bb2fa093a92470941ac3bb488773887e37a503db4242e51",
+  "paired_at": "2025-10-28T18:45:20.693948+00:00",
+  "name": "TSQ50H",
+  "model": "",
+  "identifier": "F162016F-D658-440A-9723-5065A864010B",
+  "alignment_date": "2025-10-30T14:15:05.432027+00:00",
+  "alignment_index": 175,
+  "icloud_account": "andreamonedas5@gmail.com",
+  "imported_at": "2026-08-28T19:44:53.190619+00:00",
+  "first_imported_at": "2026-08-28T19:44:53.190619+00:00"
+}
