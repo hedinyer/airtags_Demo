@@ -619,13 +619,15 @@
       preferCanvas: true,
       fadeAnimation: false,
       markerZoomAnimation: false,
-      zoomAnimation: !window.matchMedia('(prefers-reduced-motion: reduce)').matches,
+      // ponytail: zoom anim blocked INP ~200–350ms on Vercel
+      zoomAnimation: false,
     });
     // ponytail: CARTO raster exige API key; Esri street tiles no
     L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
       maxZoom: 19,
       attribution: 'Tiles &copy; Esri &mdash; Source: Esri, OpenStreetMap',
       updateWhenIdle: true,
+      updateWhenZooming: false,
       keepBuffer: 2,
     }).addTo(map);
     map.setView([7.09, -73.12], 12);
@@ -634,13 +636,14 @@
     const markers = new Map();
     const markerLayer = L.markerClusterGroup({
       showCoverageOnHover: false,
-      maxClusterRadius: 55,
+      maxClusterRadius: 80,
       spiderfyOnMaxZoom: true,
       // ponytail: no disableClusteringAtZoom — 660 HTML pins at z16 froze mobile
       animate: false,
       chunkedLoading: true,
-      chunkInterval: 50,
-      chunkDelay: 25,
+      chunkInterval: 100,
+      chunkDelay: 50,
+      removeOutsideVisibleBounds: true,
     });
     map.addLayer(markerLayer);
     const accuracyLayer = L.layerGroup().addTo(map);
@@ -656,6 +659,9 @@
     let lastListSig = '';
     let lastRouteSummary = '';
     let ticking = false;
+    // ponytail: skip poll render mid-gesture (INP)
+    let mapBusy = false;
+    let pendingSnapshot = null;
     const SHARE_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M12 3v12"/><path d="m7 8 5-5 5 5"/></svg>';
     const sheetEl = document.getElementById('deviceSheet');
     const sheetHandle = document.getElementById('sheetHandle');
@@ -1010,12 +1016,12 @@
         fillColor: colorFor(d.name),
         fillOpacity: 0.12,
       }).addTo(accuracyLayer);
-      if (route) showRouteTo(d);
-      else if (fly) {
-        map.invalidateSize({ animate: false });
-        map.flyTo([d.latitude, d.longitude], Math.max(map.getZoom(), 15), {
-          duration: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 0.45,
-        });
+      if (route) {
+        // ponytail: geolocation+OSRM after paint — list used to call this sync (INP 240ms+)
+        const target = d;
+        setTimeout(() => showRouteTo(target), 0);
+      } else if (fly) {
+        map.setView([d.latitude, d.longitude], Math.max(map.getZoom(), 15), { animate: false });
       }
     }
 
@@ -1264,7 +1270,9 @@
           document.title = `${placa} · Find My`;
           if (hit) {
             fittedOnce = true;
-            selectDevice(hit, { route: true, syncUrl: false });
+            // ponytail: paint shared view first, then route
+            selectDevice(hit, { fly: true, route: false, syncUrl: false });
+            setTimeout(() => showRouteTo(hit), 0);
           } else {
             document.getElementById('routeMeta').textContent =
               `No hay ubicación para “${placa}”. Prueba más tarde.`;
@@ -1299,7 +1307,8 @@
         return;
       }
       if (btn.dataset.act === 'select' && d.found) {
-        selectDevice(d, { route: true });
+        // ponytail: no auto-route on list tap — that was the INP killer (geo+OSRM)
+        selectDevice(d, { fly: true, route: false });
         const marker = markers.get(deviceKey(d));
         if (marker) marker.openPopup();
       }
@@ -1354,7 +1363,12 @@
         // ponytail: default cache; Storage ETag + 30s poll basta
         const res = await fetch(LOCATIONS_URL);
         if (!res.ok) throw new Error('HTTP ' + res.status);
-        render(await res.json());
+        const data = await res.json();
+        if (mapBusy) {
+          pendingSnapshot = data;
+          return;
+        }
+        render(data);
       } catch (err) {
         if (EMBEDDED) render(EMBEDDED);
         else {
@@ -1366,6 +1380,16 @@
         ticking = false;
       }
     }
+
+    map.on('movestart zoomstart', () => { mapBusy = true; });
+    map.on('moveend zoomend', () => {
+      mapBusy = false;
+      if (pendingSnapshot) {
+        const snap = pendingSnapshot;
+        pendingSnapshot = null;
+        render(snap);
+      }
+    });
 
     tick();
     setInterval(tick, POLL_MS);
