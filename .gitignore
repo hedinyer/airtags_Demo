@@ -33,3 +33,10 @@ build/
 .DS_Store
 Thumbs.db
 .vercel
+
+# Next.js app (web/)
+web/node_modules/
+web/.next/
+web/out/
+web/.env.local
+web/*.tsbuildinfo
