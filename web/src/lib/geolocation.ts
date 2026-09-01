@@ -1,4 +1,8 @@
+import type { RolCampo } from "@/lib/campoConstants";
+
 export type MotivoGpsError = "no_soporte" | "denegado" | "timeout" | "error";
+
+export type EstadoPermisoGps = "granted" | "prompt" | "denied" | "desconocido";
 
 export type GpsPreciso = {
   lat: number;
@@ -43,6 +47,27 @@ function motivoDeError(err: GeolocationPositionError): MotivoGpsError {
   if (err.code === err.PERMISSION_DENIED) return "denegado";
   if (err.code === err.TIMEOUT) return "timeout";
   return "error";
+}
+
+/** Consulta el estado del permiso sin disparar el popup del navegador. */
+export async function consultarPermisoGps(): Promise<EstadoPermisoGps> {
+  if (typeof navigator === "undefined" || !navigator.geolocation) {
+    return "denied";
+  }
+  try {
+    if (!navigator.permissions?.query) return "desconocido";
+    const status = await navigator.permissions.query({ name: "geolocation" });
+    if (
+      status.state === "granted" ||
+      status.state === "prompt" ||
+      status.state === "denied"
+    ) {
+      return status.state;
+    }
+    return "desconocido";
+  } catch {
+    return "desconocido";
+  }
 }
 
 /** Devuelve "lat,lng" con hasta 6 decimales. */
@@ -125,7 +150,7 @@ export function mensajeErrorGps(motivo: MotivoGpsError): string {
     case "no_soporte":
       return "Este dispositivo no soporta GPS.";
     case "denegado":
-      return "Permite la ubicación en el navegador (Ajustes → Ubicación).";
+      return "Permite la ubicación en Ajustes → Chrome → Permisos → Ubicación.";
     case "timeout":
       return "No se obtuvo la ubicación a tiempo. Sal al exterior o reintenta.";
     default:
@@ -148,6 +173,7 @@ export function enlaceGoogleMapsRuta(
 
 /**
  * Vigila la ubicación del celular en tiempo real.
+ * Solo reporta error fatal en permiso denegado; timeouts se ignoran y sigue escuchando.
  * Devuelve una función para detener el watch.
  */
 export function vigilarGps(
@@ -161,9 +187,45 @@ export function vigilarGps(
 
   const watchId = navigator.geolocation.watchPosition(
     (pos) => onUpdate(desdePosition(pos)),
-    (err) => onError?.(motivoDeError(err)),
+    (err) => {
+      const motivo = motivoDeError(err);
+      if (motivo === "denegado" || motivo === "no_soporte") {
+        onError?.(motivo);
+      }
+    },
     { enableHighAccuracy: true, timeout: 20_000, maximumAge: 2_000 },
   );
 
   return () => navigator.geolocation.clearWatch(watchId);
+}
+
+/** Publica posición al ir a segundo plano (beacon o fetch keepalive). */
+export function publicarPosicionBeacon(
+  rol: RolCampo,
+  gps: GpsPreciso,
+): void {
+  if (typeof navigator === "undefined") return;
+
+  const payload = JSON.stringify({
+    rol,
+    lat: gps.lat,
+    lng: gps.lng,
+    accuracy_m: gps.accuracy_m,
+  });
+  const url = "/api/campo/posicion";
+
+  if (navigator.sendBeacon) {
+    navigator.sendBeacon(
+      url,
+      new Blob([payload], { type: "application/json" }),
+    );
+    return;
+  }
+
+  void fetch(url, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: payload,
+    keepalive: true,
+  });
 }

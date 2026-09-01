@@ -3,13 +3,17 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 
 import {
+  CAMPO_GPS_MIN_MOVIMIENTO_KM,
   CAMPO_POLL_MS,
   CAMPO_POSICION_THROTTLE_MS,
   type RolCampo,
 } from "@/lib/campoConstants";
 import type { MotoCercanaApi } from "@/lib/cercanasTypes";
+import { distanciaKm } from "@/lib/distancia";
 import {
+  consultarPermisoGps,
   mensajeErrorGps,
+  publicarPosicionBeacon,
   vigilarGps,
   type GpsPreciso,
   type MotivoGpsError,
@@ -70,7 +74,72 @@ export function useCampoSesion(rol: RolCampo) {
   const [campo, setCampo] = useState<CampoEstado>({ kind: "idle" });
   const [refrescando, setRefrescando] = useState(false);
   const ultimoPostRef = useRef(0);
+  const ultimoPublicadoRef = useRef<GpsPreciso | null>(null);
   const gpsRef = useRef<GpsPreciso | null>(null);
+  const stopWatchRef = useRef<(() => void) | null>(null);
+  const gpsActivoRef = useRef(false);
+
+  const publicarSiNecesario = useCallback(
+    (g: GpsPreciso, forzar = false) => {
+      const prev = ultimoPublicadoRef.current;
+      if (
+        !forzar &&
+        prev &&
+        distanciaKm(prev, g) < CAMPO_GPS_MIN_MOVIMIENTO_KM
+      ) {
+        return;
+      }
+
+      const now = Date.now();
+      if (!forzar && now - ultimoPostRef.current < CAMPO_POSICION_THROTTLE_MS) {
+        return;
+      }
+
+      ultimoPostRef.current = now;
+      ultimoPublicadoRef.current = g;
+      void publicarPosicion(rol, g);
+    },
+    [rol],
+  );
+
+  const onGpsUpdate = useCallback(
+    (g: GpsPreciso) => {
+      const prev = gpsRef.current;
+      gpsRef.current = g;
+
+      const movimientoSignificativo =
+        !prev || distanciaKm(prev, g) >= CAMPO_GPS_MIN_MOVIMIENTO_KM;
+
+      if (movimientoSignificativo || !gpsActivoRef.current) {
+        gpsActivoRef.current = true;
+        setGps({ kind: "ok", gps: g });
+      }
+
+      publicarSiNecesario(g);
+    },
+    [publicarSiNecesario],
+  );
+
+  const onGpsError = useCallback((motivo: MotivoGpsError) => {
+    gpsActivoRef.current = false;
+    setGps({ kind: "error", motivo });
+  }, []);
+
+  const detenerWatch = useCallback(() => {
+    stopWatchRef.current?.();
+    stopWatchRef.current = null;
+  }, []);
+
+  const iniciarWatch = useCallback(() => {
+    detenerWatch();
+    setGps({ kind: "loading" });
+    gpsActivoRef.current = false;
+    stopWatchRef.current = vigilarGps(onGpsUpdate, onGpsError);
+  }, [detenerWatch, onGpsUpdate, onGpsError]);
+
+  const activarGps = useCallback(() => {
+    iniciarWatch();
+  }, [iniciarWatch]);
 
   const cargarCartera = useCallback(async (refresh = false) => {
     if (refresh) setRefrescando(true);
@@ -109,24 +178,62 @@ export function useCampoSesion(rol: RolCampo) {
   }, []);
 
   useEffect(() => {
-    setGps({ kind: "loading" });
+    let cancelado = false;
 
-    const stop = vigilarGps(
-      (g) => {
-        gpsRef.current = g;
-        setGps({ kind: "ok", gps: g });
+    void (async () => {
+      const permiso = await consultarPermisoGps();
+      if (cancelado) return;
 
-        const now = Date.now();
-        if (now - ultimoPostRef.current >= CAMPO_POSICION_THROTTLE_MS) {
-          ultimoPostRef.current = now;
-          void publicarPosicion(rol, g);
+      if (permiso === "denied") {
+        setGps({ kind: "error", motivo: "denegado" });
+        return;
+      }
+
+      if (permiso === "granted") {
+        iniciarWatch();
+        return;
+      }
+
+      setGps({ kind: "idle" });
+    })();
+
+    return () => {
+      cancelado = true;
+      detenerWatch();
+    };
+  }, [iniciarWatch, detenerWatch]);
+
+  useEffect(() => {
+    const onVisibility = () => {
+      if (document.visibilityState === "visible") {
+        if (gpsRef.current) {
+          publicarSiNecesario(gpsRef.current, true);
         }
-      },
-      (motivo) => setGps({ kind: "error", motivo }),
-    );
+        if (gpsActivoRef.current || gpsRef.current) {
+          detenerWatch();
+          stopWatchRef.current = vigilarGps(onGpsUpdate, onGpsError);
+        }
+        return;
+      }
 
-    return stop;
-  }, [rol]);
+      if (gpsRef.current) {
+        publicarPosicionBeacon(rol, gpsRef.current);
+      }
+    };
+
+    const onPageHide = () => {
+      if (gpsRef.current) {
+        publicarPosicionBeacon(rol, gpsRef.current);
+      }
+    };
+
+    document.addEventListener("visibilitychange", onVisibility);
+    window.addEventListener("pagehide", onPageHide);
+    return () => {
+      document.removeEventListener("visibilitychange", onVisibility);
+      window.removeEventListener("pagehide", onPageHide);
+    };
+  }, [rol, onGpsUpdate, onGpsError, publicarSiNecesario, detenerWatch]);
 
   useEffect(() => {
     if (gps.kind === "ok" && api.kind === "idle") {
@@ -159,6 +266,7 @@ export function useCampoSesion(rol: RolCampo) {
     refrescando,
     cargarCartera,
     toggleAsignacion,
+    activarGps,
     mensajeErrorGps,
   };
 }

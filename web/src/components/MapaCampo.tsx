@@ -3,6 +3,7 @@
 import "leaflet/dist/leaflet.css";
 
 import { useEffect, useRef, useState } from "react";
+import { LocateFixedIcon } from "lucide-react";
 
 import { DISTANCIA_CAMPO_KM } from "@/lib/campoConstants";
 import { formatearCOP } from "@/lib/formatoDinero";
@@ -16,6 +17,7 @@ import {
   ICON_SIZE_MOTO,
 } from "@/lib/marcadorMoto";
 import { cn } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
 
 export type PuntoMotoCampo = {
   placa: string;
@@ -39,6 +41,11 @@ type MapaCampoProps = {
   className?: string;
 };
 
+function usarAnimacionMapa(): boolean {
+  if (typeof window === "undefined") return false;
+  return !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+}
+
 export function MapaCampo({
   motos,
   centro,
@@ -57,10 +64,48 @@ export function MapaCampo({
   const marcadoresRef = useRef<Map<string, import("leaflet").Marker>>(new Map());
   const onSelRef = useRef(onSeleccionar);
   const centroRef = useRef(centro);
+  const encuadradoRef = useRef(false);
+  const seguirCentroRef = useRef(true);
+  const movimientoProgramaticoRef = useRef(false);
+  const [seguirCentro, setSeguirCentro] = useState(true);
   const [mapaListo, setMapaListo] = useState(false);
   onSelRef.current = onSeleccionar;
   centroRef.current = centro;
+  seguirCentroRef.current = seguirCentro;
   const placasKey = motos.map((m) => `${m.placa}:${m.asignada}`).join(",");
+
+  const encuadrarCentro = (animate: boolean) => {
+    const circulo = circuloRef.current;
+    const mapa = mapaRef.current;
+    if (!mapa || !circulo) return;
+    movimientoProgramaticoRef.current = true;
+    mapa.fitBounds(circulo.getBounds(), {
+      padding: [28, 28],
+      maxZoom: 14,
+      animate: animate && usarAnimacionMapa(),
+    });
+    encuadradoRef.current = true;
+  };
+
+  const moverCentro = (animate: boolean) => {
+    const circulo = circuloRef.current;
+    const mapa = mapaRef.current;
+    if (!mapa || !circulo) return;
+
+    circulo.setLatLng([centro.lat, centro.lng]);
+
+    if (!encuadradoRef.current) {
+      encuadrarCentro(false);
+      return;
+    }
+
+    if (!seguirCentroRef.current) return;
+
+    movimientoProgramaticoRef.current = true;
+    mapa.panTo([centro.lat, centro.lng], {
+      animate: animate && usarAnimacionMapa(),
+    });
+  };
 
   useEffect(() => {
     let cancelado = false;
@@ -96,13 +141,20 @@ export function MapaCampo({
       mapaRef.current = mapa;
       setMapaListo(true);
 
-      if (circuloRef.current) {
-        mapa.fitBounds(circuloRef.current.getBounds(), {
-          padding: [28, 28],
-          maxZoom: 14,
-          animate: false,
-        });
-      }
+      mapa.on("dragstart", () => {
+        seguirCentroRef.current = false;
+        setSeguirCentro(false);
+      });
+      mapa.on("zoomend", () => {
+        if (movimientoProgramaticoRef.current) {
+          movimientoProgramaticoRef.current = false;
+          return;
+        }
+        seguirCentroRef.current = false;
+        setSeguirCentro(false);
+      });
+
+      encuadrarCentro(false);
     })();
 
     return () => {
@@ -113,20 +165,14 @@ export function MapaCampo({
       capaMotosRef.current = null;
       capaOpsRef.current = null;
       circuloRef.current = null;
+      encuadradoRef.current = false;
       setMapaListo(false);
     };
   }, [radioKm]);
 
   useEffect(() => {
-    const circulo = circuloRef.current;
-    const mapa = mapaRef.current;
-    if (!mapa || !circulo) return;
-    circulo.setLatLng([centro.lat, centro.lng]);
-    mapa.fitBounds(circulo.getBounds(), {
-      padding: [28, 28],
-      maxZoom: 14,
-      animate: true,
-    });
+    if (!mapaRef.current || !circuloRef.current) return;
+    moverCentro(true);
   }, [centro.lat, centro.lng]);
 
   useEffect(() => {
@@ -198,8 +244,18 @@ export function MapaCampo({
   useEffect(() => {
     if (!mapaListo || !seleccionada) return;
     const marker = marcadoresRef.current.get(seleccionada);
-    if (marker) mapaRef.current?.panTo(marker.getLatLng(), { animate: true });
+    if (marker) {
+      mapaRef.current?.panTo(marker.getLatLng(), {
+        animate: usarAnimacionMapa(),
+      });
+    }
   }, [seleccionada, mapaListo]);
+
+  const reactivarSeguimiento = () => {
+    seguirCentroRef.current = true;
+    setSeguirCentro(true);
+    encuadrarCentro(usarAnimacionMapa());
+  };
 
   return (
     <div
@@ -214,6 +270,20 @@ export function MapaCampo({
         role="application"
         aria-label={ariaLabel}
       />
+      {!seguirCentro ? (
+        <Button
+          type="button"
+          variant="secondary"
+          size="sm"
+          className="absolute end-3 top-3 z-10 h-11 min-h-[44px] gap-1.5 shadow-md"
+          onClick={reactivarSeguimiento}
+          aria-pressed={false}
+          aria-label="Seguir posición en el mapa"
+        >
+          <LocateFixedIcon className="size-4" aria-hidden />
+          Seguir posición
+        </Button>
+      ) : null}
     </div>
   );
 }

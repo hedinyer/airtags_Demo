@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { RefreshCwIcon } from "lucide-react";
+import { RefreshCwIcon, SunIcon } from "lucide-react";
 
 import { MapaCampo } from "@/components/MapaCampo";
 import { MapaRutaMoto } from "@/components/MapaRutaMoto";
@@ -19,12 +19,15 @@ import type { MotoCercanaApi } from "@/lib/cercanasTypes";
 type MotoConDistancia = MotoCercanaApi & { distancia_km: number };
 
 export function YonserWorkspace() {
-  const { gps, api, campo, refrescando, cargarCartera } =
+  const { gps, api, campo, refrescando, cargarCartera, activarGps, mensajeErrorGps } =
     useCampoSesion("yonser");
   const [seleccionada, setSeleccionada] = useState<string | null>(null);
   const [rutaMoto, setRutaMoto] = useState<MotoConDistancia | null>(null);
   const prevAsignadasRef = useRef<string[]>([]);
   const [anuncioAsignacion, setAnuncioAsignacion] = useState("");
+  const [pantallaActiva, setPantallaActiva] = useState(false);
+  const [mostrarInstalar, setMostrarInstalar] = useState(false);
+  const wakeLockRef = useRef<WakeLockSentinel | null>(null);
 
   const asignadas = useMemo(
     () =>
@@ -88,7 +91,62 @@ export function YonserWorkspace() {
     return () => window.removeEventListener("keydown", onKey);
   }, [rutaMoto]);
 
+  useEffect(() => {
+    const standalone =
+      window.matchMedia("(display-mode: standalone)").matches ||
+      ("standalone" in navigator &&
+        (navigator as Navigator & { standalone?: boolean }).standalone);
+    setMostrarInstalar(!standalone);
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      void wakeLockRef.current?.release();
+      wakeLockRef.current = null;
+    };
+  }, []);
+
+  useEffect(() => {
+    const onVis = async () => {
+      if (
+        document.visibilityState !== "visible" ||
+        !pantallaActiva ||
+        wakeLockRef.current
+      ) {
+        return;
+      }
+      try {
+        wakeLockRef.current = await navigator.wakeLock.request("screen");
+      } catch {
+        setPantallaActiva(false);
+      }
+    };
+    document.addEventListener("visibilitychange", onVis);
+    return () => document.removeEventListener("visibilitychange", onVis);
+  }, [pantallaActiva]);
+
+  const togglePantallaActiva = async () => {
+    if (pantallaActiva) {
+      await wakeLockRef.current?.release();
+      wakeLockRef.current = null;
+      setPantallaActiva(false);
+      return;
+    }
+    if (!("wakeLock" in navigator)) return;
+    try {
+      wakeLockRef.current = await navigator.wakeLock.request("screen");
+      setPantallaActiva(true);
+      wakeLockRef.current.addEventListener("release", () => {
+        setPantallaActiva(false);
+        wakeLockRef.current = null;
+      });
+    } catch {
+      setPantallaActiva(false);
+    }
+  };
+
   const statusLive = useMemo(() => {
+    if (gps.kind === "idle") return "Ubicación pendiente";
     if (gps.kind === "loading") return "Obteniendo GPS";
     if (api.kind === "loading") return "Cargando cartera";
     const n = motosConDistancia.length;
@@ -131,25 +189,75 @@ export function YonserWorkspace() {
             </p>
           </div>
           {gps.kind === "ok" ? (
-            <Button
-              type="button"
-              variant="outline"
-              size="icon"
-              className="size-11 min-h-[44px] min-w-[44px] shrink-0"
-              onClick={() => void cargarCartera(true)}
-              disabled={refrescando}
-              aria-label="Actualizar cartera y ubicaciones"
-            >
-              <RefreshCwIcon
-                className={`size-4 ${refrescando ? "animate-spin" : ""}`}
-                aria-hidden
-              />
-            </Button>
+            <div className="flex shrink-0 gap-2">
+              {"wakeLock" in navigator ? (
+                <Button
+                  type="button"
+                  variant={pantallaActiva ? "default" : "outline"}
+                  size="icon"
+                  className="size-11 min-h-[44px] min-w-[44px]"
+                  onClick={() => void togglePantallaActiva()}
+                  aria-pressed={pantallaActiva}
+                  aria-label={
+                    pantallaActiva
+                      ? "Desactivar pantalla siempre activa"
+                      : "Mantener pantalla activa"
+                  }
+                >
+                  <SunIcon className="size-4" aria-hidden />
+                </Button>
+              ) : null}
+              <Button
+                type="button"
+                variant="outline"
+                size="icon"
+                className="size-11 min-h-[44px] min-w-[44px] shrink-0"
+                onClick={() => void cargarCartera(true)}
+                disabled={refrescando}
+                aria-label="Actualizar cartera y ubicaciones"
+              >
+                <RefreshCwIcon
+                  className={`size-4 ${refrescando ? "animate-spin" : ""}`}
+                  aria-hidden
+                />
+              </Button>
+            </div>
           ) : null}
         </div>
       </header>
 
       <div className="flex min-h-0 flex-1 flex-col overflow-hidden pb-[max(0.5rem,env(safe-area-inset-bottom))]">
+        {mostrarInstalar && gps.kind !== "idle" ? (
+          <div className="shrink-0 px-4 pb-2">
+            <Alert>
+              <AlertTitle>Mejor seguimiento en Android</AlertTitle>
+              <AlertDescription>
+                Instala la app desde el menú de Chrome («Añadir a pantalla de
+                inicio») para que el GPS y el permiso se mantengan más estables.
+              </AlertDescription>
+            </Alert>
+          </div>
+        ) : null}
+
+        {gps.kind === "idle" ? (
+          <div className="flex flex-col gap-3 px-4">
+            <Alert>
+              <AlertTitle>Ubicación requerida</AlertTitle>
+              <AlertDescription>
+                Activa el GPS una sola vez. El navegador lo recordará en visitas
+                futuras.
+              </AlertDescription>
+            </Alert>
+            <Button
+              type="button"
+              className="h-11 min-h-[44px] w-full sm:w-fit"
+              onClick={activarGps}
+            >
+              Activar ubicación
+            </Button>
+          </div>
+        ) : null}
+
         {gps.kind === "loading" || api.kind === "loading" ? (
           <div className="flex flex-col gap-3 px-4" aria-busy="true">
             <Skeleton className="h-[38dvh] w-full rounded-xl" />
@@ -158,14 +266,21 @@ export function YonserWorkspace() {
         ) : null}
 
         {gps.kind === "error" ? (
-          <div className="px-4">
+          <div className="flex flex-col gap-3 px-4">
             <Alert variant="destructive">
               <AlertTitle>GPS requerido</AlertTitle>
-              <AlertDescription>
-                Permite la ubicación para ver placas cercanas y compartir tu
-                posición con Nicolas.
-              </AlertDescription>
+              <AlertDescription>{mensajeErrorGps(gps.motivo)}</AlertDescription>
             </Alert>
+            {gps.motivo === "denegado" ? (
+              <Button
+                type="button"
+                variant="secondary"
+                className="h-11 min-h-[44px] w-full sm:w-fit"
+                onClick={activarGps}
+              >
+                Reintentar
+              </Button>
+            ) : null}
           </div>
         ) : null}
 

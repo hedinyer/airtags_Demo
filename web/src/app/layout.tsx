@@ -17,6 +17,16 @@ export const metadata: Metadata = {
   title: "Motos cercanas — AirTags",
   description:
     "Motos con deuda y AirTag en un radio de 5 km desde tu ubicación.",
+  manifest: "/manifest.webmanifest",
+  appleWebApp: {
+    capable: true,
+    title: "Yonser",
+    statusBarStyle: "black-translucent",
+  },
+  icons: {
+    icon: [{ url: "/icons/icon.svg", type: "image/svg+xml" }],
+    apple: [{ url: "/icons/icon.svg", type: "image/svg+xml" }],
+  },
 };
 
 export const viewport: Viewport = {

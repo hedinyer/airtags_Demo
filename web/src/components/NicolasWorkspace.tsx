@@ -19,8 +19,16 @@ import type { MotoCercanaApi } from "@/lib/cercanasTypes";
 type MotoConDistancia = MotoCercanaApi & { distancia_km: number };
 
 export function NicolasWorkspace() {
-  const { gps, api, campo, refrescando, cargarCartera, toggleAsignacion } =
-    useCampoSesion("nicolas");
+  const {
+    gps,
+    api,
+    campo,
+    refrescando,
+    cargarCartera,
+    toggleAsignacion,
+    activarGps,
+    mensajeErrorGps,
+  } = useCampoSesion("nicolas");
   const [seleccionada, setSeleccionada] = useState<string | null>(null);
 
   const asignadas = useMemo(
@@ -76,6 +84,7 @@ export function NicolasWorkspace() {
   }, [gps, yonser, yonserVivo]);
 
   const statusLive = useMemo(() => {
+    if (gps.kind === "idle") return "Ubicación pendiente";
     if (gps.kind === "loading") return "Obteniendo GPS";
     if (api.kind === "loading") return "Cargando cartera";
     if (!yonserVivo) return "Esperando ubicación de Yonser";
@@ -143,6 +152,24 @@ export function NicolasWorkspace() {
       </header>
 
       <div className="flex min-h-0 flex-1 flex-col overflow-hidden pb-[max(0.5rem,env(safe-area-inset-bottom))]">
+        {gps.kind === "idle" ? (
+          <div className="flex flex-col gap-3 px-4">
+            <Alert>
+              <AlertTitle>Ubicación requerida</AlertTitle>
+              <AlertDescription>
+                Activa el GPS una sola vez para compartir tu posición con Yonser.
+              </AlertDescription>
+            </Alert>
+            <Button
+              type="button"
+              className="h-11 min-h-[44px] w-full sm:w-fit"
+              onClick={activarGps}
+            >
+              Activar ubicación
+            </Button>
+          </div>
+        ) : null}
+
         {gps.kind === "loading" || api.kind === "loading" ? (
           <div className="flex flex-col gap-3 px-4" aria-busy="true">
             <Skeleton className="h-[38dvh] w-full rounded-xl" />
@@ -151,13 +178,21 @@ export function NicolasWorkspace() {
         ) : null}
 
         {gps.kind === "error" ? (
-          <div className="px-4">
+          <div className="flex flex-col gap-3 px-4">
             <Alert variant="destructive">
               <AlertTitle>GPS requerido</AlertTitle>
-              <AlertDescription>
-                Permite la ubicación para compartir tu posición con Yonser.
-              </AlertDescription>
+              <AlertDescription>{mensajeErrorGps(gps.motivo)}</AlertDescription>
             </Alert>
+            {gps.motivo === "denegado" ? (
+              <Button
+                type="button"
+                variant="secondary"
+                className="h-11 min-h-[44px] w-full sm:w-fit"
+                onClick={activarGps}
+              >
+                Reintentar
+              </Button>
+            ) : null}
           </div>
         ) : null}
 

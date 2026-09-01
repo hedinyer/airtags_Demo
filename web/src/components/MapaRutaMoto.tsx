@@ -11,6 +11,7 @@ import {
   ICON_ANCHOR_MOTO,
   ICON_SIZE_MOTO,
 } from "@/lib/marcadorMoto";
+import { distanciaKm } from "@/lib/distancia";
 import {
   formatearDistanciaRuta,
   formatearDuracionRuta,
@@ -27,6 +28,13 @@ type MapaRutaMotoProps = {
   onVolver: () => void;
 };
 
+const RUTA_RECACLULO_KM = 0.05;
+
+function usarAnimacionMapa(): boolean {
+  if (typeof window === "undefined") return false;
+  return !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+}
+
 export function MapaRutaMoto({
   placa,
   lat,
@@ -36,14 +44,20 @@ export function MapaRutaMoto({
 }: MapaRutaMotoProps) {
   const contenedorRef = useRef<HTMLDivElement>(null);
   const mapaRef = useRef<import("leaflet").Map | null>(null);
+  const origenMarkerRef = useRef<import("leaflet").CircleMarker | null>(null);
+  const lineaRef = useRef<import("leaflet").Polyline | null>(null);
+  const origenRutaRef = useRef<Origen | null>(null);
+  const encuadradoRef = useRef(false);
   const [meta, setMeta] = useState<string>("Calculando ruta…");
+  const origenRef = useRef(origen);
+  origenRef.current = origen;
 
   useEffect(() => {
     let cancelado = false;
 
     (async () => {
       const L = (await import("leaflet")).default;
-      if (cancelado || !contenedorRef.current) return;
+      if (cancelado || !contenedorRef.current || mapaRef.current) return;
 
       const mapa = L.map(contenedorRef.current, {
         zoomControl: true,
@@ -57,7 +71,7 @@ export function MapaRutaMoto({
           '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>',
       }).addTo(mapa);
 
-      L.circleMarker([origen.lat, origen.lng], {
+      origenMarkerRef.current = L.circleMarker([origen.lat, origen.lng], {
         radius: 8,
         color: "#fff",
         weight: 2,
@@ -78,39 +92,84 @@ export function MapaRutaMoto({
         .addTo(mapa);
 
       mapaRef.current = mapa;
-
-      const ruta = await obtenerRutaOsrm(origen, { lat, lng });
-      if (cancelado) return;
-
-      const latlngs = ruta.coords.map(
-        (c) => [c.lat, c.lng] as [number, number],
-      );
-      const linea = L.polyline(latlngs, {
-        color: "#38bdf8",
-        weight: 5,
-        opacity: 0.9,
-      }).addTo(mapa);
-
-      mapa.fitBounds(linea.getBounds(), {
-        padding: [48, 48],
-        maxZoom: 16,
-        animate: false,
-      });
-
-      setMeta(
-        `${formatearDistanciaRuta(ruta.distance_m)} · ${formatearDuracionRuta(ruta.duration_s)}`,
-      );
-
-      // Leaflet a veces necesita invalidateSize en fullscreen overlay
       requestAnimationFrame(() => mapa.invalidateSize());
     })();
 
     return () => {
       cancelado = true;
+      lineaRef.current?.remove();
+      lineaRef.current = null;
+      origenMarkerRef.current = null;
       mapaRef.current?.remove();
       mapaRef.current = null;
+      origenRutaRef.current = null;
+      encuadradoRef.current = false;
     };
-  }, [placa, lat, lng, origen.lat, origen.lng]);
+  }, [placa, lat, lng]);
+
+  useEffect(() => {
+    let cancelado = false;
+
+    (async () => {
+      const mapa = mapaRef.current;
+      const origenMarker = origenMarkerRef.current;
+      if (!mapa || !origenMarker) return;
+
+      origenMarker.setLatLng([origen.lat, origen.lng]);
+
+      const prevOrigen = origenRutaRef.current;
+      const necesitaRuta =
+        !prevOrigen ||
+        distanciaKm(prevOrigen, origen) >= RUTA_RECACLULO_KM ||
+        !lineaRef.current;
+
+      if (!necesitaRuta) {
+        if (encuadradoRef.current) {
+          mapa.panTo([origen.lat, origen.lng], {
+            animate: usarAnimacionMapa(),
+          });
+        }
+        return;
+      }
+
+      setMeta("Calculando ruta…");
+      const ruta = await obtenerRutaOsrm(origen, { lat, lng });
+      if (cancelado || !mapaRef.current) return;
+
+      lineaRef.current?.remove();
+      const L = (await import("leaflet")).default;
+      const latlngs = ruta.coords.map(
+        (c) => [c.lat, c.lng] as [number, number],
+      );
+      lineaRef.current = L.polyline(latlngs, {
+        color: "#38bdf8",
+        weight: 5,
+        opacity: 0.9,
+      }).addTo(mapaRef.current);
+
+      if (!encuadradoRef.current) {
+        mapaRef.current.fitBounds(lineaRef.current.getBounds(), {
+          padding: [48, 48],
+          maxZoom: 16,
+          animate: false,
+        });
+        encuadradoRef.current = true;
+      } else {
+        mapaRef.current.panTo([origen.lat, origen.lng], {
+          animate: usarAnimacionMapa(),
+        });
+      }
+
+      origenRutaRef.current = { lat: origen.lat, lng: origen.lng };
+      setMeta(
+        `${formatearDistanciaRuta(ruta.distance_m)} · ${formatearDuracionRuta(ruta.duration_s)}`,
+      );
+    })();
+
+    return () => {
+      cancelado = true;
+    };
+  }, [origen.lat, origen.lng, lat, lng]);
 
   return (
     <div
