@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "1cc0a7c9b0b0463105829c4b0311d883e8b88d211260d5c521e6c214",
+  "skn": "194bf50f0b0f5f904020ab8f8186c233ebc1b4d57e5ba9905aad4c44b788a7d7",
+  "sks": "0581c01b964282dabebf5de1648f5902b12cfcc7cd64115d036622929efa20fe",
+  "paired_at": "2025-12-16T16:01:32.498806+00:00",
+  "name": "JRN73H",
+  "model": "",
+  "identifier": "26477869-80AD-42E0-B076-4AFC1EF66D8F",
+  "alignment_date": "2026-08-20T15:00:10+00:00",
+  "alignment_index": 23708,
+  "icloud_account": "spberra@icloud.com",
+  "imported_at": "2026-09-03T01:10:42.124788+00:00",
+  "first_imported_at": "2026-09-03T01:10:42.124788+00:00"
+}

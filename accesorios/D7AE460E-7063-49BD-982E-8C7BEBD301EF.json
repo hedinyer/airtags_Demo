@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "6636f207453437e5e9ab822cc039f141e726351712e2f4d9d3f3cdb7",
+  "skn": "a3cec444b437ace0c2f8fb4c1d907a2ebd8a73058180901505d72f12d9dfa1f4",
+  "sks": "25c340e1857c1c8cf27d2c4cb6fcab32b7ce79a27270b089d9e1ebebba1671ef",
+  "paired_at": "2026-06-13T18:17:07.888420+00:00",
+  "name": "RSQ75F",
+  "model": "empty",
+  "identifier": "D7AE460E-7063-49BD-982E-8C7BEBD301EF",
+  "alignment_date": "2026-08-18T23:35:54.908000+00:00",
+  "alignment_index": 6358,
+  "icloud_account": "recuperacionmotos@icloud.com",
+  "imported_at": "2026-09-03T11:45:45.998856+00:00",
+  "first_imported_at": "2026-09-03T11:45:45.998856+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "36c08a19e7d35461b6110b6e65b3404b7ed982e0e97f34bc01a8db15",
+  "skn": "e0f87f0e803b3c514c0937b8da1f49c26953a7e1a3ec4dc7b102a6745b24db36",
+  "sks": "ec7cb18b6e623be81761efda3f345cc73deb6e7bb9751930d36e7a9435624666",
+  "paired_at": "2025-12-16T14:46:11.042695+00:00",
+  "name": "TTO96H",
+  "model": "",
+  "identifier": "B4EF5F62-42A1-4756-9BB6-29235828F5A7",
+  "alignment_date": "2026-08-20T15:12:30+00:00",
+  "alignment_index": 23715,
+  "icloud_account": "spberra@icloud.com",
+  "imported_at": "2026-09-03T01:10:42.124788+00:00",
+  "first_imported_at": "2026-09-03T01:10:42.124788+00:00"
+}

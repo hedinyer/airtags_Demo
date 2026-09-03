@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "7bd1a2fe6a994ea9fa045f51eb72d784f2fd7e8a76732cf65a9d20f5",
+  "skn": "045fdcd9b177400efb32fd8f940fdf9f1d52c36ef8f5dd349bf697ded83d4449",
+  "sks": "1a5616034cec0e8b7591336f71adbeec2771b237b4f0771790df59ce678ec972",
+  "paired_at": "2025-12-13T20:16:19.169057+00:00",
+  "name": "ZOJ11H",
+  "model": "",
+  "identifier": "49EC31F7-BF04-4B86-9B65-ADF214FF515D",
+  "alignment_date": "2026-08-20T15:09:50+00:00",
+  "alignment_index": 23981,
+  "icloud_account": "spberra@icloud.com",
+  "imported_at": "2026-09-03T01:10:42.124788+00:00",
+  "first_imported_at": "2026-09-03T01:10:42.124788+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "0413ca09447aef9605a8997da2ca9fe2267d80519ac629f7145f18d4",
+  "skn": "5e780db61147c86c821da15748179fa5b9ea6fe40e62d9a646da81159b9642b7",
+  "sks": "d2060640c047336aef8e199eff781b482ebdb447258666e5a7aaf51053dc4d9f",
+  "paired_at": "2026-08-01T16:29:53.385068+00:00",
+  "name": "KFN55I",
+  "model": "empty",
+  "identifier": "1AC3D816-EA7E-41F5-B655-AAB39EE415E4",
+  "alignment_date": "2026-08-22T16:45:15.585000+00:00",
+  "alignment_index": 2018,
+  "icloud_account": "marisolpinilla@hotmail.com",
+  "imported_at": "2026-09-03T01:50:21.486288+00:00",
+  "first_imported_at": "2026-09-03T01:50:21.486288+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "dfe4eb8869b40363b720dc41b478e0594ec0907a7471bf954b12dfaa",
+  "skn": "9056df55d4444835187d7da7f1c366be0bf11d82a12f5f96c516564ec639705e",
+  "sks": "aab73bb2a141377831d7962f9bdda7c32f42d37f76b01a39e2778248ebce4491",
+  "paired_at": "2025-05-07T18:38:42.076018+00:00",
+  "name": "OSE77H",
+  "model": "",
+  "identifier": "93113E54-4EE6-465D-A976-794911FB068A",
+  "alignment_date": "2026-08-20T00:00:00+00:00",
+  "alignment_index": 45050,
+  "icloud_account": "marisolpinilla@hotmail.com",
+  "imported_at": "2026-09-03T01:50:21.486288+00:00",
+  "first_imported_at": "2026-09-03T01:50:21.486288+00:00"
+}

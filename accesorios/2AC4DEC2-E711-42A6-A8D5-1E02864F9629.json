@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "fabb8170a995c7b8c0f5a120c598b327ca5dd0a8dc674dc0841078a8",
+  "skn": "bb3652f42a3959a6ff09aeba504661b66b4229df62a330506fb9af5555ec09ad",
+  "sks": "6896aab0a469919e1d09914b7116fef743864283cf3a67c2010101a74f22adbe",
+  "paired_at": "2026-06-14T17:49:12.115864+00:00",
+  "name": "JQW20H",
+  "model": "empty",
+  "identifier": "2AC4DEC2-E711-42A6-A8D5-1E02864F9629",
+  "alignment_date": "2026-08-18T22:21:50+00:00",
+  "alignment_index": 6259,
+  "icloud_account": "recuperacionmotos@icloud.com",
+  "imported_at": "2026-09-03T11:45:45.998856+00:00",
+  "first_imported_at": "2026-09-03T11:45:45.998856+00:00"
+}

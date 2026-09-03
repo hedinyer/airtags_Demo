@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "46f6d12c1fa563d532ab4f1b9509cb4fc6d044c8b67073af324740f0",
+  "skn": "f81944d5bbb5863709ad20e5456ef2eaca73f5dd68f457eb33491e2e6650ee34",
+  "sks": "61733e9c618b5f1f9bf9aa96bc29a3bb278c80fdacb14d6abc54272e4f565923",
+  "paired_at": "2026-03-03T18:35:36.910575+00:00",
+  "name": "CIG23i",
+  "model": "",
+  "identifier": "2106043E-C913-4963-A39B-1F9E27FECC3D",
+  "alignment_date": "2026-08-26T22:13:20+00:00",
+  "alignment_index": 16910,
+  "icloud_account": "solucion110@icloud.com",
+  "imported_at": "2026-09-03T12:12:43.633718+00:00",
+  "first_imported_at": "2026-09-03T12:12:43.633718+00:00"
+}

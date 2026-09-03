@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "0dd9320a04f581e47918b7d0db9048b955672ccd1605cdf93fe00785",
+  "skn": "85940b81e6630135c064263ce3be4a4008eba138d51ab8352ade028e231976bc",
+  "sks": "a0960480a46e699f00662f1687757ed69d3685022da89092dcfaff3108e4fab8",
+  "paired_at": "2026-06-29T20:28:23.891967+00:00",
+  "name": "KAY51I",
+  "model": "",
+  "identifier": "05FAC5C9-EF4D-4235-98CD-A90BA7D7A8C5",
+  "alignment_date": "2026-07-04T17:29:30.947615+00:00",
+  "alignment_index": 470,
+  "icloud_account": "chiaberapinilla@icloud.com",
+  "imported_at": "2026-09-03T13:13:55.229909+00:00",
+  "first_imported_at": "2026-09-03T13:13:55.229909+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "15d996089b4e8f0368a083c640b5f63ccb82fd33a4ab1ac9c4abe8db",
+  "skn": "95a3f167096a6661084ff4cd3575f775956eababb054c6c0b6cacf08a6f0f95c",
+  "sks": "b90871439c5eb79c9a1ac1f6a31e73250c55564ad6c23abe8c6c7934dfca4e69",
+  "paired_at": "2025-12-17T19:31:36.365025+00:00",
+  "name": "TTO98H",
+  "model": "",
+  "identifier": "155BF232-1AC1-4487-A122-A75F50415A94",
+  "alignment_date": "2026-08-20T15:03:30+00:00",
+  "alignment_index": 23599,
+  "icloud_account": "spberra@icloud.com",
+  "imported_at": "2026-09-03T01:10:42.124788+00:00",
+  "first_imported_at": "2026-09-03T01:10:42.124788+00:00"
+}

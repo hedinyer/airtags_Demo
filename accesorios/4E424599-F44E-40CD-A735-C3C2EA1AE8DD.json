@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "ba6d6f9708dfe21278ae65868f85050bff54253d4c3f4020eab698f1",
+  "skn": "ea6fd0afc9c2f6e3f1ac90523a4c281a2691c8cf97f1bf118c1ee1f7dcbf47ab",
+  "sks": "a6f6a0ef8d77ea800d095737c10fd80b7263fda519d3992b699b4cfb982dc165",
+  "paired_at": "2026-02-27T21:26:36.260004+00:00",
+  "name": "CHU68i",
+  "model": "",
+  "identifier": "4E424599-F44E-40CD-A735-C3C2EA1AE8DD",
+  "alignment_date": "2026-08-26T21:59:00+00:00",
+  "alignment_index": 17284,
+  "icloud_account": "solucion110@icloud.com",
+  "imported_at": "2026-09-03T12:12:43.633718+00:00",
+  "first_imported_at": "2026-09-03T12:12:43.633718+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "57250e642ec9f42536721f2fad2e5aa900e20860f6b8e9ea06595f6c",
+  "skn": "5f2a7251768551f7d85bbecb3198e2bd7505d244b28c4d920081081873d3646b",
+  "sks": "179845d7b8ed051fb49e797a076dea5bb379a6330d8654276f2c5fbe2bd35dbf",
+  "paired_at": "2024-10-07T16:40:58.848436+00:00",
+  "name": "DTX60I",
+  "model": "",
+  "identifier": "9452BC80-3237-4357-B4B7-FB62E7FA653A",
+  "alignment_date": "2026-08-20T00:05:40+00:00",
+  "alignment_index": 64879,
+  "icloud_account": "marisolpinilla@hotmail.com",
+  "imported_at": "2026-09-03T01:50:21.486288+00:00",
+  "first_imported_at": "2026-09-03T01:50:21.486288+00:00"
+}

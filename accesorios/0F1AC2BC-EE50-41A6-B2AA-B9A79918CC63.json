@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "84977ff53c221dea80d0681f94ce5211e8596151a69f6a91e7ff3cc1",
+  "skn": "86325217002a5781a4804841b123ac0e531f644da857a9c5d778d5eacd07d339",
+  "sks": "bc0c92fb7d081136f0a2b9c59ce31ad5e1c09db984e28efc129661ec09362f1c",
+  "paired_at": "2025-08-04T14:46:43.802032+00:00",
+  "name": "JRU74H",
+  "model": "",
+  "identifier": "0F1AC2BC-EE50-41A6-B2AA-B9A79918CC63",
+  "alignment_date": "2026-04-28T01:16:20+00:00",
+  "alignment_index": 25579,
+  "icloud_account": "motossp0@gmail.com",
+  "imported_at": "2026-09-03T00:52:36.115355+00:00",
+  "first_imported_at": "2026-09-03T00:52:36.115355+00:00"
+}

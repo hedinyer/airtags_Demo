@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "32ccc95abfb20810b0c9acd032b8ec63f61a3a9cc09043116ae51a37",
+  "skn": "d4476019ac94d1ba09f541953ebdb0f48e2578ac5c035b4368a8fc4f838828a1",
+  "sks": "c2e53b7db3e8aec06b8153c36f8de7c84d2c662a17ebb5f0dc127ff8533b54c5",
+  "paired_at": "2025-08-04T14:44:24.320455+00:00",
+  "name": "JRP68H",
+  "model": "",
+  "identifier": "2816A3EF-CF62-499E-87A5-9AF83B88A35B",
+  "alignment_date": "2026-08-24T19:22:10+00:00",
+  "alignment_index": 36979,
+  "icloud_account": "motossp0@gmail.com",
+  "imported_at": "2026-09-03T00:52:36.115355+00:00",
+  "first_imported_at": "2026-09-03T00:52:36.115355+00:00"
+}

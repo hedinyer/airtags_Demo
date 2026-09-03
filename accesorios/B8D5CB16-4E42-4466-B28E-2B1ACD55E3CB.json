@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "795f6da30ae0271113e04c6981118309cb98853c1e4f992ac5901e0f",
+  "skn": "c22c27698196c4935ed7ef80af0375a62cbc6f323ec7f2e8e750981c769921c5",
+  "sks": "6f48c4f856e0eeb9435f269b0be6d008f9e08269a9a743a5e35e469e4dfa27fa",
+  "paired_at": "2026-06-13T16:03:13.555602+00:00",
+  "name": "ZOK53H",
+  "model": "empty",
+  "identifier": "B8D5CB16-4E42-4466-B28E-2B1ACD55E3CB",
+  "alignment_date": "2026-08-18T22:17:40+00:00",
+  "alignment_index": 6362,
+  "icloud_account": "recuperacionmotos@icloud.com",
+  "imported_at": "2026-09-03T11:45:45.998856+00:00",
+  "first_imported_at": "2026-09-03T11:45:45.998856+00:00"
+}

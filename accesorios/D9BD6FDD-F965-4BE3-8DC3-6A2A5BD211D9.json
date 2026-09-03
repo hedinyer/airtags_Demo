@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "99081a7be83da34225563e01dac1e687a74d60245f72497921a6d40b",
+  "skn": "86d1078b3d3bd1f04960bf51900ed5cb4c7e5414d7ac4cf59a13256d4d3123eb",
+  "sks": "ffbdecd0dbb2c700fcad81bf7fed3ba891e881cff5f4b7a35922740a34eb8588",
+  "paired_at": "2026-05-14T18:34:08.808853+00:00",
+  "name": "GZJ30I",
+  "model": "empty",
+  "identifier": "D9BD6FDD-F965-4BE3-8DC3-6A2A5BD211D9",
+  "alignment_date": "2026-07-10T17:15:00+00:00",
+  "alignment_index": 5466,
+  "icloud_account": "recuperacionmotos@icloud.com",
+  "imported_at": "2026-09-03T11:45:45.998856+00:00",
+  "first_imported_at": "2026-09-03T11:45:45.998856+00:00"
+}

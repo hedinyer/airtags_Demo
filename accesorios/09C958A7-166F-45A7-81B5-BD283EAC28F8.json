@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "16440f84874cdcbb6e50fee866b05d74ca692e8c80892617d3da00bb",
+  "skn": "72cca9b107b7e96be9ec0e04b6bae7e48a6362dcd6157d855e2339a63011c01a",
+  "sks": "4db557a3317b6b172dee5966fa930b5e4e5d5ccf45568ab62647b90562813e59",
+  "paired_at": "2025-05-14T19:54:01.562717+00:00",
+  "name": "OSI79H",
+  "model": "",
+  "identifier": "09C958A7-166F-45A7-81B5-BD283EAC28F8",
+  "alignment_date": "2026-08-17T06:03:00+00:00",
+  "alignment_index": 44050,
+  "icloud_account": "marisolpinilla@hotmail.com",
+  "imported_at": "2026-09-03T01:50:21.486288+00:00",
+  "first_imported_at": "2026-09-03T01:50:21.486288+00:00"
+}

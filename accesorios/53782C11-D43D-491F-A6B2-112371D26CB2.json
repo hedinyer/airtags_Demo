@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "2c1298f05eef6f96cc3936dbb07239f219d7c6b8e9c3fa6b8c68a7a5",
+  "skn": "5dddc66086e38b02051cd628a3cd99a8535d50fd8291199c42bbb1cddaca0882",
+  "sks": "b37741f727c42d13e8fc9e34e3033f09ac93e6ab2c349cd0a541e254dcae44fc",
+  "paired_at": "2024-10-09T13:07:23.523730+00:00",
+  "name": "BYA39H",
+  "model": "",
+  "identifier": "53782C11-D43D-491F-A6B2-112371D26CB2",
+  "alignment_date": "2026-06-15T13:10:20+00:00",
+  "alignment_index": 58948,
+  "icloud_account": "marisolpinilla@hotmail.com",
+  "imported_at": "2026-09-03T01:50:21.486288+00:00",
+  "first_imported_at": "2026-09-03T01:50:21.486288+00:00"
+}

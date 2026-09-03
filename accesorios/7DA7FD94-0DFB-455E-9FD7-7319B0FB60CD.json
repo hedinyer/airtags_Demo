@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "5c99939575969ab52c1cac4e2ca4921c628965a80ebd38c975d07f13",
+  "skn": "cdd91aa55df9c9ada283ea6a96eba2276323f0698829d0667b4263644f578326",
+  "sks": "d664994e49cf82c6ed68174f212b3125b515c241e7df9a51d66e559be5570464",
+  "paired_at": "2026-03-21T16:11:26.379560+00:00",
+  "name": "ESM85i",
+  "model": "",
+  "identifier": "7DA7FD94-0DFB-455E-9FD7-7319B0FB60CD",
+  "alignment_date": "2026-08-26T22:09:30+00:00",
+  "alignment_index": 15192,
+  "icloud_account": "solucion110@icloud.com",
+  "imported_at": "2026-09-03T12:12:43.633718+00:00",
+  "first_imported_at": "2026-09-03T12:12:43.633718+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "eedc8e67efbf7a549eda92e731648518c05f95da28cab0621d98ed7f",
+  "skn": "74549bb9afb3bd18a965719215d80613a60e7b6efa251fdb6ebfa30188fe3901",
+  "sks": "0b74eb171377ca7b254549f0c4dfd09e7063522a9537b1fa3027bcc981dbd8c8",
+  "paired_at": "2025-12-17T19:36:42.683770+00:00",
+  "name": "ZOK12H",
+  "model": "",
+  "identifier": "AEF46ABE-D366-4D54-B22F-74F5AA0F7B61",
+  "alignment_date": "2026-08-20T15:02:20+00:00",
+  "alignment_index": 23599,
+  "icloud_account": "spberra@icloud.com",
+  "imported_at": "2026-09-03T01:10:42.124788+00:00",
+  "first_imported_at": "2026-09-03T01:10:42.124788+00:00"
+}

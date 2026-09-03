@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "9272efba464ce2ab9cf0550d3df117ff70b0105bc7d15cd2eeeec8cf",
+  "skn": "370bf9059a54c92eb6318be489a32e300aae51994f8c2d6fc0b54b1d31e64150",
+  "sks": "9b98374b60aa3f90539da0b9cc906116c13781a8e05b672cea8eb7a5747a7cbb",
+  "paired_at": "2025-08-11T17:21:50.067750+00:00",
+  "name": "OSE74H",
+  "model": "",
+  "identifier": "D4AA36E9-F260-48B1-8079-AE781C01A3C3",
+  "alignment_date": "2026-08-24T19:56:50+00:00",
+  "alignment_index": 36300,
+  "icloud_account": "motossp0@gmail.com",
+  "imported_at": "2026-09-03T00:52:36.115355+00:00",
+  "first_imported_at": "2026-09-03T00:52:36.115355+00:00"
+}

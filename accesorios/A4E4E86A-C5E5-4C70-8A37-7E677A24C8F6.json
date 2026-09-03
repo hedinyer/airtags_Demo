@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "fa22bce53be954515cdcc130f894ae65085c32f7f5bba1ba96b02fb1",
+  "skn": "959b9b64180eda4543d4945f7dfe76c2d630352c46952c13957370bd3e6e52dd",
+  "sks": "ea02c1f53daafd0d07b8a5edc54f20037fa4b20f54a8c3cf35ea556e9d7eb8c0",
+  "paired_at": "2025-12-13T13:25:15.037412+00:00",
+  "name": "ZPF81H",
+  "model": "",
+  "identifier": "A4E4E86A-C5E5-4C70-8A37-7E677A24C8F6",
+  "alignment_date": "2026-08-20T15:06:40+00:00",
+  "alignment_index": 24008,
+  "icloud_account": "spberra@icloud.com",
+  "imported_at": "2026-09-03T01:10:42.124788+00:00",
+  "first_imported_at": "2026-09-03T01:10:42.124788+00:00"
+}

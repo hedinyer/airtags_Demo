@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "99ac0e2f5c96cb7ddeadc2a81e8b961351c78283f706a820725b1ab2",
+  "skn": "1dbc6c1cf619853845438ec7c3dc571c5a3d661d96a7275b8be56ff4b4ee6790",
+  "sks": "887b3caad9e04486d9874b141a218ff58659e3c0030ad0f2e21e4873f79bfcbb",
+  "paired_at": "2024-10-25T13:56:17.134714+00:00",
+  "name": "HKY81H",
+  "model": "",
+  "identifier": "57026BFF-8288-4B7F-8F74-BD78EF87A13D",
+  "alignment_date": "2025-09-23T05:23:55+00:00",
+  "alignment_index": 31936,
+  "icloud_account": "marisolpinilla@hotmail.com",
+  "imported_at": "2026-09-03T01:50:21.486288+00:00",
+  "first_imported_at": "2026-09-03T01:50:21.486288+00:00"
+}

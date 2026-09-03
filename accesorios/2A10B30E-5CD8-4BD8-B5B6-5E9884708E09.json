@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "6496a4e0e20ba0916e4c089b67fd14d4e959d6ecf1a5cfb188c818c0",
+  "skn": "854936b0d9ba5b1e86727266a5a11d6f5be1d639e53cf94b052d811dbf01db2a",
+  "sks": "c8df25aa3642b6297588f85f976909b8cd1dbbab26a11240c50beeb5f02b16d1",
+  "paired_at": "2025-12-10T14:37:29.791292+00:00",
+  "name": "TTO88H",
+  "model": "",
+  "identifier": "2A10B30E-5CD8-4BD8-B5B6-5E9884708E09",
+  "alignment_date": "2026-08-20T15:08:40+00:00",
+  "alignment_index": 24291,
+  "icloud_account": "spberra@icloud.com",
+  "imported_at": "2026-09-03T01:10:42.124788+00:00",
+  "first_imported_at": "2026-09-03T01:10:42.124788+00:00"
+}

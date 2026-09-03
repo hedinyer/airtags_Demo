@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "25504ea8903499fbe54b004d8a7a303353358fcca1387a19619041da",
+  "skn": "9ff178b8f17b13f2a6f4abf66a86d187ebc4a54af746b5138ea130d8914e2150",
+  "sks": "f37b3f7142ffa9f602751ccff5eb5a910306f566e7f87c86893ac01b020e1509",
+  "paired_at": "2024-10-01T18:01:06.216968+00:00",
+  "name": "OSE81H",
+  "model": "",
+  "identifier": "69097876-5672-409A-938A-48D4B00072E1",
+  "alignment_date": "2026-06-08T18:36:10+00:00",
+  "alignment_index": 59037,
+  "icloud_account": "marisolpinilla@hotmail.com",
+  "imported_at": "2026-09-03T01:50:21.486288+00:00",
+  "first_imported_at": "2026-09-03T01:50:21.486288+00:00"
+}

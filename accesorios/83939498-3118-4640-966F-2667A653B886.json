@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "bd3823611b7b48fb5f84bae296be8fc64cb96d81328aa224012cb5c0",
+  "skn": "9608fcfc1f09edfb75dd3e7de00831ee8eb7c58245f315d8aae4e8da019b6b43",
+  "sks": "8ba65561af40d0712b467f95b411e8f73719107d2fc7458736a1a8c35cd7ae02",
+  "paired_at": "2026-08-09T15:00:52.659127+00:00",
+  "name": "MPQ51I",
+  "model": "",
+  "identifier": "83939498-3118-4640-966F-2667A653B886",
+  "alignment_date": "2026-08-09T15:00:53.941833+00:00",
+  "alignment_index": 1,
+  "icloud_account": "chiaberapinilla@icloud.com",
+  "imported_at": "2026-09-03T13:13:55.229909+00:00",
+  "first_imported_at": "2026-09-03T13:13:55.229909+00:00"
+}

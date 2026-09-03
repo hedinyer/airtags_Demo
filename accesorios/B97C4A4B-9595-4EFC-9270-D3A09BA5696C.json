@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "ee0e16d899dab8e59fe9951e2725f3861010fc5b7a73cd2e89551129",
+  "skn": "8796a199342ced04d7c00eec362d0eea4a98406feb4b574f9b8c1cfffb5c57f0",
+  "sks": "4ac2d869ed9b6b9169f99da3b3d487bf1376da857436e0628e450f15e8832dd4",
+  "paired_at": "2026-02-27T21:27:44.141926+00:00",
+  "name": "CHU69i",
+  "model": "",
+  "identifier": "B97C4A4B-9595-4EFC-9270-D3A09BA5696C",
+  "alignment_date": "2026-08-27T14:53:47.921000+00:00",
+  "alignment_index": 17351,
+  "icloud_account": "solucion110@icloud.com",
+  "imported_at": "2026-09-03T12:12:43.633718+00:00",
+  "first_imported_at": "2026-09-03T12:12:43.633718+00:00"
+}

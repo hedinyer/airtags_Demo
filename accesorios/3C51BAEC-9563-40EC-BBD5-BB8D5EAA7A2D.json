@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "7576d6fce1b4ba2e772f61255358c6864c412364b88f89fc3bf8e986",
+  "skn": "2e509692653e8e08b430951c5f432ff5c9eecb3f896479fac8a9db9c8d59e8fa",
+  "sks": "d09f696fd4a5fe30b83f1ad75fa3da346a1416adf9c99572eded4c1bba3655e2",
+  "paired_at": "2026-06-13T22:00:56.976487+00:00",
+  "name": "GYJ55I",
+  "model": "",
+  "identifier": "3C51BAEC-9563-40EC-BBD5-BB8D5EAA7A2D",
+  "alignment_date": "2026-06-13T23:15:06.892641+00:00",
+  "alignment_index": 6,
+  "icloud_account": "chiaberapinilla@icloud.com",
+  "imported_at": "2026-09-03T13:13:55.229909+00:00",
+  "first_imported_at": "2026-09-03T13:13:55.229909+00:00"
+}

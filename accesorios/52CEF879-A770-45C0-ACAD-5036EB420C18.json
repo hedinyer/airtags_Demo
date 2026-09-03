@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "53dde407f9a50278429bb123b17f8ab8d23910c809b5d5be88826296",
+  "skn": "1eb7401e9eb0bdbf57d891f3c675350cef86f1c2801ce4b6c12289f144845c15",
+  "sks": "06626a54555d967c8ac3929ac2ba6c6bd0b6b278e831eeca62317aa3112a226a",
+  "paired_at": "2026-07-29T19:32:18.846591+00:00",
+  "name": "3492",
+  "model": "empty",
+  "identifier": "52CEF879-A770-45C0-ACAD-5036EB420C18",
+  "alignment_date": "2026-07-29T19:32:18.885508+00:00",
+  "alignment_index": 1,
+  "icloud_account": "berala80@icloud.com",
+  "imported_at": "2026-09-03T12:38:50.391982+00:00",
+  "first_imported_at": "2026-09-03T12:38:50.391982+00:00"
+}

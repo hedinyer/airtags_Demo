@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d7d7f5b89afcb8d19afa829ec59cd12aa97687d3651d5ba2748429cf",
+  "skn": "ef6f96263041bc50159a3f8feabbe630d6aff06dacab3716c22130f05c073d16",
+  "sks": "7557439eb1938e8a41af0f90d8b0fc0177af2b06050984faf4e044364ae5c1b7",
+  "paired_at": "2026-06-13T22:06:55.246936+00:00",
+  "name": "KFK40H",
+  "model": "empty",
+  "identifier": "DF985195-50B3-47C4-8012-20FC706EF783",
+  "alignment_date": "2026-08-18T22:29:00+00:00",
+  "alignment_index": 6338,
+  "icloud_account": "recuperacionmotos@icloud.com",
+  "imported_at": "2026-09-03T11:45:45.998856+00:00",
+  "first_imported_at": "2026-09-03T11:45:45.998856+00:00"
+}

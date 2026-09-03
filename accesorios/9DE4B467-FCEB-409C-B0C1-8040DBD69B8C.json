@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "30557e2cbbd1a816f15b4c4dde6adf540a66815d279cbf3a4f1b1181",
+  "skn": "aec514685833b7b4daf952ca47b70885924fa4fd2958684c4a05c9dd417a44bf",
+  "sks": "b6a8ab29a30d8f274662d0b97b3853d2b12812930cc10cf0d9fb6be9b9e1078e",
+  "paired_at": "2025-12-17T19:23:36.787177+00:00",
+  "name": "Mdi13h",
+  "model": "",
+  "identifier": "9DE4B467-FCEB-409C-B0C1-8040DBD69B8C",
+  "alignment_date": "2026-07-26T00:36:10+00:00",
+  "alignment_index": 21139,
+  "icloud_account": "spberra@icloud.com",
+  "imported_at": "2026-09-03T01:10:42.124788+00:00",
+  "first_imported_at": "2026-09-03T01:10:42.124788+00:00"
+}

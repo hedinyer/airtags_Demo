@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "2b59212d0fb58f97400b602839feb9c337c0ff30e434eb3940f5c076",
+  "skn": "7c3da857607edbb40ba00357c23d45d3f0d70edf09d19ae80a80138328d2dfa2",
+  "sks": "33fbd69c6e98e541bc4c8857d0fad0a96d8d3225ec53f00b279631bd5ad86582",
+  "paired_at": "2026-05-28T18:46:34.280238+00:00",
+  "name": "Osq60h",
+  "model": "empty",
+  "identifier": "A0E7F64C-51FB-4632-AB4E-BE23F255590A",
+  "alignment_date": "2026-08-18T17:22:30+00:00",
+  "alignment_index": 7867,
+  "icloud_account": "recuperacionmotos@icloud.com",
+  "imported_at": "2026-09-03T11:45:45.998856+00:00",
+  "first_imported_at": "2026-09-03T11:45:45.998856+00:00"
+}

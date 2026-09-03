@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "dfaeeaa14db9167ce2694eff73cfd9f9038fa2aaf5b60225b7ba950d",
+  "skn": "530feaaf042d5f64223f9a9872f769248aef1291f762c48fe7f4eacaece3c969",
+  "sks": "d8d7eca258ef00185c5f6a7812b9352ab22d9bc9cc5d1d094f8eb685f66cacd3",
+  "paired_at": "2026-01-17T16:06:40.660713+00:00",
+  "name": "ZPF86H",
+  "model": "",
+  "identifier": "D5771175-57F7-44E3-BBE3-277F18613CDC",
+  "alignment_date": "2026-08-20T15:06:10+00:00",
+  "alignment_index": 20637,
+  "icloud_account": "spberra@icloud.com",
+  "imported_at": "2026-09-03T01:10:42.124788+00:00",
+  "first_imported_at": "2026-09-03T01:10:42.124788+00:00"
+}

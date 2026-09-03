@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "35e111102cf22572a5e3a4887eb68c538aabeb201f509821389bc778",
+  "skn": "440f795d7083fb71cc5043e533182ec409d575237301bf8406acb476d6d2b782",
+  "sks": "11b529a8aa030e98fe1a4b20812fc484420e368584b6c7f1072519bac0f1b7a0",
+  "paired_at": "2026-02-27T21:49:22.406644+00:00",
+  "name": "CHU66i",
+  "model": "",
+  "identifier": "CFA22DD8-1F60-4C1C-B33F-890264F1F21D",
+  "alignment_date": "2026-08-26T21:43:40+00:00",
+  "alignment_index": 17281,
+  "icloud_account": "solucion110@icloud.com",
+  "imported_at": "2026-09-03T12:12:43.633718+00:00",
+  "first_imported_at": "2026-09-03T12:12:43.633718+00:00"
+}

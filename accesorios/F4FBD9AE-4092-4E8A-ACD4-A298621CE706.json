@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "79ba65d12d8f4198873e23d852c3270c4325d7120f69ab7b7a3262e1",
+  "skn": "17947b9175649bae9dd7520b43fd8b3b02b24d595f22da1b0b5b7741931e3ca7",
+  "sks": "da65442443c9fcfdeabfab43cf96d5633e47df488ed2445b74a1e0d6911d6d4b",
+  "paired_at": "2026-02-27T21:51:18.805350+00:00",
+  "name": "CHU74i",
+  "model": "",
+  "identifier": "F4FBD9AE-4092-4E8A-ACD4-A298621CE706",
+  "alignment_date": "2026-08-26T22:08:40+00:00",
+  "alignment_index": 17282,
+  "icloud_account": "solucion110@icloud.com",
+  "imported_at": "2026-09-03T12:12:43.633718+00:00",
+  "first_imported_at": "2026-09-03T12:12:43.633718+00:00"
+}

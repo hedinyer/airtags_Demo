@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "5ab5ebbe0ec03da577a0bfe3b89623cedb9c6a6bd8298a1f8b813847",
+  "skn": "8a995c36e95e2f8b9dc4c777d53717d211896bd4554b97622d1bea438fd34ef1",
+  "sks": "cc2ca40205dfa832f67f9cdafc1b94b9061e53c78d523a85cb6824adc5a03461",
+  "paired_at": "2026-05-14T14:21:52.944126+00:00",
+  "name": "GZJ39I",
+  "model": "empty",
+  "identifier": "69613FB2-3AEC-450E-B66A-F260CF5A045B",
+  "alignment_date": "2026-08-18T22:21:20+00:00",
+  "alignment_index": 9249,
+  "icloud_account": "recuperacionmotos@icloud.com",
+  "imported_at": "2026-09-03T11:45:45.998856+00:00",
+  "first_imported_at": "2026-09-03T11:45:45.998856+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "5c870e617f9de50e4b190c351ebf6624ee5a669caebd8930fd7d968e",
+  "skn": "631bb5278803b770db3503ddf7ed0abb67111357e42c87b99783d46fd305e14c",
+  "sks": "d3296241e560c50da77eeaf7edef658f6ba8544d7b89ac6f50ff52d31ee1ee16",
+  "paired_at": "2025-08-11T17:23:54.774773+00:00",
+  "name": "TIB70H",
+  "model": "",
+  "identifier": "2A33C3C3-2C11-4E20-A14B-DA4B7312A21F",
+  "alignment_date": "2026-08-24T20:02:10+00:00",
+  "alignment_index": 36300,
+  "icloud_account": "motossp0@gmail.com",
+  "imported_at": "2026-09-03T00:52:36.115355+00:00",
+  "first_imported_at": "2026-09-03T00:52:36.115355+00:00"
+}

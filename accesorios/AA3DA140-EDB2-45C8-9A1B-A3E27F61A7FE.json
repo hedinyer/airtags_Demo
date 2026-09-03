@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "6e18b47f56888693ab33e541d93c28fe7e7e241a39cbfd690fd8c2c1",
+  "skn": "1e80f3b7e0d9c8f377faa6075d4f91ea0cb25fb366c681187ddf4493b86a5a33",
+  "sks": "e33dd8eaae2b71803e7ea565d8c9e97c25ce52a18638463dabb0e259287d94b2",
+  "paired_at": "2025-08-04T15:19:11.940084+00:00",
+  "name": "RBH81H",
+  "model": "",
+  "identifier": "AA3DA140-EDB2-45C8-9A1B-A3E27F61A7FE",
+  "alignment_date": "2026-08-24T19:20:50+00:00",
+  "alignment_index": 36978,
+  "icloud_account": "motossp0@gmail.com",
+  "imported_at": "2026-09-03T00:52:36.115355+00:00",
+  "first_imported_at": "2026-09-03T00:52:36.115355+00:00"
+}

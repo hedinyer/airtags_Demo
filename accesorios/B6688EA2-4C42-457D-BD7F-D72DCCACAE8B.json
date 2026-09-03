@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "af1e2236064ca9f304f5ff56eb1c9b6cef43a68e939d4aac99963682",
+  "skn": "8a693b8435748c391700a8cd54acaeb18c4fc6b247883e0de86f82327d454b12",
+  "sks": "2a5c0c0fcf4f84fb2e9a9b676a9fab11c1dc02705cad8a65e485763e595a9ccd",
+  "paired_at": "2026-08-09T15:28:36.493819+00:00",
+  "name": "MPQ54I",
+  "model": "",
+  "identifier": "B6688EA2-4C42-457D-BD7F-D72DCCACAE8B",
+  "alignment_date": "2026-08-09T15:28:38.032766+00:00",
+  "alignment_index": 1,
+  "icloud_account": "chiaberapinilla@icloud.com",
+  "imported_at": "2026-09-03T13:13:55.229909+00:00",
+  "first_imported_at": "2026-09-03T13:13:55.229909+00:00"
+}

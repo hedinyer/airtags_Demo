@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "e6cff8d9df8edf7199f2ff92f71e1c8ff10b3c6a65798ef8c27b041e",
+  "skn": "ee702e83b224cd65c576bcf8deb14f68269db483eaf607de54429ddbf3f11e71",
+  "sks": "b1aeb86901e8bb08efddc0fce56f06d50d85106f37dbf0453a872087fd312132",
+  "paired_at": "2026-03-03T18:22:58.298111+00:00",
+  "name": "CIG60i",
+  "model": "",
+  "identifier": "829DAEA7-594B-48D1-820C-A07E0BBABC0A",
+  "alignment_date": "2026-08-26T22:03:00+00:00",
+  "alignment_index": 16912,
+  "icloud_account": "solucion110@icloud.com",
+  "imported_at": "2026-09-03T12:12:43.633718+00:00",
+  "first_imported_at": "2026-09-03T12:12:43.633718+00:00"
+}

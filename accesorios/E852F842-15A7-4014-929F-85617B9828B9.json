@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "af348fac46354db5c4a7fd92ef54b934301ef6e8f3a3532aabe03862",
+  "skn": "115c408b85b8ffbba4f60e2910a9f5a09b2b3655d4a45388f014b442c0ec198d",
+  "sks": "c923ddeceffcdf90074e017e8ecd55744e1e9cb3e375fc52cb2604adf4f44675",
+  "paired_at": "2026-05-20T00:09:03.592366+00:00",
+  "name": "GZM50I",
+  "model": "empty",
+  "identifier": "E852F842-15A7-4014-929F-85617B9828B9",
+  "alignment_date": "2026-08-18T22:09:50+00:00",
+  "alignment_index": 8727,
+  "icloud_account": "recuperacionmotos@icloud.com",
+  "imported_at": "2026-09-03T11:45:45.998856+00:00",
+  "first_imported_at": "2026-09-03T11:45:45.998856+00:00"
+}

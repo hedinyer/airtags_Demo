@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b405e371320c978c4ee52343f35196d8ad4d7f76e9374f1a73d8a58d",
+  "skn": "393c4b2c65bc71be757b062407b131ccdab1611ec457b6fe554e95b76e415fca",
+  "sks": "5c4525a8a2f53b74b36c3f6f4c820287672c3692532b71b614b3ff2017afb1ac",
+  "paired_at": "2026-03-10T19:29:22.684524+00:00",
+  "name": "ERY81i",
+  "model": "",
+  "identifier": "BC212849-F267-4FBF-A6ED-F137A38F21CA",
+  "alignment_date": "2026-08-26T22:04:40+00:00",
+  "alignment_index": 16235,
+  "icloud_account": "solucion110@icloud.com",
+  "imported_at": "2026-09-03T12:12:43.633718+00:00",
+  "first_imported_at": "2026-09-03T12:12:43.633718+00:00"
+}

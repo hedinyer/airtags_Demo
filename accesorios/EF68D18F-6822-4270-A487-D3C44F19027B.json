@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "1f09634133d719a88ff8d91b45130e372eb5f5de50d0da48cea683d2",
+  "skn": "de20de8462b345209716e4cd9a9fbea14c1728d6317f4313cd47d0cf4f58b764",
+  "sks": "f0f81298568e8f7f3b6fafcee6ad1fec05db3b5a9ec48fdb74b32875f0da13bf",
+  "paired_at": "2026-06-09T19:47:07.798936+00:00",
+  "name": "HAE02I",
+  "model": "empty",
+  "identifier": "EF68D18F-6822-4270-A487-D3C44F19027B",
+  "alignment_date": "2026-08-18T22:15:30+00:00",
+  "alignment_index": 6731,
+  "icloud_account": "recuperacionmotos@icloud.com",
+  "imported_at": "2026-09-03T11:45:45.998856+00:00",
+  "first_imported_at": "2026-09-03T11:45:45.998856+00:00"
+}

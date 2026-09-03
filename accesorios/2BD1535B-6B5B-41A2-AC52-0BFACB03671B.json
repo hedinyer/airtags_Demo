@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "1fcae8b4a33363012edb4932ee7deb2081996554c681a4e01c973f37",
+  "skn": "820044a51d43fc352071d2a7d711e7c913cedf1496946e5ac238ff3b921147a6",
+  "sks": "b8bf2bf560cafd186c86c54d00fb9b8ae681974ddf037171abc4522ec7598c94",
+  "paired_at": "2024-09-30T00:22:38.858743+00:00",
+  "name": null,
+  "model": "iPhone14,7",
+  "identifier": "2BD1535B-6B5B-41A2-AC52-0BFACB03671B",
+  "alignment_date": "2025-02-26T05:57:33.091156+00:00",
+  "alignment_index": 1,
+  "icloud_account": "marisolpinilla@hotmail.com",
+  "imported_at": "2026-09-03T01:50:21.486288+00:00",
+  "first_imported_at": "2026-09-03T01:50:21.486288+00:00"
+}

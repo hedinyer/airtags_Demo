@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "c92174559c7003a047c0db10361569d35e335a24d5c671cf73ba3ced",
+  "skn": "0695222c9fb9f2b6820bd45c5d3c81c871ca1a90b182d6633d7fb9ae208ec1c0",
+  "sks": "d97957977559bae6661816aae5c2e196f0f0fe9c3136e4282aa34e0853c928f6",
+  "paired_at": "2026-02-27T21:43:57.861277+00:00",
+  "name": "CHU80i",
+  "model": "",
+  "identifier": "A95DBE27-C0DB-4E6F-92E9-B24EF528E4E2",
+  "alignment_date": "2026-08-26T21:54:00+00:00",
+  "alignment_index": 17282,
+  "icloud_account": "solucion110@icloud.com",
+  "imported_at": "2026-09-03T12:12:43.633718+00:00",
+  "first_imported_at": "2026-09-03T12:12:43.633718+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "3a3ac5d12c738d824c4fe36d9395453d814de4de998ed7d857283233",
+  "skn": "b0b9e0fdeed053a0ccf2cb884ddfda1659549769d9cf39923b901547fed4160f",
+  "sks": "2fcd33084eaaa1d9bd5f3e40ed32bb222e7ed3963131b0274a09c4f1daad2f27",
+  "paired_at": "2025-05-03T20:36:04.187345+00:00",
+  "name": "OSE43H",
+  "model": "",
+  "identifier": "75C8388C-E98A-42D1-8A14-022AC8938625",
+  "alignment_date": "2026-08-19T22:58:50+00:00",
+  "alignment_index": 45419,
+  "icloud_account": "marisolpinilla@hotmail.com",
+  "imported_at": "2026-09-03T01:50:21.486288+00:00",
+  "first_imported_at": "2026-09-03T01:50:21.486288+00:00"
+}

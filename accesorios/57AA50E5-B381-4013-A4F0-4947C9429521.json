@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "4351ae6cc26d8ec7ed03d44ee78ed6ce935a1aa87310af6394f21128",
+  "skn": "93b7c65aa9e13ad368bfb9dbb382cf70c29e4c4e3b52fb497afefd12ed48948d",
+  "sks": "721352f49b9add04753032647fb884af7daec420488a079bf43ca2793f1ac46b",
+  "paired_at": "2026-09-03T01:44:51.319939+00:00",
+  "name": "Heylen’s MacBook Air",
+  "model": "MacBookAir10,1",
+  "identifier": "57AA50E5-B381-4013-A4F0-4947C9429521",
+  "alignment_date": "2026-09-03T01:44:51.319939+00:00",
+  "alignment_index": 0,
+  "icloud_account": "marisolpinilla@hotmail.com",
+  "imported_at": "2026-09-03T01:50:21.486288+00:00",
+  "first_imported_at": "2026-09-03T01:50:21.486288+00:00"
+}

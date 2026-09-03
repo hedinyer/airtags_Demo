@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "cc9868161c7e1bca84328dd56b14e22974e1bb59e6fdb6ddd143e3d8",
+  "skn": "33fc2319329d0e1e5d1ea5fb50da3c7ef3f639ec46a83870efdfcab735eea3f7",
+  "sks": "4e22b7b69356dbcfca6f50a37585e1a3f27fafe1fbd201638ef6c9eaaaed42ee",
+  "paired_at": "2025-12-16T14:45:40.358465+00:00",
+  "name": "TTO95H",
+  "model": "",
+  "identifier": "16ADBF6B-7798-4089-8389-31A19B2FC0E5",
+  "alignment_date": "2026-02-27T23:32:35+00:00",
+  "alignment_index": 7044,
+  "icloud_account": "spberra@icloud.com",
+  "imported_at": "2026-09-03T01:10:42.124788+00:00",
+  "first_imported_at": "2026-09-03T01:10:42.124788+00:00"
+}

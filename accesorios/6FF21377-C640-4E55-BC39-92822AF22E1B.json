@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "da5dc98103cd69c715dd2037368faade211864522dbf51852e29fb4d",
+  "skn": "f10dc2d4873a9e3295495f322a0e715bd09329344170251ed55d7fc2388ff508",
+  "sks": "e6d8e337114a0a320d63b8fa7e3ce720b018b6c26ce0caafc31b88baa2364d5e",
+  "paired_at": "2026-06-29T20:45:43.847212+00:00",
+  "name": "KAY30I",
+  "model": "",
+  "identifier": "6FF21377-C640-4E55-BC39-92822AF22E1B",
+  "alignment_date": "2026-07-04T18:15:14.135992+00:00",
+  "alignment_index": 472,
+  "icloud_account": "chiaberapinilla@icloud.com",
+  "imported_at": "2026-09-03T13:13:55.229909+00:00",
+  "first_imported_at": "2026-09-03T13:13:55.229909+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "adbeaf7932d80c65ff6c978ce027bef97752c3c2490c635a84c830f8",
+  "skn": "4fb92622266c030a6073907773f0f312fd50157ef935d9e44c309231abc8439c",
+  "sks": "8ff82a5d1a6986c2d15a057341a0bbaef9dead2e3bb73dbe3f6e707c196fd040",
+  "paired_at": "2025-08-11T17:22:33.081252+00:00",
+  "name": "TIB72H #77",
+  "model": "",
+  "identifier": "A786372E-1E4A-4CA6-A61B-2D2C2CE46745",
+  "alignment_date": "2026-08-24T19:58:30+00:00",
+  "alignment_index": 36301,
+  "icloud_account": "motossp0@gmail.com",
+  "imported_at": "2026-09-03T00:52:36.115355+00:00",
+  "first_imported_at": "2026-09-03T00:52:36.115355+00:00"
+}

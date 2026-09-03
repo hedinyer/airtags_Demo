@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "682ddf51675c29541c407f87a7d3a72080bec9212c2e49f28e4e4fdc",
+  "skn": "c76d0e2475d1f8707be1c7eb93980d55e199984fb2f92cb03efe01b1d8c9bf1d",
+  "sks": "d3a837bcbf7dfed382acedc90f4666050d7e74da1f328a4eebff5d7d8a6cb14a",
+  "paired_at": "2025-08-04T14:50:40.587968+00:00",
+  "name": "RBH85H",
+  "model": "",
+  "identifier": "EB35B415-7950-4415-A658-890668372E31",
+  "alignment_date": "2026-08-24T19:52:00+00:00",
+  "alignment_index": 36982,
+  "icloud_account": "motossp0@gmail.com",
+  "imported_at": "2026-09-03T00:52:36.115355+00:00",
+  "first_imported_at": "2026-09-03T00:52:36.115355+00:00"
+}

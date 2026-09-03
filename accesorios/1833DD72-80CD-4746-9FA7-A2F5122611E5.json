@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "0c4ebc87112a67f06d10e3d8e08ce2fc13c36950bbe48c0bbcb7cf38",
+  "skn": "e4a3504ce2213dd923e855b0119f0b3b8b3f83eb5c0c414ed1f375f4b716c2d8",
+  "sks": "e8d5f7bc46ab026bdc419dfd54d056b5d62cec5779eaeaa00df25ea1b8a47db6",
+  "paired_at": "2026-05-15T20:35:24.658112+00:00",
+  "name": "TIQ81H",
+  "model": "empty",
+  "identifier": "1833DD72-80CD-4746-9FA7-A2F5122611E5",
+  "alignment_date": "2026-08-18T22:12:50+00:00",
+  "alignment_index": 9127,
+  "icloud_account": "recuperacionmotos@icloud.com",
+  "imported_at": "2026-09-03T11:45:45.998856+00:00",
+  "first_imported_at": "2026-09-03T11:45:45.998856+00:00"
+}

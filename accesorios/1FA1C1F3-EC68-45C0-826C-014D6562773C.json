@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "2642a2db894abb107421768ad8cfdeebc50080d6f4a76e7d29250d7d",
+  "skn": "ba3cf664a8ca388557843eb61843c7e8dbb06420ac89c4c84396480b34274d35",
+  "sks": "32994190e356b62eb7ea16528a305b4d3b58bb32dc0fe59a06315c1c546150fb",
+  "paired_at": "2026-05-12T16:51:58.468822+00:00",
+  "name": "GZJ31I",
+  "model": "empty",
+  "identifier": "1FA1C1F3-EC68-45C0-826C-014D6562773C",
+  "alignment_date": "2026-08-18T22:25:20+00:00",
+  "alignment_index": 9432,
+  "icloud_account": "recuperacionmotos@icloud.com",
+  "imported_at": "2026-09-03T11:45:45.998856+00:00",
+  "first_imported_at": "2026-09-03T11:45:45.998856+00:00"
+}

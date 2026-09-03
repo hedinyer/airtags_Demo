@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "cda351cff0a81b0a3479353cd6264f54edd59e54b3d7cb584aee6cf9",
+  "skn": "67ee0be3067f0036e74c5457e50f008e28057e2b75847cc780b50517c3fefb11",
+  "sks": "0982fba9e7febef2db0c80d33262b695a16fcccf1845fc90798832f79baeff2e",
+  "paired_at": "2025-08-04T15:03:32.899050+00:00",
+  "name": "THX41H",
+  "model": "",
+  "identifier": "89D793D5-3D7C-41F5-AC01-4C2C71E6A9E1",
+  "alignment_date": "2026-08-24T19:55:50+00:00",
+  "alignment_index": 36981,
+  "icloud_account": "motossp0@gmail.com",
+  "imported_at": "2026-09-03T00:52:36.115355+00:00",
+  "first_imported_at": "2026-09-03T00:52:36.115355+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "ad9b6bab35c1e754d2f21c49d9d99bea09a3c77d39c9567b744a4540",
+  "skn": "19c6c54e67cf78721a83b92473c9de7b9b652fe1e7f1371aaa3098f5a860e1a4",
+  "sks": "75c700807bd6cc14b496f75bc648c51ca2cec4f7600ac1e526035149abba69ed",
+  "paired_at": "2026-03-03T18:27:30.460330+00:00",
+  "name": "CIG57i",
+  "model": "",
+  "identifier": "B368D9D0-FCCF-4DDB-80B7-AC98B8E61CBF",
+  "alignment_date": "2026-08-26T21:57:50+00:00",
+  "alignment_index": 16912,
+  "icloud_account": "solucion110@icloud.com",
+  "imported_at": "2026-09-03T12:12:43.633718+00:00",
+  "first_imported_at": "2026-09-03T12:12:43.633718+00:00"
+}

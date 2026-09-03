@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "7444ad9267d5c210e9f2c2f86bb588fa28ec9a33f217a36d79901d86",
+  "skn": "fb50359a92b6ea856dd7cd5eeacf103e0ff103f47ce6a868b8b45bade8462847",
+  "sks": "f695d429a0704529f02bde3b4518f413c645864ea6525221878377b221414a69",
+  "paired_at": "2025-05-14T18:51:00.946043+00:00",
+  "name": "OSI73H",
+  "model": "",
+  "identifier": "0E3AD9FD-CEE0-4A95-ACB1-D9B4FF084A38",
+  "alignment_date": "2026-08-19T13:34:00+00:00",
+  "alignment_index": 44331,
+  "icloud_account": "marisolpinilla@hotmail.com",
+  "imported_at": "2026-09-03T01:50:21.486288+00:00",
+  "first_imported_at": "2026-09-03T01:50:21.486288+00:00"
+}

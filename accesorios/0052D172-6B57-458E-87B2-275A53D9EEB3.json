@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "ffef9918adc1f27d1d7756a75750f707009919360e491f4c90c799f5",
+  "skn": "4b88fb8d29819fcda0b79dc99c7c04259a5d3efdc41c5216f4cd897d470f9090",
+  "sks": "d834933615060dcae6e0d3a5877bd41a354ec7bd1249413805fb5b7b4bf7e411",
+  "paired_at": "2026-05-30T17:13:10.534769+00:00",
+  "name": "HAF65I",
+  "model": "empty",
+  "identifier": "0052D172-6B57-458E-87B2-275A53D9EEB3",
+  "alignment_date": "2026-08-18T22:19:50+00:00",
+  "alignment_index": 7701,
+  "icloud_account": "recuperacionmotos@icloud.com",
+  "imported_at": "2026-09-03T11:45:45.998856+00:00",
+  "first_imported_at": "2026-09-03T11:45:45.998856+00:00"
+}
