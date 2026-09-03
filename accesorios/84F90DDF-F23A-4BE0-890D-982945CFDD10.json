@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "acec037bf428d8ffdd9c4df6971c140440bd59ac0b7aa32ec006ac7c",
+  "skn": "a0e45503d4a32e7f08e5b7ff4f08733bbe9d9a3ba35b586b0dd87ce8202efe25",
+  "sks": "6c1de7b49929a36bda4e14f0a379554ac39b8d011e42e7534cbde66f0295d1e0",
+  "paired_at": "2026-06-01T21:14:28.091617+00:00",
+  "name": "GVZ92I",
+  "model": "empty",
+  "identifier": "84F90DDF-F23A-4BE0-890D-982945CFDD10",
+  "alignment_date": "2026-08-18T21:42:40+00:00",
+  "alignment_index": 7490,
+  "icloud_account": "recuperacionmotos@icloud.com",
+  "imported_at": "2026-09-03T11:45:45.998856+00:00",
+  "first_imported_at": "2026-09-03T11:45:45.998856+00:00"
+}

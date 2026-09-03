@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "115a9fe7ca11e9e7cf8438a8a9e7d9fe3175a5e33322773853db8e8a",
+  "skn": "a386bf638cf88955aed63f467276b2f8175e496c542a42ffaf6e702326a7bc59",
+  "sks": "cd73587249d9da7b7894af5957e9c1d68541e5632626364bc7542b9e0fed6d35",
+  "paired_at": "2026-05-20T00:41:36.325250+00:00",
+  "name": "GZM41I",
+  "model": "empty",
+  "identifier": "F830EE0A-9D6D-4FA1-8947-29305C047295",
+  "alignment_date": "2026-08-18T22:28:30+00:00",
+  "alignment_index": 8727,
+  "icloud_account": "recuperacionmotos@icloud.com",
+  "imported_at": "2026-09-03T11:45:45.998856+00:00",
+  "first_imported_at": "2026-09-03T11:45:45.998856+00:00"
+}

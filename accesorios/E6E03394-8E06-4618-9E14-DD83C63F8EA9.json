@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "3404b005c9589695fb272c718453c6a0799824a990a5d4ca04f530d0",
+  "skn": "c3114d3f6713bd508ecb9256dfdd09bdd7196f07226786e668502ce79e18d921",
+  "sks": "0e4b8cc4c825b2d46005c8133d07e2ae7ff729e8ce191fdd2990183e8990c939",
+  "paired_at": "2026-03-21T16:06:52.463108+00:00",
+  "name": "ESM79i",
+  "model": "",
+  "identifier": "E6E03394-8E06-4618-9E14-DD83C63F8EA9",
+  "alignment_date": "2026-08-26T22:07:00+00:00",
+  "alignment_index": 15192,
+  "icloud_account": "solucion110@icloud.com",
+  "imported_at": "2026-09-03T12:12:43.633718+00:00",
+  "first_imported_at": "2026-09-03T12:12:43.633718+00:00"
+}

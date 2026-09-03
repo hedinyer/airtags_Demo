@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "9fa7b1606ddf4f5ae196e239d6ddc902c84e3260d2e4e37c97ed465b",
+  "skn": "a50cc4df3b27a8fc4f657ff338e7970a6e716d87e9b9d9181962f9ecd009c959",
+  "sks": "d996096ede191fc39834f7e14eaa64706ed95d15a8d8d02a04ccdb36c1dc9244",
+  "paired_at": "2026-05-14T17:07:33.578801+00:00",
+  "name": "PIT682",
+  "model": "Card Pro",
+  "identifier": "759974F1-BC14-4881-80FB-E5DAF0914711",
+  "alignment_date": "2026-08-24T00:15:36.369000+00:00",
+  "alignment_index": 9999,
+  "icloud_account": "marisolpinilla@hotmail.com",
+  "imported_at": "2026-09-03T01:50:21.486288+00:00",
+  "first_imported_at": "2026-09-03T01:50:21.486288+00:00"
+}

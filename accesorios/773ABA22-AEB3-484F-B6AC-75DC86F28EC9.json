@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "96e503acbee580c35dbb3b56152115d93e4bed7248666303ce33820f",
+  "skn": "dda461594a77432529c203154fb3c7c004e5782ff16fb0350def195fde37da0d",
+  "sks": "c56edbaa6f3fba3287e0e3a5c333177dcf03ac95356126541a6dc0f3458c8283",
+  "paired_at": "2025-12-10T19:17:56.899066+00:00",
+  "name": "ZOJ20H",
+  "model": "",
+  "identifier": "773ABA22-AEB3-484F-B6AC-75DC86F28EC9",
+  "alignment_date": "2026-08-20T15:17:30+00:00",
+  "alignment_index": 24273,
+  "icloud_account": "spberra@icloud.com",
+  "imported_at": "2026-09-03T01:10:42.124788+00:00",
+  "first_imported_at": "2026-09-03T01:10:42.124788+00:00"
+}

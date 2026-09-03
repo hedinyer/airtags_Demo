@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "42841bfc74b6bccf63ed0a0064c473e9e0fb57b4a39428621b69a124",
+  "skn": "d08469d0cecb76b8e07f067524a586521549bde2d2a7a8319e0fb8528495cb7b",
+  "sks": "67b4b7629e872ec5db5e32fb92d2d7514bde186c7bf5a70bc50525017c2aafe8",
+  "paired_at": "2025-08-04T15:02:38.883047+00:00",
+  "name": "RBH89H",
+  "model": "",
+  "identifier": "5970E6C6-BE29-41B5-AE2E-B043A76C841A",
+  "alignment_date": "2026-04-14T19:24:40+00:00",
+  "alignment_index": 24307,
+  "icloud_account": "motossp0@gmail.com",
+  "imported_at": "2026-09-03T00:52:36.115355+00:00",
+  "first_imported_at": "2026-09-03T00:52:36.115355+00:00"
+}

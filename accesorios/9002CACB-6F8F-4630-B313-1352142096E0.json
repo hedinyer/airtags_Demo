@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "145b246f9a8db91d318f3e55c109d4bae3897877314c2bb75223f4c7",
+  "skn": "628731a0af6f314a47c314972b71451ed3e6e84a30002d4bc54d3c88b6046c23",
+  "sks": "1e9048a59f04b6a29f3ae02dc3fdefe04a53b0ce6b4269307c484014a1d624da",
+  "paired_at": "2025-05-14T18:49:54.106487+00:00",
+  "name": "OSI75H",
+  "model": "",
+  "identifier": "9002CACB-6F8F-4630-B313-1352142096E0",
+  "alignment_date": "2026-08-19T23:25:10+00:00",
+  "alignment_index": 44373,
+  "icloud_account": "marisolpinilla@hotmail.com",
+  "imported_at": "2026-09-03T01:50:21.486288+00:00",
+  "first_imported_at": "2026-09-03T01:50:21.486288+00:00"
+}

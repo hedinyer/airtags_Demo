@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "0cc34d11715526fd27d568dbdc0125d1010780652a746d1415b0846d",
+  "skn": "59ef41cf459daf7843d4ce3da7db86fd9ae886eab6a68d0e5484d8fea067cfc0",
+  "sks": "63a0ffa05d0473fb189229a7de2853904c7bcb8addaa6a403c8baefc9e1bc4ab",
+  "paired_at": "2025-08-04T14:59:36.145373+00:00",
+  "name": "RBJ53H",
+  "model": "",
+  "identifier": "8FBE1535-175C-4CC6-AE5C-4F7E976822E7",
+  "alignment_date": "2026-08-24T13:18:50+00:00",
+  "alignment_index": 36954,
+  "icloud_account": "motossp0@gmail.com",
+  "imported_at": "2026-09-03T00:52:36.115355+00:00",
+  "first_imported_at": "2026-09-03T00:52:36.115355+00:00"
+}

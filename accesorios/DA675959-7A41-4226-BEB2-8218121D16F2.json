@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "42142712d63078ade6b9a1353baf671863d7c15ec5be04c00e7a4db1",
+  "skn": "09e2255bc6d74168b52f650514e60403db867043d5c9cdb80bcabd9ce2a38ac0",
+  "sks": "fae59a93e83695db31d4852bbad029111e2f7e7ce3acce68293e2cc1425a6643",
+  "paired_at": "2025-12-22T15:56:20.050537+00:00",
+  "name": "TTJ70H",
+  "model": "",
+  "identifier": "DA675959-7A41-4226-BEB2-8218121D16F2",
+  "alignment_date": "2026-08-20T15:12:10+00:00",
+  "alignment_index": 23135,
+  "icloud_account": "spberra@icloud.com",
+  "imported_at": "2026-09-03T01:10:42.124788+00:00",
+  "first_imported_at": "2026-09-03T01:10:42.124788+00:00"
+}

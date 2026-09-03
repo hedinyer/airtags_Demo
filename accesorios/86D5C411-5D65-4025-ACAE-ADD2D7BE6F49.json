@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "30a10d87afe447554b2cb5accfbaac508d26e8dd2841aa1aa693ba68",
+  "skn": "4d9eb0ffe6548da2762d34cc49dcb1e9ec03bacc9849310bd2fabdacacd34f5b",
+  "sks": "5383b6e7051e4a4921abb50fcf10ca0a66f87c793d4226cb6258a1daeee40253",
+  "paired_at": "2025-12-20T14:58:38.931833+00:00",
+  "name": "MCO74H",
+  "model": "",
+  "identifier": "86D5C411-5D65-4025-ACAE-ADD2D7BE6F49",
+  "alignment_date": "2026-08-20T15:12:50+00:00",
+  "alignment_index": 23330,
+  "icloud_account": "spberra@icloud.com",
+  "imported_at": "2026-09-03T01:10:42.124788+00:00",
+  "first_imported_at": "2026-09-03T01:10:42.124788+00:00"
+}

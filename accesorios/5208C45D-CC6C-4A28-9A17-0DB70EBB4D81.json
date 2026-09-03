@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d4fe09c42b0880946cb774809a31961af37ad8997a2f0fa20ce806ad",
+  "skn": "e74c815a4b2c295f75c56d78c929e596d3eb565b58e3c0361ef4908bc3d2c3b3",
+  "sks": "1cb64f546febdb5463f59cc784999b11fe5ca27c1706ac116d0ee9b567c95ca0",
+  "paired_at": "2025-08-04T14:54:53.161150+00:00",
+  "name": "RBJ58H",
+  "model": "",
+  "identifier": "5208C45D-CC6C-4A28-9A17-0DB70EBB4D81",
+  "alignment_date": "2026-08-24T20:00:00+00:00",
+  "alignment_index": 36982,
+  "icloud_account": "motossp0@gmail.com",
+  "imported_at": "2026-09-03T00:52:36.115355+00:00",
+  "first_imported_at": "2026-09-03T00:52:36.115355+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "5bf2c99f48b66fe8a376a39a894cfc9c1ab0230a7b4402a4659b8a5c",
+  "skn": "7e34f89fdf9c71c0f9fb2a51bd390489a003d906a96a6a3057df2e19e1385cc9",
+  "sks": "2e4c1ca100fe43ab518a63458e68965e03ffd0a33f99f9e879dd8b05ed0e5219",
+  "paired_at": "2025-05-03T21:07:29.537064+00:00",
+  "name": "OSE31H",
+  "model": "",
+  "identifier": "3BC1042C-1C7F-4ED4-99FE-D7586596A6A7",
+  "alignment_date": "2026-08-19T23:49:50+00:00",
+  "alignment_index": 45420,
+  "icloud_account": "marisolpinilla@hotmail.com",
+  "imported_at": "2026-09-03T01:50:21.486288+00:00",
+  "first_imported_at": "2026-09-03T01:50:21.486288+00:00"
+}

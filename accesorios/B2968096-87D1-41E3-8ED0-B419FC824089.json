@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "03acc4792c4624fe7d777d72e37a3c6b438780467f5ac8bc42704b55",
+  "skn": "700c346fefb39dc976806ca480f3b634ee3743f495488253dbb336ec3c0a2c13",
+  "sks": "c9fc562fec8cc6530657f072c188390dc92ef3fca4d5825573a3cdf9541fe57b",
+  "paired_at": "2026-01-19T21:23:20.541984+00:00",
+  "name": "ZPF95H",
+  "model": "",
+  "identifier": "B2968096-87D1-41E3-8ED0-B419FC824089",
+  "alignment_date": "2026-08-20T15:02:00+00:00",
+  "alignment_index": 20424,
+  "icloud_account": "spberra@icloud.com",
+  "imported_at": "2026-09-03T01:10:42.124788+00:00",
+  "first_imported_at": "2026-09-03T01:10:42.124788+00:00"
+}

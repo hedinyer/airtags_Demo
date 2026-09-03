@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "7d94e1bae67a2208d7b51451f3d908613c54eaf72fbe72445313d401",
+  "skn": "f35902cb3e2689e5b5420a8a3e449d50e422cbf6df79d896c0b31db7d0203e1f",
+  "sks": "8639a513f0c847c4ab418ac4f96424ab5e2d1b26d6a92e16771c7d6065c81ac2",
+  "paired_at": "2025-05-05T13:55:22.457067+00:00",
+  "name": "OSC02H",
+  "model": "",
+  "identifier": "C9A67F2B-03E8-4764-A43C-9F30B51CF052",
+  "alignment_date": "2026-08-22T19:30:00.081000+00:00",
+  "alignment_index": 45528,
+  "icloud_account": "marisolpinilla@hotmail.com",
+  "imported_at": "2026-09-03T01:50:21.486288+00:00",
+  "first_imported_at": "2026-09-03T01:50:21.486288+00:00"
+}

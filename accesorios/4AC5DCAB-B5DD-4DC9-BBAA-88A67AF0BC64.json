@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "96b29f759f23d393fafd72041e5f30e9df46cd1b5735e14347940e10",
+  "skn": "e0f1073ae639b6f75c78ea25e7406c972db7cb0cf7dd97d69e2fdaeb5f1e45e6",
+  "sks": "c846434ab48833ff9b51d7e5f4bac651c08b11f23a093edf2142f9e0fc146ceb",
+  "paired_at": "2025-05-14T22:25:05.698745+00:00",
+  "name": "JRK23H",
+  "model": "",
+  "identifier": "4AC5DCAB-B5DD-4DC9-BBAA-88A67AF0BC64",
+  "alignment_date": "2026-08-20T00:06:00+00:00",
+  "alignment_index": 44360,
+  "icloud_account": "marisolpinilla@hotmail.com",
+  "imported_at": "2026-09-03T01:50:21.486288+00:00",
+  "first_imported_at": "2026-09-03T01:50:21.486288+00:00"
+}

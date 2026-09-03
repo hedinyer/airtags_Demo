@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "abe4073dc95af17eb3877a1083f21395742a71c3184d26a73b5cc407",
+  "skn": "31027e2c91ffa92ad27e1525c29b235670369d287d39ac65ffddd25c64960ba2",
+  "sks": "0771f1351b8ef7fe5eb974751964df66c080d1732b496ccc7d5b2e49045f34c5",
+  "paired_at": "2026-06-13T16:08:25.380652+00:00",
+  "name": "MCY98H",
+  "model": "empty",
+  "identifier": "338145D4-EAA6-4A48-9196-C93E6A5A882E",
+  "alignment_date": "2026-08-18T22:23:40+00:00",
+  "alignment_index": 6361,
+  "icloud_account": "recuperacionmotos@icloud.com",
+  "imported_at": "2026-09-03T11:45:45.998856+00:00",
+  "first_imported_at": "2026-09-03T11:45:45.998856+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "983b43826a4162d5a8b14479ba9df0c3a97dcfb82d8c05e3b6969250",
+  "skn": "fa3dfda1092ece548d36e966d6e7f4bb33cc2c34cb00e73c0f013676e7192c67",
+  "sks": "366239f4df5567cc41ef685c5ae4cc952468ab6a71dcac8e93b8570cb43de73a",
+  "paired_at": "2026-01-19T18:22:56.780362+00:00",
+  "name": "ZPF98H",
+  "model": "",
+  "identifier": "603D8CBC-B63A-4B20-A769-EAEA43863F09",
+  "alignment_date": "2026-08-20T15:14:10+00:00",
+  "alignment_index": 20436,
+  "icloud_account": "spberra@icloud.com",
+  "imported_at": "2026-09-03T01:10:42.124788+00:00",
+  "first_imported_at": "2026-09-03T01:10:42.124788+00:00"
+}

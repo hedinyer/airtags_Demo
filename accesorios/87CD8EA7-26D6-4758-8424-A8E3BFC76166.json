@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "15b09063adaffc9eb91ab9eb670f4f315e058cd5976fda1d346e056a",
+  "skn": "ad8c59035737c5b9a433fa04267db80240115eb6d056e0b05adbb46078523b53",
+  "sks": "b1ee2c148fd1d9f3d2e3f4549993f1f865ae5884088c8ce62f2e2ae899187efc",
+  "paired_at": "2025-12-15T20:48:26.679386+00:00",
+  "name": "TTO94H",
+  "model": "",
+  "identifier": "87CD8EA7-26D6-4758-8424-A8E3BFC76166",
+  "alignment_date": "2026-08-20T15:16:20+00:00",
+  "alignment_index": 23787,
+  "icloud_account": "spberra@icloud.com",
+  "imported_at": "2026-09-03T01:10:42.124788+00:00",
+  "first_imported_at": "2026-09-03T01:10:42.124788+00:00"
+}

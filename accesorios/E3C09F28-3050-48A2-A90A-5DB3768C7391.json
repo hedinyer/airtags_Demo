@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "3212b854959227d8d77d76e8c592fa36ec8c547715a2b4e3cd93e0f7",
+  "skn": "e60c503fbf6cbf60a3789d65f94cbada3c0e68b7c19df940589aa788348c98bd",
+  "sks": "e15da7ca29fff9010be05e2a310ac91bca65406901577d72dde532583b0e303e",
+  "paired_at": "2025-12-17T19:28:57.632356+00:00",
+  "name": "TTO99H",
+  "model": "",
+  "identifier": "E3C09F28-3050-48A2-A90A-5DB3768C7391",
+  "alignment_date": "2026-08-20T15:04:00+00:00",
+  "alignment_index": 23599,
+  "icloud_account": "spberra@icloud.com",
+  "imported_at": "2026-09-03T01:10:42.124788+00:00",
+  "first_imported_at": "2026-09-03T01:10:42.124788+00:00"
+}

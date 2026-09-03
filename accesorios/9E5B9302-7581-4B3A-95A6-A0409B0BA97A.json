@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "277d77c80c0fba97563844cbc9a9aa827069733fb1bb67a2cd272193",
+  "skn": "2e706df5fa85805bd068d499683513ba792dd46d134515282e0d73dcc9d2fae5",
+  "sks": "3f38a1983922c9ffe9475dae3843191447b52381e1780647e468fc55b0da5bee",
+  "paired_at": "2026-05-14T17:56:30.460885+00:00",
+  "name": "GZR34I",
+  "model": "empty",
+  "identifier": "9E5B9302-7581-4B3A-95A6-A0409B0BA97A",
+  "alignment_date": "2026-08-18T22:26:00+00:00",
+  "alignment_index": 9235,
+  "icloud_account": "recuperacionmotos@icloud.com",
+  "imported_at": "2026-09-03T11:45:45.998856+00:00",
+  "first_imported_at": "2026-09-03T11:45:45.998856+00:00"
+}

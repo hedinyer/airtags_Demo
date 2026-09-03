@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "35696980a6e7dc66fb396e8f018fea52023d438a1d2dba973cdf8639",
+  "skn": "42bd3bb6862880a090684abbe07728eccd506c911a4907f34398786be7a39421",
+  "sks": "5d8094e21b2a62c5944e6fb2206a85ad805173c622756886c47af9f5042f3b1e",
+  "paired_at": "2026-05-12T16:53:05.250946+00:00",
+  "name": "GZM38I",
+  "model": "empty",
+  "identifier": "2E6C8B8F-2854-4926-8DD4-357AB8B61046",
+  "alignment_date": "2026-08-18T21:54:50+00:00",
+  "alignment_index": 9429,
+  "icloud_account": "recuperacionmotos@icloud.com",
+  "imported_at": "2026-09-03T11:45:45.998856+00:00",
+  "first_imported_at": "2026-09-03T11:45:45.998856+00:00"
+}

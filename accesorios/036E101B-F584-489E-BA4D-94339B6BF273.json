@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "e1f3bdbdf767d80d221d2b6da35a3bc47d43d4b96349a64a25983eab",
+  "skn": "e694821954b4407c4e91c4b36429179e3a57c35b894619816b8674fcef264c45",
+  "sks": "03604d042d73d03e6cc08157ab03c1cbb1e0abb634a6865978ca95b4ef39a0e4",
+  "paired_at": "2025-12-18T21:44:20.331434+00:00",
+  "name": "MDG63H",
+  "model": "",
+  "identifier": "036E101B-F584-489E-BA4D-94339B6BF273",
+  "alignment_date": "2026-08-20T15:08:50+00:00",
+  "alignment_index": 23495,
+  "icloud_account": "spberra@icloud.com",
+  "imported_at": "2026-09-03T01:10:42.124788+00:00",
+  "first_imported_at": "2026-09-03T01:10:42.124788+00:00"
+}

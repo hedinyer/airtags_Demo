@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "14408e5c69871734c16e1d33deeea4a93cfa5d69ff1bad84b631d134",
+  "skn": "7c5f23e43f7704306b3b75f8a9502263b587ead3a9c6b5d5eef119f929c830ff",
+  "sks": "a28c8af52e39cc7785fe4bab2fdd7653b778af4d7124f767c3101e6fe3d31263",
+  "paired_at": "2026-03-03T18:25:26.895719+00:00",
+  "name": "CIG58i",
+  "model": "",
+  "identifier": "4E6619D3-8E11-4165-B5A5-C854E01FED89",
+  "alignment_date": "2026-08-26T21:57:50+00:00",
+  "alignment_index": 16911,
+  "icloud_account": "solucion110@icloud.com",
+  "imported_at": "2026-09-03T12:12:43.633718+00:00",
+  "first_imported_at": "2026-09-03T12:12:43.633718+00:00"
+}

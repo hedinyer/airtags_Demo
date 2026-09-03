@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "078ee2fda6b6a49093a6dfa1dfc1f610c7d9161bfb45ce7ec115e611",
+  "skn": "ad537aab04f9e538a4239d84575e4e8e22337748a6f66e36bc16d59aca2a544e",
+  "sks": "46cea7b9ff1de1c92c030a4360c20e18c26e87611a596f9e084200fc0ecc0f46",
+  "paired_at": "2025-12-20T15:59:47.670004+00:00",
+  "name": "JRP40H",
+  "model": "",
+  "identifier": "4EFF162A-408F-41B1-9686-0D0DBCC125D0",
+  "alignment_date": "2026-08-20T15:13:20+00:00",
+  "alignment_index": 23325,
+  "icloud_account": "spberra@icloud.com",
+  "imported_at": "2026-09-03T01:10:42.124788+00:00",
+  "first_imported_at": "2026-09-03T01:10:42.124788+00:00"
+}

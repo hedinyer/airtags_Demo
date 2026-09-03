@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "24ebc6541da613f23b3022c52955d91ec5deea7207ed38b34f7b4e4a",
+  "skn": "75647f8aaa0b936e943fa08dcad58d1d855b20232fe567a3369264d969a8e217",
+  "sks": "468a0c41ab5768c230ebe7b20a59aee3c7a64369d3bad46d6fe462fdedff7928",
+  "paired_at": "2025-12-16T17:31:08.545026+00:00",
+  "name": "JRH78H",
+  "model": "",
+  "identifier": "84802B46-99F0-429C-90DB-8E0878DCDF04",
+  "alignment_date": "2026-08-20T15:45:05.592000+00:00",
+  "alignment_index": 23706,
+  "icloud_account": "spberra@icloud.com",
+  "imported_at": "2026-09-03T01:10:42.124788+00:00",
+  "first_imported_at": "2026-09-03T01:10:42.124788+00:00"
+}

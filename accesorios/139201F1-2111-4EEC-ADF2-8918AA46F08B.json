@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "5b6c37900105e8a7d7dcc710ccc84d9cea81721d7cef61a60eabe71a",
+  "skn": "75210b68db9440331639caae2e0e07090e9b9fbfb5e4627ef3a12f03f423c3eb",
+  "sks": "528deb8c39a55c589e6a5ffca2b2632185438296b899c79792b6df039c469e46",
+  "paired_at": "2026-03-03T18:32:48.456461+00:00",
+  "name": "CIG34i",
+  "model": "",
+  "identifier": "139201F1-2111-4EEC-ADF2-8918AA46F08B",
+  "alignment_date": "2026-08-26T22:07:20+00:00",
+  "alignment_index": 16910,
+  "icloud_account": "solucion110@icloud.com",
+  "imported_at": "2026-09-03T12:12:43.633718+00:00",
+  "first_imported_at": "2026-09-03T12:12:43.633718+00:00"
+}

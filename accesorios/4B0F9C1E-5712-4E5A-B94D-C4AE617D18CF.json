@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d5c7cf72b1c9252674b8390b8f69688c26535af437d3d30e5889adb1",
+  "skn": "c68d6e885a1a64d2137c38aceda2383bcbd7b93edb96179d941da2a9551c96e1",
+  "sks": "6a404be6fba30720d1d66507863797654047400bbf16337a94d685b20df1c272",
+  "paired_at": "2026-05-12T16:50:25.014146+00:00",
+  "name": "iPhone",
+  "model": "iPhone12,1",
+  "identifier": "4B0F9C1E-5712-4E5A-B94D-C4AE617D18CF",
+  "alignment_date": "2026-05-12T16:50:25.014146+00:00",
+  "alignment_index": 0,
+  "icloud_account": "recuperacionmotos@icloud.com",
+  "imported_at": "2026-09-03T11:45:45.998856+00:00",
+  "first_imported_at": "2026-09-03T11:45:45.998856+00:00"
+}

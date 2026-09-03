@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "aa3108f349cbfb819a574cc95bc69fb538a3d9cd620541701e2bb91d",
+  "skn": "cec75918673392cead622c8f042d09359ed6500cfca6c6ed06660f95ad0bcafb",
+  "sks": "5a6d8df723a3efd7ffde0012769f1b791b7185d67395bd3caf84dcac140a50e4",
+  "paired_at": "2025-08-04T14:51:30.863621+00:00",
+  "name": "RBJ50H",
+  "model": "",
+  "identifier": "1BA68C37-D65D-451B-A79F-343A20449392",
+  "alignment_date": "2026-08-24T20:00:20+00:00",
+  "alignment_index": 36983,
+  "icloud_account": "motossp0@gmail.com",
+  "imported_at": "2026-09-03T00:52:36.115355+00:00",
+  "first_imported_at": "2026-09-03T00:52:36.115355+00:00"
+}

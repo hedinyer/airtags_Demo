@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b35661367580026d962a9d88e1a46a0733f608ba50913707e92da641",
+  "skn": "0eace7d9f84e0d67b0b01db95b86f8c192bbfededb86847f75c8f9c9070d0c1a",
+  "sks": "d487c6d23faaf80365cd7b20bc482df33d280fda7ec6260f93ff9aeea15d15dd",
+  "paired_at": "2026-06-01T21:03:02.859591+00:00",
+  "name": "ORZ11H",
+  "model": "empty",
+  "identifier": "06E9FF68-B794-4066-9698-3B7D0E2BFF4E",
+  "alignment_date": "2026-08-18T21:41:50+00:00",
+  "alignment_index": 7491,
+  "icloud_account": "recuperacionmotos@icloud.com",
+  "imported_at": "2026-09-03T11:45:45.998856+00:00",
+  "first_imported_at": "2026-09-03T11:45:45.998856+00:00"
+}

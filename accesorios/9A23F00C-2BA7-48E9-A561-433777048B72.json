@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "4e9c5b2b231caf911cb98902c13aba3617717852e8de275462c1b4b8",
+  "skn": "c3555df923aa4e9a70ad1ce66bd31629eb253643c0519a7717bec84689524268",
+  "sks": "47d496723dfe76479aedffb6403875940cf7507b8f95c2328c0d3231a004a532",
+  "paired_at": "2026-09-03T03:14:01.463483+00:00",
+  "name": "Heylen’s MacBook Air",
+  "model": "MacBookAir10,1",
+  "identifier": "9A23F00C-2BA7-48E9-A561-433777048B72",
+  "alignment_date": "2026-09-03T03:14:01.463483+00:00",
+  "alignment_index": 0,
+  "icloud_account": "recuperacionmotos@icloud.com",
+  "imported_at": "2026-09-03T11:45:45.998856+00:00",
+  "first_imported_at": "2026-09-03T11:45:45.998856+00:00"
+}

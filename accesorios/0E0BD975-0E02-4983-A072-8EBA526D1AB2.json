@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "180700ff8e400078b34ce9a63a92ee61535e55675a891ae38fb8e3f5",
+  "skn": "bed17f7d73b1211055eb654dec7b1129d86a528261c998fccf401d2604d78a77",
+  "sks": "ae935b5c0feda8ef3f06cb9029a1defe7bd76268e6a5ccea5df1df80bb971404",
+  "paired_at": "2026-01-13T21:57:24.784825+00:00",
+  "name": "DTV85I",
+  "model": "",
+  "identifier": "0E0BD975-0E02-4983-A072-8EBA526D1AB2",
+  "alignment_date": "2026-08-20T11:35:20+00:00",
+  "alignment_index": 20983,
+  "icloud_account": "spberra@icloud.com",
+  "imported_at": "2026-09-03T01:10:42.124788+00:00",
+  "first_imported_at": "2026-09-03T01:10:42.124788+00:00"
+}

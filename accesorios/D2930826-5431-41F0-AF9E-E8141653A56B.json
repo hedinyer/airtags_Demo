@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "fdeceb96d1b733361220e08cfd298c744e21dbc34558c792321e49e9",
+  "skn": "315f5c672534af09c303c108fb3df913a5b3d6917f5d0c2b28befd0afff52f86",
+  "sks": "984111a959a00a4dfd782af1e493dd3d6b5bbbd25396142681d975024cc44633",
+  "paired_at": "2026-03-03T18:31:20.622043+00:00",
+  "name": "CIG51i",
+  "model": "",
+  "identifier": "D2930826-5431-41F0-AF9E-E8141653A56B",
+  "alignment_date": "2026-08-26T22:13:40+00:00",
+  "alignment_index": 16912,
+  "icloud_account": "solucion110@icloud.com",
+  "imported_at": "2026-09-03T12:12:43.633718+00:00",
+  "first_imported_at": "2026-09-03T12:12:43.633718+00:00"
+}

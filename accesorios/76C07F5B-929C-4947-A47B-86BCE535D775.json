@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "8b0bf6fdfb3f1afee562a4c4b728cfa88b6d0bb9c55509c5880faa0f",
+  "skn": "a7b952c87cb0e405de8d639de9a8c150e797080a66004f38db225a2b1370bf5e",
+  "sks": "512aa520a678b6da7184e4b96104219ca5eaf77247fc1d67cb4186c08ba00eff",
+  "paired_at": "2026-02-27T21:40:29.482958+00:00",
+  "name": "CIH16i",
+  "model": "",
+  "identifier": "76C07F5B-929C-4947-A47B-86BCE535D775",
+  "alignment_date": "2026-08-26T22:07:30+00:00",
+  "alignment_index": 16917,
+  "icloud_account": "solucion110@icloud.com",
+  "imported_at": "2026-09-03T12:12:43.633718+00:00",
+  "first_imported_at": "2026-09-03T12:12:43.633718+00:00"
+}

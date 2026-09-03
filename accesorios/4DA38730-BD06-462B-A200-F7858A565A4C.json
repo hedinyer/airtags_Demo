@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "2451da883f38af5f41c4d7963762642caea7752fcea38eca7cca56e2",
+  "skn": "9655a3ef03d373c985765f7a25128e281f249f886f03bc86ad5ead91fe51e977",
+  "sks": "9b248236c3e2b6b80d3029e68f9b2929d9f65915dd5dc1ab79c75ef6d4cbec93",
+  "paired_at": "2025-09-24T14:10:14.864142+00:00",
+  "name": "iPhone de Marisol",
+  "model": "iPhone18,2",
+  "identifier": "4DA38730-BD06-462B-A200-F7858A565A4C",
+  "alignment_date": "2025-09-24T14:10:14.864142+00:00",
+  "alignment_index": 0,
+  "icloud_account": "marisolpinilla@hotmail.com",
+  "imported_at": "2026-09-03T01:50:21.486288+00:00",
+  "first_imported_at": "2026-09-03T01:50:21.486288+00:00"
+}

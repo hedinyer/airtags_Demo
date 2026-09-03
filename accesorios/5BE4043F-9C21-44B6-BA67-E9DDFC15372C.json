@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "43a830249ea5bd7d8fdf69ceb1e0c991213345535ba8a8271796a2b8",
+  "skn": "e390e442b1be54dfacf2a98bbb428a1a8a0185416c1264febd67a8cb8a660b7b",
+  "sks": "92ecf9265f287f566a422e7e2618bc50a63b087d12cf2571f354a1f1f53e86d3",
+  "paired_at": "2025-08-04T15:00:13.102224+00:00",
+  "name": "RBB74H",
+  "model": "",
+  "identifier": "5BE4043F-9C21-44B6-BA67-E9DDFC15372C",
+  "alignment_date": "2026-08-24T19:49:20+00:00",
+  "alignment_index": 36980,
+  "icloud_account": "motossp0@gmail.com",
+  "imported_at": "2026-09-03T00:52:36.115355+00:00",
+  "first_imported_at": "2026-09-03T00:52:36.115355+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "c0b81dc6273ba09bf517426b7406c4bae48196a0dcbb2bca278448d7",
+  "skn": "bb40591c66bd90b7037833d9e4bc6ad42a926b0270aed7dc0edf0b2ea1689b86",
+  "sks": "adfc75342663b376d6ba883da70730f513d58920223de17b41fd332fcf2c575d",
+  "paired_at": "2025-08-26T02:07:28.412166+00:00",
+  "name": "iPhone",
+  "model": "iPhone11,2",
+  "identifier": "F9022672-0AC0-478A-BF8D-8A4A0292A6B6",
+  "alignment_date": "2025-08-26T02:07:28.412166+00:00",
+  "alignment_index": 0,
+  "icloud_account": "motossp0@gmail.com",
+  "imported_at": "2026-09-03T00:52:36.115355+00:00",
+  "first_imported_at": "2026-09-03T00:52:36.115355+00:00"
+}

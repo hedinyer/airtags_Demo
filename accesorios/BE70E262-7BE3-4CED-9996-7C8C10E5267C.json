@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "4e4ca2f5a78f50039374f7bd8e32be97e909363ad781042df08d77c7",
+  "skn": "87d3b176268c25b9d03daab99c300537ca49b1031fbf89c183766ecdbc156484",
+  "sks": "b50eec0293fdd29df4df842d1c868f6b6cf0be7fd3f2fccf9d2ebe661c623cc5",
+  "paired_at": "2025-12-16T21:42:47.864707+00:00",
+  "name": "ZOQ12H",
+  "model": "",
+  "identifier": "BE70E262-7BE3-4CED-9996-7C8C10E5267C",
+  "alignment_date": "2026-08-20T14:48:50+00:00",
+  "alignment_index": 23686,
+  "icloud_account": "spberra@icloud.com",
+  "imported_at": "2026-09-03T01:10:42.124788+00:00",
+  "first_imported_at": "2026-09-03T01:10:42.124788+00:00"
+}

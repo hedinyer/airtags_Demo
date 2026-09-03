@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "036580d0db90c7c2dcb8568553c76484afc0d228afa08aee7c9e8bb6",
+  "skn": "8ab13610a180caf2de3ea3015fb4ed5b4105d7d619b0d3d7c2e244ae7de0f719",
+  "sks": "0c3daa2a31cbe4752e19839a224a192bb76b9097e448fa04bc91724ea291075e",
+  "paired_at": "2025-05-08T19:55:41.224865+00:00",
+  "name": "OSE76H",
+  "model": "",
+  "identifier": "0811B3D7-0BE4-4AEF-8829-68D547005002",
+  "alignment_date": "2026-08-22T19:38:27.957000+00:00",
+  "alignment_index": 45211,
+  "icloud_account": "marisolpinilla@hotmail.com",
+  "imported_at": "2026-09-03T01:50:21.486288+00:00",
+  "first_imported_at": "2026-09-03T01:50:21.486288+00:00"
+}

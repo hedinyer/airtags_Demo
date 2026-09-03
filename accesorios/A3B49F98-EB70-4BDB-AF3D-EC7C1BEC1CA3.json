@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d1ac311ad817d4ce8398ddc20d71405efed6cae4841403aaca2c6d79",
+  "skn": "6879f69eb96bd12da857b4ca9d8bab0c33d3063865c4c95191af68d2e813729b",
+  "sks": "1950965fbbb78956733bc6a8a5a14508aaa98d463f779a09e5348ede373e13c6",
+  "paired_at": "2026-08-24T12:45:51.198892+00:00",
+  "name": "iPhone de Marisol",
+  "model": "iPhone12,1",
+  "identifier": "A3B49F98-EB70-4BDB-AF3D-EC7C1BEC1CA3",
+  "alignment_date": "2026-08-24T12:45:51.198892+00:00",
+  "alignment_index": 0,
+  "icloud_account": "marisolpinilla@hotmail.com",
+  "imported_at": "2026-09-03T01:50:21.486288+00:00",
+  "first_imported_at": "2026-09-03T01:50:21.486288+00:00"
+}

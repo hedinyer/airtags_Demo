@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "43b203ca3bf880c6df2e6ab52ceb66cefe9526d5ae4b4967ee4889a8",
+  "skn": "e9c1f79002e906c26a488cbe98689931d7032b4d0bad530e5900c82aef8c03ec",
+  "sks": "e1c3c1f443131f0699667afcdca46e95f88b1d8c7fab09742024acd28f8eed5b",
+  "paired_at": "2026-03-03T18:29:57.163155+00:00",
+  "name": "CIG56i",
+  "model": "",
+  "identifier": "E0082FBB-46D8-4FCE-B6BD-C6B58A669F05",
+  "alignment_date": "2026-08-26T22:12:00+00:00",
+  "alignment_index": 16911,
+  "icloud_account": "solucion110@icloud.com",
+  "imported_at": "2026-09-03T12:12:43.633718+00:00",
+  "first_imported_at": "2026-09-03T12:12:43.633718+00:00"
+}

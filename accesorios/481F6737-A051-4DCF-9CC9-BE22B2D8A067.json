@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "6abb0c9161a8d8f7a3c39b23684b2786bf01806951600ba73a109b57",
+  "skn": "e9fbd1b7bd705257c7e8676eb69417f00d565256ee5264a2fdf400acd7bd5dde",
+  "sks": "b4cc68cbc251d8d2f79d67ad2f1397cc2630c6528629dec7e0828f03f9a46af0",
+  "paired_at": "2025-08-04T14:27:41.976583+00:00",
+  "name": "RBF35H",
+  "model": "",
+  "identifier": "481F6737-A051-4DCF-9CC9-BE22B2D8A067",
+  "alignment_date": "2026-08-17T14:17:20+00:00",
+  "alignment_index": 36275,
+  "icloud_account": "motossp0@gmail.com",
+  "imported_at": "2026-09-03T00:52:36.115355+00:00",
+  "first_imported_at": "2026-09-03T00:52:36.115355+00:00"
+}

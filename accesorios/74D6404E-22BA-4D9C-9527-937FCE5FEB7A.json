@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "ee6e4d62c891d8fdda41e40bbec3133e18cf92fdb1cb4f70d7b1878f",
+  "skn": "6c10671a27c1ebb984ec98da638c217f7f03451cefd802fa51eb7fb971d252ca",
+  "sks": "a17822bc36f1e36f77f186e5dd4065befc95d663892541807d7f1270a11b9272",
+  "paired_at": "2025-08-04T15:01:45.454858+00:00",
+  "name": "RBJ55H",
+  "model": "",
+  "identifier": "74D6404E-22BA-4D9C-9527-937FCE5FEB7A",
+  "alignment_date": "2026-08-24T18:52:30+00:00",
+  "alignment_index": 36978,
+  "icloud_account": "motossp0@gmail.com",
+  "imported_at": "2026-09-03T00:52:36.115355+00:00",
+  "first_imported_at": "2026-09-03T00:52:36.115355+00:00"
+}

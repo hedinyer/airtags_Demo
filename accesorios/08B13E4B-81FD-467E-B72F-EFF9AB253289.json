@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "7e728863d7e4fd1709aefc2df84d819c1d877b988bea5b4aec1ab8a5",
+  "skn": "b61274b2039db43559cfdc6d8fd5f262a29ab481253bcfeb85435d2b9e603f45",
+  "sks": "47acf0fe1f89d3b00af10fef7231e28a39b5d7ea1c508a4aafbf87fb9a2b127f",
+  "paired_at": "2026-06-29T20:29:52.318935+00:00",
+  "name": "KAY48I",
+  "model": "",
+  "identifier": "08B13E4B-81FD-467E-B72F-EFF9AB253289",
+  "alignment_date": "2026-07-04T18:00:00.970929+00:00",
+  "alignment_index": 472,
+  "icloud_account": "chiaberapinilla@icloud.com",
+  "imported_at": "2026-09-03T13:13:55.229909+00:00",
+  "first_imported_at": "2026-09-03T13:13:55.229909+00:00"
+}

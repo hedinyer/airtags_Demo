@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "a3f4388b0f57fb70e1a31c798a1e82e0ab9d481e74f8b7c0c5b4ff74",
+  "skn": "5e0e0c9a8ec1910788e52e3c36a57be75e6fce2ee2a585e35f195064fbdb8e2e",
+  "sks": "ae943ec308c3df0e3f3f1e6b0a98e291f2aaedb204467c71efd721bf78223c26",
+  "paired_at": "2026-06-13T15:59:56.006112+00:00",
+  "name": "TRW49H",
+  "model": "empty",
+  "identifier": "08766CE1-4E39-4669-AD87-14529DF3AAD2",
+  "alignment_date": "2026-08-18T22:29:00+00:00",
+  "alignment_index": 6363,
+  "icloud_account": "recuperacionmotos@icloud.com",
+  "imported_at": "2026-09-03T11:45:45.998856+00:00",
+  "first_imported_at": "2026-09-03T11:45:45.998856+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "98f47c0617dc662ac42a62698ed33cb49aa34bb54aef8376f6abf6c0",
+  "skn": "d6b8a679fa32d459c47ae3e91e78d7ab87dfc6aec4bc0ea537b43ca4be3d1b9e",
+  "sks": "7e0bf896fac2b66faebd508363809921aef6a9b5c5065e205c143aa8f31860e2",
+  "paired_at": "2025-08-04T14:34:54.046930+00:00",
+  "name": "RBF34H",
+  "model": "",
+  "identifier": "700C513B-F76B-498B-8930-C52263836376",
+  "alignment_date": "2026-08-24T15:20:50+00:00",
+  "alignment_index": 36965,
+  "icloud_account": "motossp0@gmail.com",
+  "imported_at": "2026-09-03T00:52:36.115355+00:00",
+  "first_imported_at": "2026-09-03T00:52:36.115355+00:00"
+}

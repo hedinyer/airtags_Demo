@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "5b10dda2a3794b75885cde6c7844a5b55bb06932b5e6b9aee5cd78f3",
+  "skn": "53b26ee0083f94cf4887c88f7b3636e1b7d4fda00645588dd87f053c85fd83cf",
+  "sks": "b74b0a984a241b033d843925350a541b130e5e048580116e0c124113b8ad08ae",
+  "paired_at": "2026-05-28T18:49:46.323550+00:00",
+  "name": "Osq27h",
+  "model": "empty",
+  "identifier": "271BD5B5-8519-4524-B293-0D14342761DE",
+  "alignment_date": "2026-08-18T21:15:40+00:00",
+  "alignment_index": 7883,
+  "icloud_account": "recuperacionmotos@icloud.com",
+  "imported_at": "2026-09-03T11:45:45.998856+00:00",
+  "first_imported_at": "2026-09-03T11:45:45.998856+00:00"
+}

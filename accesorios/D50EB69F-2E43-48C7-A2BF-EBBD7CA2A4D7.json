@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "c055c66758d079ab5316ee7c40a15f9c7e21fd70860492dfca7594a6",
+  "skn": "2e0e41ad8474f8049a271b3b2241b2b00bc494aae4452abcdc358761fd23e04e",
+  "sks": "6227d1e0a5ee482e80b50d8e06b9ca65e39ad0b3732e726f0e6f7da00dcf9195",
+  "paired_at": "2025-12-16T18:28:04.272364+00:00",
+  "name": "TIK49H",
+  "model": "",
+  "identifier": "D50EB69F-2E43-48C7-A2BF-EBBD7CA2A4D7",
+  "alignment_date": "2026-08-20T15:07:50+00:00",
+  "alignment_index": 23700,
+  "icloud_account": "spberra@icloud.com",
+  "imported_at": "2026-09-03T01:10:42.124788+00:00",
+  "first_imported_at": "2026-09-03T01:10:42.124788+00:00"
+}

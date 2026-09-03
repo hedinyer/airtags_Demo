@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "eebb6089c9a9be634ce0f4d2f383ce148d826e5302d8f24ba24e9d04",
+  "skn": "8511ebb0c4c28d457cd89cc95170913aad78ab495ed115a01320b7fa9511f41a",
+  "sks": "69db2cd90dd02b81d6a52d3e74341eed7468d4153f5087f644f9c508184d74fd",
+  "paired_at": "2026-02-27T21:45:52.581415+00:00",
+  "name": "CHV04i",
+  "model": "",
+  "identifier": "EA249E71-C08A-4B5B-AEB4-E14967C37A82",
+  "alignment_date": "2026-08-26T17:42:30+00:00",
+  "alignment_index": 17265,
+  "icloud_account": "solucion110@icloud.com",
+  "imported_at": "2026-09-03T12:12:43.633718+00:00",
+  "first_imported_at": "2026-09-03T12:12:43.633718+00:00"
+}

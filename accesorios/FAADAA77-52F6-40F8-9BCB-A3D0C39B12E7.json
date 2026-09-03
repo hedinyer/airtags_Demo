@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "e62a5eca25e4b54443ceb7dd1644f5f87ff74c877327dcc2c28ff642",
+  "skn": "19550f3155939db449070701f325424519dc1f0304307ae62df22be1615d3bb5",
+  "sks": "4182aa9358e8d9983f08007f9df08d2dd9ddf3c07d683574539bc7677af645cb",
+  "paired_at": "2025-12-18T18:11:49.621254+00:00",
+  "name": "MCR33H",
+  "model": "",
+  "identifier": "FAADAA77-52F6-40F8-9BCB-A3D0C39B12E7",
+  "alignment_date": "2026-08-20T12:58:50+00:00",
+  "alignment_index": 23500,
+  "icloud_account": "spberra@icloud.com",
+  "imported_at": "2026-09-03T01:10:42.124788+00:00",
+  "first_imported_at": "2026-09-03T01:10:42.124788+00:00"
+}

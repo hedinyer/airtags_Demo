@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "400130404499b5f6c70b0897f4d7320073ebb455aa6033bacf0e51a2",
+  "skn": "12c0a3acf44f3fe63d08960e1d6c70b4039d5f5ce6ed3370fc5dd149f92ed187",
+  "sks": "e96caa943e95184d18e9634bff1bbac7adecfd834932424f20f232c8272a397f",
+  "paired_at": "2026-01-17T16:10:37.659953+00:00",
+  "name": "ZPF82H",
+  "model": "",
+  "identifier": "B39FD96A-1041-4461-9EFE-49D2BE37D389",
+  "alignment_date": "2026-08-20T11:01:50+00:00",
+  "alignment_index": 20621,
+  "icloud_account": "spberra@icloud.com",
+  "imported_at": "2026-09-03T01:10:42.124788+00:00",
+  "first_imported_at": "2026-09-03T01:10:42.124788+00:00"
+}

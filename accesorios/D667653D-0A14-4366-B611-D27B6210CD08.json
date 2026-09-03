@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "3f32edceec99892f8e3ce2b79393f16f2a31f12f7a90cbfb26197ee6",
+  "skn": "f2b67c40fead958a9dd80e627246951df1aaa66e293762b560cb8b374882ac8a",
+  "sks": "9476a2ad61f0c9da258681f4298062aee7dbd76989d85a8c310c3c821b71ce0d",
+  "paired_at": "2026-05-27T17:36:34.572965+00:00",
+  "name": "GZV95I",
+  "model": "empty",
+  "identifier": "D667653D-0A14-4366-B611-D27B6210CD08",
+  "alignment_date": "2026-08-18T21:40:50+00:00",
+  "alignment_index": 7985,
+  "icloud_account": "recuperacionmotos@icloud.com",
+  "imported_at": "2026-09-03T11:45:45.998856+00:00",
+  "first_imported_at": "2026-09-03T11:45:45.998856+00:00"
+}

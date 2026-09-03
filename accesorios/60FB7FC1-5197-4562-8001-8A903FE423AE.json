@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "6ccadee143e0ed5ec1cd700db2f9445ebcfaf2d69d6da5d303e1f1d4",
+  "skn": "dac573401459bae1730c86b747188ecbd5d69399c6fdb413d9c9be873d0a764e",
+  "sks": "f799e822342c6d79b4b9d4bb2a6896a675eed1f483cafb92dd47e547b49a937b",
+  "paired_at": "2024-10-01T21:38:27.710345+00:00",
+  "name": "OSA95H",
+  "model": "",
+  "identifier": "60FB7FC1-5197-4562-8001-8A903FE423AE",
+  "alignment_date": "2026-06-08T11:23:00+00:00",
+  "alignment_index": 58829,
+  "icloud_account": "marisolpinilla@hotmail.com",
+  "imported_at": "2026-09-03T01:50:21.486288+00:00",
+  "first_imported_at": "2026-09-03T01:50:21.486288+00:00"
+}
