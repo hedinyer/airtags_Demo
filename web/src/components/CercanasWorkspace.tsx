@@ -6,6 +6,7 @@ import { LocateFixedIcon, RefreshCwIcon, SearchIcon, XIcon } from "lucide-react"
 import { MapaCercanas } from "@/components/MapaCercanas";
 import { MapaRutaMoto } from "@/components/MapaRutaMoto";
 import { MotoCercanaCard } from "@/components/MotoCercanaCard";
+import { BleRadarHud } from "@/components/BleRadarHud";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -44,6 +45,7 @@ export function CercanasWorkspace() {
   const [refrescando, setRefrescando] = useState(false);
   const [rutaMoto, setRutaMoto] = useState<MotoConDistancia | null>(null);
   const [busquedaPlaca, setBusquedaPlaca] = useState("");
+  const [radarMoto, setRadarMoto] = useState<MotoConDistancia | null>(null);
 
   const cargarCartera = useCallback(async (refresh = false) => {
     if (refresh) setRefrescando(true);
@@ -160,6 +162,14 @@ export function CercanasWorkspace() {
 
   return (
     <div className="relative flex h-full min-h-0 flex-1 flex-col overflow-hidden">
+      {radarMoto ? (
+        <BleRadarHud
+          targetName={radarMoto.placa}
+          placa={radarMoto.placa}
+          onClose={() => setRadarMoto(null)}
+        />
+      ) : null}
+
       {rutaMoto && gps.kind === "ok" ? (
         <MapaRutaMoto
           placa={rutaMoto.placa}
@@ -408,6 +418,10 @@ export function CercanasWorkspace() {
                         onVerEnMapa={() => {
                           setSeleccionada(m.placa);
                           setRutaMoto(m);
+                        }}
+                        onBuscarCerca={() => {
+                          setSeleccionada(m.placa);
+                          setRadarMoto(m);
                         }}
                       />
                     </li>

@@ -1,8 +1,9 @@
 "use client";
 
-import { MapIcon, NavigationIcon, PhoneIcon } from "lucide-react";
+import { MapIcon, NavigationIcon, PhoneIcon, RadioIcon } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
 import { diasDesde, haceCuanto } from "@/lib/fechas";
 import { formatearDistancia } from "@/lib/distancia";
@@ -43,11 +44,15 @@ export function MotoCercanaCard({
   seleccionada,
   onSeleccionar,
   onVerEnMapa,
+  onBuscarCerca,
+  bleCerca = false,
 }: {
   moto: MotoCercanaCardData;
   seleccionada: boolean;
   onSeleccionar: () => void;
   onVerEnMapa: () => void;
+  onBuscarCerca?: () => void;
+  bleCerca?: boolean;
 }) {
   const diasMoto = diasDesde(moto.fecha_inicio);
   const maps = enlaceMaps(moto.lat, moto.lng);
@@ -69,9 +74,19 @@ export function MotoCercanaCard({
           aria-pressed={seleccionada}
           aria-label={`Seleccionar ${moto.placa}${moto.distancia_km != null ? `, a ${formatearDistancia(moto.distancia_km)}` : ""}`}
         >
-          <p className="text-xl font-bold tracking-[0.12em] text-foreground">
-            {moto.placa}
-          </p>
+          <div className="flex items-center gap-2">
+            <p className="text-xl font-bold tracking-[0.12em] text-foreground">
+              {moto.placa}
+            </p>
+            {bleCerca ? (
+              <Badge
+                variant="secondary"
+                className="rounded-md px-1.5 py-0 text-[10px] uppercase tracking-wide"
+              >
+                BLE cerca
+              </Badge>
+            ) : null}
+          </div>
           <p className="mt-0.5 truncate text-sm text-foreground/90">
             {moto.nombre || "Sin nombre"}
           </p>
@@ -125,6 +140,20 @@ export function MotoCercanaCard({
           <MapIcon className="mr-1.5 size-4" aria-hidden />
           Ver en mapa
         </Button>
+        {onBuscarCerca ? (
+          <Button
+            type="button"
+            variant="secondary"
+            className="h-11 min-h-[44px] w-full rounded-lg active:scale-[0.96]"
+            onClick={(e) => {
+              e.stopPropagation();
+              onBuscarCerca();
+            }}
+          >
+            <RadioIcon className="mr-1.5 size-4" aria-hidden />
+            Buscar cerca (BLE)
+          </Button>
+        ) : null}
         <div className="flex w-full gap-2">
           <Button
             type="button"

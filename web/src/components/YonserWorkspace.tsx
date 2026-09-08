@@ -6,6 +6,7 @@ import { RefreshCwIcon, SunIcon } from "lucide-react";
 import { MapaCampo } from "@/components/MapaCampo";
 import { MapaRutaMoto } from "@/components/MapaRutaMoto";
 import { MotoCercanaCard } from "@/components/MotoCercanaCard";
+import { BleRadarHud } from "@/components/BleRadarHud";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -23,6 +24,7 @@ export function YonserWorkspace() {
     useCampoSesion("yonser");
   const [seleccionada, setSeleccionada] = useState<string | null>(null);
   const [rutaMoto, setRutaMoto] = useState<MotoConDistancia | null>(null);
+  const [radarMoto, setRadarMoto] = useState<MotoConDistancia | null>(null);
   const prevAsignadasRef = useRef<string[]>([]);
   const [anuncioAsignacion, setAnuncioAsignacion] = useState("");
   const [pantallaActiva, setPantallaActiva] = useState(false);
@@ -163,6 +165,14 @@ export function YonserWorkspace() {
 
   return (
     <div className="relative flex h-full min-h-0 flex-1 flex-col overflow-hidden">
+      {radarMoto ? (
+        <BleRadarHud
+          targetName={radarMoto.placa}
+          placa={radarMoto.placa}
+          onClose={() => setRadarMoto(null)}
+        />
+      ) : null}
+
       {rutaMoto && origen ? (
         <MapaRutaMoto
           placa={rutaMoto.placa}
@@ -373,6 +383,10 @@ export function YonserWorkspace() {
                                   setSeleccionada(m.placa);
                                   setRutaMoto(m);
                                 }}
+                                onBuscarCerca={() => {
+                                  setSeleccionada(m.placa);
+                                  setRadarMoto(m);
+                                }}
                               />
                             </div>
                           </li>
@@ -402,6 +416,10 @@ export function YonserWorkspace() {
                               onVerEnMapa={() => {
                                 setSeleccionada(m.placa);
                                 setRutaMoto(m);
+                              }}
+                              onBuscarCerca={() => {
+                                setSeleccionada(m.placa);
+                                setRadarMoto(m);
                               }}
                             />
                           </li>
