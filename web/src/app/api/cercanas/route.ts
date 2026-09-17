@@ -16,20 +16,22 @@ export async function GET(req: Request) {
       fetchUbicacionesAirTag(),
     ]);
 
+    const atrasosPorPlaca = new Map(
+      atrasos.map((a) => [normalizarPlaca(a.placa), a]),
+    );
+
     const motos: MotoCercanaApi[] = [];
-    for (const a of atrasos) {
-      const key = normalizarPlaca(a.placa);
-      const gps = ubicaciones.get(key);
-      if (!gps) continue;
+    for (const [key, gps] of ubicaciones) {
+      const a = atrasosPorPlaca.get(key);
       motos.push({
         placa: key,
-        nombre: a.nombre,
-        telefono: a.telefono,
-        deuda_total: a.deuda_total,
-        fecha_inicio: a.fecha_inicio,
-        cuotas_pagadas: a.cuotas_pagadas,
-        cuotas_pendientes: a.cuotas_pendientes,
-        cuotas_generadas: a.cuotas_generadas,
+        nombre: a?.nombre ?? "",
+        telefono: a?.telefono ?? "",
+        deuda_total: a?.deuda_total ?? 0,
+        fecha_inicio: a?.fecha_inicio ?? "",
+        cuotas_pagadas: a?.cuotas_pagadas ?? 0,
+        cuotas_pendientes: a?.cuotas_pendientes ?? 0,
+        cuotas_generadas: a?.cuotas_generadas ?? 0,
         lat: gps.lat,
         lng: gps.lng,
         accuracy_m: gps.accuracy_m,

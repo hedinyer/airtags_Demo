@@ -8,7 +8,7 @@ import {
   CAMPO_POSICION_THROTTLE_MS,
   type RolCampo,
 } from "@/lib/campoConstants";
-import type { MotoCercanaApi } from "@/lib/cercanasTypes";
+import { tieneDeudaCartera, type MotoCercanaApi } from "@/lib/cercanasTypes";
 import { distanciaKm } from "@/lib/distancia";
 import {
   consultarPermisoGps,
@@ -156,7 +156,7 @@ export function useCampoSesion(rol: RolCampo) {
       };
       setApi({
         kind: "ok",
-        motos: data.motos ?? [],
+        motos: (data.motos ?? []).filter(tieneDeudaCartera),
         generado_en: data.generado_en,
       });
     } catch {

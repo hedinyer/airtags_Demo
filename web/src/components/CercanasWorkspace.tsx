@@ -11,7 +11,7 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Skeleton } from "@/components/ui/skeleton";
-import type { MotoCercanaApi } from "@/lib/cercanasTypes";
+import { tieneDeudaCartera, type MotoCercanaApi } from "@/lib/cercanasTypes";
 import {
   DISTANCIA_MAX_CERCANAS_KM,
   distanciaKm,
@@ -117,7 +117,8 @@ export function CercanasWorkspace() {
   const cercanas = useMemo(
     () =>
       todasConDistancia.filter(
-        (m) => m.distancia_km <= DISTANCIA_MAX_CERCANAS_KM,
+        (m) =>
+          m.distancia_km <= DISTANCIA_MAX_CERCANAS_KM && tieneDeudaCartera(m),
       ),
     [todasConDistancia],
   );
@@ -383,8 +384,8 @@ export function CercanasWorkspace() {
                     </AlertTitle>
                     <AlertDescription>
                       {buscando
-                        ? "Prueba otra placa o limpia la búsqueda para ver las cercanas."
-                        : "Actualiza la ubicación, acércate a una zona con cartera o busca una placa."}
+                        ? "La búsqueda incluye monedas al día. Prueba otra placa o limpia para ver las cercanas con deuda."
+                        : "Actualiza la ubicación, acércate a una zona con cartera o busca una placa (aunque no deba)."}
                     </AlertDescription>
                   </Alert>
                   {buscando ? (

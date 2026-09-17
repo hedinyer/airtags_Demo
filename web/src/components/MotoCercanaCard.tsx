@@ -103,8 +103,15 @@ export function MotoCercanaCard({
         <div className="grid grid-cols-2 gap-2 text-center">
           <div>
             <p className="text-xs text-muted-foreground">Debe</p>
-            <p className="text-sm font-semibold tabular-nums text-destructive">
-              {formatearCOP(moto.deuda_total)}
+            <p
+              className={cn(
+                "text-sm font-semibold tabular-nums",
+                moto.deuda_total > 0
+                  ? "text-destructive"
+                  : "text-muted-foreground",
+              )}
+            >
+              {moto.deuda_total > 0 ? formatearCOP(moto.deuda_total) : "Al día"}
             </p>
           </div>
           <div>

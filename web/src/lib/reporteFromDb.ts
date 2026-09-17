@@ -1,4 +1,9 @@
 import { queryPg } from "@/lib/pgPool";
+import {
+  SQL_EXPR_VALOR_CUOTA,
+  SQL_FILTRO_PAGO_TARIFA,
+  SQL_JOINS_PAGO_TARIFA,
+} from "@/lib/sqlPagosCuota";
 
 /** Contratos activos + cliente/vehículo. */
 export const SQL_CLIENTES_EXTRACTO = `
@@ -25,7 +30,8 @@ WHERE ct.estado = 'Activo'
 
 /**
  * Pagos que abonan cuotas (contratos activos).
- * Solo facturas con ítem `tarifa`.
+ * Prorratea por ítem `tarifa` (no cuenta pago_inicial / abono_credito / multa ítem).
+ * Igual que sp_recuperadores / sistema Julián.
  */
 export const SQL_REGISTROS_EXTRACTO = `
 SELECT
@@ -38,39 +44,16 @@ FROM (
   SELECT
       ct.id AS contrato_id,
       pf.fecha_pago::date AS fecha_registro,
-      pf.valor::numeric
-        - CASE
-            WHEN ROW_NUMBER() OVER (
-              PARTITION BY f.id ORDER BY pf.fecha_pago, pf.id
-            ) = 1
-            THEN COALESCE(pm.valor_multa, 0)
-            ELSE 0
-          END AS valor,
+      (${SQL_EXPR_VALOR_CUOTA.trim()}) AS valor,
       COALESCE(mp.nombre, '') AS tipo,
       COALESCE(pf.referencia, '') AS referencia
   FROM terminal_pagos_pagofactura pf
   JOIN terminal_pagos_factura f ON f.id = pf.factura_id
   JOIN arrendamientos_contrato ct ON ct.id = f.contrato_id
-  LEFT JOIN terminal_pagos_canalpago cp ON cp.id = pf.canal_id
-  LEFT JOIN terminal_pagos_mediopago mp ON mp.id = cp.medio_id
-  LEFT JOIN (
-    SELECT factura_id, SUM(valor::numeric) AS valor_multa
-    FROM terminal_pagos_pagomulta
-    GROUP BY factura_id
-  ) pm ON pm.factura_id = f.id
+  ${SQL_JOINS_PAGO_TARIFA}
   WHERE ct.estado = 'Activo'
     AND ct.fecha_inicio IS NOT NULL
-    AND lower(f.estado) <> 'anulada'
-    AND EXISTS (
-      SELECT 1
-      FROM terminal_pagos_itemfactura i
-      WHERE i.factura_id = f.id
-        AND i.tipo_item = 'tarifa'
-    )
-    AND NOT (
-      pf.valor::numeric = 25000
-      AND lower(COALESCE(mp.nombre, '')) = 'dale'
-    )
+    AND ${SQL_FILTRO_PAGO_TARIFA.trim()}
 ) pagos_cuota
 WHERE valor > 0
 ORDER BY contrato_id, fecha_registro
