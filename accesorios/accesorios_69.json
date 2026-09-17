@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "c25aceb4b29043de16952062944209b123a7642aba3f2f5123970bea",
-    "skn": "7098ee76b8dbbdcd337536df3d63bcf7e6f38a47ee8fc4d9bb026a1c6d89e80f",
-    "sks": "138c4c84b7439bb299ed7cc94c2b2959c28f5af034e45db27302b3b439a97ce3",
-    "paired_at": "2026-01-09T17:03:55.192565+00:00",
-    "name": "iPhone",
-    "model": "iPhone11,8",
-    "identifier": "93A927D5-9742-48F2-BC4C-ADABDFCA1F72",
+    "master_key": "be27f0b9485514b944986c6e79e49378f70fd024d98f100bc77d82be",
+    "skn": "87a40a359083d9f07e9b50fcc432d13dbb9777b330f67424b036146109610411",
+    "sks": "c0d652087b26e5fa4a5ed6bcdb64e31b302b0aca526273ec8c50efdf9c1e4923",
+    "paired_at": "2026-08-06T16:49:31.974159+00:00",
+    "name": "Heylen\u2019s MacBook Air",
+    "model": "MacBookAir10,1",
+    "identifier": "C2B4D810-9860-4834-9D88-946F691AAFA5",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T03:53:28.009017-05:00",
-    "alignment_index": 20031
+    "alignment_date": "2026-08-28T04:39:08.896222-05:00",
+    "alignment_index": 2085
 }

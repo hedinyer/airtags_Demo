@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "795488f62dbf31b56b56b9cf197ed317313529bc3d2f28cb2342bcd2",
-    "skn": "3f5aade08ead2bccd5874610081a77f33ebcdf3642e4bac6f33b2d06272e8789",
-    "sks": "73639eaa7fa6b51cbf05672bb33f028d57bdae21f26a3797023dbd0a07ca0606",
-    "paired_at": "2026-03-21T15:47:13.963180+00:00",
-    "name": "DUP77I",
+    "master_key": "15a6e57c9726d3cc5e798451f0def675be25cc94c36f130171bd6524",
+    "skn": "fa3c56be0310aaaff5eb253e18ac98a8daa319591a54786ea769cef532b94012",
+    "sks": "fbff2f0f21165fb6b2df26959cbfd402f9b3554e31e0d46278ea516ebf7827df",
+    "paired_at": "2025-11-12T13:39:46.368140+00:00",
+    "name": "TSQ58H",
     "model": "",
-    "identifier": "BE6ADA68-ABBF-4A48-ABA7-A572B1CFE9BB",
+    "identifier": "2000F81F-F2EC-4886-B371-32F1B0A89B2D",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T14:56:50-05:00",
-    "alignment_index": 13343
+    "alignment_date": "2026-08-28T04:39:08.896302-05:00",
+    "alignment_index": 27805
 }

@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "fce1555d7e16e2203bbd37b698c23d846cde2f6a3bd045bb3dc1d7da",
+    "skn": "98d83bd62d90d575b328386ed747cd8dde863b124dcc6881131b77c69185d791",
+    "sks": "ef3548302c62fb41095b45443418f35a20aeb280190193edaa788d2006655131",
+    "paired_at": "2025-11-22T14:37:14.164424+00:00",
+    "name": "TSY82H",
+    "model": "",
+    "identifier": "B714F128-DDC5-4E1D-AF0F-E75A085D6AC8",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.921184-05:00",
+    "alignment_index": 26765
+}

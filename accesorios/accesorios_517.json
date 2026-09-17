@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "a8f09ab0f084fdf93e0024dc0c8e91eaac5bf02713b725c08d043982",
+    "skn": "ccf3e96e48f8fa07a2108aeec9813da94f7ce594778a8c569e52447ef222c19c",
+    "sks": "fd1575859be86b4b4181aedfa7d754ebe1dc4b11a6a277781cab67894f1c4d87",
+    "paired_at": "2025-09-29T16:40:57.717858+00:00",
+    "name": "TRW48H",
+    "model": "",
+    "identifier": "480DE294-2B06-4212-BE05-442D3BAB6F57",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.913006-05:00",
+    "alignment_index": 31901
+}

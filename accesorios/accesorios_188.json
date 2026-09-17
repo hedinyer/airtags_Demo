@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "af6b80bd29838fc95fb37846950465f77ed4b96d3b34e384210a8bcb",
+    "skn": "57902c5fe23952d94f2f20b2b49cfac741de7730f53f892576067d9f900baf4c",
+    "sks": "25216b36623b8289c2c6a6ad0439536a9d7310814751f674fe9a027362933bd2",
+    "paired_at": "2025-10-16T13:53:04.380873+00:00",
+    "name": "TSI91H",
+    "model": "",
+    "identifier": "5EA92DCA-B552-48F1-8382-9BF88F1A98E1",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.901315-05:00",
+    "alignment_index": 30320
+}

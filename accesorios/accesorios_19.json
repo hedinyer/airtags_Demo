@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "f4dabfeb845268dd563292f8af73619c7f8eb54986bc6e67bcf822eb",
-    "skn": "0431157da0588bad3734a48bd5aa0d3e2ce82d10be2b8af9485627717b038cf7",
-    "sks": "d6223d84f8e7d4e470f25038a6ee09b6e214d691d49b28c5fb203fac45a0de72",
-    "paired_at": "2025-11-07T20:01:13.230754+00:00",
-    "name": "TST19H",
-    "model": "",
-    "identifier": "83F42A9F-38D4-4428-A6BE-9CD458CEF6F8",
+    "master_key": "88a2bf613d40886a9a8242a5bec4463a9d8fb5bb4aa8957b6445c7ff",
+    "skn": "1f87eed529de139682fbed28fd50672e63a796ffadd8b61c53756d531fc863ae",
+    "sks": "2ef419fb6e190e965cfb39bcc026f7e1d1fc5e72d4878dbc5b2f898b1be3894e",
+    "paired_at": "2026-06-19T20:43:49.317631+00:00",
+    "name": "HAQ73I",
+    "model": "empty",
+    "identifier": "0957E01F-C2D8-410E-8E46-077801252A8C",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T15:34:50-05:00",
-    "alignment_index": 26149
+    "alignment_date": "2026-08-28T04:39:08.894256-05:00",
+    "alignment_index": 6677
 }

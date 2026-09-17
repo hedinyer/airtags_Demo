@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "15a6e57c9726d3cc5e798451f0def675be25cc94c36f130171bd6524",
-    "skn": "fa3c56be0310aaaff5eb253e18ac98a8daa319591a54786ea769cef532b94012",
-    "sks": "fbff2f0f21165fb6b2df26959cbfd402f9b3554e31e0d46278ea516ebf7827df",
-    "paired_at": "2025-11-12T13:39:46.368140+00:00",
-    "name": "TSQ58H",
-    "model": "",
-    "identifier": "2000F81F-F2EC-4886-B371-32F1B0A89B2D",
+    "master_key": "96ef879ad19944e6ee905d6ecf7e185fe9a6a0b595712b8b60e99989",
+    "skn": "3041b1de68b8160d1c2e1aa1a13fe1983073691f5c2d9459a9945fb678a0f1f2",
+    "sks": "287ea02e1c6a9fec7665f3d090b1198c7600ef05e1f76b3fa91b076f4318e736",
+    "paired_at": "2026-06-05T19:30:43.612670+00:00",
+    "name": "HAB89I",
+    "model": "empty",
+    "identifier": "E62C165C-3B72-4A52-9FAA-F068AE994CDC",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T13:00:30-05:00",
-    "alignment_index": 25727
+    "alignment_date": "2026-08-28T04:39:08.893586-05:00",
+    "alignment_index": 8025
 }

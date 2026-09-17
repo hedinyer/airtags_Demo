@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "603317964166aa9b83ca7571ebe5b3ae2d68918f1c13d7f9d43055ca",
-    "skn": "a5bc3754010b184566018df674c02ba58150bbb17af1419c75d1cbb7b8c1de7c",
-    "sks": "14445ed106aa456aab914327ccd2365c3f1efc85069cec3de9fb43893b506edc",
-    "paired_at": "2026-02-14T15:48:43.739480+00:00",
-    "name": "BAM44I",
+    "master_key": "505c1d91025fab109d646ed0c70b374653f21b5724aa9ce3e9b4dbb6",
+    "skn": "f805714be1e0a5900324f5456e4f418857530eb6b14c294c8a082c9841476365",
+    "sks": "4cb203b969a374a1eff34aa7345d94732492016e53438757fb596e4a8926fc71",
+    "paired_at": "2025-10-10T22:25:27.412350+00:00",
+    "name": "TSI73H",
     "model": "",
-    "identifier": "67BC3D74-78E7-48D7-8B24-6C14B8C2B7F4",
+    "identifier": "71581C1F-C83D-445C-857D-D0FDB72C27D5",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T14:37:20-05:00",
-    "alignment_index": 16703
+    "alignment_date": "2026-08-28T04:39:08.894897-05:00",
+    "alignment_index": 30859
 }

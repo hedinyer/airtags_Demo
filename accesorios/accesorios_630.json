@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "a8d5103660ab5db0a7bb896c415d1a1497c43a05c742ae6389319882",
+    "skn": "ba9f038959bce30d13388c4a80d7e68bd72a7cc46e27bb4a5e756f958dfc8946",
+    "sks": "66755a53a901769156dd01d9885687009ee64ac3d9da1af1bbbb16b4d39450ea",
+    "paired_at": "2025-12-04T21:40:30.423560+00:00",
+    "name": "TTL14H",
+    "model": "",
+    "identifier": "C101CE24-B22C-4AD1-B36C-0FDEC8FAE9F2",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.917322-05:00",
+    "alignment_index": 25582
+}

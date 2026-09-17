@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "bc54f5ab893df889912e1fbfc08e3508923ebbc285fc79a192a1f171",
+    "skn": "02ef42b70a57bf3595c7f8b8eac7108d7850a9381a422015b45058d41c153ecd",
+    "sks": "caf5bfb993c13eb2d047e45af4d78489195b7f1172cc62726f864545a5b325cc",
+    "paired_at": "2025-10-04T14:48:39.095867+00:00",
+    "name": "TSC27H",
+    "model": "",
+    "identifier": "0F1E8EC8-CAED-4991-80EB-F9D4F8FB5269",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.913830-05:00",
+    "alignment_index": 31468
+}

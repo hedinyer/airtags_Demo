@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "1e9d7b043e0586916d546dca94364931a45ace0f1b72a47214ee94fe",
-    "skn": "0ef0bb214fe31e63cf417ad56cec145c0d3cd12aa993c0ffa8f2286a23c39e01",
-    "sks": "4948961fa11aa757cd507f25ea9edd0555f6295c3f03d95e3bd86bea7b4202ec",
-    "paired_at": "2026-03-02T20:11:03.840573+00:00",
-    "name": "DTX70H",
+    "master_key": "a2d4705508d00a554ec344b123cbb256364b3bd900b76855bb34ceb6",
+    "skn": "99f59445f6ce533e2c8d552b068bf0205991a87d0d138fa90c9d365f2993512c",
+    "sks": "57ec19f6fcdac23fdb0f277d0df7b488732b105e9ae511261110edc42c66a630",
+    "paired_at": "2025-09-16T15:13:30.367555+00:00",
+    "name": "TIR92H",
     "model": "",
-    "identifier": "9A73B887-5C11-4801-955A-B5C52197E233",
+    "identifier": "5C8E4ED0-6FF6-48ED-9FED-FCEBBA8C6055",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T16:05:40-05:00",
-    "alignment_index": 15134
+    "alignment_date": "2026-08-28T04:39:08.899242-05:00",
+    "alignment_index": 33170
 }

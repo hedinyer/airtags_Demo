@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "77076e10d98999e142f75c1f4a3179bd584cd07f987a2d683f2ddfff",
+    "skn": "0219ce244f6924e99c64b5324c2e652f49ef13673445592cb80b1cded18e6d2b",
+    "sks": "75a7f29bcef65a28509ea1c4df089a9fa76405165324444e935069ae0c8b2cae",
+    "paired_at": "2025-08-21T13:39:06.830953+00:00",
+    "name": "5",
+    "model": "",
+    "identifier": "FF992688-DDB0-467E-BDA6-D8E5E52BC79E",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.905959-05:00",
+    "alignment_index": 35697
+}

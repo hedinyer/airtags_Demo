@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "63900edd46fb7a3b3026e58745a90c5ab56316495f1cb84092da55ad",
+    "skn": "14cc4373413a8b40aa3f0e213b7dccbf49c8d708e871d092298afd19b2fb1935",
+    "sks": "44241503829c784ff91c9d12d1a3297e540b2477b1c791f8fa892ba2b87b15a2",
+    "paired_at": "2025-09-29T17:56:49.422096+00:00",
+    "name": "TRW43H",
+    "model": "",
+    "identifier": "686C8DDD-1899-4F15-943D-546D60670C0D",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.912834-05:00",
+    "alignment_index": 29566
+}

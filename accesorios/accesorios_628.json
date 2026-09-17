@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "d288908b926067fb9b6c2993ab9e151abb2fca0722efddb48cfab251",
+    "skn": "cf35c3a4f80e30bbed546ce601c67fa4926b29831568be0672b5338872678e85",
+    "sks": "65545321ce831bc8e9e695d1e7ba7f3da0df8f3036c56a9d7cb341af1eebb082",
+    "paired_at": "2025-12-04T21:38:16.708894+00:00",
+    "name": "TTL12H",
+    "model": "",
+    "identifier": "13C4DB7A-975F-4D34-A32E-BE7FC7ACE274",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.917253-05:00",
+    "alignment_index": 25585
+}

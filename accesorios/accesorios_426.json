@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "53a2e06f7dc3f9106806780c90533b403c8bc5be1859c499688d3ee2",
+    "skn": "a29e1a981bf982c4b35549bf8f22bc61c2496162c32fe88665098a61fa84a805",
+    "sks": "5ab8399eaf577bdd3fbb02e4ba2d2f53f96659c88ec56d2884ab350966591e16",
+    "paired_at": "2026-07-07T16:16:57.621453+00:00",
+    "name": "HAI36I",
+    "model": "empty",
+    "identifier": "5F135FD3-16B0-4507-A9AA-928ADB2A65EB",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.910012-05:00",
+    "alignment_index": 4956
+}

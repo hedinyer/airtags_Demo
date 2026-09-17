@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "fa18d9a871a50ce91596f9791dcec52d33354ae4df388393a7436c8e",
-    "skn": "ed9775722e46c23b3a2bbe38d4eec94d383472a7584571b23ee35b2ff14e0351",
-    "sks": "942e490bc2550b0089dd983dba481140e188a23dfba551dc67a3150f1bf2eaf4",
-    "paired_at": "2025-11-06T15:41:17.327533+00:00",
-    "name": "TST10H",
-    "model": "",
-    "identifier": "F6E7516A-A6BF-4297-9875-3B2AD17D4107",
+    "master_key": "0e22e6a2ec6b7cdc5060a247ed921860ce32f5b5150d4ec58ef4d6f9",
+    "skn": "b6cf807349e580cb4ca355b87892584e38803f32f5141cf3cbb705ed82e19106",
+    "sks": "51602f7496075c3b8875cd78c45c7dbef817a0a17c7499eebe3f13e68ac0be0d",
+    "paired_at": "2026-06-11T15:42:05.019330+00:00",
+    "name": "HAM91I",
+    "model": "empty",
+    "identifier": "B42DA82D-4408-4AE9-B4BB-2A2C051C18F5",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T15:26:00-05:00",
-    "alignment_index": 26279
+    "alignment_date": "2026-08-28T04:39:08.893935-05:00",
+    "alignment_index": 7465
 }

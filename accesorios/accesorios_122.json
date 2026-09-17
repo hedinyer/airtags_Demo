@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "b66aba3166c20c62bb89540ddbc267ae8d555c534fad01b9769873ba",
-    "skn": "3dd295e41a6e5573fe5ad595411d8ef6524991deedd16e4ea5df50ae570eec35",
-    "sks": "c988332ad2920325736a9be05868c72f913b7e96bd728c52d66cc3adc7702511",
-    "paired_at": "2025-08-24T22:30:31.465465+00:00",
-    "name": "TIM83H",
+    "master_key": "539a611e50a5745bbe2cb398645b85404b0396c65b22bb6fa5fe92ed",
+    "skn": "767c6d00effccb7976165e23561af83a6c7491240961117a32532792685e0102",
+    "sks": "e2cc60359e6b8626e58496c907b2284af9a7340384031bf4d935b01298761855",
+    "paired_at": "2026-01-07T14:02:37.625410+00:00",
+    "name": "ZPE03H",
     "model": "",
-    "identifier": "536916FE-47C9-4A3C-B4AA-C08F76A4D7E3",
+    "identifier": "73F7816D-57D6-4869-A980-26EA2BB71A37",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T03:53:28.039249-05:00",
-    "alignment_index": 32663
+    "alignment_date": "2026-08-28T04:39:08.898477-05:00",
+    "alignment_index": 22351
 }

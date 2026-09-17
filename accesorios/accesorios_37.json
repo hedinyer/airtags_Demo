@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "c1fe0fde422eba1a53cca74d037ec0d3418b36ec74fd99e74dec7169",
-    "skn": "fa218066b1288dbbd2839864ff62c45fd36d2a7d8d1d71ef0d3441b9d5c78e15",
-    "sks": "a5357d730a71866a88db12a17f268090d71ce9f65f6030ecc4229cffe7ed8bd9",
-    "paired_at": "2026-02-09T21:13:06.607867+00:00",
-    "name": "CHE11I",
+    "master_key": "92306e4c1839e525d3e0581cca05a5e5492268a04aaa1130e8d84eb0",
+    "skn": "f4cdc4c36511c9c0d10ca68800ecb8e58c519ee8fb6018936b4d5c621636c133",
+    "sks": "b2a3d44488e7728c47d4b7869c5390807073d50a1a0ae279dd82ed03ebed78b6",
+    "paired_at": "2025-10-10T22:23:44.510147+00:00",
+    "name": "TSI74H",
     "model": "",
-    "identifier": "C6DAE09E-82ED-4DDF-A508-D636C10451DF",
+    "identifier": "8FDFCDE3-6B23-4F89-BCAC-2ACEC60BA9B7",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T16:08:30-05:00",
-    "alignment_index": 17090
+    "alignment_date": "2026-08-28T04:39:08.894935-05:00",
+    "alignment_index": 30861
 }

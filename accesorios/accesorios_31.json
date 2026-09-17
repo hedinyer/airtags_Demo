@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "efcdd254dbd38af14499ac542fbb805ab6091bdf9b4733de90639770",
-    "skn": "1629bb076bd6578f6b1ed101bf04dd05883b1b2a2116acc14f04f185b539fdc4",
-    "sks": "201196a5b0aae20ec855f4750eee8108e7b101a25f7d76ac897b613ecc8a01c0",
-    "paired_at": "2025-11-12T13:45:50.039427+00:00",
-    "name": "TTA05H",
-    "model": "",
-    "identifier": "C4DF3F77-4A87-4306-A541-6FB8A4E5242D",
+    "master_key": "daaf10d02c66e175c57ea17a89c6b19fe53612fffd8c91944c23222b",
+    "skn": "684a95f8e368596e2142ad70da690c498d32b6228b18b28144aa1a75f0343a63",
+    "sks": "2c131678ebc44e4b8940a9f5a4bd89d50c2709179e6a9b206e1a51d4306af4a2",
+    "paired_at": "2026-06-26T15:20:51.231137+00:00",
+    "name": "KFF92I",
+    "model": "empty",
+    "identifier": "FF5D9D8A-85B8-49C8-AF2B-7E8149438BFB",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T09:49:50-05:00",
-    "alignment_index": 25727
+    "alignment_date": "2026-08-28T04:39:08.894714-05:00",
+    "alignment_index": 6024
 }

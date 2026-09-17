@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "7a3b9c997421f08cda246ae1baf79a9bc9187100de14f09790f7f234",
+    "skn": "cafb0a1ebc90ff34bb8db65e61fada51127507c190030513824b754d713297d9",
+    "sks": "6ac36e0f942db57bc299ce56180bc6c4ebf5abf0e245ed5e91a3d6b5411464dd",
+    "paired_at": "2025-10-01T15:58:42.481891+00:00",
+    "name": "TSC35H",
+    "model": "",
+    "identifier": "8334DBD2-0F2F-4A8A-8083-F412E1084301",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.913159-05:00",
+    "alignment_index": 31751
+}

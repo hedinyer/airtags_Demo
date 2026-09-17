@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "6a8b81ee210957adbca1323c6cd2f09067033e787fec83a2653c2c83",
-    "skn": "605b89b58810ae441c01a68ce8076a32292c2a6b1d8a244c820b75d8d8a44c5b",
-    "sks": "b6318dff3b7713a42bbc097f0cb5f21956086946c423ff54d59b6fc32e710b6d",
-    "paired_at": "2026-03-20T16:06:59.222012+00:00",
-    "name": "iPhone",
-    "model": "iPhone12,1",
-    "identifier": "76165B94-AEE4-45A7-A272-6DA64EF0C082",
+    "master_key": "431f0c5a3c897d24848cca60d72d48edfa12df573b2b3518becac55f",
+    "skn": "916b9263bde0a6e9b3c488017a20976b8afc790cf3faab123ab5c94b08201a25",
+    "sks": "d4e7d77e6bc111d1198a211692ef799c3d37e6b6ff32a60cd023755d99b89c93",
+    "paired_at": "2026-01-07T14:12:31.692340+00:00",
+    "name": " ZPE07H",
+    "model": "",
+    "identifier": "8AF8A471-DBBC-405A-A57E-37D058F20EB6",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T03:53:28.011977-05:00",
-    "alignment_index": 13315
+    "alignment_date": "2026-08-28T04:39:08.897434-05:00",
+    "alignment_index": 22351
 }

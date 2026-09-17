@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "bbe86e358dcfae46057c3acdc2fbf43817c1c1e2333659f861bd6782",
+    "skn": "0d60303e82cd3d424f6a8bf8671cd4d93bdff1ca8bea198db56aebdd851b73a1",
+    "sks": "4f129503240a7bcbcbc6b56adbe79c682167f985d01590b9a8a8445d61e92823",
+    "paired_at": "2025-10-30T13:40:25.736984+00:00",
+    "name": "TSP84H",
+    "model": "",
+    "identifier": "8FAA12F9-5762-4E2C-B88B-310305A327BA",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.907954-05:00",
+    "alignment_index": 28977
+}

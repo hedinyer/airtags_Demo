@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "644e33cce93ed6119bc849f2c8b4be03a735dd76b6d282f380d786c3",
+    "skn": "f89c0a61f3cfdabfa77608542c650526d4a863e8965019e3136710ede14e899e",
+    "sks": "f6830df3c816fd9c118b4dfc81b176e50d8a9bf98ca508a7cd38c19857d41413",
+    "paired_at": "2025-10-29T19:30:05.335678+00:00",
+    "name": "TSP80H",
+    "model": "",
+    "identifier": "8A53B37B-D47B-4747-ABC7-65EEEB20A217",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.907824-05:00",
+    "alignment_index": 29049
+}

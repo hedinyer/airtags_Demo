@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "b846f7800a296e5d133ea61b6436869d754ab4abbe85a98b350cb892",
+    "skn": "b6fd64de0470b026c93dee78f742ef3ba375d17eb20fe014ff99d7a66a68feba",
+    "sks": "8c947de78e953627c3da7696ff598f07ecb673c30a17f76aad6c654ac06b4dc0",
+    "paired_at": "2025-11-25T19:11:10.255380+00:00",
+    "name": "TTE98H",
+    "model": "",
+    "identifier": "9238685E-C75E-4A5F-BC90-F95F18718C19",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.921643-05:00",
+    "alignment_index": 26458
+}

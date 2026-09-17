@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "930a5d265570e832b760b5e79d56c52f14110867e7329ba105946c6b",
-    "skn": "204c60d5c9826a80a045c537ff0bef95349bd2d1f48973628d6aeb58d4a17d24",
-    "sks": "8ee1f230d70ef3945d3c465c61b3a8efbba370285e4fc68a6afe40b3140cb3bf",
-    "paired_at": "2026-03-09T16:06:49.176667+00:00",
-    "name": "ZPZ85H",
+    "master_key": "d13705e3f521e41d789b6486b2c82fcc9817289ced4fac5ee6d622f5",
+    "skn": "473f6adea0083e00bf5d8f8d5e044294548edb50e7d5c39195220bd7e98dbcf5",
+    "sks": "97d0cd7ec64c72dab963119a3a5cdd4b05dcf214a8ac653a035c2afdb7517bd2",
+    "paired_at": "2025-09-24T17:17:22.985689+00:00",
+    "name": "TRTO9H",
     "model": "",
-    "identifier": "571613DA-408F-4924-8206-39CB0B97A82B",
+    "identifier": "549EBEB4-B69F-4931-9C3A-A9E0DFE49A61",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T15:43:10-05:00",
-    "alignment_index": 14441
+    "alignment_date": "2026-08-28T04:39:08.900094-05:00",
+    "alignment_index": 30892
 }

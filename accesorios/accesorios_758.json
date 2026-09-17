@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "12ac484c43d57ff6d51d0a5f767b4e7c9bcd0e844416bde76d83aee4",
+    "skn": "115604912555e74583457f65e0bb6a98111aba7bb2458a90a04e279aca316217",
+    "sks": "8f5fb217fc23578b2ac01a1a88637cc50dfb05438db6a98d480d67d0a530eb25",
+    "paired_at": "2025-12-10T13:33:24.077480+00:00",
+    "name": "TTO84",
+    "model": "",
+    "identifier": "5F26A9F5-07D7-434E-95D0-B4DF91DB1770",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.921773-05:00",
+    "alignment_index": 25041
+}

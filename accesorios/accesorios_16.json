@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "910c0068b7dfa7d4fc995300b27067b3027eb91520edc9988f09a152",
-    "skn": "41a54f5ffe51501f995f786a46fcf1f9320097a1d7f8d9cdba1be67f89882dc1",
-    "sks": "247353e56227e95891c386fa9da2e3736d073eee78f566f6942ce01d0f182d75",
-    "paired_at": "2025-11-07T19:58:23.797423+00:00",
-    "name": "TST16H",
-    "model": "",
-    "identifier": "CF20A35E-969B-4BBA-B6CC-60EA9AC0DB6A",
+    "master_key": "2def06b906c125a0c67d9ed254617685942f5bd5e4e065d7a6a21b8e",
+    "skn": "30bdd07c6a4be836796856df83b8ea52e11aa3490e5250fc7d60431c252a5d65",
+    "sks": "fa25873e6bf54167a3d08a9abb51400cc774609cdfbf7104a740a32be726d912",
+    "paired_at": "2026-06-19T15:53:36.358680+00:00",
+    "name": "HAM96I",
+    "model": "empty",
+    "identifier": "6F79D884-DED1-4714-B4C2-4C9FC38AA976",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T13:05:30-05:00",
-    "alignment_index": 26207
+    "alignment_date": "2026-08-28T04:39:08.894131-05:00",
+    "alignment_index": 6696
 }

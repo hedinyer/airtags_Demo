@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "49fc0ab8a5f2b3d821ccdeadb9eae5049292e837d68c76aec63ef8d7",
-    "skn": "526356723c21cbff02847c28ff43a7c494d757570a2a999302b951141cb64763",
-    "sks": "f5fd9c2101c4971009c552a5f1537bf0e493eb43ceb1d82e52fbd934e53a141c",
-    "paired_at": "2025-08-30T17:18:49.140036+00:00",
-    "name": "TIL43H",
+    "master_key": "c8cd7a67ee61cd42216b04bc6d703a8d26982bdbcfcfeea67edfb2b8",
+    "skn": "d187c882b83af55ef5d4bc5667248aa09c017b8363e402b06f299906f18adc4e",
+    "sks": "06b14692c7b7369f2a4421171b09a67cc115d01baf1771660335b655898ab240",
+    "paired_at": "2026-01-05T20:45:12.962539+00:00",
+    "name": "ZOT48H",
     "model": "",
-    "identifier": "9139831E-2F38-470B-84AB-ECFEB42B26AF",
+    "identifier": "D0E581EE-061D-44AA-894E-C727DDF71116",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T16:05:10-05:00",
-    "alignment_index": 32769
+    "alignment_date": "2026-08-28T04:39:08.898327-05:00",
+    "alignment_index": 22516
 }

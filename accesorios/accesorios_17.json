@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "4f87426f72e373ea44b8cc30302073e048df0f01b6accab7769e9974",
-    "skn": "e44e9cc9a6aa0abccb92ccde5febf677d53d8b3d504d71b9aafd0e2a4bdf309b",
-    "sks": "2a2d9c310e1e4ad460d33df077761c40870d8cfc172bdde6f3dda529564f447c",
-    "paired_at": "2025-11-07T20:00:12.090926+00:00",
-    "name": "TST17H",
-    "model": "",
-    "identifier": "AA1A0421-86C4-4B8A-BB21-3711DCD64539",
+    "master_key": "bba027c2de3715af85cd280a6c4d2ea8468a9d16816520cf02a2ce47",
+    "skn": "5746dd69f89baddb86df0dce66499a0f56cfd1a26c0fd17243350e29b3c363cd",
+    "sks": "444f55e7b832b568d2f0ac584a666c3395ddddc262ea03a7c46012417af9ecc7",
+    "paired_at": "2026-06-19T15:52:48.973608+00:00",
+    "name": "HAM98I",
+    "model": "empty",
+    "identifier": "70DA0C53-7412-44E2-BD3C-7F89D330AD0C",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T16:03:00-05:00",
-    "alignment_index": 26152
+    "alignment_date": "2026-08-28T04:39:08.894171-05:00",
+    "alignment_index": 6696
 }

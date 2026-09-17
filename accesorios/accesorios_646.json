@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "37dab676f22121fa293af26220c5622726787cb4547e9203a425a85d",
+    "skn": "664cc0a417e80160b6ae3942d1ba6dd44a64c62962c5a539feb2daf424ed4402",
+    "sks": "ad2c624ce66421f5d504b42415447155c9280bbebc47e6274dfdefbb6ea48e98",
+    "paired_at": "2025-12-18T20:11:21.272107+00:00",
+    "name": "ZOK48H",
+    "model": "",
+    "identifier": "EA069E84-E40E-44EE-BD4B-FE7D4EEF4D2E",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.918000-05:00",
+    "alignment_index": 24247
+}

@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "d6528c523561d75fd23398ccee16cd5b29c2655512585f0de935e5d3",
-    "skn": "5a92ac4fb121391adfcc763d02b87d2b849605c2264b55b94afaadacaea2fdc7",
-    "sks": "1a889ee760385beb959e1dfe2ee3f7e5f976b8e02f01b961dc238e726f14840f",
-    "paired_at": "2025-11-12T13:47:57.404669+00:00",
-    "name": "TTA07H",
-    "model": "",
-    "identifier": "3FC0EE82-D94D-4B1A-BCBF-E3EA271DBC9A",
+    "master_key": "1543d16217e273f2f928c1fcf53aae1f15c5e377652340a256e15932",
+    "skn": "c663a0d1156e5fb5b1f0aba11b662794de2115e6a661037090826e464e9a21ac",
+    "sks": "5cbdb68c463e3e2f3590ab03e12657f1c1c405af0922043fdd53df9d373f2be7",
+    "paired_at": "2026-04-25T19:37:11.709863+00:00",
+    "name": "iPhone Mindiola",
+    "model": "iPhone14,7",
+    "identifier": "38FAB82D-7E7B-4BE1-B901-F6FD9F683A99",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T06:34:20-05:00",
-    "alignment_index": 25727
+    "alignment_date": "2026-08-28T04:39:08.894789-05:00",
+    "alignment_index": 11960
 }

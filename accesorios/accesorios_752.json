@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "430b6b27b28b11bcdee38b648a0da3e12ed51a9ee24e0e663640b6e7",
+    "skn": "c951ca863360d1e528e7a8153d917e9eab4cc7151c8c3e5f94b198472c3b238c",
+    "sks": "4f5f2d1be2e89714236539de60c19bbc2bacf160030b8c85e40383ddcc6b5848",
+    "paired_at": "2025-11-29T13:21:50.364600+00:00",
+    "name": "TTD88H",
+    "model": "",
+    "identifier": "347F1823-DDA3-4917-8BB7-81EC82344F4F",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.921580-05:00",
+    "alignment_index": 26097
+}

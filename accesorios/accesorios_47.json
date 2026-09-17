@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "5dcf4aec94fe576b94c41399a2bb751af516c17d91ce7e72e9853b3a",
-    "skn": "ad46fc1278bdb395ddadbab94e59c0fea2b1df05f9362bbd479323e59ae1633d",
-    "sks": "7c61a25030af24e5bbde391f2dc832d38b3bf12569ab3deecf83394246abdffc",
-    "paired_at": "2026-08-06T20:07:31.686742+00:00",
-    "name": "Heylen\u2019s MacBook Air",
-    "model": "MacBookAir10,1",
-    "identifier": "1315B83E-2DE1-44FC-ADCF-D88FA209CE84",
+    "master_key": "458ba9d3bd48fa44233c2c343268f8b8d9290a56fc88c97726050d21",
+    "skn": "a1da886b0dd0f046fc7638d3d26223e57dcdc524154a37245d7af21f6360b84e",
+    "sks": "d0982eccd36f349f0080ceb27a20c9f809b039021f1e2a2ff7bfda8206c37dba",
+    "paired_at": "2025-10-24T20:55:13.007487+00:00",
+    "name": "TSQ34H",
+    "model": "",
+    "identifier": "C053CB29-69D2-4187-8BA3-068D335D8E3E",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T16:06:00-05:00",
-    "alignment_index": 6
+    "alignment_date": "2026-08-28T04:39:08.895344-05:00",
+    "alignment_index": 29524
 }

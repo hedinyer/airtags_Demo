@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "908267e5cf97674ce93beadc99f13215d642c3f691a3426d558b7173",
+    "skn": "92ef6c58371d109122181aa0783368030db31b8b016d8a98e7740a4e6ec83114",
+    "sks": "769767e7ac06a0accd3a7e7b3a6f319ba480a9b5f7e3f724317838a6d37193e4",
+    "paired_at": "2025-08-14T20:34:06.198489+00:00",
+    "name": "TIF36H",
+    "model": "",
+    "identifier": "8B327F19-144A-4AD5-9173-881FF3AFE206",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.906547-05:00",
+    "alignment_index": 36341
+}

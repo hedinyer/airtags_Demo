@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "06e9f7d0b874f2e0b7a0314ca137eb17906c95dd6dfbd433126505f9",
-    "skn": "23b0e64f3228a7cfa91cea9b68e1e02efc00cada448a0a499694bf9f0d687993",
-    "sks": "07d8b43b92a9cd65724074c271ebd52467dba7b7308a0760d4707b26dc379509",
-    "paired_at": "2026-02-14T15:04:13.383663+00:00",
-    "name": "ZPL79H",
+    "master_key": "c2657f207ac4c2074fb8ab097b85b118106b4b59cf7f872a55376d6a",
+    "skn": "b0647cf59c40bed9b76614f5b565f9763c93275ca934934467426a5cb4092fee",
+    "sks": "c05e67098fef0a388939a571f76f42c5468513fe6f6dba629bc5e21218f84b05",
+    "paired_at": "2025-09-23T19:21:59.322433+00:00",
+    "name": "TRT23H ",
     "model": "",
-    "identifier": "4CA9BDD6-7FC7-4F56-8172-2391AD6F39DD",
+    "identifier": "7803D5CD-8059-470D-9E85-35822FAD03AF",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T16:08:10-05:00",
-    "alignment_index": 16654
+    "alignment_date": "2026-08-28T04:39:08.899975-05:00",
+    "alignment_index": 32505
 }

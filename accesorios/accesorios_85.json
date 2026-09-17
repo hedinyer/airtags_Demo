@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "1d1e3b1de01283b30e330a2d46a1fd32ce5e4268e706bdcad707892d",
-    "skn": "1f075ac3a87eda3b5ee04eadc0c8c733e903cdc093d3227b14dd78d5f5de49d4",
-    "sks": "2e6c17261abb72ad31d0fbe0e55d699288fcd44cc51011cd3eb934fd1a8fdb28",
-    "paired_at": "2026-03-31T14:01:59.590831+00:00",
-    "name": "DVF05I",
+    "master_key": "4f87426f72e373ea44b8cc30302073e048df0f01b6accab7769e9974",
+    "skn": "e44e9cc9a6aa0abccb92ccde5febf677d53d8b3d504d71b9aafd0e2a4bdf309b",
+    "sks": "2a2d9c310e1e4ad460d33df077761c40870d8cfc172bdde6f3dda529564f447c",
+    "paired_at": "2025-11-07T20:00:12.090926+00:00",
+    "name": "TST17H",
     "model": "",
-    "identifier": "C71B809C-8405-44CE-A807-0DCD0E16719A",
+    "identifier": "AA1A0421-86C4-4B8A-BB21-3711DCD64539",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T16:00:40-05:00",
-    "alignment_index": 12315
+    "alignment_date": "2026-08-28T04:39:08.896791-05:00",
+    "alignment_index": 28218
 }

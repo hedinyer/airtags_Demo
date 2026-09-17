@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "31cf1fab1086abf9f09a0b93a8021f240f0ac335da04a8c5a060c442",
-    "skn": "8d6d480b8b5a1fae0ac619d70e6edb9ecfc56dcbc226367a7c1cc7fbc870418f",
-    "sks": "9d29d3c5528f848e55462ac617dd9b23d87a1d57ab52ca52cb6d2a8b63f9b7b1",
-    "paired_at": "2025-11-12T13:46:58.459412+00:00",
-    "name": "TTA06H",
-    "model": "",
-    "identifier": "8BBDEB00-E407-4510-A037-8EEEFE350070",
+    "master_key": "4c623dcfa172632c2cf5bd3ebba277b9c2492c43748dec8a6b8bec39",
+    "skn": "958b680f70b4c48b798849ffad554deac2b9af284210cc8aae219a1f2d779e2d",
+    "sks": "4bbc9f63867867c07621dcfe89f62e870b18a554b80858216e59f52e193ba8e3",
+    "paired_at": "2026-06-26T15:21:55.703684+00:00",
+    "name": "KGC88I",
+    "model": "empty",
+    "identifier": "DBD5E8C7-8C86-40A4-BF33-C661D78DC403",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T15:36:40-05:00",
-    "alignment_index": 25691
+    "alignment_date": "2026-08-28T04:39:08.894749-05:00",
+    "alignment_index": 6025
 }

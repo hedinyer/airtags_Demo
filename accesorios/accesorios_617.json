@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "766ff63fbcb1d5e481c94671297fad5b7390af6e087575cd48f7c6ec",
+    "skn": "80209e65df3b986c3b2bf57262c3b5c29a77521b0968b55017a9a61e7d730286",
+    "sks": "0db50954674aefbefff90363469b9a898fa1a9573d8a3210267b31e4c2cba489",
+    "paired_at": "2025-07-12T17:25:33.706339+00:00",
+    "name": "RAZ52H",
+    "model": "",
+    "identifier": "D3FEA9CC-DF05-4820-9509-2CD6053BFB48",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.916871-05:00",
+    "alignment_index": 39522
+}

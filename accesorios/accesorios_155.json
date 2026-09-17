@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "c2fbd67a9db43c6f9f7406f7213af5601aaf79d0be2f604e32d2762f",
-    "skn": "22adf71f00bc1ab20b7d7325bb5fba6d0595e8ecb0421b9b6e6aca6428989a35",
-    "sks": "9d66b0ec66d81a3cb58886d789d4b0970f57eb4a5b33b9323fcbc7f70c1d8da6",
-    "paired_at": "2026-03-04T13:28:15.778552+00:00",
-    "name": "Mdk81",
+    "master_key": "a6dc83ced83feac026a68275d23c25ebab816a4f62ca2200445adcb4",
+    "skn": "59721fed6ff048cd47d063019ca54ce08faf020d8e0655ecbdf97c01efb41458",
+    "sks": "3f46659f83143ab54d819715e9a9b31776fd8c86696517bcec62223f11e178d0",
+    "paired_at": "2025-09-17T17:20:00.301865+00:00",
+    "name": "TRT12H",
     "model": "",
-    "identifier": "15733C5A-6672-4EA9-8ADE-042DEC8250B0",
+    "identifier": "D22B59BA-BAD5-4C8A-B711-98A4F8C7BE35",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T13:54:20-05:00",
-    "alignment_index": 15071
+    "alignment_date": "2026-08-28T04:39:08.899646-05:00",
+    "alignment_index": 33089
 }

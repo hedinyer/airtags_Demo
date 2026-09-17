@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "dc59f4deba958eb1e64fa7b1cb6a5030fc691eaf5baa61aa5a26e9d7",
-    "skn": "33ee653d7bbe66b1df2299a57711e29d8c7ada560bc28f5eb47946fb8b0ab773",
-    "sks": "0ad29416cd74c50e5ed29fc91ec80b79247edb89d5679821f45c7f38cf9d7afc",
-    "paired_at": "2026-02-09T21:13:48.160516+00:00",
-    "name": "CHE37I",
+    "master_key": "7ac3ae493e06707fe9170512826d2b6e990e480a32b8d5a9ffd07df6",
+    "skn": "718864567cb7a318e8081e466127b3ce0fc28232522f898f553ce9fd0046def3",
+    "sks": "f862ce5ecf2d1a54eea3876e3ec44e6d4649fd894f96a6b8c77d5552797a73db",
+    "paired_at": "2025-10-23T16:18:24.353055+00:00",
+    "name": "TSP07H",
     "model": "",
-    "identifier": "E152641C-01D5-47F0-B0FC-054789A36968",
+    "identifier": "D52C9346-93E3-472B-8B29-75AE240B12F3",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T15:53:50-05:00",
-    "alignment_index": 17095
+    "alignment_date": "2026-08-28T04:39:08.895148-05:00",
+    "alignment_index": 29638
 }

@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "5d628c4196c146ef117cb04a2be85d76764032c2e7cb941d420143c9",
-    "skn": "c447abebeba62fffdf3879cc443530a61c0008a617e975e13f5b6656f3054d4e",
-    "sks": "72fe60a40ea2fa74868eb4db63c6cc1fd172333c5dddbbcb6329e2747f42f0b8",
-    "paired_at": "2025-08-24T22:33:35.307863+00:00",
-    "name": "GBR200Negra sin matr\u00edcula",
+    "master_key": "eea7da4cd37ebe158277939b00d2407330a83ecb7c750b02bc7131b0",
+    "skn": "49e7c8d0622f86a8f6f16a80f04b67185fbebb127162434c8edc3f4348418657",
+    "sks": "f20a26f951152a95235a44b26fdd020908f5b9cac26a767181aaea2a87e37737",
+    "paired_at": "2025-12-22T15:21:52.498102+00:00",
+    "name": "ZOK44H",
     "model": "",
-    "identifier": "412C95AA-63D1-4B03-9C46-E22E0FC24426",
+    "identifier": "271E8EA9-AFF7-4CE5-A45D-C8869E6F829A",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T03:53:28.038210-05:00",
-    "alignment_index": 33259
+    "alignment_date": "2026-08-28T04:39:08.897918-05:00",
+    "alignment_index": 23883
 }

@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "0f44d51514e359d466fd8dd7db6b5ef878e9af7286c187f04f1249e1",
+    "skn": "3fbb3fe4c3fbf315e3465dc2d09d76887f91de325964b315e0dfd3aac8878418",
+    "sks": "fab98b66699f6474c268a80004d547e9c849944cd2ff404cbbd6bec93ab401b3",
+    "paired_at": "2025-11-26T17:59:57.878539+00:00",
+    "name": "MCY93H",
+    "model": "",
+    "identifier": "369EED0A-C405-4FB9-85E3-4AA9C9CAB045",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.920766-05:00",
+    "alignment_index": 26368
+}

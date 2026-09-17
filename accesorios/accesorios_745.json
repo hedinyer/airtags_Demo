@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "f3bc20ede24ebb1c8e91860770538a38f02f7c2f5dc4f7bfa3e6976b",
+    "skn": "2ad0393e5772d674197129dfc1f5b44bfb04bea06166796052bbc3c4b438d705",
+    "sks": "1f79b0bb0adce22f08cdbbff0cd7f7f5260b9980c560dc4bb82544e07b0dc994",
+    "paired_at": "2025-11-26T21:42:07.327546+00:00",
+    "name": "TSY88H",
+    "model": "",
+    "identifier": "792607E4-B79C-4F06-BC7D-A3783A1B56E5",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.921361-05:00",
+    "alignment_index": 26354
+}

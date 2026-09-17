@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "64f139c662ffc727883c12e24c0cf9e60f0469d1597ca7405b9c0278",
+    "skn": "261bfd8f61097cd88c67df82676556286bca3dab0648be1be1b405aa177db830",
+    "sks": "be43a1c7ae20e9d2c93bbe9430be1f8e6d28fb3275d4ec73c633494b942ef719",
+    "paired_at": "2025-11-12T17:11:34.514498+00:00",
+    "name": "TSY58H",
+    "model": "",
+    "identifier": "B53E8DAD-5908-4FA8-95CF-191D66B16E12",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.921088-05:00",
+    "alignment_index": 27715
+}
