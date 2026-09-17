@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "1776aa1aee69a87be572bce43fa10d8b1bcf823ad2ad1dd24c0fe845",
+  "skn": "d386b314f4c71b02577fc4d006afad15b8e60d49876655e35fa8b96bc1ac1df6",
+  "sks": "46daaa6190592b74b955aaf1ae6edc0537b49243bd9af93d96c27d87b0d3be31",
+  "paired_at": "2025-12-03T16:12:53.069218+00:00",
+  "name": "TTL24H",
+  "model": "",
+  "identifier": "CE04EB91-2022-4952-9FFF-585EE9099C96",
+  "alignment_date": "2026-08-06T22:08:00+00:00",
+  "alignment_index": 23641,
+  "serial": "JG3QDCEFP0GV",
+  "icloud_account": "neylalizarazo7@gmail.com",
+  "imported_at": "2026-09-17T21:27:12.260782+00:00",
+  "first_imported_at": "2026-09-17T21:27:12.260782+00:00"
+}

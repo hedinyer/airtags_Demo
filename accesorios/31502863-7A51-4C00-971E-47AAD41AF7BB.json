@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "1ad8c621e0a3216b7950f123e46ebf213a05a6d2f176f823002af352",
+  "skn": "f179c2a8d990c07d9488ce1da44bb8f718c7e5db8b38a2f5d4160e8b3ba5e135",
+  "sks": "45921ca39088e2b17b63c53aac5ab96e247303a15fe3e09e6f058e7a53132b07",
+  "paired_at": "2025-12-03T13:59:06.403575+00:00",
+  "name": "TTL25H",
+  "model": "",
+  "identifier": "31502863-7A51-4C00-971E-47AAD41AF7BB",
+  "alignment_date": "2026-08-06T21:52:50+00:00",
+  "alignment_index": 23648,
+  "serial": "HGJN5F2ZP0GV",
+  "icloud_account": "neylalizarazo7@gmail.com",
+  "imported_at": "2026-09-17T21:27:12.260782+00:00",
+  "first_imported_at": "2026-09-17T21:27:12.260782+00:00"
+}

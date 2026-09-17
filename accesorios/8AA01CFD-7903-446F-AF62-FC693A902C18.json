@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "c519f81b4715585264a599fd3ed4d921b6b0293e2d1615bccda3329f",
+  "skn": "4cf8d4ed4024a59ed777ed708fedfb68af652f0c351ac46ed1808222ca697019",
+  "sks": "ab9e42dbea8488ecb4e5b9a036579c22dc60b82b73d96592c66a082c194d09df",
+  "paired_at": "2025-11-22T15:25:13.217732+00:00",
+  "name": "TTE21H",
+  "model": "",
+  "identifier": "8AA01CFD-7903-446F-AF62-FC693A902C18",
+  "alignment_date": "2026-08-06T22:17:20+00:00",
+  "alignment_index": 24701,
+  "serial": "JG2QDN75P0GV",
+  "icloud_account": "neylalizarazo7@gmail.com",
+  "imported_at": "2026-09-17T21:27:12.260782+00:00",
+  "first_imported_at": "2026-09-17T21:27:12.260782+00:00"
+}

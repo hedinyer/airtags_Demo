@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "a8d78f5b394dc0f988ca1822f59537d03b25201e2ea6d6ba2d36c413",
+  "skn": "d3967238dfab80b8c7d52441906af31abb7ee0c57a10aae10f879a7b4fd57cb5",
+  "sks": "703adc91c14eed0cad4c618ad3ba3bf866984f3540e67c777aa424555ec4956f",
+  "paired_at": "2025-11-26T20:01:33.614974+00:00",
+  "name": "TTL05H",
+  "model": "",
+  "identifier": "CA174347-11B5-468F-80A9-A131BEB706D3",
+  "alignment_date": "2026-08-06T22:19:50+00:00",
+  "alignment_index": 24298,
+  "serial": "HGQQ5JLCP0GV",
+  "icloud_account": "neylalizarazo7@gmail.com",
+  "imported_at": "2026-09-17T21:27:12.260782+00:00",
+  "first_imported_at": "2026-09-17T21:27:12.260782+00:00"
+}

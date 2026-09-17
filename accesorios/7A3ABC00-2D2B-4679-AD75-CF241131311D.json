@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "8d0dbb8a0e853fbf75f31f4ccce7e63a9ec8c058963af288ccc94347",
+  "skn": "ca656a2d6f12c51791386b0deafc44642062dc998bf44310b10b9420f4456304",
+  "sks": "2a996e1ec09d45f5306946af21892f078888daf4617d94c2cbcd5cca561d888e",
+  "paired_at": "2025-11-22T15:22:18.101529+00:00",
+  "name": "TTE16H",
+  "model": "",
+  "identifier": "7A3ABC00-2D2B-4679-AD75-CF241131311D",
+  "alignment_date": "2026-08-06T22:21:50+00:00",
+  "alignment_index": 24702,
+  "serial": "HGPPDFGWP0GV",
+  "icloud_account": "neylalizarazo7@gmail.com",
+  "imported_at": "2026-09-17T21:27:12.260782+00:00",
+  "first_imported_at": "2026-09-17T21:27:12.260782+00:00"
+}

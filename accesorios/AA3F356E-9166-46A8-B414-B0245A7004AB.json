@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "22ebe096293c20a40bfaa622a12788589ac20fa1269dfea8cb7c555f",
+  "skn": "150fd763795c2544ee5672eb4a2d67513e60ffb3c725f5785965abc5fc30377b",
+  "sks": "bc259d84437f99c58554f5ca4df5316db3ee271aa53b81c83cfc8fef5402aa21",
+  "paired_at": "2025-11-26T14:47:15.276190+00:00",
+  "name": "TTE27H",
+  "model": "",
+  "identifier": "AA3F356E-9166-46A8-B414-B0245A7004AB",
+  "alignment_date": "2026-08-06T22:20:30+00:00",
+  "alignment_index": 24319,
+  "serial": "JG6QDLFDP0GV",
+  "icloud_account": "neylalizarazo7@gmail.com",
+  "imported_at": "2026-09-17T21:27:12.260782+00:00",
+  "first_imported_at": "2026-09-17T21:27:12.260782+00:00"
+}

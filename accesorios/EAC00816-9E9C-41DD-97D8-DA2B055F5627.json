@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "a416549f4bd5acdb971e2e0da714e3ae824010276d555ebc2502e56b",
+  "skn": "a7a7dba4b599240ba27e3164dc883248d7c653bd80a3bf5593af37a3529d4349",
+  "sks": "05509daf0233ac86456941705aee758d306c9f493587e7a938424c5f9ec945d4",
+  "paired_at": "2025-04-22T00:50:11.672706+00:00",
+  "name": "me:/001881-08-0e109c8f-b877-4151-8bc9-a4edff99279d",
+  "model": "iPhone11,8",
+  "identifier": "EAC00816-9E9C-41DD-97D8-DA2B055F5627",
+  "alignment_date": "2025-04-22T00:50:14.190612+00:00",
+  "alignment_index": 1,
+  "serial": "me:/001881-08-0e109c8f-b877-4151-8bc9-a4edff99279d",
+  "icloud_account": "neylalizarazo7@gmail.com",
+  "imported_at": "2026-09-17T21:27:12.260782+00:00",
+  "first_imported_at": "2026-09-17T21:27:12.260782+00:00"
+}

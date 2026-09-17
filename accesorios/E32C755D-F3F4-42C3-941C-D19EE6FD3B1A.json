@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "e26b5279399e3bea923774e4c9eabf2665e85ebb7d2ecf2bd9cfad50",
+  "skn": "bcd9f47c38fded2197e07f5b1fe212df666b5ec0c4acff5904edb746ea43fd2e",
+  "sks": "50803361f78a3034ad9f5443a1ac694c82aaf7f732d33af1e453111966512f1f",
+  "paired_at": "2025-11-22T15:20:24.074605+00:00",
+  "name": "TTE20H",
+  "model": "",
+  "identifier": "E32C755D-F3F4-42C3-941C-D19EE6FD3B1A",
+  "alignment_date": "2026-08-06T21:55:50+00:00",
+  "alignment_index": 24700,
+  "serial": "HGNQ5KJLP0GV",
+  "icloud_account": "neylalizarazo7@gmail.com",
+  "imported_at": "2026-09-17T21:27:12.260782+00:00",
+  "first_imported_at": "2026-09-17T21:27:12.260782+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "8b4ce291a11eafce0a141c929f1f6d422cff852ec79b365b141286dd",
+  "skn": "5f1167cb94586a014513cd221c1bf976c3ffe997f247bd1a88a2724afae4e5d5",
+  "sks": "3e59a8d8a2ca4c196623b09c175e275738ff33aaad28d9b9620e602ce82dddc4",
+  "paired_at": "2025-11-26T19:54:39.713963+00:00",
+  "name": "TTL02H",
+  "model": "",
+  "identifier": "033D022D-F68A-478A-B963-F9C88858E413",
+  "alignment_date": "2026-08-06T22:23:00+00:00",
+  "alignment_index": 24299,
+  "serial": "HGCPWD1JP0GV",
+  "icloud_account": "neylalizarazo7@gmail.com",
+  "imported_at": "2026-09-17T21:27:12.260782+00:00",
+  "first_imported_at": "2026-09-17T21:27:12.260782+00:00"
+}

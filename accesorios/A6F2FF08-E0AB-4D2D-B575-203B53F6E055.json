@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "3e523fdb443c8ebeb175ba107c67520271cfdf7d25430433ac0f30bf",
+  "skn": "f6ca45c8eed72343c4196ed7327f9cdfd6e8605f3c1223f444485248ad0cf42d",
+  "sks": "a12fa387b4a1d55f597e20367c4138da3a6298ba638021795b17fa80d5331f39",
+  "paired_at": "2025-11-26T19:57:13.452258+00:00",
+  "name": "TTL04H",
+  "model": "",
+  "identifier": "A6F2FF08-E0AB-4D2D-B575-203B53F6E055",
+  "alignment_date": "2026-08-06T21:33:40+00:00",
+  "alignment_index": 24295,
+  "serial": "HW2PNG2HP0GV",
+  "icloud_account": "neylalizarazo7@gmail.com",
+  "imported_at": "2026-09-17T21:27:12.260782+00:00",
+  "first_imported_at": "2026-09-17T21:27:12.260782+00:00"
+}

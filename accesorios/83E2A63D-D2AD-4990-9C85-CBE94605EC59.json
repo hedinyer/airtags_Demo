@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "6640b1c4da268ffbe1aa26f332f1c4c2e5166a49820ff24f7f5ad73f",
+  "skn": "ed5427026ee3795831ecd5ebb69b6764975a2ddad7b0b0a36b8ccc5ae58327e2",
+  "sks": "68b13abdd0be0fd415de1ddef32782380f4351d4ff4e3c46a0dce629598384db",
+  "paired_at": "2025-11-22T15:19:22.731484+00:00",
+  "name": "TTE19H",
+  "model": "",
+  "identifier": "83E2A63D-D2AD-4990-9C85-CBE94605EC59",
+  "alignment_date": "2026-05-01T20:43:20+00:00",
+  "alignment_index": 15383,
+  "serial": "HGPPDBWSP0GV",
+  "icloud_account": "neylalizarazo7@gmail.com",
+  "imported_at": "2026-09-17T21:27:12.260782+00:00",
+  "first_imported_at": "2026-09-17T21:27:12.260782+00:00"
+}

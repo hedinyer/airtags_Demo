@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "43da31401f2f53ec7ecb5c740e473d386ea4fe1bca9a6073883e7b58",
+  "skn": "a9ef111f0bc85ee9e00b2de52dc9dbd1101aa1b9fd7bfac7f10c52c67fe3ab15",
+  "sks": "be03e375c2f772adae51d746d8e30d6ebfd16517f953ce4d58e94a91ecf919fa",
+  "paired_at": "2025-11-26T20:02:50.126336+00:00",
+  "name": "TTL07H",
+  "model": "",
+  "identifier": "D4976FDE-B38F-401A-888B-BD0A702F42CF",
+  "alignment_date": "2026-08-06T17:08:10+00:00",
+  "alignment_index": 24277,
+  "serial": "HGPQ58WJP0GV",
+  "icloud_account": "neylalizarazo7@gmail.com",
+  "imported_at": "2026-09-17T21:27:12.260782+00:00",
+  "first_imported_at": "2026-09-17T21:27:12.260782+00:00"
+}
