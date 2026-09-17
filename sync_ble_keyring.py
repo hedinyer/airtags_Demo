@@ -19,8 +19,53 @@ from pathlib import Path
 from findmy import FindMyAccessory
 
 
+# Find My a veces guarda el AirTag con los últimos 4 del chasis; exportamos placa.
+CHASIS_A_PLACA = {
+    "4791": "LXR49I",
+    "4799": "LXR50I",
+    "4806": "LXR58I",
+    "5418": "LXR51I",
+    "5424": "LXR52I",
+    "5426": "LYB89I",
+    "5437": "LYB90I",
+    "0803": "LYB91I",
+    "0807": "LYB92I",
+    "1424": "LYB93I",
+    "3476": "LXR55I",
+    "3478": "LXR53I",
+    "3484": "LXR54I",
+    "3491": "LXR56I",
+    "3492": "LRX57I",
+    "3494": "LYC67I",
+    "3498": "LYB94I",
+    "9561": "LYB95I",
+    "0230": "LZE12I",
+    "0096": "LYB96I",
+}
+
+
 def normalize_name(name: str) -> str:
-    return re.sub(r"[^A-Z0-9]", "", name.strip().upper())
+    key = re.sub(r"[^A-Z0-9]", "", name.strip().upper())
+    return CHASIS_A_PLACA.get(key) or CHASIS_A_PLACA.get(key.zfill(4)) or key
+
+
+def advance_alignment_to_now(acc: FindMyAccessory) -> None:
+    """Avanza alignment_date/index hasta ahora.
+
+    Sin esto, un JSON con alignment de hace semanas genera claves viejas y el
+    radar BLE nunca hace match aunque la moneda esté encima.
+    """
+    now = datetime.now().astimezone()
+    align_date = acc._alignment_date
+    if align_date.tzinfo is None:
+        align_date = align_date.astimezone()
+    if align_date >= now:
+        return
+    delta = (now - align_date) // acc.interval
+    if delta <= 0:
+        return
+    acc._alignment_date = now
+    acc._alignment_index = acc._alignment_index + int(delta)
 
 
 def load_accessory_dicts(acc_dir: Path) -> list[dict]:
@@ -79,8 +124,10 @@ def build_keyring(item: dict, hours: float) -> dict | None:
     if not name:
         return None
 
+    advance_alignment_to_now(acc)
+
     now = datetime.now(timezone.utc)
-    # Ventana estrecha por índice (± hours/15min), no keys_between amplio
+    # Ventana ± hours alrededor del índice actual (rotación ~15 min)
     steps = max(1, int((hours * 60) // 15) + 2)
     start = max(0, acc._alignment_index - steps)
     end = acc._alignment_index + steps
@@ -97,6 +144,8 @@ def build_keyring(item: dict, hours: float) -> dict | None:
         "generated_at": now.isoformat(),
         "name": str(name),
         "id": str(acc.identifier or ""),
+        "alignment_index": int(acc._alignment_index),
+        "alignment_date": acc._alignment_date.isoformat(),
         "nearby": sorted(nearby),
         "suffix": sorted(suffix),
     }
@@ -110,7 +159,7 @@ def main() -> int:
         type=Path,
         default=Path("web/private/ble-keyring"),
     )
-    parser.add_argument("--hours", type=float, default=12.0)
+    parser.add_argument("--hours", type=float, default=24.0)
     parser.add_argument("--only", type=str, default=None)
     parser.add_argument("--workers", type=int, default=6)
     args = parser.parse_args()
@@ -147,6 +196,7 @@ def main() -> int:
             key = normalize_name(str(payload["name"]))
             if not key:
                 continue
+            payload["name"] = key
             path = out_dir / f"{key}.json"
             path.write_text(json.dumps(payload, separators=(",", ":")) + "\n", encoding="utf-8")
             written += 1
