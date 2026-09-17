@@ -5,6 +5,7 @@
 import { normalizarPlaca } from "@/lib/placasExcluidasReportes";
 
 /** Últimos 4 del chasis → placa. */
+/** Últimos 4 del chasis (y variantes sin ceros) → placa. Fuentes: SP Bogotá/Girardot/BGA. */
 export const CHASIS_A_PLACA: Readonly<Record<string, string>> = {
   "4791": "LXR49I",
   "4799": "LXR50I",
@@ -20,12 +21,15 @@ export const CHASIS_A_PLACA: Readonly<Record<string, string>> = {
   "3478": "LXR53I",
   "3484": "LXR54I",
   "3491": "LXR56I",
-  "3492": "LRX57I",
+  "3492": "LXR57I",
   "3494": "LYC67I",
   "3498": "LYB94I",
   "9561": "LYB95I",
   "0230": "LZE12I",
   "0096": "LYB96I",
+  // Find My a veces recorta ceros: 0005 → "5"
+  "0005": "JQX11I",
+  "5": "JQX11I",
 };
 
 const PLACA_A_CHASIS: Readonly<Record<string, string>> = Object.fromEntries(
