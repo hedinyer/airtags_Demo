@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "11a5ba433382f8216a4f0a49e66c7fd5663dbad6820ef40b6954c039",
+    "skn": "6765dd612fa0e27653610a4da08e48580c1d11111932f1689d1f72b614ee295f",
+    "sks": "ee9ce44bb39a433a9f1e6d73b5c2baa4e7e3b3b1efde67d881ca86379a2be266",
+    "paired_at": "2026-02-25T00:24:16.691727+00:00",
+    "name": "Mt-03 de Nico",
+    "model": "",
+    "identifier": "19B3CE85-AB0B-4B35-A0A8-180D3AC7F7AB",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.913629-05:00",
+    "alignment_index": 17701
+}

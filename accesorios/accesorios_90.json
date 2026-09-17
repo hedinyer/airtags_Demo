@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "e13ae4a8499e78efaf05dd494f72f1267a1ce3ba71aea2994a5a59e9",
-    "skn": "a98d07770339bb38f21ca10bf6fbecc12130d96d56108f31e8cc28a8d42db1df",
-    "sks": "6152665859e7aeac79d180541a3fe647701530f7a1379fd02deccc1885da38af",
-    "paired_at": "2026-04-14T20:10:49.985607+00:00",
-    "name": "DVF14I",
+    "master_key": "64fe2351efbc16c0c0ae1d685672fdeb02ae341f1cd4d780fbf499ff",
+    "skn": "848b50b7573e13d639eee8ceb6afe8ec061b6838285fe17c0cb5e44f4ba0ba68",
+    "sks": "b7ec1ff2b04ebcb819605d7b31152d4a38edeea136df41e359a2c77881bb7c1d",
+    "paired_at": "2025-11-07T19:38:59.860975+00:00",
+    "name": "TST23H",
     "model": "",
-    "identifier": "DA2AA627-9D90-4B0D-8684-E7B422296D42",
+    "identifier": "ED900306-EFC0-4FB3-86AA-CB8C4444E959",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T03:53:28.011134-05:00",
-    "alignment_index": 10898
+    "alignment_date": "2026-08-28T04:39:08.896964-05:00",
+    "alignment_index": 28285
 }

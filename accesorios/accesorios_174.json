@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "a3f39fffa65a5c2d00d356f923025ea60331cce3b3437ab236590ab1",
-    "skn": "8ef73fabebe29689590087076d4b9669022f99d18460b4c080e577b2b7077d4a",
-    "sks": "f917c08c33ca43bafc037e88d9b28a881f814fed2d3a84bbf257575d9b9fdfcd",
-    "paired_at": "2025-11-24T18:48:25.182233+00:00",
-    "name": "iPhone",
-    "model": "iPhone12,1",
-    "identifier": "806CA4D7-4DEA-4B3A-8963-1E41351B2900",
+    "master_key": "09491d32cde39d13cd2b9cf6367b0f40c14564aa410b25feb36113e9",
+    "skn": "43bacc62845f0b63002cfb538a07861f94cb9bce12efabc258d2fc250f798d0b",
+    "sks": "428cda81cc11a431fe88739fb92d64c420ecee316333f0eb7ff213470d22ae43",
+    "paired_at": "2025-10-17T13:24:55.889823+00:00",
+    "name": "TID31H",
+    "model": "",
+    "identifier": "FD6871C5-41D3-4945-84C6-06C5F435A2AB",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T03:53:28.043019-05:00",
-    "alignment_index": 24440
+    "alignment_date": "2026-08-28T04:39:08.900521-05:00",
+    "alignment_index": 30207
 }

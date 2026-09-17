@@ -79,6 +79,40 @@ _REPORT_FETCH_LOCK: asyncio.Lock | None = None
 
 BATTERY_LEVEL = {0b00: "Completa", 0b01: "Media", 0b10: "Baja", 0b11: "Muy baja"}
 
+# Find My a veces guarda el AirTag con los últimos 4 del chasis; en UI usamos la placa.
+CHASIS_A_PLACA = {
+    "4791": "LXR49I",
+    "4799": "LXR50I",
+    "4806": "LXR58I",
+    "5418": "LXR51I",
+    "5424": "LXR52I",
+    "5426": "LYB89I",
+    "5437": "LYB90I",
+    "0803": "LYB91I",
+    "0807": "LYB92I",
+    "1424": "LYB93I",
+    "3476": "LXR55I",
+    "3478": "LXR53I",
+    "3484": "LXR54I",
+    "3491": "LXR56I",
+    "3492": "LXR57I",
+    "3494": "LYC67I",
+    "3498": "LYB94I",
+    "9561": "LYB95I",
+    "0230": "LZE12I",
+    "0096": "LYB96I",
+    "0005": "JQX11I",
+    "5": "JQX11I",
+}
+
+
+def placa_desde_nombre(name: str | None) -> str:
+    key = "".join(ch for ch in (name or "").strip().upper() if ch.isalnum())
+    if not key:
+        return ""
+    return CHASIS_A_PLACA.get(key) or CHASIS_A_PLACA.get(key.zfill(4)) or key
+
+
 logging.basicConfig(level=logging.INFO)
 
 
@@ -95,12 +129,15 @@ def get_battery_level(status: int) -> str:
 
 
 def get_airtag_name(airtag, path: Path) -> str:
+    raw = ""
     if isinstance(airtag, FindMyAccessory):
         if airtag.name:
-            return airtag.name
-        if airtag.identifier:
-            return airtag.identifier
-    return path.stem
+            raw = str(airtag.name)
+        elif airtag.identifier:
+            raw = str(airtag.identifier)
+    if not raw:
+        raw = path.stem
+    return placa_desde_nombre(raw) or raw
 
 
 def fix_stale_alignment(accessory: FindMyAccessory, lookback_hours: float = LOOKBACK_HOURS_DEEP) -> None:

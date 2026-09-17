@@ -7,7 +7,10 @@ import { Button } from "@/components/ui/button";
 import { matchBleAdvertisement } from "@/lib/ble/matchClient";
 import { playSoundOnDevice } from "@/lib/ble/playSound";
 import { bandRank, intensityFromBand } from "@/lib/ble/rssiBands";
-import { startFindMyAdScan, type FindMyScanHandle } from "@/lib/ble/scanFindMyAds";
+import {
+  startFindMyAdScan,
+  type FindMyScanHandle,
+} from "@/lib/ble/scanFindMyAds";
 import type { BleProximityBand } from "@/lib/ble/types";
 import {
   getWebBluetoothSupport,
@@ -20,6 +23,22 @@ type SoundState =
   | { kind: "loading" }
   | { kind: "ok" }
   | { kind: "error"; message: string };
+
+function hintFromReason(reason: string | undefined, adsOf: number): string {
+  if (reason === "nearby_needs_mac") {
+    return "La moneda anuncia modo Nearby (sin MAC en el navegador). Aléjate 5–10 m o asegúrate de que no esté junto al iPhone del dueño, y vuelve a acercarte.";
+  }
+  if (reason === "no_keyring") {
+    return "No hay keyring BLE para esta placa. Hay que regenerar claves en el servidor.";
+  }
+  if (reason === "no_match") {
+    return "Hay anuncios Find My, pero no coinciden con esta placa (claves desfasadas o es otra moneda).";
+  }
+  if (adsOf > 0) {
+    return "Oyendo Find My… cruzando con la placa.";
+  }
+  return "Escaneando… si no ves anuncios OF, acerca la moneda o revisa Bluetooth.";
+}
 
 export function BleRadarHud({
   targetName,
@@ -37,7 +56,12 @@ export function BleRadarHud({
   const [rssi, setRssi] = useState<number | null>(null);
   const [matched, setMatched] = useState(false);
   const [sound, setSound] = useState<SoundState>({ kind: "idle" });
-  const [hint, setHint] = useState("Pulsa Iniciar para usar el Bluetooth del teléfono.");
+  const [hint, setHint] = useState(
+    "Pulsa Iniciar para usar el Bluetooth del teléfono.",
+  );
+  const [adsTotal, setAdsTotal] = useState(0);
+  const [adsOf, setAdsOf] = useState(0);
+  const [lastReason, setLastReason] = useState<string | null>(null);
 
   const scanRef = useRef<FindMyScanHandle | null>(null);
   const deviceRef = useRef<BluetoothDevice | null>(null);
@@ -84,11 +108,19 @@ export function BleRadarHud({
         });
 
         if (!result.matched) {
+          const reason = result.reason ?? "no_match";
+          setLastReason(reason);
+          setHint((prev) =>
+            prev.startsWith("Señal BLE")
+              ? prev
+              : hintFromReason(reason, 1),
+          );
           return;
         }
 
         deviceRef.current = ev.device;
         setMatched(true);
+        setLastReason(null);
         setRssi(result.rssi);
         setBand(result.band);
         setHint("Señal BLE del tag. Camina y mira si sube o baja.");
@@ -112,7 +144,9 @@ export function BleRadarHud({
           lastBandRank.current = 0;
         }, 3500);
       } catch (err) {
-        setScanError(err instanceof Error ? err.message : "Error al cruzar anuncio");
+        setScanError(
+          err instanceof Error ? err.message : "Error al cruzar anuncio",
+        );
       }
     },
     [targetName],
@@ -124,6 +158,9 @@ export function BleRadarHud({
     setMatched(false);
     setBand("none");
     setRssi(null);
+    setAdsTotal(0);
+    setAdsOf(0);
+    setLastReason(null);
     lastBandRank.current = 0;
 
     const s = getWebBluetoothSupport();
@@ -134,9 +171,26 @@ export function BleRadarHud({
 
     try {
       stopScan();
-      const handle = await startFindMyAdScan((ev) => {
-        void onAd(ev);
-      });
+      const handle = await startFindMyAdScan(
+        (ev) => {
+          void onAd(ev);
+        },
+        (st) => {
+          setAdsTotal(st.adsTotal);
+          setAdsOf(st.adsOf);
+          if (st.adsOf === 0 && st.adsTotal > 20) {
+            setHint(
+              "Hay Bluetooth alrededor, pero aún no llegan anuncios Find My de esta moneda.",
+            );
+          } else if (st.adsOf > 0) {
+            setHint((h) =>
+              h.startsWith("Señal BLE")
+                ? h
+                : "Oyendo Find My… cruzando con la placa.",
+            );
+          }
+        },
+      );
       scanRef.current = handle;
       setScanning(true);
       setHint("Escaneando anuncios Find My… acércate a unos metros.");
@@ -267,6 +321,12 @@ export function BleRadarHud({
             <p className="mt-8 max-w-sm text-center text-sm text-zinc-300 text-pretty">
               {hint}
             </p>
+            {scanning ? (
+              <p className="mt-2 text-center text-[11px] tabular-nums text-zinc-500">
+                Ads BT {adsTotal} · Find My {adsOf}
+                {lastReason ? ` · ${lastReason}` : ""}
+              </p>
+            ) : null}
             {scanError ? (
               <p className="mt-3 max-w-sm text-center text-sm text-red-400 text-pretty">
                 {scanError}

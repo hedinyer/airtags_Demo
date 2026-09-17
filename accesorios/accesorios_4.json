@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "12204566e51e39112798ef54102ee1a5c600e7f99d6bf2b2740e8d4c",
-    "skn": "6f9e0b57bce957c86832e3ce4aa9a714dfedbc241d7811d9807b1dc182b10a0f",
-    "sks": "cf3ed49a83c859baf2cf77d7d3c0e7ef6a34a70b4d58153e3477320042bf26e3",
-    "paired_at": "2025-11-06T15:34:42.310204+00:00",
-    "name": "TST02H",
-    "model": "",
-    "identifier": "F8B33DBD-0090-424E-9017-6269FF24DADD",
+    "master_key": "6b19a5d3a5fa5f40996a29c3bdc2a915737d60f3c1107928ac7ed91d",
+    "skn": "d4bbd9091c098493d972d77c3ee9197a38a06c71a572bd3341a61475fc8f1a8c",
+    "sks": "f42bd6cf294c192a017f2cc6e79a202b6afab22a701f10b54a22649ebc2486f4",
+    "paired_at": "2026-06-12T20:45:25.669065+00:00",
+    "name": "HAG52I",
+    "model": "empty",
+    "identifier": "A4E2E6F0-6FF2-4980-A65B-649365E351B4",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T03:53:28.001720-05:00",
-    "alignment_index": 26179
+    "alignment_date": "2026-08-28T04:39:08.893631-05:00",
+    "alignment_index": 7347
 }

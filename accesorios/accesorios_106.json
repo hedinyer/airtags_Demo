@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "822b784e843ae986fcb61624e597acc9e6c0d7b2567180662e67e8b2",
-    "skn": "a01b044c4f5f87da7840b2e8db93d4b1b25d09129fda8c97f8797a92b84ba1fd",
-    "sks": "a8b1a9fade288006fbdc7f69e69fe3a9dd19e80bdbdc0872e89bc18f36d36813",
-    "paired_at": "2026-05-28T14:25:47.765613+00:00",
-    "name": "Test",
-    "model": "Card Pro",
-    "identifier": "A99C9919-B433-42E0-AF9E-2CD0A8EFD0FE",
+    "master_key": "443816c5ab5900e346eb993d1447bd9054b7979534d95bbf8b78155f",
+    "skn": "a252e00964c114a6a23d76d516d6bcf1f42d63ee98d08e901dfffaf8b946b0bf",
+    "sks": "8d3fb74736478d8e1a0b00fff1828482cbe52cbd9dac3c0e6127bd47699dec4a",
+    "paired_at": "2025-12-22T15:07:52.232790+00:00",
+    "name": "ZOK35H",
+    "model": "",
+    "identifier": "0D27089E-2A75-4BA2-8C8B-CE105AB18D4B",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T16:06:00-05:00",
-    "alignment_index": 6168
+    "alignment_date": "2026-08-28T04:39:08.897829-05:00",
+    "alignment_index": 23883
 }

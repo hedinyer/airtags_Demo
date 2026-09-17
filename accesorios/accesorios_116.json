@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "fdc6df8d75ab80d1b57e0ca9825de771b50da2c19006f0c788e4ab07",
-    "skn": "f618269efdcfdd4e8e28001dd434a9b875e586a32568a6cae12cd56499e89aaa",
-    "sks": "e3e42daf4ad160462c85ef5029e79bafd26716715de4210bead1048c5359ecf9",
-    "paired_at": "2025-08-24T18:53:44.875116+00:00",
-    "name": "TIJ70H",
+    "master_key": "5c47e50c79ca5cfeb88f091777afc20984b85a48588379f1ad564bba",
+    "skn": "e49b6cec8291466764b06c9b70257d8c311c9c2c511511c4a6f3db468f2ddb4d",
+    "sks": "4e98c544b985f983d2fb39e38605b63187fffe7cdbe41c72d00da3d4680dd46a",
+    "paired_at": "2025-12-26T13:28:29.798835+00:00",
+    "name": "ZOT44H",
     "model": "",
-    "identifier": "0BD6BBC9-D806-4B39-B23A-91A1A4FCE51D",
+    "identifier": "1B0800A6-95FB-4FF4-9B6F-C61838F269C3",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T14:56:20-05:00",
-    "alignment_index": 33407
+    "alignment_date": "2026-08-28T04:39:08.898250-05:00",
+    "alignment_index": 23507
 }

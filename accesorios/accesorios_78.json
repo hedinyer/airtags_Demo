@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "f39e039dbe1705b1858b9f232f7bb6dfe377198bb6c29f38924b2257",
-    "skn": "57f393939dffe154abfa0de7986ccfc4a7fe299a7fcda04ab985afdbbf016340",
-    "sks": "c27c4ac79742a01559bb2035334b29a238ef578b2104132373855138b518ea2c",
-    "paired_at": "2026-03-30T15:47:12.533880+00:00",
-    "name": "DUP88I",
+    "master_key": "50fe7b773164a12ec308decf6a46a693a1d2dc481693bb80917bad09",
+    "skn": "9df184c62499a386281f90ad14aca193371e038d8a5b6cecf035c4bc28439574",
+    "sks": "2ba23a725e34724f5d4bd224135bddd2b01533194be75f0c25ce5805b7775fb7",
+    "paired_at": "2025-11-06T15:42:28.564937+00:00",
+    "name": "TST08H",
     "model": "",
-    "identifier": "BCB8A5FE-1AB7-4BF4-8F1D-B68FC651D253",
+    "identifier": "B9ECEFCA-1869-4E2B-8346-31553F085212",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T03:53:28.009825-05:00",
-    "alignment_index": 12354
+    "alignment_date": "2026-08-28T04:39:08.896553-05:00",
+    "alignment_index": 28293
 }

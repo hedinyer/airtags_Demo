@@ -1,6 +1,7 @@
 import { promises as fs } from "fs";
 import path from "path";
 
+import { chasisAliasDePlaca } from "@/lib/chasisPlaca";
 import type { DeviceKeyring } from "@/lib/ble/types";
 
 type KeyringFile = {
@@ -47,9 +48,15 @@ export async function loadDeviceKeyring(
   const hit = cache.get(nameKey);
   if (hit && Date.now() - hit.at < CACHE_MS) return hit.data;
 
+  const aliasChasis = chasisAliasDePlaca(nameKey);
+  const candidates = aliasChasis ? [nameKey, aliasChasis] : [nameKey];
+
   let file: KeyringFile | null = null;
   for (const dir of candidateDirs()) {
-    file = await readJsonFile(path.join(dir, `${nameKey}.json`));
+    for (const stem of candidates) {
+      file = await readJsonFile(path.join(dir, `${stem}.json`));
+      if (file) break;
+    }
     if (file) break;
   }
 

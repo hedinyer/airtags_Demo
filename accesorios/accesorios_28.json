@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "e022079d42dca54131d065d47bca9b2090b4fd73be8c19a71d72d29e",
-    "skn": "2dde08fd912161b8ce2f5aeb1e26d9aa60abc52c2328bb4ef3ec02787b4cfd62",
-    "sks": "68bff49fd732fc5eac5dd2c29af13efd6d46ab6ef2d4a8ba7a8e8da1b0517394",
-    "paired_at": "2025-11-07T19:56:22.714507+00:00",
-    "name": "TTA02H",
-    "model": "",
-    "identifier": "AB4489D6-7FE9-46F4-BDF8-0060E89A578E",
+    "master_key": "d40161c9800308572cd75f61de2944b69eb103b4388b2aaa77ef788c",
+    "skn": "2cb0a9fa8a88429f1b95ddd94b5654fcd1c99bc1d76f8abc9264dc51f531c2cb",
+    "sks": "01f80db44a54632cf08a1df48fcb420105de89093eb74c6ab9acff9c6b8650a5",
+    "paired_at": "2026-06-30T22:20:55.930319+00:00",
+    "name": "KFF85I",
+    "model": "empty",
+    "identifier": "5ADA1A03-4830-402A-A183-915DE6D667AA",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T15:44:30-05:00",
-    "alignment_index": 26134
+    "alignment_date": "2026-08-28T04:39:08.894596-05:00",
+    "alignment_index": 5614
 }

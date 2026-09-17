@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "8d34e3753e2c908d89072a7f53abc2130e273f1c2e00323510f3ce90",
+    "skn": "d061b6837a6063cd3e60be4b7a409876ddbb743372e48448fe9aaa22ff7f4418",
+    "sks": "45cbb863c0995eec4a06dc1a4b083ef7bcb8170a67a48f21dc793d4496c36058",
+    "paired_at": "2026-07-10T22:02:48.694708+00:00",
+    "name": "OSD62H",
+    "model": "empty",
+    "identifier": "DB8C0C5F-047D-433E-89FD-8B92F7B7DBFF",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.910728-05:00",
+    "alignment_index": 4655
+}

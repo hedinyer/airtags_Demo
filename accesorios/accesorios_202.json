@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "8b8c128ef25037e738e8bb30b6f0a6da7737c92313df563ff4955703",
+    "skn": "fc274951a4c0109579350bd7f3109a71849d71e096926e8057a0e70dd61d5043",
+    "sks": "2ec69285df70c8fcce40563162cf86d0b82d82a8f2a5d051074fb1c0d0d10eaf",
+    "paired_at": "2025-10-22T18:58:44.727075+00:00",
+    "name": "TSK35H",
+    "model": "",
+    "identifier": "BCD48110-41DA-46F8-90D8-0C238202F843",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.901806-05:00",
+    "alignment_index": 29724
+}

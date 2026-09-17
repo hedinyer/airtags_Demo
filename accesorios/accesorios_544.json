@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "d6059cc6426967731bc78ee81f0a8abc761227147087129bbc3a2cc8",
+    "skn": "55fff9ccae701cb6a81e8a790b9aef6605fc2d5b36149174545b96a84c147d9c",
+    "sks": "3acf5d18565747c2e400116ab00620a41a6e4b8bab6b9d9f28963094979ca85a",
+    "paired_at": "2025-10-08T23:06:18.640591+00:00",
+    "name": "TSC68H",
+    "model": "",
+    "identifier": "A8173C00-3E83-4CCB-AC9E-F7FEFC0A18A6",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.914177-05:00",
+    "alignment_index": 31051
+}

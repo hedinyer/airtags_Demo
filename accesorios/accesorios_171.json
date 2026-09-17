@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "2e6b380d0e8bff42c49f807f71b276a63dbdebed36e3601203729618",
-    "skn": "cdea68ccfb76116ee943aa932d0e9555fe5df87d0cb188691b044467f0978cd1",
-    "sks": "6366eadba83a5becb266512268888fa8016779964aa91a063db133df46b8d28a",
-    "paired_at": "2026-02-23T13:52:34.822354+00:00",
-    "name": "ZQC07H",
-    "model": "",
-    "identifier": "1213F46E-2377-44E9-A2C3-C5908915510B",
+    "master_key": "31a5ab3bffb4382c48939e36960a7479669fa777534f4b348f118946",
+    "skn": "9ff0706c18a86e7ee871900e2a192c52ece40d5fe9d49de6c4c0239bad0c6a3c",
+    "sks": "d13f94db0d739f3bee243fce93d5b96e40b48e878b2a8336638fbe5613c208e8",
+    "paired_at": "2026-08-20T19:44:01.577821+00:00",
+    "name": null,
+    "model": "MacBookAir10,1",
+    "identifier": "976E2A92-D61B-4BD9-8EE1-686F3ECE316E",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T15:57:10-05:00",
-    "alignment_index": 15839
+    "alignment_date": "2026-08-28T04:39:08.900263-05:00",
+    "alignment_index": 727
 }

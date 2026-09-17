@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "64e6a0e8b7759a35947da4c075e4acb7e3f1b3f13d4a91077fed1154",
+    "skn": "c176c9b7deeb13b4edb48a5c10cd91d5a94ed2fed4d1d8ca22d649b52a83dc8c",
+    "sks": "121dca417074f8b8d66358907b8633cf31a80dd874635d543e8e388299d03698",
+    "paired_at": "2025-08-19T19:23:31.911530+00:00",
+    "name": "Tif44H",
+    "model": "",
+    "identifier": "9984E597-7E6F-423C-9697-AF39FEDE77BB",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.907059-05:00",
+    "alignment_index": 35861
+}

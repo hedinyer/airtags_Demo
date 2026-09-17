@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "15e508840caa4cbdb1de7b92da116afff18bdc6a07e1d5d3573970d7",
+    "skn": "1739ad4a75b60e6b17a9a4cc92ae9e4b04be5a43896c3b68e9e0bf6a9f58065a",
+    "sks": "a7ff5e8a48a7c9cd9b4859ac5aa39a17944263ace4a4b6e3bd2e6225511a8ffe",
+    "paired_at": "2025-07-03T14:10:56.347274+00:00",
+    "name": "RAK70H",
+    "model": "",
+    "identifier": "04DE6C47-B26C-4106-BD35-5CECFF14E5F5",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.905499-05:00",
+    "alignment_index": 40228
+}

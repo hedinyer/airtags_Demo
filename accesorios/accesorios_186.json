@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "346001694983322f0b29430e2aba59deedebb310462e7db3caf83085",
+    "skn": "cb8d42ebdc5ee1cf763ef9d04627af15a7207826f8a474607f5fa48878e33321",
+    "sks": "453ccd0c224534251b065dd8d93574d1f9ce0306d9127d0d34c8d360aa47f4bc",
+    "paired_at": "2025-10-14T22:09:56.530213+00:00",
+    "name": "TSI89H",
+    "model": "",
+    "identifier": "79CB8644-A069-4CC9-82F7-7DFCDD168F9B",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.901248-05:00",
+    "alignment_index": 30479
+}

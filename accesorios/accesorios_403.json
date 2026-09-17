@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "dfdd9e5427ff824070aa113a0b7e0921cf1ace4d5b83e6d2729d47b0",
+    "skn": "adc267d93b6b02402506cd5a5a0e3c39ddb46a8bc05fe2aa6985324a286dc2b5",
+    "sks": "acd3d4239780eb119c5c4d159cc5d1699b9ba234e1e2ea07efa8d1d1262f6009",
+    "paired_at": "2025-06-04T19:43:30.392585+00:00",
+    "name": "OSP26H",
+    "model": "",
+    "identifier": "C15B3A5E-0316-488F-BCF5-337A4D6B3A90",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.909127-05:00",
+    "alignment_index": 43161
+}

@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "69a6922f90051187961d8e9eadbc61832f4007bcc3ab8410f49fa52a",
+    "skn": "f18bcd49d41bf1d3859f7f7b57296ac8e787a572f697663269318c177c7767f3",
+    "sks": "3e1e18b6e2a6556dc6c79d1b3bd06859384bdb1a24d07bf267f195c432facb47",
+    "paired_at": "2025-05-15T15:03:09.206808+00:00",
+    "name": "OSI74H",
+    "model": "",
+    "identifier": "67616A20-9D30-4F75-8E06-E428E9BA7BD2",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.916527-05:00",
+    "alignment_index": 45096
+}

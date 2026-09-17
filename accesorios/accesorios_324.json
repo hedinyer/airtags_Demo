@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "04c83d80db3b09f3bc76deab027a36ea469140e3a3d9804e11d88d3d",
+    "skn": "5fad4afc6b7d4bb1d2fe11ebb11717fb8757ec9be8dcb5a62182bbba4af77ca5",
+    "sks": "894d6e7e3278b9e57fd6f642cb35f541e2618c1f158be049353cefbbfafbebc2",
+    "paired_at": "2025-08-15T14:58:15.736758+00:00",
+    "name": "TIF32H",
+    "model": "",
+    "identifier": "D0A47E4A-00F1-49C7-A932-F539433281C3",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.906481-05:00",
+    "alignment_index": 36267
+}

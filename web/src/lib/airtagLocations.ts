@@ -1,4 +1,4 @@
-import { normalizarPlaca } from "@/lib/placasExcluidasReportes";
+import { resolverPlacaDesdeNombreAirTag } from "@/lib/chasisPlaca";
 
 export const LOCATIONS_JSON_URL_DEFAULT =
   "https://rpjkwoxqnvwcnlnffudt.supabase.co/storage/v1/object/public/airtags/locations.json";
@@ -47,7 +47,7 @@ export async function fetchUbicacionesAirTag(): Promise<
     const lat = Number(d.latitude);
     const lng = Number(d.longitude);
     if (!Number.isFinite(lat) || !Number.isFinite(lng)) continue;
-    const placa = normalizarPlaca(String(d.name ?? ""));
+    const placa = resolverPlacaDesdeNombreAirTag(d.name);
     if (!placa) continue;
 
     const accuracy =

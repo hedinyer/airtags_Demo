@@ -626,6 +626,25 @@
       '#0A84FF', '#30D158', '#FF9F0A', '#FF375F', '#5E5CE6',
       '#64D2FF', '#BF5AF2', '#FFD60A', '#AC8E68', '#FF6482'
     ];
+    /** Últimos 4 del chasis → placa (Find My reporta chasis). */
+    const CHASIS_A_PLACA = {
+      '4791': 'LXR49I', '4799': 'LXR50I', '4806': 'LXR58I', '5418': 'LXR51I',
+      '5424': 'LXR52I', '5426': 'LYB89I', '5437': 'LYB90I', '0803': 'LYB91I',
+      '0807': 'LYB92I', '1424': 'LYB93I', '3476': 'LXR55I', '3478': 'LXR53I',
+      '3484': 'LXR54I', '3491': 'LXR56I', '3492': 'LRX57I', '3494': 'LYC67I',
+      '3498': 'LYB94I', '9561': 'LYB95I', '0230': 'LZE12I', '0096': 'LYB96I',
+    };
+    function placaDesdeNombre(name) {
+      const key = String(name || '').trim().toUpperCase().replace(/\s/g, '');
+      if (!key) return '';
+      return CHASIS_A_PLACA[key] || CHASIS_A_PLACA[key.padStart(4, '0')] || key;
+    }
+    function withPlacas(devices) {
+      return (devices || []).map((d) => {
+        const placa = placaDesdeNombre(d.name);
+        return placa && placa !== d.name ? { ...d, name: placa } : d;
+      });
+    }
     const REDUCE = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     // ponytail: MapLibre WebGL — no DOM pin per coin
@@ -1317,7 +1336,7 @@
     }
 
     function render(data) {
-      const all = data.devices || [];
+      const all = withPlacas(data.devices || []);
       const sameSnapshot = data.updated_at && data.updated_at === lastRenderedAt;
       latestUpdatedAt = data.updated_at || null;
       const placa = SHARED_PLACA;

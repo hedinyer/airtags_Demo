@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "a3e68bb6b4ff3cf917fe078cd7e1cba0b0e9fd566be7bb6e661f5bd0",
-    "skn": "cf117d64555c47536e179708d51b0611830c5d1386c4819705a21afd7302a06e",
-    "sks": "ea59321e6e6bf3709f02b394609817f2279ee9593236a5a8f144f77b7daffd48",
-    "paired_at": "2026-04-14T20:24:10.633472+00:00",
-    "name": "DVF28I",
+    "master_key": "31cf1fab1086abf9f09a0b93a8021f240f0ac335da04a8c5a060c442",
+    "skn": "8d6d480b8b5a1fae0ac619d70e6edb9ecfc56dcbc226367a7c1cc7fbc870418f",
+    "sks": "9d29d3c5528f848e55462ac617dd9b23d87a1d57ab52ca52cb6d2a8b63f9b7b1",
+    "paired_at": "2025-11-12T13:46:58.459412+00:00",
+    "name": "TTA06H",
     "model": "",
-    "identifier": "D9FBE70C-B731-44E5-AF5D-7645BFE2CA4D",
+    "identifier": "8BBDEB00-E407-4510-A037-8EEEFE350070",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T15:44:30-05:00",
-    "alignment_index": 10978
+    "alignment_date": "2026-08-28T04:39:08.897330-05:00",
+    "alignment_index": 27759
 }

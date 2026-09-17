@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "97e0aa9a51a4d91227e965496afaf7b143b01cc2c0ab07fa9dd3d5df",
-    "skn": "0e77028136b770ac17af30e51c7fbdef7efa09e8654e721a6db4ea04a078d5da",
-    "sks": "087137365acc497fce0e02254109371c5c0ea530e14d806d28177427a337e1f4",
-    "paired_at": "2026-01-09T17:06:02.752768+00:00",
-    "name": "ZPE16H",
+    "master_key": "b85ff971c4a7ade7a5878f23ee6cd8da6b435cf6c313b5f8aab27a1d",
+    "skn": "fb9ed9dcda450afa330635bd0fd7fe5242692866c24db600573d10ac3c14f67a",
+    "sks": "bc15648606c129c4fd194cd8d6a981f8c0733da763ba820215a454937a0bf6d0",
+    "paired_at": "2025-10-24T20:53:18.585846+00:00",
+    "name": "TSQ35H",
     "model": "",
-    "identifier": "3C7D58F7-60F0-457D-8277-D879843798D0",
+    "identifier": "BACA24FF-F2E9-43B2-A77C-02567F68110A",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T16:01:00-05:00",
-    "alignment_index": 20091
+    "alignment_date": "2026-08-28T04:39:08.895380-05:00",
+    "alignment_index": 29523
 }

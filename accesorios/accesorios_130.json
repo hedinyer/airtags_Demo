@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "70b441ed675115c45320bca00511444b16ae4941c6655bdbefbb2bba",
-    "skn": "f9a7f5a79110a617ed0d3be13bc04d13202996f6e054211aef8e2c8853c1ffea",
-    "sks": "c2d1e01c585a4e60c8cf2b3747874fed9ba537d5230ee1cfce2bca8c8fba5170",
-    "paired_at": "2025-09-06T14:22:42.292741+00:00",
-    "name": "TIQ81H",
-    "model": "Loshall Tag",
-    "identifier": "2099A685-88A6-42F6-B107-6200ABBF163D",
+    "master_key": "aa18aa1c3de25e98d5c27509d3f2207ed211fb273d50f425b167b97e",
+    "skn": "a05c147dc1cab1e60710d15cf755b225901b10910ea038fe89ab509658701500",
+    "sks": "6a621287d09f69b12537989fe77d977e9ca1e62274cfd571791088611d333ab9",
+    "paired_at": "2026-01-07T14:21:08.025697+00:00",
+    "name": "ZPE13H",
+    "model": "",
+    "identifier": "80490A18-BC0C-4868-A41A-20D9C5E36F13",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T03:53:28.039826-05:00",
-    "alignment_index": 12738
+    "alignment_date": "2026-08-28T04:39:08.898753-05:00",
+    "alignment_index": 22350
 }

@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "be27f0b9485514b944986c6e79e49378f70fd024d98f100bc77d82be",
-    "skn": "87a40a359083d9f07e9b50fcc432d13dbb9777b330f67424b036146109610411",
-    "sks": "c0d652087b26e5fa4a5ed6bcdb64e31b302b0aca526273ec8c50efdf9c1e4923",
-    "paired_at": "2026-08-06T16:49:31.974159+00:00",
-    "name": "Heylen\u2019s MacBook Air",
-    "model": "MacBookAir10,1",
-    "identifier": "C2B4D810-9860-4834-9D88-946F691AAFA5",
+    "master_key": "d5de28cf706a334404aec4e72f420fcb337b4f7249667cc4a865de0d",
+    "skn": "81eb815cf3058685ea27b7fff93a59ef70f50577ea0f9298fd27e896f77b0e5d",
+    "sks": "9bb576df00a391220d3209f51fc43d48c542da50897d911c6efa6e1837e94f00",
+    "paired_at": "2026-06-05T20:35:24.197261+00:00",
+    "name": "HAB80I",
+    "model": "empty",
+    "identifier": "A70B3E03-60D8-4644-B7FA-4C3CBEF2E945",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T12:33:40-05:00",
-    "alignment_index": 5
+    "alignment_date": "2026-08-28T04:39:08.893479-05:00",
+    "alignment_index": 8021
 }

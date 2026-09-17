@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "7204c1296a694c6bcb6c3a0d2810e4fbdebb0f054575de08d1827d61",
+    "skn": "c6c78cb5ce6e77e805946c94c386b57117e776acfd80cfacbf003917a19c80fb",
+    "sks": "ca54e954efdc17b3aae292203cabc1886299a43c00e6bed8b728ea2ad6068bbc",
+    "paired_at": "2025-09-29T18:36:10.359335+00:00",
+    "name": "OSP34H",
+    "model": "",
+    "identifier": "E475E412-955D-48D0-A877-9E60BD4490D0",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.912082-05:00",
+    "alignment_index": 31933
+}

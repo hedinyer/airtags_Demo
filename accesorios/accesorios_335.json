@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "3565827060c367a3e2294c7f5445c2fb37dc48895be5ddcd9271b1a2",
+    "skn": "6735e3a8d2d2db7a5f45c4fde132ae8be1da59b6fd33f7a95aa3c681618860b3",
+    "sks": "8bc3b89ac4ef47ddbf589375875b0d9088af00e530121b2ba56a35a359e49681",
+    "paired_at": "2025-08-25T13:58:34.951302+00:00",
+    "name": "TIK43H",
+    "model": "",
+    "identifier": "3D17C3B8-33B4-4E08-B455-BFBAD3F56446",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.906849-05:00",
+    "alignment_index": 35311
+}

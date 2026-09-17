@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "57ce2934f2f4251e1cc596df36175eee1da7dfe9a4cd134a7f3e8df0",
+    "skn": "83773207b520048eabe18038186443d802d040e1adcc83bc45a6b228b4abaff1",
+    "sks": "0b6cdad2bbead5bd64cb7f78d336c86110fc02b30e731d95b8acb5a9c32804a3",
+    "paired_at": "2025-10-16T15:15:59.741046+00:00",
+    "name": "TSI82H",
+    "model": "",
+    "identifier": "11FE51AA-9183-450D-AB8A-4560CC244241",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.900945-05:00",
+    "alignment_index": 30315
+}

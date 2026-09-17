@@ -13,6 +13,14 @@ export type MotoCercanaApi = {
   visto_en: string | null;
 };
 
+/** Listado de campo / cercanas: solo cartera. La búsqueda sí incluye al día. */
+export function tieneDeudaCartera(m: {
+  deuda_total: number;
+  cuotas_pendientes: number;
+}): boolean {
+  return m.deuda_total > 0 || m.cuotas_pendientes > 0;
+}
+
 export type CercanasResponse = {
   motos: MotoCercanaApi[];
   generado_en: string;

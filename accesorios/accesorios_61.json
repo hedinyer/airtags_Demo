@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "176dba6b97e24b7badf690759bd328e1fcf2504a32f52aefd54c3fcd",
-    "skn": "2de0e5001c01c2d310cb18fc26ac7110a42c3f244a3a0d0e273691432ebcaa05",
-    "sks": "7882022e8fa1681373bcf60b4a98609fdef3819d5db9881e4ba5ab67ebcc7fa2",
-    "paired_at": "2026-02-03T19:06:32.480823+00:00",
-    "name": "ZPV94H",
+    "master_key": "91da3dbe0f599d240b0e6d65010754ce489e7197a8db0f0f95924b78",
+    "skn": "d99c4bac02cc72b810bf366b6446da139ff4e0f577941627f4e1920ea7390cdd",
+    "sks": "995c164ad9e1ee71b40bfb3a389f49d05a3eb3a5bf3210de935e193a050a7b33",
+    "paired_at": "2025-10-24T21:07:40.590093+00:00",
+    "name": "TSQ49H",
     "model": "",
-    "identifier": "26992C88-5917-44F6-94DF-F3D7CCDA6573",
+    "identifier": "B17D0E7A-EC83-4532-BDFD-A2E1656B6611",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T16:09:10-05:00",
-    "alignment_index": 17679
+    "alignment_date": "2026-08-28T04:39:08.895928-05:00",
+    "alignment_index": 29523
 }

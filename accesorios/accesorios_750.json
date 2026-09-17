@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "da29dc9247423664cf64e696d7cdf6cc20839a3d04d9c38b71c8bf64",
+    "skn": "1eee76631e150d1ae84bfd59f9067f3fd563ea6a7b73eea0d50077d5e5cd3f1b",
+    "sks": "34be65bb3d7a6fa5e55e77986271b486bb77eaaeb99d679cdcc7e5fcf65bae1f",
+    "paired_at": "2025-11-29T13:22:26.447169+00:00",
+    "name": "TTD86H",
+    "model": "",
+    "identifier": "E9844C47-77C6-4FA0-8209-7658405CD5BA",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.921519-05:00",
+    "alignment_index": 26098
+}

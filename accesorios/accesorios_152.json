@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "2cfdc3ec140ff39328c646340e054e8d757ff9d208d7d7d229588c53",
-    "skn": "e5e0df2f4783bda550a3cd7dd12344e65617070d7316daa6b75e0d51b7cdf5c9",
-    "sks": "516b8d77d6a3155c6a179671aa117a38f99b5dbace383dca517895261d7af21a",
-    "paired_at": "2026-03-04T13:26:22.121193+00:00",
-    "name": "Jrm96H",
+    "master_key": "52b8a3d75b63204ff2fd257e0f9d4803bb2e0ed4f85ad7504e6183de",
+    "skn": "8863cdb26f48a9c33390e036a584b79c406fde9e3efa00cc5394dbfe65127ca1",
+    "sks": "70d77abffe9c306ee9eb18c1bb2b1aa5907dabf4a13c00d004119062eb9ce50c",
+    "paired_at": "2025-09-18T13:10:08.050253+00:00",
+    "name": "TRT05H",
     "model": "",
-    "identifier": "452B4173-BC80-4240-B753-B5A1CC98F0F1",
+    "identifier": "B77ABEEC-FF24-4E78-8AA4-8D1D71C754AD",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T16:08:50-05:00",
-    "alignment_index": 14911
+    "alignment_date": "2026-08-28T04:39:08.899537-05:00",
+    "alignment_index": 33011
 }

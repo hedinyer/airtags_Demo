@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "9b9452d306fb1f7a0f1ab9c09e7418b6391814e71e9b6ae93fcdf48e",
+    "skn": "dbbe31265b27ee5cc6a2d38fca341b3bb238c82f3343ea245763d269b2e49e54",
+    "sks": "7afde7b931805ec3aa89d2d519eb0b1a4d8af15d131730cb008189424733df5e",
+    "paired_at": "2025-12-04T21:31:43.957758+00:00",
+    "name": "TRT09H REAL",
+    "model": "",
+    "identifier": "4D27BEF5-29DE-4AF9-91FA-8237A6F7D85F",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.920831-05:00",
+    "alignment_index": 25585
+}

@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "2def2ccdc5324b1fd77656c37993efa2eafcd0038ee498df79a1f505",
-    "skn": "596eb6fc25f0ca52b7722cfc81df50637ff3c70fc7b868ed947b648a5d2a0fa9",
-    "sks": "1a62c1a8051f0fbbe3e1cd2c251efd6b20ed289d0ef22f953396f56603206f2c",
-    "paired_at": "2026-04-14T20:11:24.311947+00:00",
-    "name": "DVF15I",
+    "master_key": "a4f5976acca51954ab2964d5fdf6c0643e5e4da52ba086f5c0501cb0",
+    "skn": "55732060b3fdc7e759673424387090b06249da4a7d15b8027b0bc04e57d01ead",
+    "sks": "04adbe032d5f8e195dd56b1eb1512832fa9198d506a4f1abbdadf0c2d9c9322a",
+    "paired_at": "2025-11-12T13:40:41.471678+00:00",
+    "name": "TST25H",
     "model": "",
-    "identifier": "E65B5E3E-61F7-448F-AA41-54CAC572A30A",
+    "identifier": "E2B2E372-C383-4F5D-8FFF-9BCD8385BD69",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T03:53:28.011192-05:00",
-    "alignment_index": 10899
+    "alignment_date": "2026-08-28T04:39:08.896998-05:00",
+    "alignment_index": 27605
 }

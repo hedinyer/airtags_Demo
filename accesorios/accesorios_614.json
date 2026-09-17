@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "85886a7a56738fbd79784b33df913dfc672cd73258621063d72b4a6c",
+    "skn": "aeca926b744201ae9e122debae1b612d1a76bd258aa3f69abfd97bdccb1414c5",
+    "sks": "ea71988dcce1b6b78f4e4c5a4cd44e90079e3e013a48f06367d0948c2f8cf23b",
+    "paired_at": "2025-07-12T17:21:42.626490+00:00",
+    "name": "RAQ81H",
+    "model": "",
+    "identifier": "4173C5D2-DAD8-4EF3-A860-7578D35B4E77",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.916774-05:00",
+    "alignment_index": 39489
+}

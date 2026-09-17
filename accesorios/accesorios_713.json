@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "32a376f1ad831d10cba568136c1428fef90ddeb1d8d43c0c81374fd1",
+    "skn": "0b19205d5d6bedbca75ddef83768c3fbb29aca85cddea895084137a0b07fbe91",
+    "sks": "2b1cbdeb21c6cc2473364d3ff37cf5865d73150e0ce81398add2e7f5c6ab662b",
+    "paired_at": "2026-01-06T15:30:45.907936+00:00",
+    "name": "ZOX78H",
+    "model": "",
+    "identifier": "CA3B7BFE-4BB2-4DC2-927C-E40294E22094",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.920203-05:00",
+    "alignment_index": 22442
+}

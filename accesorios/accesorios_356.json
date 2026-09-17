@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "6ef6c55940534335d4718b33d51cd0db8f0fab9c096515112830643c",
+    "skn": "59986d84bcb5bf775b69c30a300dfe7484df856185f47c64ba4bbf8398d59036",
+    "sks": "c4ab0574a4422f85a23fc30ed132980401907e137572f9f2d2817003c499a7c7",
+    "paired_at": "2025-10-22T15:25:26.733059+00:00",
+    "name": "TSK40H",
+    "model": "",
+    "identifier": "16E7D87B-D14E-4C54-BBFE-EEB6205C0A97",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.907577-05:00",
+    "alignment_index": 29738
+}

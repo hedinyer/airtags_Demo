@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "57b5b89029987462dd93a195e2074702d6e7335bafae95bc8a27ecb8",
+    "skn": "86b84f540003386b3c46bbba161251034ffda2544f5ced0b3c6ce36597e5119a",
+    "sks": "a7a1bdfb7e440012a880fd0b30d668f56987fad6e937c09ae2848bb0306cefce",
+    "paired_at": "2025-11-20T20:45:12.709696+00:00",
+    "name": "TSV69H",
+    "model": "",
+    "identifier": "D2B65C84-1261-41B0-8AC6-F86ABCE4DFCA",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.921053-05:00",
+    "alignment_index": 26932
+}

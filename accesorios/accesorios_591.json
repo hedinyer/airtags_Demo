@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "a78e2a4c9dcf7085343985000c419a11bd270342c55c6a18ae41e7eb",
+    "skn": "013ec2c8b0c4cdbdea50bfd93f77542909453c354fc9c10701a4aca3b7daa24e",
+    "sks": "11fcdba0d4a15725e1b96cf0d26b882205f7de490909697b593655ed2133608a",
+    "paired_at": "2024-09-24T00:00:56.988033+00:00",
+    "name": null,
+    "model": "iPhone14,7",
+    "identifier": "F42AEEB3-EEEB-4C7B-9A01-C686E4617CFC",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.916008-05:00",
+    "alignment_index": 33655
+}

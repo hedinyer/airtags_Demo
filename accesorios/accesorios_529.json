@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "e0cbe6a42b32808e7c9ef26fe92d1098e4d9b97f9957025c33790f91",
+    "skn": "4b6fa03d0181e559fcbed973a1efdc3bae464c96540af2705d033d4d18a5bcb0",
+    "sks": "43ef08773bb10565c4de5184cd1450ceb6157641263d449d398a43c7886f8909",
+    "paired_at": "2025-10-08T23:07:35.619160+00:00",
+    "name": "TRW51H",
+    "model": "",
+    "identifier": "84B5D593-1943-4765-AF97-FB179837B020",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.913699-05:00",
+    "alignment_index": 31050
+}

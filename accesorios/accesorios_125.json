@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "1920c069196c6bc604e17934103820240396f5acd53edf2aa41c9e64",
-    "skn": "0ac7e7516beed35b3786ea70979242004b992bd954a7a0e1487bd92bc1f8f0df",
-    "sks": "cc239f2a75455d9d1014d179c917309eed4dd9d6d5a2ca6c74e032b660973bdb",
-    "paired_at": "2025-09-03T15:16:44.669806+00:00",
-    "name": "TIN95H",
+    "master_key": "004d72019f45632e490f3d06c76af867b4b57c1decc69d40535f03e3",
+    "skn": "4827f8edaaa115e45b9ae9630dfdaca6a7212b2e3d9fcfae4ec620961df4ca44",
+    "sks": "f15e6ac09570e14d952a785a8cb159b6eb489047c4f4a58522bee4dfebc2e8e3",
+    "paired_at": "2026-01-07T14:09:55.996278+00:00",
+    "name": "ZPE06H",
     "model": "",
-    "identifier": "3ED353DC-3230-4D8B-B005-277D0A7C6109",
+    "identifier": "E63C842A-CAB9-4D1F-805D-BD81CD05DFB5",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T13:54:30-05:00",
-    "alignment_index": 32447
+    "alignment_date": "2026-08-28T04:39:08.898583-05:00",
+    "alignment_index": 22352
 }

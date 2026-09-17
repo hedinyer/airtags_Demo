@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "2c6eb2b2183c8e3dd74343e8ed870ac480e5f88e55817c2df1d86bb7",
+    "skn": "f2698b1dda6c3f010778fecd14673d4310876fc39334495cb27ed977e3217bd4",
+    "sks": "e88bffced809e02286566568add923ef2b607faf297e89380c33ba63ff3b8491",
+    "paired_at": "2025-10-22T18:09:27.844964+00:00",
+    "name": "TSK28H",
+    "model": "",
+    "identifier": "70E46E1D-E168-4C8B-ACFB-9ACD4F909FF1",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.901630-05:00",
+    "alignment_index": 29727
+}

@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "81fec069ee9abbbb1b60a9968909d6e63a1bd6c05cd5e6a59d2f9ec8",
-    "skn": "2c79fca79e76fd9e4706d6693a5e70cfafe79f80f772d9e033b5ab4e06a2d612",
-    "sks": "285e7d0b721e6ceed92be7bcb53df5ab1b824a2294a754b028b41d73be65e270",
-    "paired_at": "2026-01-14T21:34:44.845245+00:00",
-    "name": "ZPI33H",
+    "master_key": "cc6daa2207dd8627637a276100dc65cb73356703ddaed18b067fa5da",
+    "skn": "f795e8aeaa6c920bd2f04164b3e5e6184e9e27456495d17a93f355984b107b84",
+    "sks": "d153d1d891584f052975b751db004e6a7b5dbc5613ab183a87e468e8ad08e47c",
+    "paired_at": "2025-10-24T20:49:03.973447+00:00",
+    "name": "TSQ41H",
     "model": "",
-    "identifier": "5B682323-F292-4DF6-9015-D3EF46A839EC",
+    "identifier": "602060A8-6331-4CD6-9B3A-2930349A6C68",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T13:40:20-05:00",
-    "alignment_index": 19679
+    "alignment_date": "2026-08-28T04:39:08.895606-05:00",
+    "alignment_index": 29524
 }

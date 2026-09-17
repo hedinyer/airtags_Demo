@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "707cf6de5a269b534a29db7bf87baf1ada73f60b7c12281924ab16ba",
+    "skn": "4020797440f5500d8e78c2105dbfc708fb16242566cf2ab0e2072eca0233321e",
+    "sks": "38373db2208587b03f1fcf3850c577392e2ccbd8f4ff28cb21eb8e02292b2830",
+    "paired_at": "2025-10-03T20:51:28.673269+00:00",
+    "name": "TSC36H",
+    "model": "",
+    "identifier": "EE61BF52-014C-4F9B-B02B-3C31FF2F869A",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.913891-05:00",
+    "alignment_index": 16882
+}

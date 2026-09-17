@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "60747c773fc2d527293018376f0b560144ceb77907ae1fc7b41cbb41",
-    "skn": "bbfaf3eca0f178c8f52779688fcecd32ec5625d33d555831c466c5c2597d885c",
-    "sks": "b46877a21a3b03c061db527e58439b0b0175d3946173218e4f1211343a7b2fe4",
-    "paired_at": "2025-09-03T15:39:10.699319+00:00",
-    "name": "TIQ84H",
+    "master_key": "dc79e8a0355c7c4a842fd6f629a6c3d774fdcf45671d7f4955a1cd5d",
+    "skn": "511b69083bc8a1bddf5cebe9b0f4f1ae13cc8593059a3acdb6885113664e97f7",
+    "sks": "47a40ed1231b19de0ad7a37b4e7f328f39f9763f502e89ca70b73cb376baab3f",
+    "paired_at": "2026-01-09T15:31:05.624869+00:00",
+    "name": "ZPE20H",
     "model": "",
-    "identifier": "8AA3CDE2-B2F6-4657-9C87-DE767140D88A",
+    "identifier": "2E1E5419-1AD5-411F-8ACE-514BA995D874",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T15:58:20-05:00",
-    "alignment_index": 32447
+    "alignment_date": "2026-08-28T04:39:08.898881-05:00",
+    "alignment_index": 22030
 }

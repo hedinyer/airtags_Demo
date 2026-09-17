@@ -1,5 +1,9 @@
 import { getDatabaseUrls } from "@/lib/dbUrls";
 import {
+  fetchAtrasosDesdeSp,
+  mergeAtrasos,
+} from "@/lib/atrasosFromSp";
+import {
   calcularMetricasExtracto,
   normalizarDiasMora,
   parseDiasCredito,
@@ -242,7 +246,14 @@ export async function fetchAtrasosDesdeDb(
     if (resultado) atrasos.push(resultado);
   }
 
-  atrasos.sort((a, b) => b.deuda_total - a.deuda_total);
-  cacheAtrasos = { expira: ahora + CACHE_TTL_MS, data: atrasos };
-  return atrasos;
+  const sp = await fetchAtrasosDesdeSp().catch((e) => {
+    console.warn(
+      "[atrasosFromDb] SP:",
+      e instanceof Error ? e.message : e,
+    );
+    return [] as ResultadoAtraso[];
+  });
+  const merged = mergeAtrasos(atrasos, sp);
+  cacheAtrasos = { expira: ahora + CACHE_TTL_MS, data: merged };
+  return merged;
 }

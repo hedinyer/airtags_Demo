@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "1fc7dd69b4f9b75f456f14971b82a6611c2d2d3d7a9357a4a6d89229",
-    "skn": "94e1a8fe50edb0c689ba7cc2c19279ec98e16067a17408fac8bb60b8ac0af9ae",
-    "sks": "85b97c598a1ac766e24ea869763cd0acefbc2e9eef40255d08c64ac635341d02",
-    "paired_at": "2025-08-24T22:36:15.298399+00:00",
-    "name": "GZJ26I",
+    "master_key": "9a9e909378c83ea8f551cb0e20b2458f61b93969acf27862bb4ef157",
+    "skn": "0da64aafe6bf32b20beb7ece77a2adaa0500450dc457c2bd03b3c1e10e770c8c",
+    "sks": "a5fcdb21c96a52ab73f14f5f1c5c083059ea93b17fd193e3421e4789422d82fa",
+    "paired_at": "2025-12-22T15:10:38.117411+00:00",
+    "name": "ZOK45H",
     "model": "",
-    "identifier": "9433DC53-DBA9-4B54-AEBE-1E8B6F1D07AC",
+    "identifier": "98C0FA29-83D9-4D48-B50B-E2A2A5BA9D80",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T16:04:30-05:00",
-    "alignment_index": 33310
+    "alignment_date": "2026-08-28T04:39:08.897959-05:00",
+    "alignment_index": 23882
 }

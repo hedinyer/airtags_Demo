@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "b5d5663404c62d1b2cf1d3a137ebdffbb48f59d1b84b38a3ad70a0b3",
+    "skn": "518eafe395ad6cbca4def7f45276a204dcadb41403a101d6c37f4c8ad11fc5cd",
+    "sks": "ac611b7621c12700ece72faa32563f0695ab5d052e320f58fabe1feca137ef71",
+    "paired_at": "2026-03-02T20:08:48.675935+00:00",
+    "name": "DTV88I",
+    "model": "",
+    "identifier": "AB4A2E56-FA78-48E0-8BF6-6C94E95EE47A",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.919075-05:00",
+    "alignment_index": 17144
+}

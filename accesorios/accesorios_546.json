@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "273699094ff64ff8da75321f72f6105b652a2194600eadd8852a00b3",
+    "skn": "307a0aa7f3097b8930d3c2dafd1be2a56d9e0a645badf2dd5cc472b875939918",
+    "sks": "60b111b47b51af77d74530886e16899d56928308eb9a77ea240087bd7745bc80",
+    "paired_at": "2025-10-08T18:30:49.451883+00:00",
+    "name": "TSC70H",
+    "model": "",
+    "identifier": "870BCDD4-AB74-4FD1-AB94-569B19BCFA7F",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.914237-05:00",
+    "alignment_index": 31069
+}

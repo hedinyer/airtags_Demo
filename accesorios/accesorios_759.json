@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "dd0397b36211dd94abf83cf4afcd235fe7f56426b5e7c5511b8aa8a5",
+    "skn": "578e95fe7e60467a895c996cbf529e1f43c2cd84bbcbee951203b80405f4e64f",
+    "sks": "1ecc20e5c994dd8caf4accd4de7248317526df1c6c71b5b6a5cead1066044fb3",
+    "paired_at": "2025-12-10T13:32:55.131732+00:00",
+    "name": "TTO85",
+    "model": "",
+    "identifier": "80DCF95C-2DDE-4DED-81DE-B2904E1A96A7",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.921804-05:00",
+    "alignment_index": 25041
+}

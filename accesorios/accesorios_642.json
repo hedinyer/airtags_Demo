@@ -1,0 +1,14 @@
+{
+    "type": "accessory",
+    "master_key": "1375d73824c197d0da50d12128511c118f12eab66e601bd509a6031f",
+    "skn": "07dc9e47307b1a2a61aec20583a72b02ecf06d3b53191784341a735686a965fa",
+    "sks": "11314ee8e9ca10e10ae1bcdb4b54df4cdc69bf637cd63edad7a0d6bf1feb73d7",
+    "paired_at": "2025-12-04T21:42:48.441766+00:00",
+    "name": "TTO81H",
+    "model": "",
+    "identifier": "205C9F3E-E456-4F40-A62D-4867575BC1D1",
+    "group_identifier": null,
+    "serial_number": null,
+    "alignment_date": "2026-08-28T04:39:08.917873-05:00",
+    "alignment_index": 25585
+}

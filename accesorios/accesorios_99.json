@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "b03822db510b90fc9d9461b2375201cb6a0473196c34ffabc6694bf6",
-    "skn": "8262b33db8a8c1b78eb84fa7fb519d34cd0ed79897212ef7741fbacdca07b8d2",
-    "sks": "6462f260adb084c53b16be46db0e43cd95b3ffae39edfdd03173314d8189a09b",
-    "paired_at": "2026-04-14T20:22:24.253993+00:00",
-    "name": "DVF25I",
+    "master_key": "efcdd254dbd38af14499ac542fbb805ab6091bdf9b4733de90639770",
+    "skn": "1629bb076bd6578f6b1ed101bf04dd05883b1b2a2116acc14f04f185b539fdc4",
+    "sks": "201196a5b0aae20ec855f4750eee8108e7b101a25f7d76ac897b613ecc8a01c0",
+    "paired_at": "2025-11-12T13:45:50.039427+00:00",
+    "name": "TTA05H",
     "model": "",
-    "identifier": "C054D66A-BA18-47A5-A268-C4DC1F2F3613",
+    "identifier": "C4DF3F77-4A87-4306-A541-6FB8A4E5242D",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T16:08:20-05:00",
-    "alignment_index": 10943
+    "alignment_date": "2026-08-28T04:39:08.897295-05:00",
+    "alignment_index": 27818
 }

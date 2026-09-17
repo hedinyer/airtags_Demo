@@ -1,14 +1,14 @@
 {
     "type": "accessory",
-    "master_key": "329a890fd2f396e4fef048563350d4457fd932dc7d90becb6bb05b49",
-    "skn": "064294bff642d64f523c466f718af7d3e468fdb6109a225e51bf9bf16dfce20d",
-    "sks": "0ed6fa2778d762833cbcffcb0bb65f556b5a6c847105f514e2d20455d7540d96",
-    "paired_at": "2025-11-06T15:35:49.980592+00:00",
-    "name": "TST03H",
-    "model": "",
-    "identifier": "B7C5022A-6CC1-4861-9588-BB2FA48E59B1",
+    "master_key": "7facc6407ee0797f05379e64b86b13e7d35392a786209c8feeee9c13",
+    "skn": "b445eb0f35b0fdfa8d2c1846339565041b92ec2a3f715a750e6a13a913e9ddde",
+    "sks": "9c1a20fe0333a539d450aa04cea295244dffcfda004b49c3b550da820f066e4a",
+    "paired_at": "2026-06-05T20:14:03.607823+00:00",
+    "name": "HAM80I",
+    "model": "empty",
+    "identifier": "1DBD91A7-58CB-493F-A8FB-8AE2119A86D7",
     "group_identifier": null,
     "serial_number": null,
-    "alignment_date": "2026-08-06T03:53:28.001830-05:00",
-    "alignment_index": 26181
+    "alignment_date": "2026-08-28T04:39:08.893676-05:00",
+    "alignment_index": 8023
 }
