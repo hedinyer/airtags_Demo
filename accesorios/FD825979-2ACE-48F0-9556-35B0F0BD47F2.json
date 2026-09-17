@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "10d87ffe2356fa41a56a04cf6a7884874d0142900fd0a2adb53aa7d8",
+  "skn": "1608043a942d6b2d53e9c49dbb09b0d8cc85946748a7d75c85acf86218143dee",
+  "sks": "bcef0119d44bd993ce4977f165ed869472dbba6b7739962441a8f5eb3d5b040c",
+  "paired_at": "2026-05-14T03:35:54.340652+00:00",
+  "name": "GXD32I",
+  "model": "",
+  "identifier": "FD825979-2ACE-48F0-9556-35B0F0BD47F2",
+  "alignment_date": "2026-07-27T08:07:30+00:00",
+  "alignment_index": 7043,
+  "icloud_account": "solucionespinilla@icloud.com",
+  "imported_at": "2026-09-03T14:56:22.280082+00:00",
+  "first_imported_at": "2026-09-03T14:56:22.280082+00:00"
+}

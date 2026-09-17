@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "1af72505c4f9464cd575e0e599620849c020210e8248dab68eafdca3",
+  "skn": "a37306656ee51dd23d1f2a63ffd1832ed61765111a80cfc9bd4db64807c878ea",
+  "sks": "12752f527de4b0c41a701a2de9db6da29e333f6f16f04043aeebf6b906dbbe76",
+  "paired_at": "2026-04-30T21:12:38.265089+00:00",
+  "name": "GWL25I",
+  "model": "",
+  "identifier": "24DB0A96-B332-478E-8789-E801A00566CF",
+  "alignment_date": "2026-07-27T21:28:50+00:00",
+  "alignment_index": 8353,
+  "icloud_account": "solucionespinilla@icloud.com",
+  "imported_at": "2026-09-03T14:56:22.280082+00:00",
+  "first_imported_at": "2026-09-03T14:56:22.280082+00:00"
+}

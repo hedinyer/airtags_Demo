@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "8ad06cc8d863a4262c9e579c6a92c57fa5e78cb75c332c6ac20e6cd9",
+  "skn": "d0a7b240c95c4f30af3627fd244e9dcb4a05f9f11fe6ca1dfc19757c17ae4fbc",
+  "sks": "a4b5ec58b14c618b96f2ed2ef2fa8c7383fcb7d2fa2509bc672fbdd47a1501b3",
+  "paired_at": "2026-05-14T03:32:01.272936+00:00",
+  "name": "GXD28I",
+  "model": "",
+  "identifier": "E426EFD5-F250-4754-B05B-69CFC06E2DA9",
+  "alignment_date": "2026-07-27T04:35:30+00:00",
+  "alignment_index": 7021,
+  "icloud_account": "solucionespinilla@icloud.com",
+  "imported_at": "2026-09-03T14:56:22.280082+00:00",
+  "first_imported_at": "2026-09-03T14:56:22.280082+00:00"
+}

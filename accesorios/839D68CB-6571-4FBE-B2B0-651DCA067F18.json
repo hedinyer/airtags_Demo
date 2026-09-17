@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "a63c214eb0c2dd8165c7178c2343659ca775040da8bcd53a9cab2b17",
+  "skn": "8aaf5a74db79664f4ff8740bc1f466141e47753ef6fe4e0ba3b6503775005c2c",
+  "sks": "ac532fd0790038c157ff8ccb9278e65a2b918f013d00859ae4d68427d9b63a64",
+  "paired_at": "2026-03-28T23:36:20.078134+00:00",
+  "name": "ESW05i",
+  "model": "",
+  "identifier": "839D68CB-6571-4FBE-B2B0-651DCA067F18",
+  "alignment_date": "2026-07-26T20:01:00+00:00",
+  "alignment_index": 11506,
+  "icloud_account": "solucionespinilla@icloud.com",
+  "imported_at": "2026-09-03T14:56:22.280082+00:00",
+  "first_imported_at": "2026-09-03T14:56:22.280082+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "8ea8f2e35a8c70772bff613d8feeafb2a34a6cfecd2aed37eb8f2986",
+  "skn": "1973f057f3d1b64dd6e586819cef36440ef398ecbaea822c7dc7c8c51c31f286",
+  "sks": "06d6f99552f8b3b1981e4295f3ae5a21dd01a9abcc0a0e8e4709816f4fd89fa9",
+  "paired_at": "2026-03-29T00:53:48.628885+00:00",
+  "name": "ESV87i",
+  "model": "",
+  "identifier": "7D324A5F-A64A-4F3E-AC3C-17C8C9E36A03",
+  "alignment_date": "2026-07-27T21:29:40+00:00",
+  "alignment_index": 11601,
+  "icloud_account": "solucionespinilla@icloud.com",
+  "imported_at": "2026-09-03T14:56:22.280082+00:00",
+  "first_imported_at": "2026-09-03T14:56:22.280082+00:00"
+}

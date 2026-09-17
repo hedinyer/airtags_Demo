@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "ff2795016ddce5e42c4b710b79177916dbdb40f2c1304e25b73ac9b4",
+  "skn": "dbe18ed5c32707e4a25cc42f09f4d642aa5ca75f56c1eaea0572ed2224279a77",
+  "sks": "cbecbbe5fb9339380ae9661bd9c51c1ac73244e51ab0297d9c90b499ca4a4171",
+  "paired_at": "2026-04-30T20:51:35.299302+00:00",
+  "name": "GWL32I",
+  "model": "",
+  "identifier": "E3C22757-CF2D-4938-B004-0564AA344AF2",
+  "alignment_date": "2026-07-27T08:39:40+00:00",
+  "alignment_index": 8340,
+  "icloud_account": "solucionespinilla@icloud.com",
+  "imported_at": "2026-09-03T14:56:22.280082+00:00",
+  "first_imported_at": "2026-09-03T14:56:22.280082+00:00"
+}

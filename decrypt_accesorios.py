@@ -23,10 +23,55 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from findmy.plist import list_accessories
+from findmy.plist import decrypt_plist, list_accessories
 
 MASTER_NAME = "accesorios.json"
 MOBILE_ME_PLIST = Path.home() / "Library/Preferences/MobileMeAccounts.plist"
+SEARCHPARTY_DIR = Path.home() / "Library/com.apple.icloud.searchpartyd"
+NUMERIC_NAME_RE = re.compile(r"^\d+$")
+
+
+def _is_numeric_name(name: Any) -> bool:
+    return bool(name) and bool(NUMERIC_NAME_RE.match(str(name).strip()))
+
+
+def _serial_from_owned_beacon(identifier: str, key: bytes) -> str | None:
+    """Serial de fabrica (stableIdentifier), p.ej. HGMQ2Z3KP0GV."""
+    path = SEARCHPARTY_DIR / "OwnedBeacons" / f"{identifier}.record"
+    if not path.is_file():
+        return None
+    try:
+        plist = decrypt_plist(path, key)
+    except Exception:
+        return None
+    stable = plist.get("stableIdentifier")
+    if isinstance(stable, list) and stable:
+        raw = str(stable[0])
+    elif isinstance(stable, str):
+        raw = stable
+    else:
+        return None
+    # Formato tipico: 2006~#hex~#SERIAL  |  dispositivos: l:/UDID
+    if raw.startswith("l:/"):
+        return None
+    serial = raw.rsplit("~#", 1)[-1].strip()
+    return serial or None
+
+
+def enrich_payload_name(payload: dict[str, Any], key: bytes) -> None:
+    """
+    Si Find My guardo solo un numero (0096) pero el beacon trae serial
+    alfanumerico, usa el serial como nombre (mismo estilo que HAB79I / TST02H).
+    """
+    ident = payload.get("identifier")
+    if not ident:
+        return
+    serial = _serial_from_owned_beacon(str(ident), key)
+    if serial:
+        payload["serial"] = serial
+    name = payload.get("name")
+    if serial and (not name or _is_numeric_name(name)):
+        payload["name"] = serial
 
 
 def get_beaconstore_key() -> bytes:
@@ -152,6 +197,13 @@ def merge_by_identifier(
                 item["first_imported_at"] = prev.get("first_imported_at") or prev["imported_at"]
             elif prev.get("first_imported_at"):
                 item["first_imported_at"] = prev["first_imported_at"]
+            # No pisar un nombre bueno (TST02H) con uno solo-numerico (0096)
+            prev_name = prev.get("name")
+            new_name = item.get("name")
+            if prev_name and _is_numeric_name(new_name) and not _is_numeric_name(prev_name):
+                item["name"] = prev_name
+            if prev.get("serial") and not item.get("serial"):
+                item["serial"] = prev["serial"]
             by_id[ident] = item
             updated += 1
         else:
@@ -211,10 +263,11 @@ def main() -> int:
     incoming: list[dict[str, Any]] = []
     for acc in accessories:
         payload = acc.to_json()
+        enrich_payload_name(payload, key)
         payload["icloud_account"] = cuenta
         payload["imported_at"] = now
         incoming.append(payload)
-        name = acc.name or acc.identifier
+        name = payload.get("name") or acc.name or acc.identifier
         print(f"OK: {name} [{cuenta}]")
 
     merged, added, updated = merge_by_identifier(existing, incoming)

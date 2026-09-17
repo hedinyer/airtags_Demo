@@ -4,12 +4,14 @@
   "skn": "86c998eab253654b62973cfbaca46d1ebc07eacf92e7bd800cdeec51fe71ec28",
   "sks": "972ce9bd9e70a2252690513f8251268a8c6669c15e5d3cde883d0766961a93ac",
   "paired_at": "2026-07-29T20:00:37.250808+00:00",
-  "name": "9561",
+  "name": "LYB95I",
   "model": "empty",
   "identifier": "4EA93711-7459-4D98-89D5-64FB0641FBAC",
   "alignment_date": "2026-07-29T20:00:37.291909+00:00",
   "alignment_index": 1,
+  "serial": "HGGQJG10P0GV",
   "icloud_account": "berala80@icloud.com",
-  "imported_at": "2026-09-03T12:38:50.391982+00:00",
-  "first_imported_at": "2026-09-03T12:38:50.391982+00:00"
+  "imported_at": "2026-09-16T21:05:46.835264+00:00",
+  "first_imported_at": "2026-09-03T12:38:50.391982+00:00",
+  "chassis_suffix": "9561"
 }

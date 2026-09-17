@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "d252ada665c1e16c5efe62dda7a5f58d80c7fc9b6db7b0d5e8aa4bd3",
+  "skn": "5a6990e1a60ed6f784c999416c4fac0cb26a15651767646e57c799481a54d30a",
+  "sks": "0e29e32526770cfb0a82abfc82dd82facc5a1d495161d883b42393a637a1fc1d",
+  "paired_at": "2026-04-15T20:47:48.434655+00:00",
+  "name": "CGP26i",
+  "model": "",
+  "identifier": "E99EFF3D-8722-4811-A8CA-4343775EADD7",
+  "alignment_date": "2026-07-27T08:00:20+00:00",
+  "alignment_index": 9796,
+  "icloud_account": "solucionespinilla@icloud.com",
+  "imported_at": "2026-09-03T14:56:22.280082+00:00",
+  "first_imported_at": "2026-09-03T14:56:22.280082+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "435340d51621b9b88a898be53a650a6f2771f30614a5c9340d02104a",
+  "skn": "82dadbf6fd02b2f96b7a939ba8050fa4873247378ac5429b7ec332337fd4a741",
+  "sks": "5b28d132e6cb12d35a3c08dfbc07904f47da56c0ea447a3bfc130990599eee03",
+  "paired_at": "2026-05-14T03:34:02.547246+00:00",
+  "name": "GXD30I",
+  "model": "",
+  "identifier": "001C6361-91D0-4ED6-9483-6200AB962558",
+  "alignment_date": "2026-07-26T23:19:20+00:00",
+  "alignment_index": 7045,
+  "icloud_account": "solucionespinilla@icloud.com",
+  "imported_at": "2026-09-03T14:56:22.280082+00:00",
+  "first_imported_at": "2026-09-03T14:56:22.280082+00:00"
+}

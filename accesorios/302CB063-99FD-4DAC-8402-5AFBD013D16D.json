@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "2fa8e66f7c7652a5c25d2cc63a7009386559f7cd5f6dbcd52e4a7e34",
+  "skn": "2f29349936c4cb8167ac7bd6957a76f57b8fe3255c6983df8ef4d5811f5fc9a4",
+  "sks": "854aede3a6be5f952e52714f87fcaf495d5af15a38dad2a316bb62ddbb7b2c1e",
+  "paired_at": "2026-04-15T20:03:28.178916+00:00",
+  "name": "CGM87i",
+  "model": "",
+  "identifier": "302CB063-99FD-4DAC-8402-5AFBD013D16D",
+  "alignment_date": "2026-07-27T06:28:50+00:00",
+  "alignment_index": 9785,
+  "icloud_account": "solucionespinilla@icloud.com",
+  "imported_at": "2026-09-03T14:56:22.280082+00:00",
+  "first_imported_at": "2026-09-03T14:56:22.280082+00:00"
+}

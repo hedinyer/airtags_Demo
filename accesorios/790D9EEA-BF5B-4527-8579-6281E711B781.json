@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "a5374a8fb1d61e64069b03797db0f4920f8a21cd5588a4ef3c8087ee",
+  "skn": "8cf1a7f991792776241f7a93fa6eca020c6452a4199ef0222995e789d74bb4fd",
+  "sks": "99fb4a6fef7013d839d074a5211066e5da0dbeac305ff7968c55c1e82d6a4423",
+  "paired_at": "2026-03-29T00:19:45.517379+00:00",
+  "name": "ESV65i",
+  "model": "",
+  "identifier": "790D9EEA-BF5B-4527-8579-6281E711B781",
+  "alignment_date": "2026-07-27T07:38:30+00:00",
+  "alignment_index": 11457,
+  "icloud_account": "solucionespinilla@icloud.com",
+  "imported_at": "2026-09-03T14:56:22.280082+00:00",
+  "first_imported_at": "2026-09-03T14:56:22.280082+00:00"
+}

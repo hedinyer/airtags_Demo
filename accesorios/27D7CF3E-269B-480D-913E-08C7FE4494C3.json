@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "ddca540d1dff0332ca3f405c6904885ef182fc56020b7751c174b780",
+  "skn": "d545303d62beaef249fd6e04a1cad19a256c25d05ec6adf7e92687f93eb76b64",
+  "sks": "a810889292a69525b537b0870cd3daa2461ea1587c9af2aa756f17cf151afaf8",
+  "paired_at": "2026-04-15T20:13:15.334817+00:00",
+  "name": "CHJ91i",
+  "model": "",
+  "identifier": "27D7CF3E-269B-480D-913E-08C7FE4494C3",
+  "alignment_date": "2026-07-24T08:51:10+00:00",
+  "alignment_index": 9555,
+  "icloud_account": "solucionespinilla@icloud.com",
+  "imported_at": "2026-09-03T14:56:22.280082+00:00",
+  "first_imported_at": "2026-09-03T14:56:22.280082+00:00"
+}

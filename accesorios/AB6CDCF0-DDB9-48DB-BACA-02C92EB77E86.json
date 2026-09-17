@@ -4,12 +4,14 @@
   "skn": "a6e002263b213a470a003bfbf76a97604fa879dd735b6950edb5406c2fb05402",
   "sks": "a6c6388f67ed5f49d4ab489990ea5a0428299f611d4c0b74dfce3c69e5ae9c94",
   "paired_at": "2026-07-29T16:23:03.547151+00:00",
-  "name": "3494",
+  "name": "LYC67I",
   "model": "empty",
   "identifier": "AB6CDCF0-DDB9-48DB-BACA-02C92EB77E86",
   "alignment_date": "2026-07-29T16:23:03.584904+00:00",
   "alignment_index": 1,
+  "serial": "HW4QN7VKP0GV",
   "icloud_account": "berala80@icloud.com",
-  "imported_at": "2026-09-03T12:38:50.391982+00:00",
-  "first_imported_at": "2026-09-03T12:38:50.391982+00:00"
+  "imported_at": "2026-09-16T21:05:46.835264+00:00",
+  "first_imported_at": "2026-09-03T12:38:50.391982+00:00",
+  "chassis_suffix": "3494"
 }

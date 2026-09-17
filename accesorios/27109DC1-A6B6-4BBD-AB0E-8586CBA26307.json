@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "4a07e25b556712216f9cb0135f714277fc30220fc80f11ef55074966",
+  "skn": "97dc243531ead1744e6baf304e05a68dbd094e14ec7c0bd9c64c74cdacbc2fd5",
+  "sks": "d3b8c9cad775cb2a0e40ef0046e3bd2f418c35933ed42f095d3e048131822763",
+  "paired_at": "2026-03-28T23:33:19.228660+00:00",
+  "name": "iPhone",
+  "model": "iPhone11,2",
+  "identifier": "27109DC1-A6B6-4BBD-AB0E-8586CBA26307",
+  "alignment_date": "2026-03-28T23:33:19.228660+00:00",
+  "alignment_index": 0,
+  "icloud_account": "solucionespinilla@icloud.com",
+  "imported_at": "2026-09-03T14:56:22.280082+00:00",
+  "first_imported_at": "2026-09-03T14:56:22.280082+00:00"
+}

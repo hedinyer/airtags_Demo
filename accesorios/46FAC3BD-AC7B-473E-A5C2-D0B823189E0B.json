@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "918e253ddf14e090dc23f5a08f4cc21777555e117b497507cb3e072f",
+  "skn": "105af7dc73eeeefa5630781ad1bd285d3e04a09c7bcea74d0d5f65fcbfb39c01",
+  "sks": "615d47755c6fd79b2f8e7b40ccebdfdde44585ebf2d88e440198445bb245e344",
+  "paired_at": "2026-04-30T20:56:38.225031+00:00",
+  "name": "GWL30I",
+  "model": "",
+  "identifier": "46FAC3BD-AC7B-473E-A5C2-D0B823189E0B",
+  "alignment_date": "2026-07-26T23:47:20+00:00",
+  "alignment_index": 8331,
+  "icloud_account": "solucionespinilla@icloud.com",
+  "imported_at": "2026-09-03T14:56:22.280082+00:00",
+  "first_imported_at": "2026-09-03T14:56:22.280082+00:00"
+}

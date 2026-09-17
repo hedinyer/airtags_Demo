@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "026c4632151c4e0b9b18d535435b90e7d1642cc0ed16856605563745",
+  "skn": "1d7bcea0f00783c7dadbc53b529d59a443b18494787255a34ad726a55402b7e1",
+  "sks": "c3a87719b1c8c4cf41d7b3af06753cc9cc79d61c9f8ff133d9fcb328286a27ee",
+  "paired_at": "2026-04-15T20:02:27.641779+00:00",
+  "name": "CIB60i",
+  "model": "",
+  "identifier": "AB961F21-C961-489B-85D5-06B725004733",
+  "alignment_date": "2026-07-14T16:59:30+00:00",
+  "alignment_index": 8628,
+  "icloud_account": "solucionespinilla@icloud.com",
+  "imported_at": "2026-09-03T14:56:22.280082+00:00",
+  "first_imported_at": "2026-09-03T14:56:22.280082+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "bf30f0466c2e4deb3b53609fcca835e2d8891969af7936590ffc4c02",
+  "skn": "4031fefef60760bc6a0720f209356fda42135e5aeac3b4c5e23337568d4efe92",
+  "sks": "bedd9852da4c6f2fb534b2e37b473d17de5e9ede10dc12587ee10a0a0349cb08",
+  "paired_at": "2026-04-15T20:14:19.831599+00:00",
+  "name": "CHZ96i",
+  "model": "",
+  "identifier": "76740F03-6138-410F-B2AA-D02783B403B4",
+  "alignment_date": "2026-07-24T02:51:10+00:00",
+  "alignment_index": 9531,
+  "icloud_account": "solucionespinilla@icloud.com",
+  "imported_at": "2026-09-03T14:56:22.280082+00:00",
+  "first_imported_at": "2026-09-03T14:56:22.280082+00:00"
+}
