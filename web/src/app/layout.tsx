@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Motos cercanas — AirTags",
   description:
-    "Motos con deuda y AirTag en un radio de 5 km desde tu ubicación.",
+    "Motos con deuda y AirTag en un radio de 5 km desde tu GPS o un punto pegado.",
   manifest: "/manifest.webmanifest",
   appleWebApp: {
     capable: true,

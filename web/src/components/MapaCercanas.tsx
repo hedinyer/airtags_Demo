@@ -30,6 +30,7 @@ type MapaCercanasProps = {
   onSeleccionar: (placa: string) => void;
   /** Si true, el mapa encuadra origen + motos (útil al buscar fuera del radio). */
   ajustarAMotos?: boolean;
+  origenLabel?: string;
   className?: string;
 };
 
@@ -40,6 +41,7 @@ export function MapaCercanas({
   seleccionada,
   onSeleccionar,
   ajustarAMotos = false,
+  origenLabel = "Punto de búsqueda",
   className,
 }: MapaCercanasProps) {
   const contenedorRef = useRef<HTMLDivElement>(null);
@@ -91,7 +93,7 @@ export function MapaCercanas({
         fillColor: "#38bdf8",
         fillOpacity: 1,
       })
-        .bindTooltip("Tu ubicación", { direction: "top" })
+        .bindTooltip(origenLabel, { direction: "top" })
         .addTo(mapa);
 
       capaMotosRef.current = L.layerGroup().addTo(mapa);
@@ -127,6 +129,7 @@ export function MapaCercanas({
     if (!mapa || !circulo || !origenMarker) return;
     circulo.setLatLng([origen.lat, origen.lng]);
     origenMarker.setLatLng([origen.lat, origen.lng]);
+    origenMarker.setTooltipContent(origenLabel);
     if (!ajustarAMotos) {
       mapa.fitBounds(circulo.getBounds(), {
         padding: [28, 28],
@@ -134,7 +137,7 @@ export function MapaCercanas({
         animate: true,
       });
     }
-  }, [origen.lat, origen.lng, ajustarAMotos]);
+  }, [origen.lat, origen.lng, origenLabel, ajustarAMotos]);
 
   useEffect(() => {
     if (!mapaListo || !capaMotosRef.current) return;
