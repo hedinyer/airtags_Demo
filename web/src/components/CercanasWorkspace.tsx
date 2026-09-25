@@ -1,7 +1,13 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { LocateFixedIcon, RefreshCwIcon, SearchIcon, XIcon } from "lucide-react";
+import {
+  LocateFixedIcon,
+  MapPinIcon,
+  RefreshCwIcon,
+  SearchIcon,
+  XIcon,
+} from "lucide-react";
 
 import { MapaCercanas } from "@/components/MapaCercanas";
 import { MapaRutaMoto } from "@/components/MapaRutaMoto";
@@ -18,6 +24,10 @@ import {
   type OrigenGps,
 } from "@/lib/distancia";
 import {
+  formatearCoordenadas,
+  parsearCoordenadas,
+} from "@/lib/coordenadas";
+import {
   mensajeErrorGps,
   obtenerGpsPreciso,
   type MotivoGpsError,
@@ -26,11 +36,13 @@ import { normalizarPlaca } from "@/lib/placasExcluidasReportes";
 
 type MotoConDistancia = MotoCercanaApi & { distancia_km: number };
 
+type FuenteOrigen = "gps" | "manual";
+
 type GpsEstado =
   | { kind: "idle" }
   | { kind: "loading" }
   | { kind: "error"; motivo: MotivoGpsError }
-  | { kind: "ok"; origen: OrigenGps };
+  | { kind: "ok"; origen: OrigenGps; fuente: FuenteOrigen };
 
 type ApiEstado =
   | { kind: "idle" }
@@ -46,6 +58,8 @@ export function CercanasWorkspace() {
   const [rutaMoto, setRutaMoto] = useState<MotoConDistancia | null>(null);
   const [busquedaPlaca, setBusquedaPlaca] = useState("");
   const [radarMoto, setRadarMoto] = useState<MotoConDistancia | null>(null);
+  const [coordsInput, setCoordsInput] = useState("");
+  const [errorCoords, setErrorCoords] = useState<string | null>(null);
 
   const cargarCartera = useCallback(async (refresh = false) => {
     if (refresh) setRefrescando(true);
@@ -72,18 +86,43 @@ export function CercanasWorkspace() {
     }
   }, []);
 
+  const fijarOrigen = useCallback(
+    (origen: OrigenGps, fuente: FuenteOrigen) => {
+      setErrorCoords(null);
+      setCoordsInput(formatearCoordenadas(origen));
+      setGps({ kind: "ok", origen, fuente });
+      if (api.kind !== "ok" && api.kind !== "loading") {
+        void cargarCartera();
+      }
+    },
+    [api.kind, cargarCartera],
+  );
+
+  const aplicarCoords = useCallback(
+    (raw?: string) => {
+      const parsed = parsearCoordenadas(raw ?? coordsInput);
+      if (!parsed) {
+        setErrorCoords(
+          "Pega latitud y longitud, por ejemplo 4.609710, -74.081750",
+        );
+        return false;
+      }
+      fijarOrigen(parsed, "manual");
+      return true;
+    },
+    [coordsInput, fijarOrigen],
+  );
+
   const pedirGps = useCallback(async () => {
+    setErrorCoords(null);
     setGps({ kind: "loading" });
     const res = await obtenerGpsPreciso({ samples: 3, maxWaitMs: 25_000 });
     if (!res.ok) {
       setGps({ kind: "error", motivo: res.motivo });
       return;
     }
-    setGps({ kind: "ok", origen: { lat: res.gps.lat, lng: res.gps.lng } });
-    if (api.kind !== "ok") {
-      void cargarCartera();
-    }
-  }, [api.kind, cargarCartera]);
+    fijarOrigen({ lat: res.gps.lat, lng: res.gps.lng }, "gps");
+  }, [fijarOrigen]);
 
   useEffect(() => {
     if (gps.kind === "ok" && api.kind === "idle") {
@@ -158,8 +197,11 @@ export function CercanasWorkspace() {
               : `${cercanas.length} motos a ${radioLabel}`
           : "";
 
-  const showStickyGps = gps.kind === "idle" || gps.kind === "error";
   const showResults = gps.kind === "ok" && api.kind === "ok";
+  const origenLabel =
+    gps.kind === "ok" && gps.fuente === "gps"
+      ? "Tu ubicación"
+      : "Punto de búsqueda";
 
   return (
     <div className="relative flex h-full min-h-0 flex-1 flex-col overflow-hidden">
@@ -192,7 +234,7 @@ export function CercanasWorkspace() {
               Motos cercanas
             </h1>
             <p className="mt-1 text-sm text-muted-foreground text-pretty">
-              Deuda y AirTag a {radioLabel} de ti.
+              Deuda y AirTag a {radioLabel} del punto que indiques.
             </p>
           </div>
           {gps.kind === "ok" ? (
@@ -213,17 +255,73 @@ export function CercanasWorkspace() {
           ) : null}
         </div>
 
-        <div className="mt-3 hidden gap-2 sm:flex">
-          <Button
-            type="button"
-            className="h-11 min-h-[44px] active:scale-[0.96]"
-            onClick={() => void pedirGps()}
-            disabled={gps.kind === "loading"}
-            aria-label="Usar mi ubicación GPS"
-          >
-            <LocateFixedIcon className="mr-1.5 size-4" aria-hidden />
-            {gps.kind === "loading" ? "Obteniendo GPS…" : "Usar mi ubicación"}
-          </Button>
+        <div className="mt-3 space-y-2">
+          <div className="relative">
+            <MapPinIcon
+              className="pointer-events-none absolute start-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground"
+              aria-hidden
+            />
+            <Input
+              type="text"
+              value={coordsInput}
+              onChange={(e) => {
+                setCoordsInput(e.target.value);
+                if (errorCoords) setErrorCoords(null);
+              }}
+              onPaste={(e) => {
+                const text = e.clipboardData.getData("text");
+                if (!parsearCoordenadas(text)) return;
+                e.preventDefault();
+                aplicarCoords(text);
+              }}
+              onKeyDown={(e) => {
+                if (e.key !== "Enter") return;
+                e.preventDefault();
+                aplicarCoords();
+              }}
+              placeholder="4.609710, -74.081750 o enlace de Maps"
+              autoComplete="off"
+              autoCorrect="off"
+              spellCheck={false}
+              enterKeyHint="search"
+              className="h-11 min-h-[44px] pe-3 ps-9 text-base md:text-base"
+              aria-label="Coordenadas del punto de búsqueda"
+              aria-invalid={Boolean(errorCoords)}
+            />
+          </div>
+          {errorCoords ? (
+            <p className="text-sm text-destructive" role="alert">
+              {errorCoords}
+            </p>
+          ) : gps.kind === "ok" ? (
+            <p className="text-xs tabular-nums text-muted-foreground">
+              {gps.fuente === "gps" ? "Tu GPS" : "Punto pegado"}:{" "}
+              {formatearCoordenadas(gps.origen)}
+            </p>
+          ) : null}
+          <div className="flex gap-2">
+            <Button
+              type="button"
+              className="h-11 min-h-[44px] flex-1 active:scale-[0.96]"
+              onClick={() => void pedirGps()}
+              disabled={gps.kind === "loading"}
+              aria-label="Usar mi ubicación GPS"
+            >
+              <LocateFixedIcon className="mr-1.5 size-4" aria-hidden />
+              {gps.kind === "loading" ? "Obteniendo GPS…" : "Usar mi ubicación"}
+            </Button>
+            <Button
+              type="button"
+              variant="secondary"
+              className="h-11 min-h-[44px] flex-1 active:scale-[0.96]"
+              onClick={() => aplicarCoords()}
+              disabled={!coordsInput.trim() || gps.kind === "loading"}
+              aria-label="Buscar motos cerca de las coordenadas"
+            >
+              <MapPinIcon className="mr-1.5 size-4" aria-hidden />
+              Buscar aquí
+            </Button>
+          </div>
         </div>
 
         {showResults ? (
@@ -261,15 +359,15 @@ export function CercanasWorkspace() {
       </header>
 
       <div
-        className={`flex min-h-0 flex-1 flex-col overflow-hidden ${showStickyGps ? "pb-[calc(4.5rem+env(safe-area-inset-bottom))]" : "pb-[max(0.5rem,env(safe-area-inset-bottom))]"}`}
+        className="flex min-h-0 flex-1 flex-col overflow-hidden pb-[max(0.5rem,env(safe-area-inset-bottom))]"
       >
         {gps.kind === "idle" ? (
           <div className="overflow-y-auto px-4">
             <Alert>
-              <AlertTitle>Ubicación requerida</AlertTitle>
+              <AlertTitle>Elige un punto</AlertTitle>
               <AlertDescription>
-                Pulsa «Usar mi ubicación» para ver las motos en un radio de{" "}
-                {radioLabel}. No pedimos el permiso hasta que lo indiques.
+                Usa tu GPS o pega coordenadas (o un enlace de Maps) para ver
+                motos con deuda a {radioLabel}.
               </AlertDescription>
             </Alert>
           </div>
@@ -280,7 +378,8 @@ export function CercanasWorkspace() {
             <Alert variant="destructive">
               <AlertTitle>No se obtuvo la ubicación</AlertTitle>
               <AlertDescription>
-                {mensajeErrorGps(gps.motivo)}
+                {mensajeErrorGps(gps.motivo)} También puedes pegar coordenadas
+                arriba y pulsar «Buscar aquí».
               </AlertDescription>
             </Alert>
           </div>
@@ -345,6 +444,7 @@ export function CercanasWorkspace() {
                   distancia_km: m.distancia_km,
                 }))}
                 origen={gps.origen}
+                origenLabel={origenLabel}
                 radioKm={DISTANCIA_MAX_CERCANAS_KM}
                 seleccionada={seleccionada}
                 onSeleccionar={setSeleccionada}
@@ -385,7 +485,7 @@ export function CercanasWorkspace() {
                     <AlertDescription>
                       {buscando
                         ? "La búsqueda incluye monedas al día. Prueba otra placa o limpia para ver las cercanas con deuda."
-                        : "Actualiza la ubicación, acércate a una zona con cartera o busca una placa (aunque no deba)."}
+                        : "Cambia el punto, acércate a una zona con cartera o busca una placa (aunque no deba)."}
                     </AlertDescription>
                   </Alert>
                   {buscando ? (
@@ -433,20 +533,6 @@ export function CercanasWorkspace() {
           </div>
         ) : null}
       </div>
-
-      {showStickyGps ? (
-        <div className="fixed inset-x-0 bottom-0 z-40 border-t border-border bg-background/95 px-4 pt-3 backdrop-blur-sm sm:hidden pb-[max(0.75rem,env(safe-area-inset-bottom))]">
-          <Button
-            type="button"
-            className="h-12 min-h-[48px] w-full active:scale-[0.96]"
-            onClick={() => void pedirGps()}
-            aria-label="Usar mi ubicación GPS"
-          >
-            <LocateFixedIcon className="mr-1.5 size-4" aria-hidden />
-            {gps.kind === "error" ? "Reintentar ubicación" : "Usar mi ubicación"}
-          </Button>
-        </div>
-      ) : null}
     </div>
   );
 }
