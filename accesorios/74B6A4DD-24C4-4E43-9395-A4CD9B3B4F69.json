@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "af6dfb1589e923f7f68ba2ff7183067a03e9fab1bfa8731594f511c7",
+  "skn": "4f1539889a20166275e411ce8d5142327d9c8b537c9b5fbb5cb748360392dfcc",
+  "sks": "29d6cb5331fd1bc6f0c89c5c680629b060b014afce7c92dfcd5af9d9e853cc5b",
+  "paired_at": "2025-10-01T20:44:06.715771+00:00",
+  "name": "TSD43H",
+  "model": "",
+  "identifier": "74B6A4DD-24C4-4E43-9395-A4CD9B3B4F69",
+  "alignment_date": "2026-08-24T18:06:40+00:00",
+  "alignment_index": 31384,
+  "serial": "HGQPXA9EP0GV",
+  "icloud_account": "monedasolga@gmail.com",
+  "imported_at": "2026-09-25T15:11:29.710106+00:00",
+  "first_imported_at": "2026-09-25T15:11:29.710106+00:00"
+}

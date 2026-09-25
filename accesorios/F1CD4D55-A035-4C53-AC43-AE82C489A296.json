@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "624ecc57bfd4ee06bf67ef6d1e3a13a9cd12ff9a6521276b46e52f0a",
+  "skn": "55444cca1066e1868a043e901c255e9202ca2c6bd76c5b237b29813d697994d6",
+  "sks": "1e4ed8f6e3517a9dc43048c86b7c81e294e6a9648033e86d2b4738705e28ac5d",
+  "paired_at": "2025-10-02T18:54:52.994011+00:00",
+  "name": "TSD48H",
+  "model": "",
+  "identifier": "F1CD4D55-A035-4C53-AC43-AE82C489A296",
+  "alignment_date": "2026-08-24T18:21:30+00:00",
+  "alignment_index": 31297,
+  "serial": "HGQPXXGWP0GV",
+  "icloud_account": "monedasolga@gmail.com",
+  "imported_at": "2026-09-25T15:11:29.710106+00:00",
+  "first_imported_at": "2026-09-25T15:11:29.710106+00:00"
+}

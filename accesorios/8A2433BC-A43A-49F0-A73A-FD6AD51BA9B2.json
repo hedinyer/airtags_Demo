@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "b3bff2a4dc6898e27c02cd415b059ab862d7eca60ef8e5c133813c9d",
+  "skn": "cc6d2fa46fbd7445c608784f5e1ec072b64b377b814c63b5e39161d95cff04cc",
+  "sks": "3ae1496782b7a82ab34438b1595d0ae39f14080b88a06fa8097dde65454fbdd3",
+  "paired_at": "2026-09-25T14:59:08.029026+00:00",
+  "name": "Heylen’s MacBook Air",
+  "model": "MacBookAir10,1",
+  "identifier": "8A2433BC-A43A-49F0-A73A-FD6AD51BA9B2",
+  "alignment_date": "2026-09-25T14:59:08.029026+00:00",
+  "alignment_index": 0,
+  "icloud_account": "monedasolga@gmail.com",
+  "imported_at": "2026-09-25T15:11:29.710106+00:00",
+  "first_imported_at": "2026-09-25T15:11:29.710106+00:00"
+}

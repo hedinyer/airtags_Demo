@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "85014a7b7b815f874dd1f667f26bd9be59a2baab2b947df9d64b5729",
+  "skn": "6008b5ae457f41dd8af92f8e2832dea0bb2d329aabc05fb669deacb52cad4110",
+  "sks": "3f6f0b57f1049b412829e33b0a11a5e8a8ed88e4c1a34d643cb96cef2b213a01",
+  "paired_at": "2025-10-08T18:29:25.247008+00:00",
+  "name": "iPhone",
+  "model": "iPhone12,1",
+  "identifier": "2017D8CB-23EC-4FED-B460-A09474675BBC",
+  "alignment_date": "2025-10-08T18:29:25.247008+00:00",
+  "alignment_index": 0,
+  "icloud_account": "monedasolga@gmail.com",
+  "imported_at": "2026-09-25T15:11:29.710106+00:00",
+  "first_imported_at": "2026-09-25T15:11:29.710106+00:00"
+}

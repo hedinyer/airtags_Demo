@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "29172f6b88cebcd8de26704ed81169037ff0c6569281b756a26ce117",
+  "skn": "cb672ee4c5e3ff475183ba14d588e8a1494378d65df8161247b7718051697767",
+  "sks": "51ec6d0e17f82c65d11b8ba4686a19eebe7a83366862fbca1574d93191e98e79",
+  "paired_at": "2025-09-29T21:27:00.532659+00:00",
+  "name": "TRY94H",
+  "model": "",
+  "identifier": "6644801A-41EF-44E4-984D-B11E8F432265",
+  "alignment_date": "2026-08-24T18:06:40+00:00",
+  "alignment_index": 31573,
+  "serial": "HGRPXLWPP0GV",
+  "icloud_account": "monedasolga@gmail.com",
+  "imported_at": "2026-09-25T15:11:29.710106+00:00",
+  "first_imported_at": "2026-09-25T15:11:29.710106+00:00"
+}

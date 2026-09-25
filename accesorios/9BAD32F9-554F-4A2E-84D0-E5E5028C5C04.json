@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "675a9d095e5803ac6084785f294edf8ddcd1e73b8e1e8f0521ce1727",
+  "skn": "f1be2a33f6e313cb270630baf8593b74f7834de573775ffd566933ee77220c2a",
+  "sks": "fb47df32ee0115b925d210d476061313aa2ff2da0664a0aaa19c2e1b64380646",
+  "paired_at": "2025-10-02T18:49:55.664998+00:00",
+  "name": "TSD65H",
+  "model": "",
+  "identifier": "9BAD32F9-554F-4A2E-84D0-E5E5028C5C04",
+  "alignment_date": "2026-01-21T08:58:35+00:00",
+  "alignment_index": 10617,
+  "serial": "HGPPX9SVP0GV",
+  "icloud_account": "monedasolga@gmail.com",
+  "imported_at": "2026-09-25T15:11:29.710106+00:00",
+  "first_imported_at": "2026-09-25T15:11:29.710106+00:00"
+}

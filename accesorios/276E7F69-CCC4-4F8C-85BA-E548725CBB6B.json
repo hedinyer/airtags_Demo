@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "1160afc052901cbc67caa0418284c24c92f2eb421668018dbe7c6fce",
+  "skn": "450bc0ebdcd07e16c05454302814845adf209e92bf2c75f7bfbe6391ef0594ef",
+  "sks": "3c076562b7423ac1ce841f9c45fb189609168d2e6599abb8febe17e5dc621758",
+  "paired_at": "2025-10-03T14:20:43.861638+00:00",
+  "name": "TSC32H",
+  "model": "",
+  "identifier": "276E7F69-CCC4-4F8C-85BA-E548725CBB6B",
+  "alignment_date": "2026-08-24T18:17:20+00:00",
+  "alignment_index": 31217,
+  "serial": "HGPPX9N3P0GV",
+  "icloud_account": "monedasolga@gmail.com",
+  "imported_at": "2026-09-25T15:11:29.710106+00:00",
+  "first_imported_at": "2026-09-25T15:11:29.710106+00:00"
+}

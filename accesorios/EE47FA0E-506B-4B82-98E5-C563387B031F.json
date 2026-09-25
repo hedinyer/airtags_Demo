@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "067c73450893251a62367e0049f534d454c93d628e8b355611229b6d",
+  "skn": "8b29f66256791820b7b6005a5d87c4642b2036ac3557d08598f68c60989f80c1",
+  "sks": "46766de69ef6019b614bca9affe62ea27ceff208d867f1f2f8d28e7a08e12ade",
+  "paired_at": "2025-09-26T19:17:51.518475+00:00",
+  "name": "TID91H",
+  "model": "",
+  "identifier": "EE47FA0E-506B-4B82-98E5-C563387B031F",
+  "alignment_date": "2026-08-24T17:57:30+00:00",
+  "alignment_index": 31869,
+  "serial": "HGPPXCBGP0GV",
+  "icloud_account": "monedasolga@gmail.com",
+  "imported_at": "2026-09-25T15:11:29.710106+00:00",
+  "first_imported_at": "2026-09-25T15:11:29.710106+00:00"
+}

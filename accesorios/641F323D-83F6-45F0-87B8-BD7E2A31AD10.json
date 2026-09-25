@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "572d60e04f891ed35a1a8a7b3b141f12d0217b8bedc6467edaecdc8f",
+  "skn": "d2c6d5ff0e46f44e1fe3a87553317f82abea200ec3426ba364c358e59d4a913f",
+  "sks": "1941f9c7aceab4d68f72739d18a91d6c3633abdc88d392df5f74420a0d87cd09",
+  "paired_at": "2025-10-02T18:46:09.199759+00:00",
+  "name": "TSD64H",
+  "model": "",
+  "identifier": "641F323D-83F6-45F0-87B8-BD7E2A31AD10",
+  "alignment_date": "2025-10-29T04:34:57+00:00",
+  "alignment_index": 2536,
+  "serial": "HGPPX2LEP0GV",
+  "icloud_account": "monedasolga@gmail.com",
+  "imported_at": "2026-09-25T15:11:29.710106+00:00",
+  "first_imported_at": "2026-09-25T15:11:29.710106+00:00"
+}

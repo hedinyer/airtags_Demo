@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "592e1b1b643dcc80679ddeb6d2ec31b804c048db842dcd8cbf06a3cd",
+  "skn": "da113484de5c1dfc1a3e426a03c7437ff88c7401fd25d15ca0083ae92c3dd118",
+  "sks": "11dba8f9d184a0687c176997bf23813809447e225e5cf53a794395ef83a1669a",
+  "paired_at": "2025-10-02T18:44:53.635887+00:00",
+  "name": "TSD51H",
+  "model": "",
+  "identifier": "1A0BC07A-4A0B-4D5A-B4FD-2CE0905CCFB6",
+  "alignment_date": "2026-08-24T17:43:30+00:00",
+  "alignment_index": 31293,
+  "serial": "HGPPXGTXP0GV",
+  "icloud_account": "monedasolga@gmail.com",
+  "imported_at": "2026-09-25T15:11:29.710106+00:00",
+  "first_imported_at": "2026-09-25T15:11:29.710106+00:00"
+}

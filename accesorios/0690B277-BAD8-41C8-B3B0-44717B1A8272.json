@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "d57132da1985adff6d8fe53a55bf76ea3d0c4b55ae6b7be0d5594b05",
+  "skn": "aafdfe267f77a1aa87852072018217c720a767f1e0b48818074584528cd9387d",
+  "sks": "f2294f50a8e8efac8b92422bdbd9c982c988b600a0b3644f21b75fc0f5e4a441",
+  "paired_at": "2025-10-02T18:52:00.733185+00:00",
+  "name": "TSD61H",
+  "model": "",
+  "identifier": "0690B277-BAD8-41C8-B3B0-44717B1A8272",
+  "alignment_date": "2026-03-07T18:15:29+00:00",
+  "alignment_index": 14977,
+  "serial": "HGQPXWQ1P0GV",
+  "icloud_account": "monedasolga@gmail.com",
+  "imported_at": "2026-09-25T15:11:29.710106+00:00",
+  "first_imported_at": "2026-09-25T15:11:29.710106+00:00"
+}

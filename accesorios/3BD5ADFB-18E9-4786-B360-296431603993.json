@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "1990e107c0978d5636fe5f720b24a2312b86c4b4172d6f73d6fab625",
+  "skn": "c6b230f5151e67adcb132d58be7d2ac7cdce170b10153b1d856275042f28ee15",
+  "sks": "cecb219b393dc8e82eefe6e03371008b9440fb79f4bc1253db9bba30940123b4",
+  "paired_at": "2025-10-03T14:19:41.609751+00:00",
+  "name": "TSC25H",
+  "model": "",
+  "identifier": "3BD5ADFB-18E9-4786-B360-296431603993",
+  "alignment_date": "2026-08-24T18:15:00+00:00",
+  "alignment_index": 31217,
+  "serial": "HGRPCDZBP0GV",
+  "icloud_account": "monedasolga@gmail.com",
+  "imported_at": "2026-09-25T15:11:29.710106+00:00",
+  "first_imported_at": "2026-09-25T15:11:29.710106+00:00"
+}

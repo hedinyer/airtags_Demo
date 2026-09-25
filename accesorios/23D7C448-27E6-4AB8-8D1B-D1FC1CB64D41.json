@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "018b86ffad0bcf1f3e0815482966187658089c7e6c6ddb0ef31b3ce5",
+  "skn": "2a2f0cf752398858b54ca41c80f81f23a189d8672218243d0f153d73e8c5a998",
+  "sks": "801d87746d8ccdb6f24c0f6c960a412071cdfe68341264fc60dc18029c7f9a8b",
+  "paired_at": "2025-09-29T21:28:42.551989+00:00",
+  "name": "TIL01H",
+  "model": "",
+  "identifier": "23D7C448-27E6-4AB8-8D1B-D1FC1CB64D41",
+  "alignment_date": "2026-08-24T17:55:10+00:00",
+  "alignment_index": 30846,
+  "serial": "HGPPXCX8P0GV",
+  "icloud_account": "monedasolga@gmail.com",
+  "imported_at": "2026-09-25T15:11:29.710106+00:00",
+  "first_imported_at": "2026-09-25T15:11:29.710106+00:00"
+}

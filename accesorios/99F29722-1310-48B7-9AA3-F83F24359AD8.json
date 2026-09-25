@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "276ca17ad59f828e7c48b8d3f5780810fba4ff7520692a77bf0deff1",
+  "skn": "8f9f46495247a1641596483fd3f713b8d1fd9b46382b544786381b61cd42fb96",
+  "sks": "7db893c9b88ae628d0938217f51567d7eb4d0bc98f909539d5a2b4d1813d9d80",
+  "paired_at": "2025-09-29T17:09:23.653832+00:00",
+  "name": "TSD62H",
+  "model": "",
+  "identifier": "99F29722-1310-48B7-9AA3-F83F24359AD8",
+  "alignment_date": "2026-08-24T18:09:10+00:00",
+  "alignment_index": 31591,
+  "serial": "HGPPXAGKP0GV",
+  "icloud_account": "monedasolga@gmail.com",
+  "imported_at": "2026-09-25T15:11:29.710106+00:00",
+  "first_imported_at": "2026-09-25T15:11:29.710106+00:00"
+}

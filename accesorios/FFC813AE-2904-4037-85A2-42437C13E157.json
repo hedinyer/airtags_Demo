@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "d8323ea7746bc72e4a1f6e5f048a3ff86a8975f2102451dc22099307",
+  "skn": "2254880741da9f263f760059570da4a9931f826c7262d6fb961ffdb6030ed79e",
+  "sks": "5d476528e10e31ea227af96e2d459aa465b196e1a787fbd4255f814f3b0aaa21",
+  "paired_at": "2025-10-03T14:22:14.190758+00:00",
+  "name": "TSC31H",
+  "model": "",
+  "identifier": "FFC813AE-2904-4037-85A2-42437C13E157",
+  "alignment_date": "2026-08-24T18:19:00+00:00",
+  "alignment_index": 31218,
+  "serial": "HGKPCMM9P0GV",
+  "icloud_account": "monedasolga@gmail.com",
+  "imported_at": "2026-09-25T15:11:29.710106+00:00",
+  "first_imported_at": "2026-09-25T15:11:29.710106+00:00"
+}

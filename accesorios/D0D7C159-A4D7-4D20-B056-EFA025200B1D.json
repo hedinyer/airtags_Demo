@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "42002ed05000f3674007a28983f4ae0e2ae976278b4733771fdc4152",
+  "skn": "6b8be4ecbd4ba5a1e3b8a105fb17e753e07cd5e17bf0de419e0219c84c231ef7",
+  "sks": "554a3f9f88d437b3b2125767b1fa5ddbaec3396ea7fb5c13ca1abedc7b36a467",
+  "paired_at": "2025-09-29T21:23:47.898235+00:00",
+  "name": "TIK76H Milán",
+  "model": "",
+  "identifier": "D0D7C159-A4D7-4D20-B056-EFA025200B1D",
+  "alignment_date": "2026-08-24T18:13:40+00:00",
+  "alignment_index": 31573,
+  "serial": "HGPPX7GPP0GV",
+  "icloud_account": "monedasolga@gmail.com",
+  "imported_at": "2026-09-25T15:11:29.710106+00:00",
+  "first_imported_at": "2026-09-25T15:11:29.710106+00:00"
+}

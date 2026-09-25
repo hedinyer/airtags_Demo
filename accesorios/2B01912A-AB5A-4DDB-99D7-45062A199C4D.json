@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "9c062049c76af96e6d89b9341b49badc432190c75c100bff9a61a392",
+  "skn": "a22e6b8217ae4fb24dbff4d11f6f1f44586c0822193c8b77ab56249bf1697a14",
+  "sks": "1f25da63fe2a6f7d2fb8356fb47602d56467b43e7f467ee5669d3ec026adce7d",
+  "paired_at": "2025-10-02T18:50:57.947975+00:00",
+  "name": "TSD45H",
+  "model": "",
+  "identifier": "2B01912A-AB5A-4DDB-99D7-45062A199C4D",
+  "alignment_date": "2026-08-24T17:41:50+00:00",
+  "alignment_index": 31295,
+  "serial": "HGPPX8MFP0GV",
+  "icloud_account": "monedasolga@gmail.com",
+  "imported_at": "2026-09-25T15:11:29.710106+00:00",
+  "first_imported_at": "2026-09-25T15:11:29.710106+00:00"
+}

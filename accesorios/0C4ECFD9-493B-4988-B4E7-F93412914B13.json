@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "165ba1b4a84be722090f199d9741dd101b5b736fb0df8d12b375e73f",
+  "skn": "f259055b792c05626ef41428b218ee0372f7f0dcd958dd316b25a813508bfad2",
+  "sks": "56e8ae004b5c16e7d250fb6037a4ba45a50c43e6e86d1d44937befd2e464038f",
+  "paired_at": "2025-10-03T14:18:37.825082+00:00",
+  "name": "TSC30H",
+  "model": "",
+  "identifier": "0C4ECFD9-493B-4988-B4E7-F93412914B13",
+  "alignment_date": "2026-08-24T18:07:50+00:00",
+  "alignment_index": 31217,
+  "serial": "HGPPX8RBP0GV",
+  "icloud_account": "monedasolga@gmail.com",
+  "imported_at": "2026-09-25T15:11:29.710106+00:00",
+  "first_imported_at": "2026-09-25T15:11:29.710106+00:00"
+}

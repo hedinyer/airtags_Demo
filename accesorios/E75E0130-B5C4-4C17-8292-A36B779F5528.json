@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "ca0742a55f8b38e6b637ed0bc732e655d69275283fb1b037f2798aa6",
+  "skn": "5332bb628b9a9e603b7feab0cf95a5d82431c96f58d6df791c1695762fadba0c",
+  "sks": "a01a60415cd4bc4165ce3d96f4419bec7e9eae82e8829d6162ee5da175fc5122",
+  "paired_at": "2025-10-02T18:53:21.552647+00:00",
+  "name": "TSD47H",
+  "model": "",
+  "identifier": "E75E0130-B5C4-4C17-8292-A36B779F5528",
+  "alignment_date": "2026-08-24T18:02:30+00:00",
+  "alignment_index": 31294,
+  "serial": "HGQPX9Q8P0GV",
+  "icloud_account": "monedasolga@gmail.com",
+  "imported_at": "2026-09-25T15:11:29.710106+00:00",
+  "first_imported_at": "2026-09-25T15:11:29.710106+00:00"
+}
