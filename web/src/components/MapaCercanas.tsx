@@ -30,7 +30,10 @@ type MapaCercanasProps = {
   onSeleccionar: (placa: string) => void;
   /** Si true, el mapa encuadra origen + motos (útil al buscar fuera del radio). */
   ajustarAMotos?: boolean;
+  /** Círculo de radio alrededor del origen. */
+  mostrarRadio?: boolean;
   origenLabel?: string;
+  ariaLabel?: string;
   className?: string;
 };
 
@@ -41,7 +44,9 @@ export function MapaCercanas({
   seleccionada,
   onSeleccionar,
   ajustarAMotos = false,
+  mostrarRadio = true,
   origenLabel = "Punto de búsqueda",
+  ariaLabel = "Mapa de motos cercanas",
   className,
 }: MapaCercanasProps) {
   const contenedorRef = useRef<HTMLDivElement>(null);
@@ -77,14 +82,16 @@ export function MapaCercanas({
           '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>',
       }).addTo(mapa);
 
-      circuloRef.current = L.circle([o.lat, o.lng], {
-        radius: radioKm * 1000,
-        color: "#38bdf8",
-        weight: 1.5,
-        fillColor: "#0ea5e9",
-        fillOpacity: 0.06,
-        interactive: false,
-      }).addTo(mapa);
+      if (mostrarRadio) {
+        circuloRef.current = L.circle([o.lat, o.lng], {
+          radius: radioKm * 1000,
+          color: "#38bdf8",
+          weight: 1.5,
+          fillColor: "#0ea5e9",
+          fillOpacity: 0.06,
+          interactive: false,
+        }).addTo(mapa);
+      }
 
       origenMarkerRef.current = L.circleMarker([o.lat, o.lng], {
         radius: 7,
@@ -120,17 +127,17 @@ export function MapaCercanas({
       marcadores.clear();
       setMapaListo(false);
     };
-  }, [radioKm]);
+  }, [radioKm, mostrarRadio]);
 
   useEffect(() => {
     const mapa = mapaRef.current;
     const circulo = circuloRef.current;
     const origenMarker = origenMarkerRef.current;
-    if (!mapa || !circulo || !origenMarker) return;
-    circulo.setLatLng([origen.lat, origen.lng]);
+    if (!mapa || !origenMarker) return;
+    circulo?.setLatLng([origen.lat, origen.lng]);
     origenMarker.setLatLng([origen.lat, origen.lng]);
     origenMarker.setTooltipContent(origenLabel);
-    if (!ajustarAMotos) {
+    if (!ajustarAMotos && circulo) {
       mapa.fitBounds(circulo.getBounds(), {
         padding: [28, 28],
         maxZoom: 14,
@@ -223,7 +230,7 @@ export function MapaCercanas({
         ref={contenedorRef}
         className="absolute inset-0 z-0"
         role="application"
-        aria-label="Mapa de motos cercanas"
+        aria-label={ariaLabel}
       />
     </div>
   );

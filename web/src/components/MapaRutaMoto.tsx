@@ -3,7 +3,7 @@
 import "leaflet/dist/leaflet.css";
 
 import { useEffect, useRef, useState } from "react";
-import { ArrowLeftIcon } from "lucide-react";
+import { ArrowLeftIcon, NavigationIcon } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -12,6 +12,7 @@ import {
   ICON_SIZE_MOTO,
 } from "@/lib/marcadorMoto";
 import { distanciaKm } from "@/lib/distancia";
+import { enlaceGoogleMapsRuta } from "@/lib/geolocation";
 import {
   formatearDistanciaRuta,
   formatearDuracionRuta,
@@ -49,6 +50,7 @@ export function MapaRutaMoto({
   const origenRutaRef = useRef<Origen | null>(null);
   const encuadradoRef = useRef(false);
   const [meta, setMeta] = useState<string>("Calculando ruta…");
+  const [mapaListo, setMapaListo] = useState(false);
   const origenRef = useRef(origen);
   origenRef.current = origen;
 
@@ -71,7 +73,8 @@ export function MapaRutaMoto({
           '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>',
       }).addTo(mapa);
 
-      origenMarkerRef.current = L.circleMarker([origen.lat, origen.lng], {
+      const o = origenRef.current;
+      origenMarkerRef.current = L.circleMarker([o.lat, o.lng], {
         radius: 8,
         color: "#fff",
         weight: 2,
@@ -92,6 +95,7 @@ export function MapaRutaMoto({
         .addTo(mapa);
 
       mapaRef.current = mapa;
+      setMapaListo(true);
       requestAnimationFrame(() => mapa.invalidateSize());
     })();
 
@@ -104,6 +108,7 @@ export function MapaRutaMoto({
       mapaRef.current = null;
       origenRutaRef.current = null;
       encuadradoRef.current = false;
+      setMapaListo(false);
     };
   }, [placa, lat, lng]);
 
@@ -113,7 +118,7 @@ export function MapaRutaMoto({
     (async () => {
       const mapa = mapaRef.current;
       const origenMarker = origenMarkerRef.current;
-      if (!mapa || !origenMarker) return;
+      if (!mapaListo || !mapa || !origenMarker) return;
 
       origenMarker.setLatLng([origen.lat, origen.lng]);
 
@@ -169,7 +174,9 @@ export function MapaRutaMoto({
     return () => {
       cancelado = true;
     };
-  }, [origen.lat, origen.lng, lat, lng]);
+  }, [origen.lat, origen.lng, lat, lng, mapaListo]);
+
+  const maps = enlaceGoogleMapsRuta(origen, { lat, lng });
 
   return (
     <div
@@ -196,12 +203,36 @@ export function MapaRutaMoto({
           <p className="text-xs tabular-nums text-muted-foreground">{meta}</p>
         </div>
       </header>
-      <div
-        ref={contenedorRef}
-        className="min-h-0 flex-1"
-        role="application"
-        aria-label={`Mapa de ruta a ${placa}`}
-      />
+      <div className="relative min-h-0 flex-1">
+        <div
+          ref={contenedorRef}
+          className="absolute inset-0"
+          role="application"
+          aria-label={`Mapa de ruta a ${placa}`}
+        />
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 z-[500] p-3 pb-[max(0.75rem,env(safe-area-inset-bottom))]">
+          <div className="pointer-events-auto mx-auto flex max-w-md items-center gap-3 rounded-2xl border border-border bg-card/95 px-3.5 py-3 shadow-lg backdrop-blur-sm">
+            <div className="min-w-0 flex-1">
+              <p className="text-sm font-semibold tabular-nums text-foreground">
+                {meta}
+              </p>
+              <p className="text-xs text-muted-foreground">
+                Ruta en coche · se actualiza al moverte
+              </p>
+            </div>
+            <Button
+              type="button"
+              className="h-11 min-h-[44px] shrink-0 active:scale-[0.96]"
+              asChild
+            >
+              <a href={maps} target="_blank" rel="noopener noreferrer">
+                <NavigationIcon className="mr-1.5 size-4" aria-hidden />
+                Navegar
+              </a>
+            </Button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
