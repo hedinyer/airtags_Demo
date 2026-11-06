@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "1ebf94154b348c0d6c1d9b11ff914b12922e9bb34569b76d85b8233a",
+  "skn": "4c33bd54d9f62651bb5d19e52c5a8d1917101cbf82e234a8c440169810696819",
+  "sks": "e78299c536824f68fda4874a2dfed18ab60446db7fff2141e26ce45fd35b0863",
+  "paired_at": "2025-11-01T19:18:40.649175+00:00",
+  "name": "me:/001872-08-c5af670e-947c-423d-94d8-726b1bc563e6",
+  "model": "iPhone14,2",
+  "identifier": "1C2384F2-1F02-47E6-BADB-1FDD133A1C57",
+  "alignment_date": "2025-11-01T19:18:46.902395+00:00",
+  "alignment_index": 2,
+  "serial": "me:/001872-08-c5af670e-947c-423d-94d8-726b1bc563e6",
+  "icloud_account": "gigiogarrido37@icloud.com",
+  "imported_at": "2026-10-19T20:42:38.710608+00:00",
+  "first_imported_at": "2026-10-19T20:42:38.710608+00:00"
+}

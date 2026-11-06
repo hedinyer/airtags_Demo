@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "7ef071f2ebe872b6bc5192ef510f6fe205a4d1da23d54a2f3f79e398",
+  "skn": "b5b3ff12c1581fe8f1fcf3dc621efe3a57a709823fd3b7fcff07b620bfac335f",
+  "sks": "b044c75df2fdeae9c918b005436fbd8eae1af552944e6e9a2d2c8bdac7772d74",
+  "paired_at": "2026-07-27T17:51:21.930783+00:00",
+  "name": "TIM88H",
+  "model": "empty",
+  "identifier": "8EA4D056-CF65-4BF6-A4F2-D7EBD29C966F",
+  "alignment_date": "2026-10-15T19:53:19.206000+00:00",
+  "alignment_index": 7689,
+  "serial": "HGDQW60EP0GV",
+  "icloud_account": "gigiogarrido37@icloud.com",
+  "imported_at": "2026-10-19T20:42:38.710608+00:00",
+  "first_imported_at": "2026-10-19T20:42:38.710608+00:00"
+}

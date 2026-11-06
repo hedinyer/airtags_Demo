@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "3959481d410abe21507b9528ee8cdc6314dd1e024388e311c8f0a92e",
+  "skn": "21e4294c3d2442fe91163aaa43e1ad67739b5582f81716a890a23fa2aa900083",
+  "sks": "d55dcd34310b9ebffc7093dd45de6506bc14672bbfc7b26139805d607ba6b04c",
+  "paired_at": "2026-07-10T14:50:58.749058+00:00",
+  "name": "KFF86I",
+  "model": "empty",
+  "identifier": "EB0920BB-F708-4594-A407-AF5B5AD14944",
+  "alignment_date": "2026-10-15T15:11:20+00:00",
+  "alignment_index": 9314,
+  "serial": "J01QVDLKP0GV",
+  "icloud_account": "gigiogarrido37@icloud.com",
+  "imported_at": "2026-10-19T20:42:38.710608+00:00",
+  "first_imported_at": "2026-10-19T20:42:38.710608+00:00"
+}

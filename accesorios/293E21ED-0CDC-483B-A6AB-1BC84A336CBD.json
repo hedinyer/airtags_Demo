@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "3c21947964081df38b2167756befb8dfe0807975e75fe58597dbee40",
+  "skn": "0f60a7330f39a9be03243a0948fd12ade69c727b92021ef1212f69ddf8969849",
+  "sks": "e9cc8c71c9cf65284e947f41a467cda9150448a55561c3f3d8f066a299bffd4d",
+  "paired_at": "2026-07-24T14:17:46.876316+00:00",
+  "name": "KGC64I",
+  "model": "empty",
+  "identifier": "293E21ED-0CDC-483B-A6AB-1BC84A336CBD",
+  "alignment_date": "2026-10-15T15:54:10+00:00",
+  "alignment_index": 7975,
+  "serial": "J01QJF95P0GV",
+  "icloud_account": "gigiogarrido37@icloud.com",
+  "imported_at": "2026-10-19T20:42:38.710608+00:00",
+  "first_imported_at": "2026-10-19T20:42:38.710608+00:00"
+}

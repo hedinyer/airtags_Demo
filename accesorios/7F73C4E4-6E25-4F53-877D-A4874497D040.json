@@ -1,0 +1,15 @@
+{
+  "type": "accessory",
+  "master_key": "f7c29bb732a74f5e2f73403ae3ab0c4bc9706a4c3cfeb889924aa68f",
+  "skn": "f3ed004b5b62256f11b66019dcf21421a013eefbff4cd9c041dd96cf7a6660e5",
+  "sks": "110707ccf748757cf21650a1bbd6daf3ca21dd98f625620ae7f34e6c7980b125",
+  "paired_at": "2025-11-20T14:33:33.127597+00:00",
+  "name": "iPhone de gigio",
+  "model": "iPhone14,2",
+  "identifier": "7F73C4E4-6E25-4F53-877D-A4874497D040",
+  "alignment_date": "2025-11-20T14:33:33.127597+00:00",
+  "alignment_index": 0,
+  "icloud_account": "gigiogarrido37@icloud.com",
+  "imported_at": "2026-10-19T20:42:38.710608+00:00",
+  "first_imported_at": "2026-10-19T20:42:38.710608+00:00"
+}

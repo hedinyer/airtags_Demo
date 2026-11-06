@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "fdfab11fb83e83868d797d9e2e073cc5968503ef0c0f12b3e461b3d5",
+  "skn": "efd6cc0ffc2aa81baae5be769ba9af6940e6ded9316d24fd1dc7a3f48d42f8fd",
+  "sks": "df3be7bd6935b4b842a8c961f42d9d93413a4ee05be0eddfeabb67cec2e8fa66",
+  "paired_at": "2026-07-16T14:19:44.679766+00:00",
+  "name": "KFM60I",
+  "model": "empty",
+  "identifier": "38C203D2-B68A-402F-9A71-449ADCF8929B",
+  "alignment_date": "2026-10-15T12:29:00+00:00",
+  "alignment_index": 8727,
+  "serial": "JFTQWUPBP0GV",
+  "icloud_account": "gigiogarrido37@icloud.com",
+  "imported_at": "2026-10-19T20:42:38.710608+00:00",
+  "first_imported_at": "2026-10-19T20:42:38.710608+00:00"
+}

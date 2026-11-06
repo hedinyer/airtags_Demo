@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "dd72c3a86e8f1d94b730670fb12447d2f58f06b88682a6fb8f88b324",
+  "skn": "d852600b951a9ec4efa00e30bf9631224c0cc4dab83b5c78bd2f1995247b6feb",
+  "sks": "1be9a4e09f130d1a80e4ff5e60189291d9822277a2c693849ee4f89263858553",
+  "paired_at": "2026-07-24T14:22:38.086576+00:00",
+  "name": "KGC60I",
+  "model": "empty",
+  "identifier": "7D8AC7B6-D8C6-4216-9FB6-150872FD7112",
+  "alignment_date": "2026-10-15T02:08:50+00:00",
+  "alignment_index": 7920,
+  "serial": "J01QVHXEP0GV",
+  "icloud_account": "gigiogarrido37@icloud.com",
+  "imported_at": "2026-10-19T20:42:38.710608+00:00",
+  "first_imported_at": "2026-10-19T20:42:38.710608+00:00"
+}

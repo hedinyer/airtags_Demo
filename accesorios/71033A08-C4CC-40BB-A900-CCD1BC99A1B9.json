@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "9ec7076330ef8e44317318a2e5c7b04a0297dfe966ac1f5674cd687b",
+  "skn": "6cb30d4517f62e9ef1a478a9012d258102cd68f7588724531729d3ae30d8747a",
+  "sks": "73bdd209fc5a73c13161b485f580d883a7d52a60b124de1a0c00930301a011e1",
+  "paired_at": "2026-07-14T21:16:00.867192+00:00",
+  "name": "KFM61I",
+  "model": "empty",
+  "identifier": "71033A08-C4CC-40BB-A900-CCD1BC99A1B9",
+  "alignment_date": "2026-10-15T11:45:40+00:00",
+  "alignment_index": 8891,
+  "serial": "J01QVGPRP0GV",
+  "icloud_account": "gigiogarrido37@icloud.com",
+  "imported_at": "2026-10-19T20:42:38.710608+00:00",
+  "first_imported_at": "2026-10-19T20:42:38.710608+00:00"
+}
