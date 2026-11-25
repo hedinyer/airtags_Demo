@@ -1116,9 +1116,7 @@
 
     function setActiveGeomalla(id, { fit = false } = {}) {
       activeGeomallaId = id;
-      const f = getGeomallaById(id);
-      if (fit && f) fitToGeomalla(f);
-      refreshGeomallaUi();
+      refreshGeomallaUi({ fitCoins: fit });
     }
 
     function clearActiveGeomalla() {
@@ -1126,13 +1124,46 @@
       refreshGeomallaUi();
     }
 
-    function refreshGeomallaUi() {
+    function devicesForMap() {
+      const f = activeGeomallaId ? getGeomallaById(activeGeomallaId) : null;
+      return f ? coinsInGeomalla(f, latestDevices) : latestDevices;
+    }
+
+    function paintDevices() {
+      if (layersReady) setSourceData('devices', devicesToGeoJSON(devicesForMap()));
+    }
+
+    function fitToCoins(devices) {
+      const found = (devices || []).filter(
+        (d) => d.found && d.latitude != null && d.longitude != null
+      );
+      if (!found.length) return false;
+      if (found.length === 1) {
+        map.easeTo({
+          center: [found[0].longitude, found[0].latitude],
+          zoom: Math.max(map.getZoom(), 15),
+          duration: REDUCE ? 0 : 400,
+        });
+        return true;
+      }
+      const b = new maplibregl.LngLatBounds();
+      for (const d of found) b.extend([d.longitude, d.latitude]);
+      map.fitBounds(b, {
+        padding: fitPads(),
+        maxZoom: 16,
+        duration: REDUCE ? 0 : 400,
+      });
+      return true;
+    }
+
+    function refreshGeomallaUi({ fitCoins = false } = {}) {
       const f = activeGeomallaId ? getGeomallaById(activeGeomallaId) : null;
       const devices = latestDevices;
+      const inside = f ? coinsInGeomalla(f, devices) : null;
+      paintDevices();
       if (!SHARED_PLACA) {
         const q = document.getElementById('search')?.value || '';
         if (f) {
-          const inside = coinsInGeomalla(f, devices);
           renderList(inside, q, true);
           const sum = document.getElementById('summary');
           if (sum) {
@@ -1143,11 +1174,16 @@
               clearActiveGeomalla();
             });
           }
+          if (fitCoins) {
+            if (!fitToCoins(inside)) fitToGeomalla(f);
+          }
         } else {
           renderList(devices, q, true);
           const foundCount = devices.filter((d) => d.found).length;
           if (latestUpdatedAt) refreshStatusOnly({ updated_at: latestUpdatedAt }, foundCount);
         }
+      } else if (f && fitCoins) {
+        if (!fitToCoins(inside)) fitToGeomalla(f);
       }
     }
 
@@ -1462,11 +1498,11 @@
         clearRoute();
         clearAccuracy();
         popup.remove();
-        if (layersReady) setSourceData('devices', devicesToGeoJSON(latestDevices));
+        paintDevices();
         return;
       }
 
-      if (layersReady) setSourceData('devices', devicesToGeoJSON(latestDevices));
+      paintDevices();
 
       const radius = Math.max(30, Number(d.accuracy_m) || 40);
       setSourceData('accuracy', {
@@ -1795,7 +1831,7 @@
 
       if (!mapReady) return;
       ensureLayers();
-      setSourceData('devices', devicesToGeoJSON(devices));
+      paintDevices();
 
       if (placa && routeTarget) {
         const key = deviceKey(routeTarget);
@@ -1964,7 +2000,7 @@
         document.querySelectorAll('.device-row[aria-selected="true"]').forEach((el) => {
           el.setAttribute('aria-selected', 'false');
         });
-        if (layersReady) setSourceData('devices', devicesToGeoJSON(latestDevices));
+        paintDevices();
       }
     });
 
