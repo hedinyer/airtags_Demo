@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "8825fa67b82b704be78effab0287f41b146bcb853d492ea87fa6fa95",
+  "skn": "e6b663982d6ad247eee4425f9a4023338a100593caf49bdf43e2813839523132",
+  "sks": "39ebdc4238e540d6a9cf0626bb12be07f5a7cbbbe01e03d97ca7e8fe2c9dc282",
+  "paired_at": "2026-10-28T16:18:02.444005+00:00",
+  "name": "QJS43I",
+  "model": "empty",
+  "identifier": "8125482A-925F-4D84-B585-851943B4A190",
+  "alignment_date": "2026-11-09T18:42:10+00:00",
+  "alignment_index": 1162,
+  "serial": "HGDQXZAGP0GV",
+  "icloud_account": "solucionespinilla889@icloud.com",
+  "imported_at": "2026-11-21T18:53:57.212894+00:00",
+  "first_imported_at": "2026-11-21T18:53:57.212894+00:00"
+}

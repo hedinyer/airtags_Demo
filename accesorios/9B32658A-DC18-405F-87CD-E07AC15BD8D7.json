@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "ba8bec865489002e1678ac8f27ee286cebbdaede84f16fbadf350dab",
+  "skn": "e352cb1d0faf16850a55c73e997521455d4e47d971a28aac29435ee865277316",
+  "sks": "87c49ab0676180787f49bc8d492ff54152e6f6fd8eb23db9572f6eece9fc8cde",
+  "paired_at": "2026-10-28T16:17:10.113467+00:00",
+  "name": "QJS37I",
+  "model": "empty",
+  "identifier": "9B32658A-DC18-405F-87CD-E07AC15BD8D7",
+  "alignment_date": "2026-11-09T18:10:30+00:00",
+  "alignment_index": 1160,
+  "serial": "HGCQXCLRP0GV",
+  "icloud_account": "solucionespinilla889@icloud.com",
+  "imported_at": "2026-11-21T18:53:57.212894+00:00",
+  "first_imported_at": "2026-11-21T18:53:57.212894+00:00"
+}

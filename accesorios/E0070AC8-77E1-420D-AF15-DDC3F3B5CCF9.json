@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "1880d3ed2b7d3a00f40402605a375d4d262fc2a7fa28a8ce8c39bfa0",
+  "skn": "6e1a3e19b1e6fe1ee12316864b592fb59e91b55a8321a540702e5588074c3e27",
+  "sks": "edfeae52dc6229059ae514ae12d28ec6987cdbb58fdf6b64ba5a2acdb6af1bed",
+  "paired_at": "2026-10-20T19:16:14.713605+00:00",
+  "name": "QJS36I",
+  "model": "AirTag (2nd generation)",
+  "identifier": "E0070AC8-77E1-420D-AF15-DDC3F3B5CCF9",
+  "alignment_date": "2026-11-09T12:52:10+00:00",
+  "alignment_index": 1895,
+  "serial": "FH7YTQP7M3",
+  "icloud_account": "solucionespinilla889@icloud.com",
+  "imported_at": "2026-11-21T18:53:57.212894+00:00",
+  "first_imported_at": "2026-11-21T18:53:57.212894+00:00"
+}

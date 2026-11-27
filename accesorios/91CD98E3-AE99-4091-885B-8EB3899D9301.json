@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "c8ce5f59ce4cc88e3ea766d07d9f899c48ec31bd43db8d7480f09572",
+  "skn": "a9115a085e79ac16dcde1cff074f77c34cfda7a8b01648cc2dbd2adfebd813e0",
+  "sks": "a5c7fba4d4e90490203331a7a6d9afab92dc86f01ac0662fe0a02395dc629bed",
+  "paired_at": "2026-10-23T21:10:51.775132+00:00",
+  "name": "NCT39I",
+  "model": "AirTag (2nd generation)",
+  "identifier": "91CD98E3-AE99-4091-885B-8EB3899D9301",
+  "alignment_date": "2026-11-09T18:48:10+00:00",
+  "alignment_index": 1624,
+  "serial": "MH573Y9R72",
+  "icloud_account": "solucionespinilla889@icloud.com",
+  "imported_at": "2026-11-21T18:53:57.212894+00:00",
+  "first_imported_at": "2026-11-21T18:53:57.212894+00:00"
+}

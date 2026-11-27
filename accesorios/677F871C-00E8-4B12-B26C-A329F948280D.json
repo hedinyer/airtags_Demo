@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "c2876d668d06a6dd174efb7c2164196680fded96fe2bceaf6214b559",
+  "skn": "6b89288020c8d776887fb59bf3488796277c6bdb84f11a1175b4da1c396ab500",
+  "sks": "095f2b845ff1c0ff8eedd027914855f5eeebcbfca279cb63b2b36a6a85e5073f",
+  "paired_at": "2026-10-23T21:11:35.365289+00:00",
+  "name": "NCP38I",
+  "model": "AirTag (2nd generation)",
+  "identifier": "677F871C-00E8-4B12-B26C-A329F948280D",
+  "alignment_date": "2026-11-09T18:49:20+00:00",
+  "alignment_index": 1623,
+  "serial": "G67TP75FXQ",
+  "icloud_account": "solucionespinilla889@icloud.com",
+  "imported_at": "2026-11-21T18:53:57.212894+00:00",
+  "first_imported_at": "2026-11-21T18:53:57.212894+00:00"
+}

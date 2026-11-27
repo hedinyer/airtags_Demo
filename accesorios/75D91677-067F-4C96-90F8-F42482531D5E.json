@@ -1,0 +1,16 @@
+{
+  "type": "accessory",
+  "master_key": "3877b16d2324803dd8cf26b2266ff5a97844e3c3201a6b6a26368ca7",
+  "skn": "d631e6d9ecb848a64beb0b1a3217cf81faeee9d743b3483d75af90678f0310c5",
+  "sks": "3b33b61055249b5381e2a34142182f7d0ddd5cc740f853f8633904fef54eb14d",
+  "paired_at": "2026-10-23T21:14:05.733192+00:00",
+  "name": "NCP35I",
+  "model": "AirTag (2nd generation)",
+  "identifier": "75D91677-067F-4C96-90F8-F42482531D5E",
+  "alignment_date": "2026-11-09T18:47:40+00:00",
+  "alignment_index": 1624,
+  "serial": "JCH64JFD4G",
+  "icloud_account": "solucionespinilla889@icloud.com",
+  "imported_at": "2026-11-21T18:53:57.212894+00:00",
+  "first_imported_at": "2026-11-21T18:53:57.212894+00:00"
+}
