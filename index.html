@@ -114,6 +114,104 @@
       font-size: 0.78rem; font-weight: 560; color: var(--ink-secondary);
       font-variant-numeric: tabular-nums;
     }
+    .geomalla-btn {
+      pointer-events: auto;
+      border: 0;
+      cursor: pointer;
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: oklch(1 0 0 / 0.94);
+      box-shadow: 0 8px 28px oklch(0 0 0 / 0.12);
+      font: inherit;
+      font-size: 0.78rem; font-weight: 600; color: var(--ink);
+    }
+    .geomalla-btn[aria-pressed="true"] {
+      background: var(--accent-soft);
+      color: var(--accent);
+      box-shadow: 0 0 0 2px oklch(0.55 0.16 145 / 0.35), 0 8px 28px oklch(0 0 0 / 0.12);
+    }
+    .geomalla-btn:focus-visible {
+      outline: 2px solid var(--focus);
+      outline-offset: 2px;
+    }
+    body.shared .geomalla-btn,
+    body.shared .draw-bar,
+    body.shared .geomalla-clear-filter { display: none !important; }
+    .draw-bar {
+      position: absolute; z-index: 1000;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: calc(24px + var(--safe-b));
+      display: none;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 12px;
+      border-radius: 18px;
+      background: oklch(1 0 0 / 0.96);
+      box-shadow: var(--shadow-sheet);
+      pointer-events: auto;
+      max-width: calc(100vw - 24px);
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .draw-bar.visible { display: flex; }
+    .draw-bar .hint {
+      font-size: 0.78rem;
+      color: var(--ink-secondary);
+      padding: 0 4px;
+      white-space: nowrap;
+    }
+    .draw-bar button {
+      border: 0;
+      cursor: pointer;
+      font: inherit;
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 10px 14px;
+      border-radius: 12px;
+      min-height: 40px;
+      background: oklch(0.94 0.008 260);
+      color: var(--ink);
+    }
+    .draw-bar button.primary {
+      background: var(--accent);
+      color: white;
+    }
+    .draw-bar button:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+    .draw-bar button:focus-visible {
+      outline: 2px solid var(--focus);
+      outline-offset: 2px;
+    }
+    .sheet-sub .geomalla-clear-filter {
+      border: 0;
+      background: none;
+      padding: 0;
+      margin-left: 6px;
+      font: inherit;
+      font-size: inherit;
+      font-weight: 600;
+      color: var(--accent);
+      cursor: pointer;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .sheet-sub .geomalla-clear-filter:focus-visible {
+      outline: 2px solid var(--focus);
+      outline-offset: 2px;
+    }
+    @media (max-width: 719px) {
+      .draw-bar {
+        bottom: calc(var(--sheet-h) + 16px + var(--safe-b));
+        left: 12px;
+        right: 12px;
+        transform: none;
+        max-width: none;
+      }
+    }
     .status-dot {
       width: 8px; height: 8px; border-radius: 50%;
       background: var(--accent); flex-shrink: 0;
@@ -564,10 +662,20 @@
       </span>
       Find My
     </div>
+    <button type="button" class="geomalla-btn" id="geomallaBtn" aria-pressed="false">
+      Geomalla
+    </button>
     <div class="status-pill" id="statusPill">
       <span class="status-dot live" aria-hidden="true"></span>
       <span id="statusText">Actualizando…</span>
     </div>
+  </div>
+
+  <div class="draw-bar" id="drawBar" role="toolbar" aria-label="Dibujar geomalla" hidden>
+    <span class="hint" id="drawHint">Toca el mapa para añadir vértices</span>
+    <button type="button" class="primary" id="closePolyBtn" disabled>Cerrar polígono</button>
+    <button type="button" id="cancelDrawBtn">Cancelar</button>
+    <button type="button" id="clearGeomallasBtn">Borrar geomallas</button>
   </div>
 
   <section
@@ -693,9 +801,21 @@
     let pendingSnapshot = null;
     let mapReady = false;
     let layersReady = false;
+    // ponytail: geomallas solo en cliente; localStorage basta
+    const GEOMALLAS_KEY = 'fm-geomallas';
+    let drawing = false;
+    let draftVertices = [];
+    let geomallasFc = { type: 'FeatureCollection', features: [] };
+    let activeGeomallaId = null;
     const SHARE_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M12 3v12"/><path d="m7 8 5-5 5 5"/></svg>';
     const sheetEl = document.getElementById('deviceSheet');
     const sheetHandle = document.getElementById('sheetHandle');
+    const geomallaBtn = document.getElementById('geomallaBtn');
+    const drawBar = document.getElementById('drawBar');
+    const closePolyBtn = document.getElementById('closePolyBtn');
+    const cancelDrawBtn = document.getElementById('cancelDrawBtn');
+    const clearGeomallasBtn = document.getElementById('clearGeomallasBtn');
+    const drawHint = document.getElementById('drawHint');
     const MOBILE_MQ = window.matchMedia('(max-width: 719px)');
 
     function isMobile() {
@@ -830,6 +950,281 @@
     function setSourceData(id, data) {
       const src = map.getSource(id);
       if (src) src.setData(data);
+    }
+
+    function loadGeomallas() {
+      try {
+        const raw = localStorage.getItem(GEOMALLAS_KEY);
+        if (!raw) return emptyFc();
+        const parsed = JSON.parse(raw);
+        if (!parsed || parsed.type !== 'FeatureCollection' || !Array.isArray(parsed.features)) {
+          return emptyFc();
+        }
+        return parsed;
+      } catch {
+        return emptyFc();
+      }
+    }
+
+    function saveGeomallas() {
+      try {
+        localStorage.setItem(GEOMALLAS_KEY, JSON.stringify(geomallasFc));
+      } catch { /* ignore quota */ }
+    }
+
+    function pointInPolygon(lng, lat, ring) {
+      // ponytail: ray casting; ok for flat city-scale polygons
+      let inside = false;
+      for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+        const xi = ring[i][0];
+        const yi = ring[i][1];
+        const xj = ring[j][0];
+        const yj = ring[j][1];
+        if (yj === yi) continue;
+        const intersect =
+          yi > lat !== yj > lat &&
+          lng < ((xj - xi) * (lat - yi)) / (yj - yi) + xi;
+        if (intersect) inside = !inside;
+      }
+      return inside;
+    }
+
+    function getGeomallaById(id) {
+      return geomallasFc.features.find((f) => f.properties && f.properties.id === id) || null;
+    }
+
+    function coinsInGeomalla(feature, devices) {
+      if (!feature || !feature.geometry || feature.geometry.type !== 'Polygon') return [];
+      const ring = feature.geometry.coordinates[0];
+      if (!ring || ring.length < 4) return [];
+      return (devices || []).filter((d) => {
+        if (!d.found || d.latitude == null || d.longitude == null) return false;
+        return pointInPolygon(d.longitude, d.latitude, ring);
+      });
+    }
+
+    function draftToGeoJSON() {
+      const features = [];
+      if (draftVertices.length >= 2) {
+        features.push({
+          type: 'Feature',
+          properties: { kind: 'line' },
+          geometry: { type: 'LineString', coordinates: draftVertices.slice() },
+        });
+      }
+      for (const v of draftVertices) {
+        features.push({
+          type: 'Feature',
+          properties: { kind: 'vertex' },
+          geometry: { type: 'Point', coordinates: v },
+        });
+      }
+      return { type: 'FeatureCollection', features };
+    }
+
+    function syncDraftSource() {
+      if (layersReady) setSourceData('geomalla-draft', draftToGeoJSON());
+      if (closePolyBtn) closePolyBtn.disabled = draftVertices.length < 3;
+      if (drawHint) {
+        drawHint.textContent =
+          draftVertices.length < 3
+            ? `Toca el mapa (${draftVertices.length}/3 vértices mín.)`
+            : `${draftVertices.length} vértices · Cierra o doble clic`;
+      }
+    }
+
+    function setDrawing(on) {
+      if (SHARED_PLACA) return;
+      drawing = !!on;
+      if (geomallaBtn) geomallaBtn.setAttribute('aria-pressed', drawing ? 'true' : 'false');
+      if (drawBar) {
+        drawBar.hidden = !drawing;
+        drawBar.classList.toggle('visible', drawing);
+      }
+      map.getCanvas().style.cursor = drawing ? 'crosshair' : '';
+      if (drawing) {
+        map.doubleClickZoom.disable();
+        syncDraftSource();
+        collapseSheetForMap();
+      } else {
+        map.doubleClickZoom.enable();
+        draftVertices = [];
+        syncDraftSource();
+      }
+    }
+
+    function paintGeomallas() {
+      if (layersReady) setSourceData('geomallas', geomallasFc);
+    }
+
+    function fitToGeomalla(feature) {
+      if (!feature || !feature.geometry) return;
+      const ring = feature.geometry.coordinates[0];
+      const b = new maplibregl.LngLatBounds();
+      for (const c of ring) b.extend(c);
+      map.fitBounds(b, {
+        padding: fitPads(),
+        maxZoom: 16,
+        duration: REDUCE ? 0 : 400,
+      });
+    }
+
+    function geomallaPopupHtml(feature) {
+      const inside = coinsInGeomalla(feature, latestDevices);
+      const names = inside.map((d) => d.name);
+      const shown = names.slice(0, 12);
+      const more = names.length - shown.length;
+      const list =
+        shown.length === 0
+          ? '<em>Ninguna moneda dentro</em>'
+          : shown.map((n) => escapeHtml(n)).join('<br>') +
+            (more > 0 ? `<br><em>y ${more} más</em>` : '');
+      return (
+        `<strong>${inside.length} moneda${inside.length === 1 ? '' : 's'} dentro</strong><br>` +
+        list +
+        `<div class="popup-actions">` +
+        `<button type="button" class="primary" data-act="filter-geomalla">Ver en lista</button>` +
+        `<button type="button" data-act="clear-geomalla-filter">Ver todas</button>` +
+        `</div>`
+      );
+    }
+
+    function showGeomallaPopup(feature) {
+      if (!feature) return;
+      const ring = feature.geometry.coordinates[0];
+      let lng = 0;
+      let lat = 0;
+      const n = Math.max(1, ring.length - 1);
+      for (let i = 0; i < n; i++) {
+        lng += ring[i][0];
+        lat += ring[i][1];
+      }
+      lng /= n;
+      lat /= n;
+      activeGeomallaId = feature.properties.id;
+      popup.setLngLat([lng, lat]).setHTML(geomallaPopupHtml(feature)).addTo(map);
+      const root = popup.getElement();
+      root?.querySelector('[data-act="filter-geomalla"]')?.addEventListener('click', () => {
+        setActiveGeomalla(feature.properties.id, { fit: false });
+      });
+      root?.querySelector('[data-act="clear-geomalla-filter"]')?.addEventListener('click', () => {
+        clearActiveGeomalla();
+        popup.remove();
+      });
+      refreshGeomallaUi();
+    }
+
+    function setActiveGeomalla(id, { fit = false } = {}) {
+      activeGeomallaId = id;
+      refreshGeomallaUi({ fitCoins: fit });
+    }
+
+    function clearActiveGeomalla() {
+      activeGeomallaId = null;
+      refreshGeomallaUi();
+    }
+
+    function devicesForMap() {
+      const f = activeGeomallaId ? getGeomallaById(activeGeomallaId) : null;
+      return f ? coinsInGeomalla(f, latestDevices) : latestDevices;
+    }
+
+    function paintDevices() {
+      if (layersReady) setSourceData('devices', devicesToGeoJSON(devicesForMap()));
+    }
+
+    function fitToCoins(devices) {
+      const found = (devices || []).filter(
+        (d) => d.found && d.latitude != null && d.longitude != null
+      );
+      if (!found.length) return false;
+      if (found.length === 1) {
+        map.easeTo({
+          center: [found[0].longitude, found[0].latitude],
+          zoom: Math.max(map.getZoom(), 15),
+          duration: REDUCE ? 0 : 400,
+        });
+        return true;
+      }
+      const b = new maplibregl.LngLatBounds();
+      for (const d of found) b.extend([d.longitude, d.latitude]);
+      map.fitBounds(b, {
+        padding: fitPads(),
+        maxZoom: 16,
+        duration: REDUCE ? 0 : 400,
+      });
+      return true;
+    }
+
+    function refreshGeomallaUi({ fitCoins = false } = {}) {
+      const f = activeGeomallaId ? getGeomallaById(activeGeomallaId) : null;
+      const devices = latestDevices;
+      const inside = f ? coinsInGeomalla(f, devices) : null;
+      paintDevices();
+      if (!SHARED_PLACA) {
+        const q = document.getElementById('search')?.value || '';
+        if (f) {
+          renderList(inside, q, true);
+          const sum = document.getElementById('summary');
+          if (sum) {
+            sum.innerHTML =
+              `${inside.length} moneda${inside.length === 1 ? '' : 's'} en esta geomalla` +
+              ` <button type="button" class="geomalla-clear-filter" id="clearGeomallaFilter">Ver todas</button>`;
+            document.getElementById('clearGeomallaFilter')?.addEventListener('click', () => {
+              clearActiveGeomalla();
+            });
+          }
+          if (fitCoins) {
+            if (!fitToCoins(inside)) fitToGeomalla(f);
+          }
+        } else {
+          renderList(devices, q, true);
+          const foundCount = devices.filter((d) => d.found).length;
+          if (latestUpdatedAt) refreshStatusOnly({ updated_at: latestUpdatedAt }, foundCount);
+        }
+      } else if (f && fitCoins) {
+        if (!fitToCoins(inside)) fitToGeomalla(f);
+      }
+    }
+
+    function closeDraftPolygon() {
+      if (draftVertices.length < 3) return;
+      const ring = draftVertices.slice();
+      const first = ring[0];
+      const last = ring[ring.length - 1];
+      if (first[0] !== last[0] || first[1] !== last[1]) ring.push([first[0], first[1]]);
+      const id = `g-${Date.now()}`;
+      const feature = {
+        type: 'Feature',
+        properties: { id },
+        geometry: { type: 'Polygon', coordinates: [ring] },
+      };
+      geomallasFc = {
+        type: 'FeatureCollection',
+        features: geomallasFc.features.concat(feature),
+      };
+      saveGeomallas();
+      paintGeomallas();
+      draftVertices = [];
+      setDrawing(false);
+      setActiveGeomalla(id, { fit: true });
+      showGeomallaPopup(feature);
+    }
+
+    function cancelDraft() {
+      draftVertices = [];
+      setDrawing(false);
+    }
+
+    function clearAllGeomallas() {
+      geomallasFc = emptyFc();
+      activeGeomallaId = null;
+      saveGeomallas();
+      paintGeomallas();
+      draftVertices = [];
+      syncDraftSource();
+      popup.remove();
+      refreshGeomallaUi();
     }
 
     function clearRoute() {
@@ -1103,11 +1498,11 @@
         clearRoute();
         clearAccuracy();
         popup.remove();
-        if (layersReady) setSourceData('devices', devicesToGeoJSON(latestDevices));
+        paintDevices();
         return;
       }
 
-      if (layersReady) setSourceData('devices', devicesToGeoJSON(latestDevices));
+      paintDevices();
 
       const radius = Math.max(30, Number(d.accuracy_m) || 40);
       setSourceData('accuracy', {
@@ -1155,7 +1550,9 @@
         empty.className = 'empty';
         empty.textContent = q
           ? `Ninguna moneda coincide con “${query}”.`
-          : 'No hay monedas todavía. Espera un momento.';
+          : activeGeomallaId
+            ? 'Ninguna moneda dentro de esta geomalla.'
+            : 'No hay monedas todavía. Espera un momento.';
         list.appendChild(empty);
         return;
       }
@@ -1227,6 +1624,51 @@
       });
       map.addSource('accuracy', { type: 'geojson', data: emptyFc() });
       map.addSource('route', { type: 'geojson', data: emptyFc() });
+      map.addSource('geomallas', { type: 'geojson', data: geomallasFc });
+      map.addSource('geomalla-draft', { type: 'geojson', data: emptyFc() });
+
+      map.addLayer({
+        id: 'geomallas-fill',
+        type: 'fill',
+        source: 'geomallas',
+        paint: {
+          'fill-color': '#0A84FF',
+          'fill-opacity': 0.14,
+        },
+      });
+      map.addLayer({
+        id: 'geomallas-line',
+        type: 'line',
+        source: 'geomallas',
+        paint: {
+          'line-color': '#0A84FF',
+          'line-width': 2.5,
+          'line-opacity': 0.85,
+        },
+      });
+      map.addLayer({
+        id: 'geomalla-draft-line',
+        type: 'line',
+        source: 'geomalla-draft',
+        filter: ['==', ['get', 'kind'], 'line'],
+        paint: {
+          'line-color': '#FF9F0A',
+          'line-width': 2.5,
+          'line-dasharray': [2, 1.5],
+        },
+      });
+      map.addLayer({
+        id: 'geomalla-draft-vertices',
+        type: 'circle',
+        source: 'geomalla-draft',
+        filter: ['==', ['get', 'kind'], 'vertex'],
+        paint: {
+          'circle-color': '#FF9F0A',
+          'circle-radius': 5,
+          'circle-stroke-width': 2,
+          'circle-stroke-color': '#ffffff',
+        },
+      });
 
       map.addLayer({
         id: 'accuracy-fill',
@@ -1306,6 +1748,7 @@
       });
 
       map.on('click', 'clusters', async (e) => {
+        if (drawing) return;
         const f = e.features && e.features[0];
         if (!f) return;
         const clusterId = f.properties.cluster_id;
@@ -1320,19 +1763,51 @@
       });
 
       map.on('click', 'unclustered', (e) => {
+        if (drawing) return;
         const f = e.features && e.features[0];
         if (!f) return;
+        e.originalEvent?.stopPropagation?.();
         const id = f.properties.id;
         const d = latestDevices.find((x) => deviceKey(x) === id);
         if (d) selectDevice(d, { fly: false, route: false });
       });
 
-      map.on('mouseenter', 'clusters', () => { map.getCanvas().style.cursor = 'pointer'; });
-      map.on('mouseleave', 'clusters', () => { map.getCanvas().style.cursor = ''; });
-      map.on('mouseenter', 'unclustered', () => { map.getCanvas().style.cursor = 'pointer'; });
-      map.on('mouseleave', 'unclustered', () => { map.getCanvas().style.cursor = ''; });
+      map.on('click', 'geomallas-fill', (e) => {
+        if (drawing || SHARED_PLACA) return;
+        const f = e.features && e.features[0];
+        if (!f) return;
+        e.originalEvent?.stopPropagation?.();
+        const id = f.properties && f.properties.id;
+        const full = getGeomallaById(id) || {
+          type: 'Feature',
+          properties: f.properties,
+          geometry: f.geometry,
+        };
+        showGeomallaPopup(full);
+      });
+
+      map.on('mouseenter', 'clusters', () => {
+        if (!drawing) map.getCanvas().style.cursor = 'pointer';
+      });
+      map.on('mouseleave', 'clusters', () => {
+        map.getCanvas().style.cursor = drawing ? 'crosshair' : '';
+      });
+      map.on('mouseenter', 'unclustered', () => {
+        if (!drawing) map.getCanvas().style.cursor = 'pointer';
+      });
+      map.on('mouseleave', 'unclustered', () => {
+        map.getCanvas().style.cursor = drawing ? 'crosshair' : '';
+      });
+      map.on('mouseenter', 'geomallas-fill', () => {
+        if (!drawing) map.getCanvas().style.cursor = 'pointer';
+      });
+      map.on('mouseleave', 'geomallas-fill', () => {
+        map.getCanvas().style.cursor = drawing ? 'crosshair' : '';
+      });
 
       layersReady = true;
+      paintGeomallas();
+      syncDraftSource();
     }
 
     function render(data) {
@@ -1347,7 +1822,8 @@
       const found = devices.filter((d) => d.found);
 
       if (sameSnapshot && fittedOnce) {
-        refreshStatusOnly(data, found.length);
+        if (activeGeomallaId && getGeomallaById(activeGeomallaId)) refreshGeomallaUi();
+        else refreshStatusOnly(data, found.length);
         return;
       }
       lastRenderedAt = data.updated_at || null;
@@ -1355,7 +1831,7 @@
 
       if (!mapReady) return;
       ensureLayers();
-      setSourceData('devices', devicesToGeoJSON(devices));
+      paintDevices();
 
       if (placa && routeTarget) {
         const key = deviceKey(routeTarget);
@@ -1369,7 +1845,11 @@
       }
 
       if (!placa) {
-        renderList(devices, document.getElementById('search').value);
+        if (activeGeomallaId && getGeomallaById(activeGeomallaId)) {
+          refreshGeomallaUi();
+        } else {
+          renderList(devices, document.getElementById('search').value);
+        }
         if (selectedKey) {
           const sel = devices.find((d) => deviceKey(d) === selectedKey && d.found);
           if (!sel) {
@@ -1427,8 +1907,37 @@
     document.getElementById('search').addEventListener('input', (e) => {
       clearTimeout(searchTimer);
       const val = e.target.value;
-      searchTimer = setTimeout(() => renderList(latestDevices, val, true), 120);
+      searchTimer = setTimeout(() => {
+        const f = activeGeomallaId ? getGeomallaById(activeGeomallaId) : null;
+        const pool = f ? coinsInGeomalla(f, latestDevices) : latestDevices;
+        renderList(pool, val, true);
+      }, 120);
     });
+
+    if (!SHARED_PLACA) {
+      geomallasFc = loadGeomallas();
+      geomallaBtn?.addEventListener('click', () => setDrawing(!drawing));
+      closePolyBtn?.addEventListener('click', () => closeDraftPolygon());
+      cancelDrawBtn?.addEventListener('click', () => cancelDraft());
+      clearGeomallasBtn?.addEventListener('click', () => clearAllGeomallas());
+
+      map.on('click', (e) => {
+        if (!drawing || !layersReady) return;
+        const hits = map.queryRenderedFeatures(e.point, {
+          layers: ['unclustered', 'clusters'],
+        });
+        if (hits.length) return;
+        draftVertices.push([e.lngLat.lng, e.lngLat.lat]);
+        syncDraftSource();
+      });
+      map.on('dblclick', (e) => {
+        if (!drawing) return;
+        e.preventDefault();
+        if (draftVertices.length >= 3) closeDraftPolygon();
+      });
+    } else {
+      geomallaBtn?.setAttribute('hidden', '');
+    }
 
     document.getElementById('list').addEventListener('click', (e) => {
       const btn = e.target.closest('button[data-act]');
@@ -1474,6 +1983,15 @@
 
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape' && !SHARED_PLACA) {
+        if (drawing) {
+          cancelDraft();
+          return;
+        }
+        if (activeGeomallaId) {
+          clearActiveGeomalla();
+          popup.remove();
+          return;
+        }
         selectedKey = null;
         setPlacaUrl(null);
         clearRoute();
@@ -1482,7 +2000,7 @@
         document.querySelectorAll('.device-row[aria-selected="true"]').forEach((el) => {
           el.setAttribute('aria-selected', 'false');
         });
-        if (layersReady) setSourceData('devices', devicesToGeoJSON(latestDevices));
+        paintDevices();
       }
     });
 
